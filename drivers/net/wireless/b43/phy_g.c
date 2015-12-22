@@ -2954,7 +2954,7 @@ static enum b43_txpwr_result b43_gphy_op_recalc_txpower(struct b43_wldev *dev,
 	/* Lower attenuation => Bigger power output. Negate it. */
 	bbatt_delta = -bbatt_delta;
 	/* RF att affects power level 4 times as much as
-	 * Baseband attennuation. Subtract it. */
+	 * Baseband attenuation. Subtract it. */
 	bbatt_delta -= 4 * rfatt_delta;
 
 #if B43_DEBUG
