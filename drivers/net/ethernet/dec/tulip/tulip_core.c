@@ -1082,7 +1082,7 @@ static void set_rx_mode(struct net_device *dev)
 		tp->csr6 |= AcceptAllMulticast;
 		csr6 |= AcceptAllMulticast;
 	} else	if (tp->flags & MC_HASH_ONLY) {
-		/* Some work-alikes have only a 64-entry hash filter table. */
+		/* Some work-alike have only a 64-entry hash filter table. */
 		/* Should verify correctness on big-endian/__powerpc__ */
 		struct netdev_hw_addr *ha;
 		if (netdev_mc_count(dev) > 64) {
