@@ -2329,7 +2329,7 @@ static void get_ipsec_sa(struct pktgen_dev *pkt_dev, int flow)
 
 		if (pkt_dev->spi) {
 			/* We need as quick as possible to find the right SA
-			 * Searching with minimum criteria to archieve this.
+			 * Searching with minimum criteria to achieve this.
 			 */
 			x = xfrm_state_lookup_byspi(pn->net, htonl(pkt_dev->spi), AF_INET);
 		} else {
