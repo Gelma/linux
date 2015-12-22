@@ -236,7 +236,7 @@ static irqreturn_t isr_uh_routine(int irq, void *user_data)
 	wilc = nic->wilc;
 	PRINT_D(INT_DBG, "Interrupt received UH\n");
 
-	/*While mac is closing cacncel the handling of any interrupts received*/
+	/*While mac is closing cancel the handling of any interrupts received*/
 	if (wilc->close) {
 		PRINT_ER("Driver is CLOSING: Can't handle UH interrupt\n");
 		return IRQ_HANDLED;
@@ -253,7 +253,7 @@ irqreturn_t isr_bh_routine(int irq, void *userdata)
 	nic = netdev_priv(userdata);
 	wilc = nic->wilc;
 
-	/*While mac is closing cacncel the handling of any interrupts received*/
+	/*While mac is closing cancel the handling of any interrupts received*/
 	if (wilc->close) {
 		PRINT_ER("Driver is CLOSING: Can't handle BH interrupt\n");
 		return IRQ_HANDLED;
