@@ -227,7 +227,7 @@
 #define PCI_PM_D1_SUB	(1<<9)		/* Bit 9	D1 Support Bit       */
 					/* Bit 6..8 reserved		     */
 #define PCI_PM_DSI	(1<<5)		/* Bit 5	Device Specific Init.*/
-#define PCI_PM_APS	(1<<4)		/* Bit 4	Auxialiary Power Src */
+#define PCI_PM_APS	(1<<4)		/* Bit 4	Auxiliary Power Src */
 #define PCI_PME_CLOCK	(1<<3)		/* Bit 3	PM Event Clock       */
 #define PCI_PM_VER	(7<<0)		/* Bit 0..2	PM PCI Spec. version */
 
