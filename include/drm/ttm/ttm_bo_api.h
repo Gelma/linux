@@ -561,7 +561,7 @@ extern int ttm_bo_init_mm(struct ttm_bo_device *bdev, unsigned type,
  * when the call is made.
  *
  * If this function is part of a VT switch, the caller must make sure that
- * there are no appications currently validating buffers before this
+ * there are no applications currently validating buffers before this
  * function is called. The caller can do that by first taking the
  * struct ttm_bo_device::ttm_lock in write mode.
  *
