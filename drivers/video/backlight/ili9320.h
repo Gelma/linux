@@ -39,7 +39,7 @@ struct  ili9320_spi {
 /* ILI9320 device state. */
 struct ili9320 {
 	union {
-		struct ili9320_spi	spi;	/* SPI attachged device. */
+		struct ili9320_spi	spi;	/* SPI attached device. */
 	} access;				/* Register access method. */
 
 	struct device			*dev;
