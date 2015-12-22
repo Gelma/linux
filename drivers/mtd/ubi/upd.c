@@ -270,7 +270,7 @@ static int write_leb(struct ubi_device *ubi, struct ubi_volume *vol, int lnum,
  * @count: how much bytes to write
  *
  * This function writes more data to the volume which is being updated. It may
- * be called arbitrary number of times until all the update data arriveis. This
+ * be called arbitrary number of times until all the update data arrives. This
  * function returns %0 in case of success, number of bytes written during the
  * last call if the whole volume update has been successfully finished, and a
  * negative error code in case of failure.
