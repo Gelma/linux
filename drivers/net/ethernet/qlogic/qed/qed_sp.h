@@ -155,7 +155,7 @@ int qed_spq_post(struct qed_hwfn *p_hwfn,
 		 u8 *fw_return_code);
 
 /**
- * @brief qed_spq_allocate - Alloocates & initializes the SPQ and EQ.
+ * @brief qed_spq_allocate - Allocates & initializes the SPQ and EQ.
  *
  * @param p_hwfn
  *
