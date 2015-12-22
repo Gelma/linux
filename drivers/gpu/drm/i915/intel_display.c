@@ -3898,7 +3898,7 @@ bool intel_has_pending_fb_unpin(struct drm_device *dev)
 	 * as our list of CRTC objects is static for the lifetime of the
 	 * device and so cannot disappear as we iterate. Similarly, we can
 	 * happily treat the predicates as racy, atomic checks as userspace
-	 * cannot claim and pin a new fb without at least acquring the
+	 * cannot claim and pin a new fb without at least acquiring the
 	 * struct_mutex and so serialising with us.
 	 */
 	for_each_intel_crtc(dev, crtc) {
@@ -4288,7 +4288,7 @@ struct intel_shared_dpll *intel_get_shared_dpll(struct intel_crtc *crtc,
 		if (memcmp(&crtc_state->dpll_hw_state,
 			   &shared_dpll[i].hw_state,
 			   sizeof(crtc_state->dpll_hw_state)) == 0) {
-			DRM_DEBUG_KMS("CRTC:%d sharing existing %s (crtc mask 0x%08x, ative %d)\n",
+			DRM_DEBUG_KMS("CRTC:%d sharing existing %s (crtc mask 0x%08x, active %d)\n",
 				      crtc->base.base.id, pll->name,
 				      shared_dpll[i].crtc_mask,
 				      pll->active);
@@ -9163,7 +9163,7 @@ static void ironlake_get_pfit_config(struct intel_crtc *crtc,
 		pipe_config->pch_pfit.pos = I915_READ(PF_WIN_POS(crtc->pipe));
 		pipe_config->pch_pfit.size = I915_READ(PF_WIN_SZ(crtc->pipe));
 
-		/* We currently do not free assignements of panel fitters on
+		/* We currently do not free assignments of panel fitters on
 		 * ivb/hsw (since we don't use the higher upscaling modes which
 		 * differentiates them) so just WARN about this case for now. */
 		if (IS_GEN7(dev)) {
