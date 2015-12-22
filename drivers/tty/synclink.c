@@ -5095,7 +5095,7 @@ static void usc_set_sdlc_mode( struct mgsl_struct *info )
 	/* Receive DMA mode Register (RDMR)
 	 *
 	 * <15..14>	11	DMA mode = Linked List Buffer mode
-	 * <13>		1	RSBinA/L = store Rx status Block in Arrary/List entry
+	 * <13>		1	RSBinA/L = store Rx status Block in Array/List entry
 	 * <12>		1	Clear count of List Entry after fetching
 	 * <11..10>	00	Address mode = Increment
 	 * <9>		1	Terminate Buffer on RxBound
