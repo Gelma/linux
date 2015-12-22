@@ -2134,7 +2134,7 @@ static int ocfs2_remove_refcount_extent(handle_t *handle,
 
 	/*
 	 * check whether we need to restore the root refcount block if
-	 * there is no leaf extent block at atll.
+	 * there is no leaf extent block at all.
 	 */
 	if (!rb->rf_list.l_next_free_rec) {
 		BUG_ON(rb->rf_clusters);
