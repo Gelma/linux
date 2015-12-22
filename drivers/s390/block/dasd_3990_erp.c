@@ -1469,7 +1469,7 @@ static struct dasd_ccw_req *dasd_3990_erp_inspect_alias(
  *   erp		pointer to the currently created default ERP
  *
  * RETURN VALUES
- *   erp		pointer to the (addtitional) ERP
+ *   erp		pointer to the (additional) ERP
  */
 static struct dasd_ccw_req *
 dasd_3990_erp_inspect_24(struct dasd_ccw_req * erp, char *sense)
@@ -2600,7 +2600,7 @@ dasd_3990_erp_further_erp(struct dasd_ccw_req *erp)
  * DESCRIPTION
  *   An error occurred again and an ERP has been detected which is already
  *   used to handle this error (e.g. retries).
- *   All prior ERP's are asumed to be successful and therefore removed
+ *   All prior ERP's are assumed to be successful and therefore removed
  *   from queue.
  *   If retry counter of matching erp is already 0, it is checked if further
  *   action is needed (besides retry) or if the ERP has failed.
