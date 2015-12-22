@@ -259,7 +259,7 @@ static void enable_dc_servo(struct snd_soc_codec *codec)
 	}
 
 	/* If we're using a digital only path and have a previously
-	 * callibrated DC servo offset stored then use that. */
+	 * calibrated DC servo offset stored then use that. */
 	if (wm_hubs_dac_hp_direct(codec) &&
 	    wm_hubs_dcs_cache_get(codec, &cache)) {
 		dev_dbg(codec->dev, "Using cached DCS offset %x for %d,%d\n",
