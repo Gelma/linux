@@ -1454,7 +1454,7 @@ intel_dp_compute_config(struct intel_encoder *encoder,
 
 		/*
 		 * Use the maximum clock and number of lanes the eDP panel
-		 * advertizes being capable of. The panels are generally
+		 * advertises being capable of. The panels are generally
 		 * designed to support only a single clock and lane
 		 * configuration, and typically these values correspond to the
 		 * native resolution of the panel.
