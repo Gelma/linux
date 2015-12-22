@@ -383,7 +383,7 @@ static int portman_data_avail(struct portman *pm, int channel)
 		command |= RXDATA1;
 		break;
 	}
-	/* Write hardware (assumme STROBE=0) */
+	/* Write hardware (assume STROBE=0) */
 	portman_write_command(pm, command);
 	/* Check multiplexed RxAvail signal */
 	if ((portman_read_status(pm) & RXAVAIL) == RXAVAIL)
