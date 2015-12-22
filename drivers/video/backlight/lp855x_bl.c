@@ -52,7 +52,7 @@ struct lp855x;
 /*
  * struct lp855x_device_config
  * @pre_init_device: init device function call before updating the brightness
- * @reg_brightness: register address for brigthenss control
+ * @reg_brightness: register address for brigthness control
  * @reg_devicectrl: register address for device control
  * @post_init_device: late init device function call
  */
