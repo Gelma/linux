@@ -960,7 +960,7 @@ struct ecryptfs_cipher_code_str_map_elem {
 };
 
 /* Add support for additional ciphers by adding elements here. The
- * cipher_code is whatever OpenPGP applicatoins use to identify the
+ * cipher_code is whatever OpenPGP applications use to identify the
  * ciphers. List in order of probability. */
 static struct ecryptfs_cipher_code_str_map_elem
 ecryptfs_cipher_code_str_map[] = {
@@ -1928,7 +1928,7 @@ out:
 
 /**
  * ecryptfs_encrypt_and_encode_filename - converts a plaintext file name to cipher text
- * @crypt_stat: The crypt_stat struct associated with the file anem to encode
+ * @crypt_stat: The crypt_stat struct associated with the file name to encode
  * @name: The plaintext name
  * @length: The length of the plaintext
  * @encoded_name: The encypted name
