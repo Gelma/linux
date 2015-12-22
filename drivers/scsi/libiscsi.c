@@ -1556,7 +1556,7 @@ check_mgmt:
 		/*
 		 * we could continuously get new task requests so
 		 * we need to check the mgmt queue for nops that need to
-		 * be sent to aviod starvation
+		 * be sent to avoid starvation
 		 */
 		if (!list_empty(&conn->mgmtqueue))
 			goto check_mgmt;
