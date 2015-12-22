@@ -23,7 +23,7 @@ enum {
 	NVM_RSP_L2P	= 1 << 0,
 	NVM_RSP_ECC	= 1 << 1,
 
-	/* Physical Adressing Mode */
+	/* Physical Addressing Mode */
 	NVM_ADDRMODE_LINEAR	= 0,
 	NVM_ADDRMODE_CHANNEL	= 1,
 
