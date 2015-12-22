@@ -1484,7 +1484,7 @@ beiscsi_active_session_disp(struct device *dev, struct device_attribute *attr,
 }
 
 /**
- * beiscsi_free_session_disp()- Display Avaliable Session
+ * beiscsi_free_session_disp()- Display Available Session
  * @dev: ptr to device not used.
  * @attr: device attribute, not used.
  * @buf: contains formatted text Session Count
