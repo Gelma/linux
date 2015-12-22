@@ -101,7 +101,7 @@
  */
 #define UGE_WIDHEIGHT (UGE_BASE + 0x0014)
 /*
- * rop alpah reg UGE_ROPALPHA
+ * rop alpha reg UGE_ROPALPHA
  */
 #define UGE_ROPALPHA  (UGE_BASE + 0x0018)
 /*
