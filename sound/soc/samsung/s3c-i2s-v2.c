@@ -556,7 +556,7 @@ struct clk *s3c_i2sv2_get_clock(struct snd_soc_dai *cpu_dai)
 }
 EXPORT_SYMBOL_GPL(s3c_i2sv2_get_clock);
 
-/* default table of all avaialable root fs divisors */
+/* default table of all available root fs divisors */
 static unsigned int iis_fs_tab[] = { 256, 512, 384, 768 };
 
 int s3c_i2sv2_iis_calc_rate(struct s3c_i2sv2_rate_calc *info,
