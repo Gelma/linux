@@ -99,7 +99,7 @@
 
 #define ADIS16480_REG_SERIAL_NUM		ADIS16480_REG(0x04, 0x20)
 
-/* Each filter coefficent bank spans two pages */
+/* Each filter coefficient bank spans two pages */
 #define ADIS16480_FIR_COEF(page) (x < 60 ? ADIS16480_REG(page, (x) + 8) : \
 		ADIS16480_REG((page) + 1, (x) - 60 + 8))
 #define ADIS16480_FIR_COEF_A(x)			ADIS16480_FIR_COEF(0x05, (x))
