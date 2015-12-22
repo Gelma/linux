@@ -162,7 +162,7 @@ static struct configfs_attribute _pfx##attr_##_name = {	\
  * supports make_item(), one can create config_item children.  make_group()
  * and make_item() return ERR_PTR() on errors.  If it has
  * default_groups on group->default_groups, it has automatically created
- * group children.  default_groups may coexist alongsize make_group() or
+ * group children.  default_groups may coexist along size make_group() or
  * make_item(), but if the group wishes to have only default_groups
  * children (disallowing mkdir(2)), it need not provide either function.
  * If the group has commit(), it supports pending and committed (active)
