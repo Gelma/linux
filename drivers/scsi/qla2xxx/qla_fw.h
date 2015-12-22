@@ -1199,7 +1199,7 @@ struct vp_ctrl_entry_24xx {
 
 	uint16_t comp_status;		/* Completion status. */
 #define CS_VCE_IOCB_ERROR       0x01    /* Error processing IOCB */
-#define CS_VCE_ACQ_ID_ERROR	0x02	/* Error while acquireing ID. */
+#define CS_VCE_ACQ_ID_ERROR	0x02	/* Error while acquiring ID. */
 #define CS_VCE_BUSY		0x05	/* Firmware not ready to accept cmd. */
 
 	uint16_t command;
