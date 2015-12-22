@@ -576,7 +576,7 @@ static int carl9170_init_interface(struct ar9170 *ar,
 	 * NOTE: If the previous main interface has already
 	 * disabled hw crypto offload, we have to keep this
 	 * previous disable_offload setting as it was.
-	 * Altough ideally, we should notify mac80211 and tell
+	 * Although ideally, we should notify mac80211 and tell
 	 * it to forget about any HW crypto offload for now.
 	 */
 	ar->disable_offload |= ((vif->type != NL80211_IFTYPE_STATION) &&
