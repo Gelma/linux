@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------------- */
-/* i2c-elektor.c i2c-hw access for PCF8584 style isa bus adaptes             */
+/* i2c-elektor.c i2c-hw access for PCF8584 style isa bus adapters             */
 /* ------------------------------------------------------------------------- */
 /*   Copyright (C) 1995-97 Simon G. Vogl
                    1998-99 Hans Berglund
