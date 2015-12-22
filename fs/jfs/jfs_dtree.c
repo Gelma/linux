@@ -2570,7 +2570,7 @@ int dtRelocate(tid_t tid, struct inode *ip, s64 lmxaddr, pxd_t * opxd,
 	PXDaddress(pxd, nxaddr);
 
 	/* the dst page is the same as the src page, i.e.,
-	 * linelock for afterimage of the whole page;
+	 * linelock for after image of the whole page;
 	 */
 	lv->offset = 0;
 	lv->length = p->header.maxslot;
