@@ -143,7 +143,7 @@ config HP_SDC
 	  Link Controller serving up to seven input devices.
 
 	  By itself this option is rather useless, but enabling it will
-	  enable selection of drivers for the abovementioned devices.
+	  enable selection of drivers for the above mentioned devices.
 	  It is, however, incompatible with the old, reliable HIL keyboard
 	  driver, and the new HIL driver is experimental, so if you plan
 	  to use a HIL keyboard as your primary keyboard, you may wish
