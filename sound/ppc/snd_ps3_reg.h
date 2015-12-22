@@ -846,7 +846,7 @@ So a value of 0 means 128-bytes will get transferred.
 
 
 /*
- * field attiribute
+ * field attribute
  *
  *	Read
  *	  ' ' = Other Information
