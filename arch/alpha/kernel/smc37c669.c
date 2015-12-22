@@ -1446,7 +1446,7 @@ unsigned int __init SMC37c669_enable_device ( unsigned int func )
 **      Disabling a function in the SMC37c669 device involves
 **	disabling all the function's mappings (port, irq, drq ...).
 **	A shadow copy of the device configuration is maintained
-**	in local storage so we won't worry aboving saving the
+**	in local storage so we won't worry about saving the
 **	current configuration information.
 **
 **--
