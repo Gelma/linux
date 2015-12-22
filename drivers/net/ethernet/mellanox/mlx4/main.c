@@ -2693,7 +2693,7 @@ static void mlx4_enable_msi_x(struct mlx4_dev *dev)
 			kfree(entries);
 			goto no_msi;
 		}
-		/* 1 is reserved for events (asyncrounous EQ) */
+		/* 1 is reserved for events (asynchronous EQ) */
 		dev->caps.num_comp_vectors = nreq - 1;
 
 		priv->eq_table.eq[MLX4_EQ_ASYNC].irq = entries[0].vector;
