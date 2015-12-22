@@ -2856,7 +2856,7 @@ nfsd4_encode_dirent_fattr(struct xdr_stream *xdr, struct nfsd4_readdir *cd,
 	 * In the case of a mountpoint, the client may be asking for
 	 * attributes that are only properties of the underlying filesystem
 	 * as opposed to the cross-mounted file system. In such a case,
-	 * we will not follow the cross mount and will fill the attribtutes
+	 * we will not follow the cross mount and will fill the attributes
 	 * directly from the mountpoint dentry.
 	 */
 	if (nfsd_mountpoint(dentry, exp)) {
