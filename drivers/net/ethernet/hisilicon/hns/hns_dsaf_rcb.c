@@ -570,7 +570,7 @@ int hns_rcb_set_coalesced_frames(struct dsaf_device *dsaf_dev,
 
 /**
  *hns_rcb_get_queue_mode - get max VM number and max ring number per VM
- *						accordding to dsaf mode
+ *						according to dsaf mode
  *@dsaf_mode: dsaf mode
  *@max_vfn : max vfn number
  *@max_q_per_vf:max ring number per vm
