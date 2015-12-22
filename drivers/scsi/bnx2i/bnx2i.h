@@ -621,7 +621,7 @@ struct bnx2i_5771x_dbell {
  *
  * queue pair (QP) is a per connection shared data structure which is used
  *	to send work requests (SQ), receive completion notifications (CQ)
- *	and receive asynchoronous / scsi sense info (RQ). 'qp_info' structure
+ *	and receive asynchronous / scsi sense info (RQ). 'qp_info' structure
  *	below holds queue memory, consumer/producer indexes and page table
  *	information
  */
