@@ -47,7 +47,7 @@
 struct siu_spb_param {
 	__u32	ab1a;	/* input FIFO address */
 	__u32	ab0a;	/* output FIFO address */
-	__u32	dir;	/* 0=the ather except CPUOUTPUT, 1=CPUINPUT */
+	__u32	dir;	/* 0=the other except CPUOUTPUT, 1=CPUINPUT */
 	__u32	event;	/* SPB program starting conditions */
 	__u32	stfifo;	/* STFIFO register setting value */
 	__u32	trdat;	/* TRDAT register setting value */
