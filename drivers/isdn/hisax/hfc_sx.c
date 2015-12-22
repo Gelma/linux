@@ -1488,7 +1488,7 @@ int setup_hfcsx(struct IsdnCard *card)
 		}
 		printk(KERN_INFO "HFC-S%c chip detected at base 0x%x IRQ %d HZ %d\n",
 		       tmp[0], (u_int) cs->hw.hfcsx.base, cs->irq, HZ);
-		cs->hw.hfcsx.int_m2 = 0;	/* disable alle interrupts */
+		cs->hw.hfcsx.int_m2 = 0;	/* disable all interrupts */
 		cs->hw.hfcsx.int_m1 = 0;
 		Write_hfc(cs, HFCSX_INT_M1, cs->hw.hfcsx.int_m1);
 		Write_hfc(cs, HFCSX_INT_M2, cs->hw.hfcsx.int_m2);
