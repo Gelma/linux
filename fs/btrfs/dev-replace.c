@@ -871,7 +871,7 @@ void btrfs_dev_replace_lock(struct btrfs_dev_replace *dev_replace)
 	if (atomic_read(&dev_replace->nesting_level) == 0) {
 acquire_lock:
 		/* this is not a nested case where the same thread
-		 * is trying to acqurire the same lock twice */
+		 * is trying to acquire the same lock twice */
 		mutex_lock(&dev_replace->lock);
 		mutex_lock(&dev_replace->lock_management_lock);
 		dev_replace->lock_owner = current->pid;
