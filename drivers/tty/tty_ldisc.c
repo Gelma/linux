@@ -809,7 +809,7 @@ void tty_ldisc_init(struct tty_struct *tty)
  *	tty_ldisc_init		-	ldisc cleanup for new tty
  *	@tty: tty that was allocated recently
  *
- *	The tty structure must not becompletely set up (tty_ldisc_setup) when
+ *	The tty structure must not be completely set up (tty_ldisc_setup) when
  *      this call is made.
  */
 void tty_ldisc_deinit(struct tty_struct *tty)
