@@ -227,7 +227,7 @@ enum iwl_tx_pm_timeouts {
  * Range of len: 14-2342 bytes.
  *
  * After the struct fields the MAC header is placed, plus any padding,
- * and then the actial payload.
+ * and then the actual payload.
  */
 struct iwl_tx_cmd {
 	__le16 len;
