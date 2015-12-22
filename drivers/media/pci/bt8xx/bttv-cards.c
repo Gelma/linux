@@ -1203,7 +1203,7 @@ struct tvcard bttv_tvcards[] = {
 		.tuner_type     = TUNER_PHILIPS_PAL,
 		.tuner_addr	= ADDR_UNSET,
 	},
-		/* This is the ultimate cheapo capture card
+		/* This is the ultimate cheap capture card
 		* just a BT848A on a small PCB!
 		* Steve Hosgood <steve@equiinet.com> */
 	[BTTV_BOARD_GRANDTEC] = {
