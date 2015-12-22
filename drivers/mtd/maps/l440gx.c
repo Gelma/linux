@@ -51,7 +51,7 @@ static struct map_info l440gx_map = {
 	.phys = WINDOW_ADDR,
 #if 0
 	/* FIXME verify that this is the
-	 * appripriate code for vpp enable/disable
+	 * appropriate code for vpp enable/disable
 	 */
 	.set_vpp = l440gx_set_vpp
 #endif
