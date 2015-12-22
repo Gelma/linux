@@ -1907,7 +1907,7 @@ int ieee80211_parse_info_param(struct ieee80211_device *ieee,
 				info_element->data[1] == 0x13 &&
 				info_element->data[2] == 0x74))
 			{
-				printk("========>%s(): athros AP is exist\n",__func__);
+				printk("========>%s(): atheros AP is exist\n",__func__);
 				network->atheros_cap_exist = true;
 			}
 			else
