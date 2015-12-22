@@ -369,7 +369,7 @@ int snd_emu10k1_free_pages(struct snd_emu10k1 *emu, struct snd_util_memblk *blk)
 
 /*
  * memory allocation using multiple pages (for synth)
- * Unlike the DMA allocation above, non-contiguous pages are assined.
+ * Unlike the DMA allocation above, non-contiguous pages are assigned.
  */
 
 /*
