@@ -93,7 +93,7 @@ static void aty_st_pll_ct(int offset, u8 val, const struct atyfb_par *par)
 
  /*
   * It can be quite hard to calculate XCLK and MCLK if they don't run at the
-  * same frequency. Luckily, until now all cards that need asynchrone clock
+  * same frequency. Luckily, until now all cards that need asynchronous clock
   * speeds seem to have SCLK.
   * So this driver uses SCLK to clock the chip and XCLK to clock the memory.
   */
