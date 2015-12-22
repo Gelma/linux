@@ -59,7 +59,7 @@ static inline int snd_seq_output_ok(struct snd_seq_pool *pool)
  *    When the variable length event is enqueued (in prioq or fifo),
  *    the external data is decomposed to several cells.
  *      ext.data.len = length | SNDRV_SEQ_EXT_CHAINED
- *      ext.data.ptr = the additiona cell head
+ *      ext.data.ptr = the additional cell head
  *         -> cell.next -> cell.next -> ..
  */
 
