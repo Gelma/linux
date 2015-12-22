@@ -373,7 +373,7 @@ typedef struct _hp_header {
  *  Header:
  *  iocnum 	required (input)
  *  host 	ignored
- *  channe	ignored
+ *  channel	ignored
  *  id		ignored
  *  lun		ignored
  */
