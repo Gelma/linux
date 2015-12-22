@@ -839,7 +839,7 @@ static irqreturn_t cls_intr(int irq, void *voidbrd)
 
 	/*
 	 * Check the board's global interrupt offset to see if we
-	 * acctually do have an interrupt pending on us.
+	 * actually do have an interrupt pending on us.
 	 */
 	uart_poll = readb(brd->re_map_membase + UART_CLASSIC_POLL_ADDR_OFFSET);
 
@@ -906,7 +906,7 @@ static void cls_uart_init(struct jsm_channel *ch)
  */
 static void cls_uart_off(struct jsm_channel *ch)
 {
-	/* Stop all interrupts from accurring. */
+	/* Stop all interrupts from occurring. */
 	writeb(0, &ch->ch_cls_uart->ier);
 }
 
