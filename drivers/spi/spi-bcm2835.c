@@ -206,7 +206,7 @@ static int bcm2835_spi_transfer_one_irq(struct spi_master *master,
  * DMA support
  *
  * this implementation has currently a few issues in so far as it does
- * not work arrount limitations of the HW.
+ * not work around limitations of the HW.
  *
  * the main one being that DMA transfers are limited to 16 bit
  * (so 0 to 65535 bytes) by the SPI HW due to BCM2835_SPI_DLEN
