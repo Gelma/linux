@@ -1125,7 +1125,7 @@ icn_stopallcards(void)
 }
 
 /*
- * Unmap all cards, because some of them may be mapped accidetly during
+ * Unmap all cards, because some of them may be mapped accidently during
  * autoprobing of some network drivers (SMC-driver?)
  */
 static void
