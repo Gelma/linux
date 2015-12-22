@@ -10191,7 +10191,7 @@ xdnrm_con:
 xdnrm_sd:
 	mov.l		%a1,-(%sp)
 	tst.b		LOCAL_EX(%a0)		# is denorm pos or neg?
-	smi.b		%d1			# set d0 accodingly
+	smi.b		%d1			# set d0 accordingly
 	bsr.l		unf_sub
 	mov.l		(%sp)+,%a1
 xdnrm_exit:
@@ -10990,7 +10990,7 @@ src_qnan_m:
 # routines where an instruction is selected by an index into
 # a large jump table corresponding to a given instruction which
 # has been decoded. Flow continues here where we now decode
-# further accoding to the source operand type.
+# further according to the source operand type.
 #
 
 	global		fsinh
