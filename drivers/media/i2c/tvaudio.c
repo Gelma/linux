@@ -294,7 +294,7 @@ static int chip_cmd(struct CHIPSTATE *chip, char *name, audiocmd *cmd)
 }
 
 /* ---------------------------------------------------------------------- */
-/* kernel thread for doing i2c stuff asyncronly
+/* kernel thread for doing i2c stuff asynchrony
  *   right now it is used only to check the audio mode (mono/stereo/whatever)
  *   some time after switching to another TV channel, then turn on stereo
  *   if available, ...
