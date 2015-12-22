@@ -205,7 +205,7 @@ int qat_hal_set_ae_ctx_mode(struct icp_qat_fw_loader_handle *handle,
 		return -EINVAL;
 	}
 
-	/* Sets the accelaration engine context mode to either four or eight */
+	/* Sets the acceleration engine context mode to either four or eight */
 	qat_hal_rd_ae_csr(handle, ae, CTX_ENABLES, &csr);
 	csr = IGNORE_W1C_MASK & csr;
 	new_csr = (mode == 4) ?
