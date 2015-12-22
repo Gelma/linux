@@ -849,7 +849,7 @@ static unsigned int ep_eventpoll_poll(struct file *file, poll_table *wait)
 
 	/*
 	 * During ep_insert() we already hold the ep->mtx for the tfile.
-	 * Prevent re-aquisition.
+	 * Prevent re-acquisition.
 	 */
 	arg.locked = wait && (wait->_qproc == ep_ptable_queue_proc);
 	arg.ep = ep;
