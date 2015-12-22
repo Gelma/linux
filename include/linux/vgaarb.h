@@ -1,5 +1,5 @@
 /*
- * The VGA aribiter manages VGA space routing and VGA resource decode to
+ * The VGA arbiter manages VGA space routing and VGA resource decode to
  * allow multiple VGA devices to be used in a system in a safe way.
  *
  * (C) Copyright 2005 Benjamin Herrenschmidt <benh@kernel.crashing.org>
