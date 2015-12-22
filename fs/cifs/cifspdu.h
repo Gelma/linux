@@ -825,7 +825,7 @@ typedef struct smb_com_logoff_andx_rsp {
 	__u16 ByteCount;
 } __attribute__((packed)) LOGOFF_ANDX_RSP;
 
-typedef union smb_com_tree_disconnect {	/* as an altetnative can use flag on
+typedef union smb_com_tree_disconnect {	/* as an alternative can use flag on
 					tree_connect PDU to effect disconnect */
 					/* tdis is probably simplest SMB PDU */
 	struct {
@@ -2754,7 +2754,7 @@ typedef struct file_xattr_info {
 } __attribute__((packed)) FILE_XATTR_INFO; /* extended attribute info
 					      level 0x205 */
 
-/* flags for lsattr and chflags commands removed arein uapi/linux/fs.h */
+/* flags for lsattr and chflags commands removed are in uapi/linux/fs.h */
 
 typedef struct file_chattr_info {
 	__le64	mask; /* list of all possible attribute bits */
