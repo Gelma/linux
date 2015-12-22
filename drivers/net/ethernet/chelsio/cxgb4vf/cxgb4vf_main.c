@@ -2341,7 +2341,7 @@ static int adap_init0(struct adapter *adapter)
 	 * asynchronous firmware messages, or forwarded interrupts if we're
 	 * using MSI).  The rest of the FL/Intr-capable ingress queues will be
 	 * matched up one-for-one with Ethernet/Control egress queues in order
-	 * to form "Queue Sets" which will be aportioned between the "ports".
+	 * to form "Queue Sets" which will be apportioned between the "ports".
 	 * For each Queue Set, we'll need the ability to allocate two Egress
 	 * Contexts -- one for the Ingress Queue Free List and one for the TX
 	 * Ethernet Queue.
