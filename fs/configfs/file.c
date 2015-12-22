@@ -314,7 +314,7 @@ const struct file_operations configfs_file_operations = {
 /**
  *	configfs_create_file - create an attribute file for an item.
  *	@item:	item we're creating for.
- *	@attr:	atrribute descriptor.
+ *	@attr:	attribute descriptor.
  */
 
 int configfs_create_file(struct config_item * item, const struct configfs_attribute * attr)
