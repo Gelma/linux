@@ -78,7 +78,7 @@ static void bnx2fc_cmd_timeout(struct work_struct *work)
 			if (!(test_and_set_bit(BNX2FC_FLAG_ABTS_DONE,
 					       &io_req->req_flags))) {
 				/*
-				 * Cleanup and return original command to
+				 * Clean up and return original command to
 				 * mid-layer.
 				 */
 				bnx2fc_initiate_cleanup(io_req);
@@ -1316,7 +1316,7 @@ void bnx2fc_process_abts_compl(struct bnx2fc_cmd *io_req,
 		return;
 	}
 
-	/* Do not issue RRQ as this IO is already cleanedup */
+	/* Do not issue RRQ as this IO is already cleaned up */
 	if (test_and_set_bit(BNX2FC_FLAG_IO_CLEANUP,
 				&io_req->req_flags))
 		goto io_compl;
