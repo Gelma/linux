@@ -4670,7 +4670,7 @@ pmcraid_isr_out:
 }
 
 /**
- * pmcraid_release_cmd_blocks - release buufers allocated for command blocks
+ * pmcraid_release_cmd_blocks - release buffers allocated for command blocks
  * @pinstance: per adapter instance structure pointer
  * @max_index: number of buffer blocks to release
  *
