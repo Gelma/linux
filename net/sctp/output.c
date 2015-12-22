@@ -227,7 +227,7 @@ static sctp_xmit_t sctp_packet_bundle_sack(struct sctp_packet *pkt,
 {
 	sctp_xmit_t retval = SCTP_XMIT_OK;
 
-	/* If sending DATA and haven't aleady bundled a SACK, try to
+	/* If sending DATA and haven't already bundled a SACK, try to
 	 * bundle one in to the packet.
 	 */
 	if (sctp_chunk_is_data(chunk) && !pkt->has_sack &&
