@@ -32,7 +32,7 @@ static struct ttyprintk_port tpk_port;
  * - any cr is replaced by nl
  * - adds a ttyprintk source tag in front of each line
  * - too long message is fragmeted, with '\'nl between fragments
- * - TPK_STR_SIZE isn't really the write_room limiting factor, bcause
+ * - TPK_STR_SIZE isn't really the write_room limiting factor, because
  *   it is emptied on the fly during preformatting.
  */
 #define TPK_STR_SIZE 508 /* should be bigger then max expected line length */
