@@ -142,7 +142,7 @@ struct newport_rexregs {
 	npireg_t zpattern;    /* Pixel zpattern */
 	npireg_t colorback;   /* Background color */
 	npireg_t colorvram;   /* Clear color for fast vram */
-	npireg_t alpharef;    /* Reference value for afunctions */
+	npireg_t alpharef;    /* Reference value for a functions */
 	unsigned int pad0;
 	npireg_t smask0x;     /* Window GL relative screen mask 0 */
 	npireg_t smask0y;     /* Window GL relative screen mask 0 */
