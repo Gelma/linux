@@ -717,7 +717,7 @@ static ssize_t map_write(struct file *file, const char __user *buf,
 		    (next_line != NULL))
 			goto out;
 	}
-	/* Be very certaint the new map actually exists */
+	/* Be very certain the new map actually exists */
 	if (new_map.nr_extents == 0)
 		goto out;
 
@@ -842,7 +842,7 @@ static bool new_idmap_permitted(const struct file *file,
 
 	/* Allow the specified ids if we have the appropriate capability
 	 * (CAP_SETUID or CAP_SETGID) over the parent user namespace.
-	 * And the opener of the id file also had the approprpiate capability.
+	 * And the opener of the id file also had the appropriate capability.
 	 */
 	if (ns_capable(ns->parent, cap_setid) &&
 	    file_ns_capable(file, ns->parent, cap_setid))
