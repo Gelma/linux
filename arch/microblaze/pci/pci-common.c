@@ -671,7 +671,7 @@ void pci_process_bridge_OF_ranges(struct pci_controller *hose,
 
 	/* If there's an ISA hole and the pci_mem_offset is -not- matching
 	 * the ISA hole offset, then we need to remove the ISA hole from
-	 * the resource list for that brige
+	 * the resource list for that bridge
 	 */
 	if (isa_hole >= 0 && hose->pci_mem_offset != isa_mb) {
 		unsigned int next = isa_hole + 1;
