@@ -428,7 +428,7 @@ struct gru_state {
 							   assigning contexts */
 
 	/* -- the following are protected by the gs_asid_lock spinlock ---- */
-	unsigned int		gs_asid;		/* Next availe ASID */
+	unsigned int		gs_asid;		/* Next available ASID */
 	unsigned int		gs_asid_limit;		/* Limit of available
 							   ASIDs */
 	unsigned int		gs_asid_gen;		/* asid generation.
