@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Filename:  target_core_alua.c
  *
- * This file contains SPC-3 compliant asymmetric logical unit assigntment (ALUA)
+ * This file contains SPC-3 compliant asymmetric logical unit assignment (ALUA)
  *
  * (c) Copyright 2009-2013 Datera, Inc.
  *
