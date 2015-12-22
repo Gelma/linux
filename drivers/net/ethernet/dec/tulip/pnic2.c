@@ -107,7 +107,7 @@ void pnic2_start_nway(struct net_device *dev)
          */
 	csr14 = (ioread32(ioaddr + CSR14) & 0xfff0ee39);
 
-        /* bit 17 - advetise 100baseTx-FD */
+        /* bit 17 - advertise 100baseTx-FD */
         if (tp->sym_advertise & 0x0100) csr14 |= 0x00020000;
 
         /* bit 16 - advertise 100baseTx-HD */
