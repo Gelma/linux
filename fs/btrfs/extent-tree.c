@@ -2579,7 +2579,7 @@ static noinline int __btrfs_run_delayed_refs(struct btrfs_trans_handle *trans,
 			}
 
 			/*
-			 * Need to drop our head ref lock and re-aqcuire the
+			 * Need to drop our head ref lock and re-acquire the
 			 * delayed ref lock and then re-check to make sure
 			 * nobody got added.
 			 */
@@ -7405,7 +7405,7 @@ loop:
 		if (loop == LOOP_CACHING_NOWAIT) {
 			/*
 			 * We want to skip the LOOP_CACHING_WAIT step if we
-			 * don't have any unached bgs and we've alrelady done a
+			 * don't have any unached bgs and we've already done a
 			 * full search through.
 			 */
 			if (orig_have_caching_bg || !full_search)
