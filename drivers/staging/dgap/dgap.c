@@ -6817,7 +6817,7 @@ free_chan:
 /*
  * dgap_tty_free()
  *
- * Free the channles which are allocated in dgap_tty_init().
+ * Free the channels which are allocated in dgap_tty_init().
  */
 static void dgap_tty_free(struct board_t *brd)
 {
