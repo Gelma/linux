@@ -1065,7 +1065,7 @@ void efx_siena_sriov_probe(struct efx_nic *efx)
 	if (count > 0 && count > max_vfs)
 		count = max_vfs;
 
-	/* efx_nic_dimension_resources() will reduce vf_count as appopriate */
+	/* efx_nic_dimension_resources() will reduce vf_count as appropriate */
 	efx->vf_count = count;
 
 	efx->extra_channel_type[EFX_EXTRA_CHANNEL_IOV] = &efx_siena_sriov_channel_type;
