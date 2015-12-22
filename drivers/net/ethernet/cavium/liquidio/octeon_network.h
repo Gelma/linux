@@ -82,7 +82,7 @@ struct lio {
 	/** Copy of Interface capabilities: TSO, TSO6, LRO, Chescksums . */
 	u64 dev_capability;
 
-	/** Copy of beacaon reg in phy */
+	/** Copy of beacon reg in phy */
 	u32 phy_beacon_val;
 
 	/** Copy of ctrl reg in phy */
