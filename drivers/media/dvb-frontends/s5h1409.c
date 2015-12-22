@@ -699,7 +699,7 @@ static int s5h1409_set_mpeg_timing(struct dvb_frontend *fe, int mode)
 		return -EINVAL;
 	}
 
-	/* Configure MPEG Signal Timing charactistics */
+	/* Configure MPEG Signal Timing characteristics */
 	return s5h1409_writereg(state, 0xac, val);
 }
 
