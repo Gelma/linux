@@ -403,7 +403,7 @@ xfs_iget(
 	 * xfs_reclaim_inode() uses the ILOCK to ensure an inode
 	 * doesn't get freed while it's being referenced during a
 	 * radix tree traversal here.  It assumes this function
-	 * aqcuires only the ILOCK (and therefore it has no need to
+	 * acquires only the ILOCK (and therefore it has no need to
 	 * involve the IOLOCK in this synchronization).
 	 */
 	ASSERT((lock_flags & (XFS_IOLOCK_EXCL | XFS_IOLOCK_SHARED)) == 0);
