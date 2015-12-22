@@ -793,7 +793,7 @@ int acpi_unregister_ioapic(acpi_handle handle, u32 gsi_base)
 EXPORT_SYMBOL(acpi_unregister_ioapic);
 
 /**
- * acpi_ioapic_registered - Check whether IOAPIC assoicatied with @gsi_base
+ * acpi_ioapic_registered - Check whether IOAPIC associated with @gsi_base
  *			    has been registered
  * @handle:	ACPI handle of the IOAPIC deivce
  * @gsi_base:	GSI base associated with the IOAPIC
