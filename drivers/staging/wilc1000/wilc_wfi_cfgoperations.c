@@ -973,7 +973,7 @@ static int connect(struct wiphy *wiphy, struct net_device *dev,
 		break;
 
 	default:
-		PRINT_D(CFG80211_DBG, "Automatic Authentation type = %d\n", sme->auth_type);
+		PRINT_D(CFG80211_DBG, "Automatic Authentication type = %d\n", sme->auth_type);
 	}
 
 
@@ -3383,7 +3383,7 @@ struct wireless_dev *wilc_create_wiphy(struct net_device *net)
 	/*signal strength in mBm (100*dBm) */
 	wdev->wiphy->signal_type = CFG80211_SIGNAL_TYPE_MBM;
 
-	/*Set the availaible cipher suites*/
+	/*Set the available cipher suites*/
 	wdev->wiphy->cipher_suites = cipher_suites;
 	wdev->wiphy->n_cipher_suites = ARRAY_SIZE(cipher_suites);
 	/*Setting default managment types: for register action frame:  */
