@@ -104,7 +104,7 @@ rs5c348_rtc_read_time(struct device *dev, struct rtc_time *tm)
 	u8 txbuf[5], rxbuf[7];
 	int ret;
 
-	/* Transfer 5 byte befores reading SEC.  This gives 31us for carry. */
+	/* Transfer 5 byte before reading SEC.  This gives 31us for carry. */
 	txbuf[0] = RS5C348_CMD_R(RS5C348_REG_CTL2); /* cmd, ctl2 */
 	txbuf[1] = 0;	/* dummy */
 	txbuf[2] = RS5C348_CMD_R(RS5C348_REG_CTL2); /* cmd, ctl2 */
