@@ -554,7 +554,7 @@ void picolcd_debug_out_report(struct picolcd_data *data,
 		break;
 	case REPORT_WRITE_MEMORY:
 	case REPORT_BL_WRITE_MEMORY:
-		/* 4+1..32 data bytes with write adrea description */
+		/* 4+1..32 data bytes with write area description */
 		snprintf(buff, BUFF_SZ, "out report %s (%d, size=%d)\n",
 			"REPORT_WRITE_MEMORY", report->id, raw_size-1);
 		hid_debug_event(hdev, buff);
