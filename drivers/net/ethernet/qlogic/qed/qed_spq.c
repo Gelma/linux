@@ -566,7 +566,7 @@ void qed_spq_return_entry(struct qed_hwfn *p_hwfn,
  * @brief qed_spq_add_entry - adds a new entry to the pending
  *        list. Should be used while lock is being held.
  *
- * Addes an entry to the pending list is there is room (en empty
+ * Adds an entry to the pending list is there is room (en empty
  * element is available in the free_pool), or else places the
  * entry in the unlimited_pending pool.
  *
