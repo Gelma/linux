@@ -150,7 +150,7 @@ rdmab_to_msg(struct rpcrdma_regbuf *rb)
 
 /*
  * struct rpcrdma_rep -- this structure encapsulates state required to recv
- * and complete a reply, asychronously. It needs several pieces of
+ * and complete a reply, asynchronously. It needs several pieces of
  * state:
  *   o recv buffer (posted to provider)
  *   o ib_sge (also donated to provider)
