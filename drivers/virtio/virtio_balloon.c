@@ -451,7 +451,7 @@ static int virtballoon_migratepage(struct balloon_dev_info *vb_dev_info,
 	 * this turn, as it is easier to retry the page migration later.
 	 * This also prevents fill_balloon() getting stuck into a mutex
 	 * recursion in the case it ends up triggering memory compaction
-	 * while it is attempting to inflate the ballon.
+	 * while it is attempting to inflate the balloon.
 	 */
 	if (!mutex_trylock(&vb->balloon_lock))
 		return -EAGAIN;
