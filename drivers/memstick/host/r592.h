@@ -112,7 +112,7 @@
 #define R592_FIFO_DMA_SETTINGS		0x34
 #define R592_FIFO_DMA_SETTINGS_EN	(1 << 0)	/* DMA enabled */
 #define R592_FIFO_DMA_SETTINGS_DIR	(1 << 1)	/* Dma direction (1 read, 0 write) */
-#define R592_FIFO_DMA_SETTINGS_CAP	(1 << 24)	/* Dma is aviable */
+#define R592_FIFO_DMA_SETTINGS_CAP	(1 << 24)	/* Dma is avaiable */
 
 /* Maybe just an delay */
 /* Bits 17..19 are just number */
