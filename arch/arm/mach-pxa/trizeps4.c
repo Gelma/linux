@@ -55,7 +55,7 @@
 
 /*	comment out the following line if you want to use the
  *	Standard UART from PXA for serial / irda transmission
- *	and acivate it if you have status leds connected */
+ *	and activate it if you have status leds connected */
 #define STATUS_LEDS_ON_STUART_PINS 1
 
 /*****************************************************************************
