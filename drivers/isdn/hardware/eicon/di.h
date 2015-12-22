@@ -36,7 +36,7 @@
 #define DIVA_MISC_FLAGS_NO_RC_CANCELLING  0x02
 #define DIVA_MISC_FLAGS_RX_DMA            0x04
 /* structure for all information we have to keep on a per   */
-/* adapater basis                                           */
+/* adapter basis                                           */
 typedef struct adapter_s ADAPTER;
 struct adapter_s {
 	void *io;
