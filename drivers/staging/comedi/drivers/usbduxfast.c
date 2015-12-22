@@ -204,7 +204,7 @@ static int usbduxfast_ai_stop(struct comedi_device *dev, int do_unlink)
 {
 	struct usbduxfast_private *devpriv = dev->private;
 
-	/* stop aquistion */
+	/* stop acquisition */
 	devpriv->ai_cmd_running = 0;
 
 	if (do_unlink && devpriv->urb) {
