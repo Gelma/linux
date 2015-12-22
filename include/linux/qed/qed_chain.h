@@ -107,7 +107,7 @@ static inline u16 qed_chain_get_elem_left(struct qed_chain *p_chain)
 {
 	u16 used;
 
-	/* we don't need to trancate upon assignmet, as we assign u32->u16 */
+	/* we don't need to trancate upon assignment, as we assign u32->u16 */
 	used = ((u32)0x10000u + (u32)(p_chain->prod_idx)) -
 		(u32)p_chain->cons_idx;
 	if (p_chain->mode == QED_CHAIN_MODE_NEXT_PTR)
@@ -159,7 +159,7 @@ qed_chain_get_pbl_phys(struct qed_chain *p_chain)
 /**
  * @brief qed_chain_advance_page -
  *
- * Advance the next element accros pages for a linked chain
+ * Advance the next element across pages for a linked chain
  *
  * @param p_chain
  * @param p_next_elem
