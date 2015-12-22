@@ -3503,7 +3503,7 @@ static int atyfb_setup_generic(struct pci_dev *pdev, struct fb_info *info,
 	else
 		par->clk_wr_offset = aty_ld_8(CLOCK_CNTL, par) & 0x03U;
 
-	/* according to ATI, we should use clock 3 for acelerated mode */
+	/* according to ATI, we should use clock 3 for accelerated mode */
 	par->clk_wr_offset = 3;
 
 	return 0;
