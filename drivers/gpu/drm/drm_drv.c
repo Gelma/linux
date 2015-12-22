@@ -556,7 +556,7 @@ static void drm_fs_inode_free(struct inode *inode)
  * @parent: Parent device object
  *
  * Allocate and initialize a new DRM device. No device registration is done.
- * Call drm_dev_register() to advertice the device to user space and register it
+ * Call drm_dev_register() to advertise the device to user space and register it
  * with other core subsystems. This should be done last in the device
  * initialization sequence to make sure userspace can't access an inconsistent
  * state.
