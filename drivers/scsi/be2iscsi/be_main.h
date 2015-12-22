@@ -425,7 +425,7 @@ struct beiscsi_hba {
 	u8 mac_address[ETH_ALEN];
 	char fw_ver_str[BEISCSI_VER_STRLEN];
 	char wq_name[20];
-	struct workqueue_struct *wq;	/* The actuak work queue */
+	struct workqueue_struct *wq;	/* The actual work queue */
 	struct be_ctrl_info ctrl;
 	unsigned int generation;
 	unsigned int interface_handle;
