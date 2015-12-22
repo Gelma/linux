@@ -275,7 +275,7 @@ static void qed_btb_blocks_rt_init(
 				BTB_HEADROOM_BLOCKS;
 
 		/* find blocks per physical TC. use factor to avoid
-		 * floating arithmethic.
+		 * floating arithmetic.
 		 */
 		pure_lb_blocks = (usable_blocks * BTB_PURE_LB_FACTOR) /
 				 (phys_tcs * BTB_PURE_LB_FACTOR +
