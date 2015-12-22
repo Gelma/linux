@@ -1861,7 +1861,7 @@ again:
 			break;
 		/*
 		 * For non-resident attributes, we need to fill any holes with
-		 * actual clusters and ensure all bufferes are mapped.  We also
+		 * actual clusters and ensure all buffers are mapped.  We also
 		 * need to bring uptodate any buffers that are only partially
 		 * being written to.
 		 */
