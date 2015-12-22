@@ -1275,7 +1275,7 @@ static int abituguru_probe(struct platform_device *pdev)
 
 	/*
 	 * El weirdo probe order, to keep the sysfs order identical to the
-	 * BIOS and window-appliction listing order.
+	 * BIOS and window-application listing order.
 	 */
 	const u8 probe_order[ABIT_UGURU_MAX_BANK1_SENSORS] = {
 		0x00, 0x01, 0x03, 0x04, 0x0A, 0x08, 0x0E, 0x02,
