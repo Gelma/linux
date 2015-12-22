@@ -2084,7 +2084,7 @@ mptscsih_taskmgmt_complete(MPT_ADAPTER *ioc, MPT_FRAME_HDR *mf,
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*
- *	This is anyones guess quite frankly.
+ *	This is anyone's guess quite frankly.
  */
 int
 mptscsih_bios_param(struct scsi_device * sdev, struct block_device *bdev,
