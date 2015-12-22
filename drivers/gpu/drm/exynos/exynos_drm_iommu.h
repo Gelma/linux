@@ -1,7 +1,7 @@
 /* exynos_drm_iommu.h
  *
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
- * Authoer: Inki Dae <inki.dae@samsung.com>
+ * Author: Inki Dae <inki.dae@samsung.com>
  *
  * This program is free software; you can redistribute  it and/or modify it
  * under  the terms of  the GNU General  Public License as published by the
