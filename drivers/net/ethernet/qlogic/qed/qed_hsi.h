@@ -1594,7 +1594,7 @@ struct qed_qm_common_rt_init_params {
  * @param vport_rl_en			- enable per-VPORT rate limiters
  * @param vport_wfq_en			- enable per-VPORT WFQ
  * @param port_params			- array of size MAX_NUM_PORTS with
- *						arameters for each port
+ *						parameters for each port
  *
  * @return 0 on success, -1 on error.
  */
@@ -1750,7 +1750,7 @@ bool qed_send_qm_stop_cmd(struct qed_hwfn	*p_hwfn,
 							 ((queue_id) *	\
 							  IRO[17].m1))
 #define MSTORM_PRODS_SIZE				(IRO[17].size)
-/* TPA agregation timeout in us resolution (on ASIC) */
+/* TPA aggregation timeout in us resolution (on ASIC) */
 #define MSTORM_TPA_TIMEOUT_US_OFFSET			(IRO[18].base)
 #define MSTORM_TPA_TIMEOUT_US_SIZE			(IRO[18].size)
 /* Ustorm queue statistics */
