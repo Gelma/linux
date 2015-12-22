@@ -55,7 +55,7 @@ struct scsi_cdb_s {
 #define SCSI_STATUS_QUEUE_FULL             0x28
 #define SCSI_STATUS_ACA_ACTIVE             0x30
 
-#define SCSI_MAX_ALLOC_LEN      0xFF    /* maximum allocarion length */
+#define SCSI_MAX_ALLOC_LEN      0xFF    /* maximum allocation length */
 
 /*
  * Fibre Channel Header Structure (FCHS) definition
