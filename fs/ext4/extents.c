@@ -4486,7 +4486,7 @@ got_allocated_blocks:
 		 * io_end structure was created for every IO write to an
 		 * unwritten extent. To avoid unnecessary conversion,
 		 * here we flag the IO that really needs the conversion.
-		 * For non asycn direct IO case, flag the inode state
+		 * For non async direct IO case, flag the inode state
 		 * that we need to perform conversion when IO is done.
 		 */
 		if (flags & EXT4_GET_BLOCKS_PRE_IO)
