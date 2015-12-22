@@ -7,7 +7,7 @@
  *
  * Thanks to HighPoint Technologies for their assistance, and hardware.
  * Special Thanks to Jon Burchmore in SanDiego for the deep pockets, his
- * donation of an ABit BP6 mainboard, processor, and memory acellerated
+ * donation of an ABit BP6 mainboard, processor, and memory accelerated
  * development and support.
  *
  *
