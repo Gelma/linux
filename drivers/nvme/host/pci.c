@@ -2695,7 +2695,7 @@ static int nvme_dev_map(struct nvme_dev *dev)
 	}
 
 	/*
-	 * Some devices don't advertse INTx interrupts, pre-enable a single
+	 * Some devices don't advertise INTx interrupts, pre-enable a single
 	 * MSIX vec for setup. We'll adjust this later.
 	 */
 	if (!pdev->irq) {
