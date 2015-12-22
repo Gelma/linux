@@ -415,7 +415,7 @@ void do_trap0(struct pt_regs *regs)
 			info.si_signo = SIGTRAP;
 			info.si_errno = 0;
 			/*
-			 * Some architecures add some per-thread state
+			 * Some architectures add some per-thread state
 			 * to distinguish between breakpoint traps and
 			 * trace traps.  We may want to do that, and
 			 * set the si_code value appropriately, or we
