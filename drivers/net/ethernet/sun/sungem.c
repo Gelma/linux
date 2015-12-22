@@ -2126,7 +2126,7 @@ static void gem_stop_phy(struct gem *gp, int wol)
 		if (found_mii_phy(gp) && gp->phy_mii.def->ops->suspend)
 			gp->phy_mii.def->ops->suspend(&gp->phy_mii);
 
-		/* According to Apple, we must set the MDIO pins to this begnign
+		/* According to Apple, we must set the MDIO pins to this begin
 		 * state or we may 1) eat more current, 2) damage some PHYs
 		 */
 		writel(mifcfg | MIF_CFG_BBMODE, gp->regs + MIF_CFG);
