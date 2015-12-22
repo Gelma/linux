@@ -2802,7 +2802,7 @@ static int atomic_open(struct nameidata *nd, struct dentry *dentry,
 		open_flag &= ~O_TRUNC;
 
 	/*
-	 * Checking write permission is tricky, bacuse we don't know if we are
+	 * Checking write permission is tricky, because we don't know if we are
 	 * going to actually need it: O_CREAT opens should work as long as the
 	 * file exists.  But checking existence breaks atomicity.  The trick is
 	 * to check access and if not granted clear O_CREAT from the flags.
