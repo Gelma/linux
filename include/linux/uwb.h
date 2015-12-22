@@ -276,7 +276,7 @@ static inline void uwb_mas_bm_copy_le(void *dst, const struct uwb_mas_bm *mas)
 /**
  * struct uwb_drp_avail - a radio controller's view of MAS usage
  * @global:   MAS unused by neighbors (excluding reservations targeted
- *            or owned by the local radio controller) or the beaon period
+ *            or owned by the local radio controller) or the beacon period
  * @local:    MAS unused by local established reservations
  * @pending:  MAS unused by local pending reservations
  * @ie:       DRP Availability IE to be included in the beacon
