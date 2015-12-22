@@ -609,7 +609,7 @@ static int configure_memdma_and_inputblock(struct c8sectpfei *fei,
 		readl(fei->io + C8SECTPFE_IB_BUFF_STRT(tsin->tsin_id)),
 		readl(fei->io + C8SECTPFE_IB_BUFF_END(tsin->tsin_id)));
 
-	/* Get base addpress of pointer record block from DMEM */
+	/* Get base address of pointer record block from DMEM */
 	tsin->irec = fei->io + DMA_MEMDMA_OFFSET + DMA_DMEM_OFFSET +
 			readl(fei->io + DMA_PTRREC_BASE);
 
