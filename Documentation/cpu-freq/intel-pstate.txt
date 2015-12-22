@@ -54,7 +54,7 @@ driver selects a single P state the actual frequency the processor
 will run at is selected by the processor itself.
 
 For legacy mode debugfs files have also been added to allow tuning of
-the internal governor algorythm. These files are located at
+the internal governor algorithm. These files are located at
 /sys/kernel/debug/pstate_snb/ These files are NOT present in HWP mode.
 
       deadband
