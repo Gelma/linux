@@ -162,7 +162,7 @@
 /*
  * Category 3 - Auto Exposure
  *
- * The M-5MOLS exposure capbility is detailed as which is similar to digital
+ * The M-5MOLS exposure capability is detailed as which is similar to digital
  * camera. This category supports AE locking/various AE mode(range of exposure)
  * /ISO/flickering/EV bias/shutter/meteoring, and anything else. And the
  * maximum/minimum exposure gain value depending on M-5MOLS firmware, may be
