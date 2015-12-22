@@ -449,7 +449,7 @@ struct cgroup_subsys {
 	bool broken_hierarchy;
 	bool warned_broken_hierarchy;
 
-	/* the following two fields are initialized automtically during boot */
+	/* the following two fields are initialized automatically during boot */
 	int id;
 	const char *name;
 
