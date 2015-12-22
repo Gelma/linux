@@ -1976,7 +1976,7 @@ stall:
  *     STAGE. The driver add STATUS STAGE to send last zero length packet in
  *     OUT_STATUS_STAGE.
  *   - special attention was needed for IN_STATUS_STAGE. If a packet complete
- *     event is detected, we terminate the status stage without ackowledging the
+ *     event is detected, we terminate the status stage without acknowledging the
  *     packet (not to risk to loose a potential SETUP packet)
  */
 static void handle_ep0(struct pxa_udc *udc, int fifo_irq, int opc_irq)
