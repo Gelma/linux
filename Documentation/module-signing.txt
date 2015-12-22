@@ -179,7 +179,7 @@ in a keyring called ".system_keyring" that can be seen by:
 	[root@deneb ~]# cat /proc/keys
 	...
 	223c7853 I------     1 perm 1f030000     0     0 keyring   .system_keyring: 1
-	302d2d52 I------     1 perm 1f010000     0     0 asymmetri Fedora kernel signing key: d69a84e6bce3d216b979e9505b3e3ef9a7118079: X509.RSA a7118079 []
+	302d2d52 I------     1 perm 1f010000     0     0 asymmetric Fedora kernel signing key: d69a84e6bce3d216b979e9505b3e3ef9a7118079: X509.RSA a7118079 []
 	...
 
 Beyond the public key generated specifically for module signing, additional
