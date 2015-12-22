@@ -229,7 +229,7 @@ odm_TXPowerTrackingCallback_ThermalMeter_92C(struct rtw_adapter *Adapter)
 
 		if (pdmpriv->TxPowerTrackControl &&
 		    (delta != 0 || delta_HP != 0)) {
-			/* Adujst OFDM Ant_A according to IQK result */
+			/* Adjust OFDM Ant_A according to IQK result */
 			ele_D = (OFDMSwingTable23A[OFDM_index[0]] & 0xFFC00000)>>22;
 			X = pdmpriv->RegE94;
 			Y = pdmpriv->RegE9C;
