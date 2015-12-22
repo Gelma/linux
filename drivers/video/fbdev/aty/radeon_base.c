@@ -12,7 +12,7 @@
  *
  *	...Insert GPL boilerplate here...
  *
- *	Significant portions of this driver apdated from XFree86 Radeon
+ *	Significant portions of this driver updated from XFree86 Radeon
  *	driver which has the following copyright notice:
  *
  *	Copyright 2000 ATI Technologies Inc., Markham, Ontario, and
