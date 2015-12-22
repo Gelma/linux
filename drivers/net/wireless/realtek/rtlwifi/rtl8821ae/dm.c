@@ -2905,7 +2905,7 @@ static void rtl8821ae_dm_dynamic_atc_switch(struct ieee80211_hw *hw)
 			 "Crystal cap = 0x%x, Crystal cap offset = %d\n",
 			 rtldm->crystal_cap, adjust_xtal);
 
-		/*3.Adjudt Crystal Cap.*/
+		/*3.Adjust Crystal Cap.*/
 		if (adjust_xtal != 0) {
 			rtldm->is_freeze = 0;
 			rtldm->crystal_cap += adjust_xtal;
