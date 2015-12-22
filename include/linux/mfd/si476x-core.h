@@ -101,7 +101,7 @@ enum si476x_power_state {
  * of the @rds_fifo_drainer.
  * @rds_drainer_status_lock: Lock used to guard access to the
  * @rds_drainer_is_working variable.
- * @command: Wait queue for wainting on the command comapletion.
+ * @command: Wait queue for wainting on the command completion.
  * @cts: Clear To Send flag set upon receiving first status with CTS
  * set.
  * @tuning: Wait queue used for wainting for tune/seek comand
