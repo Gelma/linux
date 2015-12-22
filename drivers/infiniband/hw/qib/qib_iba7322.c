@@ -8030,7 +8030,7 @@ static int serdes_7322_init_new(struct qib_pportdata *ppd)
 
 	/* START OF LSI SUGGESTED SERDES BRINGUP */
 	/* Reset - Calibration Setup */
-	/*       Stop DFE adaptaion */
+	/*       Stop DFE adaptation */
 	ibsd_wr_allchans(ppd, 1, 0, BMASK(9, 1));
 	/*       Disable LE1 */
 	ibsd_wr_allchans(ppd, 13, 0, BMASK(5, 5));
