@@ -1820,7 +1820,7 @@ struct sctp_association {
 	struct sctp_transport *new_transport;
 
 	/* SCTP AUTH: list of the endpoint shared keys.  These
-	 * keys are provided out of band by the user applicaton
+	 * keys are provided out of band by the user application
 	 * and can't change during the lifetime of the association
 	 */
 	struct list_head endpoint_shared_keys;
