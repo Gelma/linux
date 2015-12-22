@@ -920,7 +920,7 @@ ia64_pal_cache_config_info (u64 cache_level, u64 cache_type, pal_cache_config_in
 
 }
 
-/* Get detailed cche protection information */
+/* Get detailed cache protection information */
 static inline s64
 ia64_pal_cache_prot_info (u64 cache_level, u64 cache_type, pal_cache_protection_info_t *prot)
 {
