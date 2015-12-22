@@ -97,7 +97,7 @@ struct gpmc_device_timings {
 	u32 t_aa;	/* access time from ADV assertion */
 	u32 t_iaa;	/* initial access time */
 	u32 t_oe;	/* access time from OE assertion */
-	u32 t_ce;	/* access time from CS asertion */
+	u32 t_ce;	/* access time from CS assertion */
 	u32 t_rd_cycle;	/* read cycle time */
 	u32 t_cez_r;	/* read CS deassertion to high Z */
 	u32 t_cez_w;	/* write CS deassertion to high Z */
