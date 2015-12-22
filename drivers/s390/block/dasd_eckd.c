@@ -3642,7 +3642,7 @@ dasd_eckd_fill_info(struct dasd_device * device,
 
 /*
  * Release device ioctl.
- * Buils a channel programm to releases a prior reserved
+ * Builds a channel programm to releases a prior reserved
  * (see dasd_eckd_reserve) device.
  */
 static int
@@ -3751,7 +3751,7 @@ dasd_eckd_reserve(struct dasd_device *device)
 
 /*
  * Steal lock ioctl - unconditional reserve device.
- * Buils a channel programm to break a device's reservation.
+ * Builds a channel programm to break a device's reservation.
  * (unconditional reserve)
  */
 static int
