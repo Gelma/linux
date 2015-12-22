@@ -136,7 +136,7 @@ struct s_ess {
 	/*
 	 * variables for the ess bandwidth control
 	 */
-	long	sync_bw ;		/* holds the allocaed sync bw */
+	long	sync_bw ;		/* holds the allocated sync bw */
 	u_long	alloc_trans_id ;	/* trans id of the last alloc req */
 } ;
 #endif
