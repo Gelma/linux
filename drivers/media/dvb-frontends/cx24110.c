@@ -88,7 +88,7 @@ static struct {u8 reg; u8 data;} cx24110_regdata[]=
 		      /* leave decimation AGC parameters at default values */
 	 {0x35,0x40}, /* disable all interrupts. They are not connected anyway */
 	 {0x36,0xff}, /* clear all interrupt pending flags */
-	 {0x37,0x00}, /* @ fully enable AutoAcqq state machine */
+	 {0x37,0x00}, /* @ fully enable AutoAcq state machine */
 	 {0x38,0x07}, /* @ enable fade recovery, but not autostart AutoAcq */
 		      /* leave the equalizer parameters on their default values */
 		      /* leave the final AGC parameters on their default values */
@@ -157,7 +157,7 @@ static int cx24110_set_inversion(struct cx24110_state *state,
 		cx24110_writereg(state,0x22,cx24110_readreg(state,0x22)&0xef);
 		/* current value 0 */
 		/* The cx24110 manual tells us this reg is read-only.
-		   But what the heck... set it ayways */
+		   But what the heck... set it always */
 		break;
 	case INVERSION_ON:
 		cx24110_writereg(state,0x37,cx24110_readreg(state,0x37)|0x1);
