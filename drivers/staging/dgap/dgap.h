@@ -511,7 +511,7 @@ enum {
  */
 struct macounter {
 	u32		cnt;	/* Total count */
-	ulong		accum;	/* Acuumulator per period */
+	ulong		accum;	/* Accumulator per period */
 	ulong		sma;	/* Simple moving average */
 	ulong		ema;	/* Exponential moving average */
 };
