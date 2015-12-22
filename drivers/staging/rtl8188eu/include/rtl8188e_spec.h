@@ -656,7 +656,7 @@ Current IOREG MAP
 /*  Note: */
 /*	The bits of stopping AC(VO/VI/BE/BK) queue in datasheet
  *	RTL8192S/RTL8192C are wrong, */
-/*	the correct arragement is VO - Bit0, VI - Bit1, BE - Bit2,
+/*	the correct arrangement is VO - Bit0, VI - Bit1, BE - Bit2,
  *	and BK - Bit3. */
 /*	8723 and 88E may be not correct either in the earlier version. */
 #define		StopBecon			BIT(6)
