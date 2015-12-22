@@ -522,7 +522,7 @@ static int iommu_identity_mapping;
  * bit 28 on BDW/SKL to bit 40 in future).
  *
  * So our test for ECS needs to eschew those implementations which set the old
- * PASID capabiity bit 28, since those are the ones on which ECS is broken.
+ * PASID capability bit 28, since those are the ones on which ECS is broken.
  * Unless we are working around the 'pasid28' limitations, that is, by putting
  * the device into passthrough mode for normal DMA and thus masking the bug.
  */
