@@ -1342,7 +1342,7 @@ static int neofb_blank(int blank_mode, struct fb_info *info)
 #endif
 		break;
 	default:	/* Anything else we don't understand; return 1 to tell
-			 * fb_blank we didn't aactually do anything */
+			 * fb_blank we didn't actually do anything */
 		return 1;
 	}
 
