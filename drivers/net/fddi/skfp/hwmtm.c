@@ -1206,7 +1206,7 @@ void process_receive(struct s_smc *smc)
 		}
 		/*
 		 * SUPERNET 3 Bug: FORMAC delivers status words
-		 * of aborded frames to the BMU
+		 * of aborted frames to the BMU
 		 */
 		if (len <= 4) {
 			DB_RX("Frame length = 0",0,0,2) ;
