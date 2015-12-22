@@ -676,7 +676,7 @@ rndis_filter_set_offload_params(struct hv_device *hdev,
 
 	t = wait_for_completion_timeout(&request->wait_event, 5*HZ);
 	if (t == 0) {
-		netdev_err(ndev, "timeout before we got aOFFLOAD set response...\n");
+		netdev_err(ndev, "timeout before we got an OFFLOAD set response...\n");
 		/* can't put_rndis_request, since we may still receive a
 		 * send-completion.
 		 */
