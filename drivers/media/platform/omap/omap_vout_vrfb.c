@@ -143,7 +143,7 @@ int omap_vout_setup_vrfb_bufs(struct platform_device *pdev, int vid_num,
 	init_waitqueue_head(&vout->vrfb_dma_tx.wait);
 
 	/* statically allocated the VRFB buffer is done through
-	   commands line aruments */
+	   commands line arguments */
 	if (static_vrfb_allocation) {
 		if (omap_vout_allocate_vrfb_buffers(vout, &vrfb_num_bufs, -1)) {
 			ret =  -ENOMEM;
