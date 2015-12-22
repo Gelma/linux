@@ -207,7 +207,7 @@ int ipmi_unregister_for_cmd(ipmi_user_t   user,
  * Go into a mode where the driver will not autonomously attempt to do
  * things with the interface.  It will still respond to attentions and
  * interrupts, and it will expect that commands will complete.  It
- * will not automatcially check for flags, events, or things of that
+ * will not automatically check for flags, events, or things of that
  * nature.
  *
  * This is primarily used for firmware upgrades.  The idea is that
