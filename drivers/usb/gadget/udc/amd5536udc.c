@@ -111,7 +111,7 @@ static int stop_timer;
  * in the FIFO (important for not blocking control traffic).
  * The value of set_rde controls the correspondig timer.
  *
- * set_rde -1 == not used, means it is alloed to be set to 0 or 1
+ * set_rde -1 == not used, means it is allowed to be set to 0 or 1
  * set_rde  0 == do not touch RDE, do no start the RDE timer
  * set_rde  1 == timer function will look whether FIFO has data
  * set_rde  2 == set by timer function to enable RX DMA on next call
