@@ -338,7 +338,7 @@ EXPORT_SYMBOL_GPL(pti_request_masterchannel);
  *				a master, channel ID address
  *				used to write to PTI HW.
  *
- * @mc: master, channel apeture ID address to be released.  This
+ * @mc: master, channel aperture ID address to be released.  This
  *      will de-allocate the structure via kfree().
  */
 void pti_release_masterchannel(struct pti_masterchannel *mc)
