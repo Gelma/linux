@@ -45,7 +45,7 @@ struct ptp_clock_time {
 };
 
 struct ptp_clock_caps {
-	int max_adj;   /* Maximum frequency adjustment in parts per billon. */
+	int max_adj;   /* Maximum frequency adjustment in parts per billion. */
 	int n_alarm;   /* Number of programmable alarms. */
 	int n_ext_ts;  /* Number of external time stamp channels. */
 	int n_per_out; /* Number of programmable periodic signals. */
