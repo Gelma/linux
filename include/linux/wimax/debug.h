@@ -121,7 +121,7 @@
  *     if (result < 0)
  *            goto error;
  *
- * Where PREFIX_ is a name of your chosing. This will create debugfs
+ * Where PREFIX_ is a name of your choosing. This will create debugfs
  * file with a single numeric value that can be use to tweak it. To
  * remove the entires, just use debugfs_remove_recursive() on 'parent'.
  *
