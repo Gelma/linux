@@ -744,7 +744,7 @@ static struct rapl_primitive_info rpi[] = {
 /* Read primitive data based on its related struct rapl_primitive_info.
  * if xlate flag is set, return translated data based on data units, i.e.
  * time, energy, and power.
- * RAPL MSRs are non-architectual and are laid out not consistently across
+ * RAPL MSRs are non-architectural and are laid out not consistently across
  * domains. Here we use primitive info to allow writing consolidated access
  * functions.
  * For a given primitive, it is processed by MSR mask and shift. Unit conversion
