@@ -2368,7 +2368,7 @@ int xtDelete(tid_t tid, struct inode *ip, s64 xoff, s32 xlen, int flag)
 	le16_add_cpu(&p->header.nextindex, -1);
 
 	/*
-	 * if the leaf page bocome empty, free the page
+	 * if the leaf page become empty, free the page
 	 */
 	if (p->header.nextindex == cpu_to_le16(XTENTRYSTART))
 		return (xtDeleteUp(tid, ip, mp, p, &btstack));
