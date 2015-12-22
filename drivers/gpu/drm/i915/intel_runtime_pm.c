@@ -1947,7 +1947,7 @@ static void chv_phy_control_init(struct drm_i915_private *dev_priv)
 	 * If all lanes are disabled we leave the override disabled
 	 * with all power down bits cleared to match the state we
 	 * would use after disabling the port. Otherwise enable the
-	 * override and set the lane powerdown bits accding to the
+	 * override and set the lane powerdown bits according to the
 	 * current lane status.
 	 */
 	if (cmn_bc->ops->is_enabled(dev_priv, cmn_bc)) {
