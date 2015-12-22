@@ -174,7 +174,7 @@ static inline struct aggregator *__get_first_agg(struct port *port)
 
 /**
  * __agg_has_partner - see if we have a partner
- * @agg: the agregator we're looking at
+ * @agg: the aggregator we're looking at
  *
  * Return nonzero if aggregator has a partner (denoted by a non-zero ether
  * address for the partner). Return 0 if not.
@@ -1299,7 +1299,7 @@ static void ad_periodic_machine(struct port *port)
  * @port: the port we're looking at
  * @update_slave_arr: Does slave array need update?
  *
- * Select aggregation groups, and assign each port for it's aggregetor. The
+ * Select aggregation groups, and assign each port for it's aggregator. The
  * selection logic is called in the inititalization (after all the handshkes),
  * and after every lacpdu receive (if selected is off).
  */
