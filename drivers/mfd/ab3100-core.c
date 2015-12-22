@@ -159,7 +159,7 @@ static int ab3100_get_register_interruptible(struct ab3100 *ab3100,
 
 	/*
 	 * AB3100 require an I2C "stop" command between each message, else
-	 * it will not work. The only way of achieveing this with the
+	 * it will not work. The only way of achieving this with the
 	 * message transport layer is to send the read and write messages
 	 * separately.
 	 */
