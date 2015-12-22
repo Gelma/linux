@@ -270,7 +270,7 @@ Sun Oct  4 14:00 1998 Gerard Roudier (groudier@club-internet.fr)
 	  were due to a SCSI selection problem triggered by a clearly 
 	  documented feature that in fact seems not to work: (53C8XX chips  
 	  are claimed by the manuals to be able to execute SCSI scripts just 
-	  after abitration while the SCSI core is performing SCSI selection).
+	  after arbitration while the SCSI core is performing SCSI selection).
 	  This optimization is broken and has been removed.
 	- Some broken scsi devices are confused when a negotiation is started 
 	  on a LUN that does not correspond to a real device. According to 
