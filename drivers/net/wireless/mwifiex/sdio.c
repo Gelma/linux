@@ -1079,7 +1079,7 @@ static int mwifiex_check_fw_status(struct mwifiex_adapter *adapter,
 }
 
 /*
- * This function decode sdio aggreation pkt.
+ * This function decode sdio aggregation pkt.
  *
  * Based on the the data block size and pkt_len,
  * skb data will be decoded to few packets.
