@@ -45,7 +45,7 @@ struct ptp_clock_request {
  * @name:      A short "friendly name" to identify the clock and to
  *             help distinguish PHY based devices from MAC based ones.
  *             The string is not meant to be a unique id.
- * @max_adj:   The maximum possible frequency adjustment, in parts per billon.
+ * @max_adj:   The maximum possible frequency adjustment, in parts per billion.
  * @n_alarm:   The number of programmable alarms.
  * @n_ext_ts:  The number of external time stamp channels.
  * @n_per_out: The number of programmable periodic signals.
