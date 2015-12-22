@@ -1610,7 +1610,7 @@ static bool filter_connect(struct tipc_sock *tsk, struct sk_buff *skb)
  * the default overload value (i.e. 67MB) is set as limit.
  *
  * For all connectionless messages, by default new queue limits are
- * as belows:
+ * as below:
  *
  * TIPC_LOW_IMPORTANCE       (4 MB)
  * TIPC_MEDIUM_IMPORTANCE    (8 MB)
