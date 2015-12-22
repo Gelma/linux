@@ -11,7 +11,7 @@
 
 #include <linux/serial_s3c.h>
 
-/* The S5PV210/S5PC110 implementations are as belows. */
+/* The S5PV210/S5PC110 implementations are as below. */
 
 	.macro fifo_level_s5pv210 rd, rx
 		ldr	\rd, [\rx, # S3C2410_UFSTAT]
