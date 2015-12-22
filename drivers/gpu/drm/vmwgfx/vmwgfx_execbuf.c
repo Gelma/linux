@@ -448,7 +448,7 @@ static void vmw_resource_relocations_free(struct list_head *list)
 /**
  * vmw_resource_relocations_apply - Apply all relocations on a list
  *
- * @cb: Pointer to the start of the command buffer bein patch. This need
+ * @cb: Pointer to the start of the command buffer being patch. This need
  * not be the same buffer as the one being parsed when the relocation
  * list was built, but the contents must be the same modulo the
  * resource ids.
