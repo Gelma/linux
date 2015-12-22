@@ -1853,7 +1853,7 @@ static bool target_handle_task_attr(struct se_cmd *cmd)
 void target_execute_cmd(struct se_cmd *cmd)
 {
 	/*
-	 * If the received CDB has aleady been aborted stop processing it here.
+	 * If the received CDB has already been aborted stop processing it here.
 	 */
 	if (transport_check_aborted_status(cmd, 1))
 		return;
