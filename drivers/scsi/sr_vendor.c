@@ -2,7 +2,7 @@
 
  * vendor-specific code for SCSI CD-ROM's goes here.
  *
- * This is needed becauce most of the new features (multisession and
+ * This is needed because most of the new features (multisession and
  * the like) are too new to be included into the SCSI-II standard (to
  * be exact: there is'nt anything in my draft copy).
  *
