@@ -72,7 +72,7 @@
  * @lock: Spin lock for S/PDIF.
  * @dev: The parent device passed to use from the probe.
  * @regs: The pointer to the device register block.
- * @clk_rate: Current clock rate for calcurate ratio.
+ * @clk_rate: Current clock rate for calculate ratio.
  * @pclk: The peri-clock pointer for spdif master operation.
  * @sclk: The source clock pointer for making sync signals.
  * @save_clkcon: Backup clkcon reg. in suspend.
