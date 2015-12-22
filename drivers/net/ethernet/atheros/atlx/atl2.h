@@ -178,7 +178,7 @@ static void atl2_force_ps(struct atl2_hw *hw);
 #define ISR_PHY		0x800	/* phy interrupt */
 #define ISR_TS_UPDATE	0x10000	/* interrupt after new tx pkt status written
 				 * to host */
-#define ISR_RS_UPDATE	0x20000	/* interrupt ater new rx pkt status written
+#define ISR_RS_UPDATE	0x20000	/* interrupt after new rx pkt status written
 				 * to host. */
 #define ISR_TX_EARLY	0x40000	/* interrupt when txmac begin transmit one
 				 * packet */
