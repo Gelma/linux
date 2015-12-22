@@ -863,7 +863,7 @@ struct aac_fib_context {
 	struct semaphore	wait_sem;	// this is used to wait for the next fib to arrive.
 	int			wait;		// Set to true when thread is in WaitForSingleObject
 	unsigned long		count;		// total number of FIBs on FibList
-	struct list_head	fib_list;	// this holds fibs and their attachd hw_fibs
+	struct list_head	fib_list;	// this holds fibs and their attached hw_fibs
 };
 
 struct sense_data {
