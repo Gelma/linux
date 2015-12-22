@@ -88,7 +88,7 @@ TRIG_WAKE_EOS
 #define   POST_TRIGGER_BITS		0x2
 #define   DELAY_TRIGGER_BITS		0x3
 #define   HW_TRIG_EN		0x10	/*  enable hardware trigger */
-#define FIFO_START_REG		0x6	/*  software start aquistion trigger */
+#define FIFO_START_REG		0x6	/*  software start acquisition trigger */
 #define FIFO_RESET_REG		0x8	/*  clears fifo + fifo flags */
 #define FIFO_DATA_REG		0xa	/*  read data */
 #define DMA_TC_CLEAR_REG		0xe	/*  clear dma terminal count interrupt */
