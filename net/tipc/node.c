@@ -1174,7 +1174,7 @@ static bool tipc_node_check_state(struct tipc_node *n, struct sk_buff *skb,
 		}
 	}
 
-	/* Update node accesibility if applicable */
+	/* Update node accessibility if applicable */
 	if (state == SELF_UP_PEER_COMING) {
 		if (!tipc_link_is_up(l))
 			return true;
