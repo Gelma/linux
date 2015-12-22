@@ -78,7 +78,7 @@ irqreturn_t interrupt_handler(int dummy, void *card_inst)
 		}
 
 		/*
-		 * Handle a write acknoledgement
+		 * Handle a write acknowledgement
 		 */
 		if (IS_CE_MESSAGE(rcvmsg, Lnk, 1, Write)) {
 			pr_debug("%s: Packet Send ACK on channel %d\n",
