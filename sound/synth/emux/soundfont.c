@@ -806,7 +806,7 @@ snd_sf_linear_to_log(unsigned int amount, int offset, int ratio)
 		amount <<= 1;
 	s = (amount >> 24) & 0x7f;
 	low = (amount >> 16) & 0xff;
-	/* linear approxmimation by lower 8 bit */
+	/* linear approximation by lower 8 bit */
 	v = (log_tbl[s + 1] * low + log_tbl[s] * (0x100 - low)) >> 8;
 	v -= offset;
 	v = (v * ratio) >> 16;
