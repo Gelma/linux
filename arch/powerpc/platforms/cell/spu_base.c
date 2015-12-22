@@ -69,7 +69,7 @@ static DEFINE_SPINLOCK(spu_lock);
  * spu_full_list_lock and spu_full_list_mutex held, while iterating
  * through it requires either of these locks.
  *
- * In addition spu_full_list_lock protects all assignmens to
+ * In addition spu_full_list_lock protects all assignments to
  * spu->mm.
  */
 static LIST_HEAD(spu_full_list);
