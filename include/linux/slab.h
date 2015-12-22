@@ -226,7 +226,7 @@ size_t ksize(const void *);
 #define KMALLOC_MAX_SIZE	(1UL << KMALLOC_SHIFT_MAX)
 /* Maximum size for which we actually use a slab cache */
 #define KMALLOC_MAX_CACHE_SIZE	(1UL << KMALLOC_SHIFT_HIGH)
-/* Maximum order allocatable via the slab allocagtor */
+/* Maximum order allocatable via the slab allocator */
 #define KMALLOC_MAX_ORDER	(KMALLOC_SHIFT_MAX - PAGE_SHIFT)
 
 /*
@@ -309,7 +309,7 @@ void *kmem_cache_alloc(struct kmem_cache *, gfp_t flags) __assume_slab_alignment
 void kmem_cache_free(struct kmem_cache *, void *);
 
 /*
- * Bulk allocation and freeing operations. These are accellerated in an
+ * Bulk allocation and freeing operations. These are accelerated in an
  * allocator specific way to avoid taking locks repeatedly or building
  * metadata structures unnecessarily.
  *
