@@ -1149,7 +1149,7 @@ struct __vxge_hw_non_offload_db_wrapper {
  *             override the selection of the physical transmit port.
  *             Attention:
  *             Normal sounds as if learned from the switch rather than from
- *             the aggregation algorythms.
+ *             the aggregation algorithms.
  *             00: Normal. Use Destination/MAC Address
  *             lookup to determine the transmit port.
  *             01: Send on physical Port1.
