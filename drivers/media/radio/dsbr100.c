@@ -4,7 +4,7 @@
  * audio data has to be handled by a sound driver.
  *
  * Major issue: I can't find out where the device reports the signal
- * strength, and indeed the windows software appearantly just looks
+ * strength, and indeed the windows software apparently just looks
  * at the stereo indicator as well.  So, scanning will only find
  * stereo stations.  Sad, but I can't help it.
  *
