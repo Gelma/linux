@@ -217,7 +217,7 @@ struct host_interest {
 #define HI_OPTION_BMI_CRED_LIMIT    0x02
 /* Relay Dot11 hdr to/from host */
 #define HI_OPTION_RELAY_DOT11_HDR   0x04
-/* MAC addr method 0-locally administred 1-globally unique addrs */
+/* MAC addr method 0-locally administrated 1-globally unique addrs */
 #define HI_OPTION_MAC_ADDR_METHOD   0x08
 /* Firmware Bridging */
 #define HI_OPTION_FW_BRIDGE         0x10
