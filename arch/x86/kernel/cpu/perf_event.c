@@ -1125,7 +1125,7 @@ int x86_perf_event_set_period(struct perf_event *event)
 	}
 
 	/*
-	 * Due to erratum on certan cpu we need
+	 * Due to erratum on certain cpu we need
 	 * a second write to be sure the register
 	 * is updated properly
 	 */
