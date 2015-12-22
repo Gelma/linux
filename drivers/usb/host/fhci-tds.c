@@ -238,7 +238,7 @@ err:
 /*
  * initialize the endpoint register according to the given parameters
  *
- * artuments:
+ * arguments:
  * usb		A pointer to the data strucutre of the USB
  * ep		A pointer to the endpoint structre
  * data_mem	The data memory partition(BUS)
