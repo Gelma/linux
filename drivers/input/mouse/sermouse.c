@@ -95,7 +95,7 @@ static void sermouse_process_msc(struct sermouse *sermouse, signed char data)
 }
 
 /*
- * sermouse_process_ms() anlyzes the incoming MS(Z/+/++) bytestream and
+ * sermouse_process_ms() analyses the incoming MS(Z/+/++) bytestream and
  * generates events. With prediction it gets 80 updates/sec, assuming
  * standard 3-byte packets and 1200 bps.
  */
