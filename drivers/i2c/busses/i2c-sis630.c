@@ -435,7 +435,7 @@ static int sis630_setup(struct pci_dev *sis630_dev)
 	}
 
 	/*
-	   Enable ACPI first , so we can accsess reg 74-75
+	   Enable ACPI first, so we can access reg 74-75
 	   in acpi io space and read acpi base addr
 	*/
 	if (pci_read_config_byte(sis630_dev, SIS630_BIOS_CTL_REG, &b)) {
