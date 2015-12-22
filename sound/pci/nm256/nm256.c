@@ -4,7 +4,7 @@
  *
  * Based on nm256_audio.c OSS driver in linux kernel.
  * The original author of OSS nm256 driver wishes to remain anonymous,
- * so I just put my acknoledgment to him/her here.
+ * so I just put my acknowledgment to him/her here.
  * The original author's web page is found at
  *	http://www.uglx.org/sony.html
  *
