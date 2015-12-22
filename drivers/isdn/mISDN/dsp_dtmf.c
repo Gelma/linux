@@ -105,7 +105,7 @@ void dsp_dtmf_hardware(struct dsp *dsp)
  * the algorithm is very good for detection with a minimum of errors. i
  * tested it allot. it even works with very short tones (40ms). the only
  * disadvantage is, that it doesn't work good with different volumes of both
- * tones. this will happen, if accoustically coupled dialers are used.
+ * tones. this will happen, if acoustically coupled dialers are used.
  * it sometimes detects tones during speech, which is normal for decoders.
  * use sequences to given commands during calls.
  *
