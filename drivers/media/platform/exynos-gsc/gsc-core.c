@@ -589,7 +589,7 @@ int gsc_try_crop(struct gsc_ctx *ctx, struct v4l2_crop *cr)
 
 
 	/* adjust left/top if cropping rectangle is out of bounds */
-	/* Need to add code to algin left value with 2's multiple */
+	/* Need to add code to align left value with 2's multiple */
 	if (cr->c.left + tmp_w > max_w)
 		cr->c.left = max_w - tmp_w;
 	if (cr->c.top + tmp_h > max_h)
