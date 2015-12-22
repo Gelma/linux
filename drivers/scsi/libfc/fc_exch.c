@@ -1232,7 +1232,7 @@ static void fc_seq_send_last(struct fc_seq *sp, struct fc_frame *fp,
 /**
  * fc_seq_send_ack() - Send an acknowledgement that we've received a frame
  * @sp:	   The sequence to send the ACK on
- * @rx_fp: The received frame that is being acknoledged
+ * @rx_fp: The received frame that is being acknowledged
  *
  * Send ACK_1 (or equiv.) indicating we received something.
  */
