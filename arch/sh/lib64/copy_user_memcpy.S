@@ -46,7 +46,7 @@
 
 */
 
-/* NOTE : Prefetches removed and allocos guarded by synco to avoid TAKum03020
+/* NOTE : Prefetches removed and allocs guarded by synco to avoid TAKum03020
  * erratum.  The first two prefetches are nop-ed out to avoid upsetting the
  * instruction counts used in the jump address calculation.
  * */
