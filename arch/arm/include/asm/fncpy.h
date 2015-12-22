@@ -49,7 +49,7 @@
  * copied_f(args);
  *
  * The size of the function to be copied can't be determined from C:
- * this must be determined by other means, such as adding assmbler directives
+ * this must be determined by other means, such as adding assembler directives
  * in the file where f is defined.
  */
 
