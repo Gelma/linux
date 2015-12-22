@@ -352,7 +352,7 @@ static void saa7164_work_enchandler_helper(struct saa7164_port *port, int bufnr)
 			saa7164_buffer_zero_offsets(port, bufnr);
 			memset(buf->cpu, 0xff, buf->pci_size);
 			if (crc_checking) {
-				/* Throw yet aanother new checksum on the dma buffer */
+				/* Throw yet another new checksum on the dma buffer */
 				buf->crc = crc32(0, buf->cpu, buf->actual_size);
 			}
 
