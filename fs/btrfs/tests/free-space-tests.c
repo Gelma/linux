@@ -436,7 +436,7 @@ static int check_cache_empty(struct btrfs_block_group_cache *cache)
  * wasn't optimal as they could be spread all over the block group while under
  * concurrency (extra overhead and fragmentation).
  *
- * This stealing approach is benefical, since we always prefer to allocate from
+ * This stealing approach is beneficial, since we always prefer to allocate from
  * extent entries, both for clustered and non-clustered allocation requests.
  */
 static int
