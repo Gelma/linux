@@ -134,7 +134,7 @@ enum tuner_param {
  * @DVBFE_ALGO_SW: Software Algorithm -
  * These are dumb devices, that require software to do everything
  *
- * @DVBFE_ALGO_CUSTOM: Customizable Agorithm -
+ * @DVBFE_ALGO_CUSTOM: Customizable Algorithm -
  *	Devices having this algorithm can be customized to have specific
  *	algorithms in the frontend driver, rather than simply doing a
  *	software zig-zag. In this case the zigzag maybe hardware assisted
@@ -218,7 +218,7 @@ enum dvbfe_search {
  * @set_config:		callback function used to send some tuner-specific
  *			parameters.
  * @get_frequency:	get the actual tuned frequency
- * @get_bandwidth:	get the bandwitdh used by the low pass filters
+ * @get_bandwidth:	get the bandwidth used by the low pass filters
  * @get_if_frequency:	get the Intermediate Frequency, in Hz. For baseband,
  * 			should return 0.
  * @get_status:		returns the frontend lock status
