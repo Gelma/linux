@@ -27,7 +27,7 @@
 #include "nodelist.h"
 /* -------- xdatum related functions ----------------
  * xattr_datum_hashkey(xprefix, xname, xvalue, xsize)
- *   is used to calcurate xdatum hashkey. The reminder of hashkey into XATTRINDEX_HASHSIZE is
+ *   is used to calculate xdatum hashkey. The reminder of hashkey into XATTRINDEX_HASHSIZE is
  *   the index of the xattr name/value pair cache (c->xattrindex).
  * is_xattr_datum_unchecked(c, xd)
  *   returns 1, if xdatum contains any unchecked raw nodes. if all raw nodes are not
