@@ -454,7 +454,7 @@ void c4iw_count_rcqes(struct t4_cq *cq, struct t4_wq *wq, int *count)
  *
  * Caller must:
  *     check the validity of the first CQE,
- *     supply the wq assicated with the qpid.
+ *     supply the wq associated with the qpid.
  *
  * credit: cq credit to return to sge.
  * cqe_flushed: 1 iff the CQE is flushed.
