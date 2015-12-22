@@ -366,7 +366,7 @@ enum {
 
 struct mlx5_cache_ent {
 	struct list_head	head;
-	/* sync access to the cahce entry
+	/* sync access to the cache entry
 	 */
 	spinlock_t		lock;
 
