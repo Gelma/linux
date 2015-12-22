@@ -2017,7 +2017,7 @@ static int hrz_init(hrz_dev *dev)
     
     // in the card I have, EEPROM
     // addresses 0, 1, 2 contain 0
-    // addresess 5, 6 etc. contain ffff
+    // addresses 5, 6 etc. contain ffff
     // NB: Madge prefix is 00 00 f6 (which is 00 00 6f in Ethernet bit order)
     // the read_bia routine gets the BIA in Ethernet bit order
     
