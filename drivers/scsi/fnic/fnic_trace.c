@@ -565,7 +565,7 @@ void fnic_fc_trace_free(void)
  * fnic_fc_ctlr_set_trace_data:
  *       Maintain rd & wr idx accordingly and set data
  * Passed parameters:
- *       host_no: host number accociated with fnic
+ *       host_no: host number associated with fnic
  *       frame_type: send_frame, rece_frame or link event
  *       fc_frame: pointer to fc_frame
  *       frame_len: Length of the fc_frame
