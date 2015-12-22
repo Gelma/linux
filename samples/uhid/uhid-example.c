@@ -206,7 +206,7 @@ static void destroy(int fd)
  * print debug messages for it. */
 static void handle_output(struct uhid_event *ev)
 {
-	/* LED messages are adverised via OUTPUT reports; ignore the rest */
+	/* LED messages are advertised via OUTPUT reports; ignore the rest */
 	if (ev->u.output.rtype != UHID_OUTPUT_REPORT)
 		return;
 	/* LED reports have length 2 bytes */
