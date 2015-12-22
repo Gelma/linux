@@ -305,7 +305,7 @@ static void debug_printf(char *fmt, ...)
 #define VFAC_CTL1_FREEZE_CAPTURE_SYNC	0x08	/* sync freeze capture			*/
 #define VFAC_CTL1_VALIDFRAME_SRC	0x10	/* select valid frame source		*/
 #define VFAC_CTL1_PHILIPS		0x40	/* select Philips mode			*/
-#define VFAC_CTL1_MODVINTERPOLCLK	0x80	/* modify vertical interpolation clocl	*/
+#define VFAC_CTL1_MODVINTERPOLCLK	0x80	/* modify vertical interpolation clock	*/
 
 #define VFAC_CTL2		0xe9
 #define VFAC_CTL2_INVERT_VIDDATAVALID	0x01	/* invert video data valid		*/
