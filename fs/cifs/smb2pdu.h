@@ -372,7 +372,7 @@ struct smb2_tree_disconnect_rsp {
 	__le16 Reserved;
 } __packed;
 
-/* File Attrubutes */
+/* File Attributes */
 #define FILE_ATTRIBUTE_READONLY			0x00000001
 #define FILE_ATTRIBUTE_HIDDEN			0x00000002
 #define FILE_ATTRIBUTE_SYSTEM			0x00000004
