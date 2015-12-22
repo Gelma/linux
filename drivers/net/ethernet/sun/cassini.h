@@ -634,7 +634,7 @@
 						      enabled */
 #define    RX_CFG_SWIVEL_MASK           0x00001C00 /* byte offset of the 1st
 						      data byte of the packet
-						      w/in 8 byte boundares.
+						      w/in 8 byte boundaries.
 						      this swivels the data
 						      DMA'ed to header
 						      buffers, jumbo buffers
