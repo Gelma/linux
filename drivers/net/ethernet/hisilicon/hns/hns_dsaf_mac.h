@@ -349,7 +349,7 @@ struct mac_driver {
 	/*adjust mac mode of port,include speed and duplex*/
 	int (*adjust_link)(void *mac_drv, enum mac_speed speed,
 			   u32 full_duplex);
-	/* config autoegotaite mode of port*/
+	/* config autonegotiate mode of port*/
 	void (*set_an_mode)(void *mac_drv, u8 enable);
 	/* config loopbank mode */
 	int (*config_loopback)(void *mac_drv, enum hnae_loop loop_mode,
