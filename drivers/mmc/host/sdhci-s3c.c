@@ -82,7 +82,7 @@ static inline struct sdhci_s3c *to_s3c(struct sdhci_host *host)
  * sdhci_s3c_get_max_clk - callback to get maximum clock frequency.
  * @host: The SDHCI host instance.
  *
- * Callback to return the maximum clock rate acheivable by the controller.
+ * Callback to return the maximum clock rate achievable by the controller.
 */
 static unsigned int sdhci_s3c_get_max_clk(struct sdhci_host *host)
 {
