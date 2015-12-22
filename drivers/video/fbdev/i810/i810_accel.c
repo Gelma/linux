@@ -221,8 +221,8 @@ static inline void color_blit(int width, int height, int pitch,  int dest,
  * @blit_bpp: pixelformat to use which can be different from the 
  *            framebuffer's pixelformat
  * @src: address of image data
- * @bg: backgound color
- * @fg: forground color
+ * @bg: background color
+ * @fg: foreground color
  * @par: pointer to i810fb_par structure
  *
  * DESCRIPTION:
