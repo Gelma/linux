@@ -472,7 +472,7 @@ struct iscsi_cmd {
 	struct iscsi_seq	*seq_ptr;
 	/* TMR Request when iscsi_opcode == ISCSI_OP_SCSI_TMFUNC */
 	struct iscsi_tmr_req	*tmr_req;
-	/* Connection this command is alligient to */
+	/* Connection this command is aligend to */
 	struct iscsi_conn	*conn;
 	/* Pointer to connection recovery entry */
 	struct iscsi_conn_recovery *cr;
