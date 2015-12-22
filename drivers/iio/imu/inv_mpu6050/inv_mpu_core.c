@@ -519,7 +519,7 @@ error_write_raw:
  *
  *                  Based on the Nyquist principle, the sampling rate must
  *                  exceed twice of the bandwidth of the signal, or there
- *                  would be alising. This function basically search for the
+ *                  would be aliasing. This function basically search for the
  *                  correct low pass parameters based on the fifo rate, e.g,
  *                  sampling frequency.
  */
