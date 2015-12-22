@@ -943,7 +943,7 @@ int sctp_asconf_mgmt(struct sctp_sock *sp, struct sctp_sockaddr_entry *addrw)
  *
  * sk        The sk of the socket
  * addrs     The pointer to the addresses in user land
- * addrssize Size of the addrs buffer
+ * addrs_size Size of the addrs buffer
  * op        Operation to perform (add or remove, see the flags of
  *           sctp_bindx)
  *
@@ -1292,7 +1292,7 @@ out_free:
  *
  * sk        The sk of the socket
  * addrs     The pointer to the addresses in user land
- * addrssize Size of the addrs buffer
+ * addrs_size Size of the addrs buffer
  *
  * Returns >=0 if ok, <0 errno code on error.
  */
