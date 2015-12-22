@@ -367,7 +367,7 @@ static int rds_tcp_dev_event(struct notifier_block *this,
 	struct net_device *dev = netdev_notifier_info_to_dev(ptr);
 
 	/* rds-tcp registers as a pernet subys, so the ->exit will only
-	 * get invoked after network acitivity has quiesced. We need to
+	 * get invoked after network activity has quiesced. We need to
 	 * clean up all sockets  to quiesce network activity, and use
 	 * the unregistration of the per-net loopback device as a trigger
 	 * to start that cleanup.
