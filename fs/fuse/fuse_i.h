@@ -407,7 +407,7 @@ struct fuse_pqueue {
 	/** Connection established */
 	unsigned connected;
 
-	/** Lock protecting accessess to  members of this structure */
+	/** Lock protecting accesses to members of this structure */
 	spinlock_t lock;
 
 	/** The list of requests being processed */
@@ -439,7 +439,7 @@ struct fuse_dev {
  * unmounted.
  */
 struct fuse_conn {
-	/** Lock protecting accessess to  members of this structure */
+	/** Lock protecting accesses to members of this structure */
 	spinlock_t lock;
 
 	/** Refcount */
