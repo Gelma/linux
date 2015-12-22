@@ -1728,7 +1728,7 @@ setup_hfcpci(struct IsdnCard *card)
 	spin_lock_irqsave(&cs->lock, flags);
 
 	pci_write_config_word(cs->hw.hfcpci.dev, PCI_COMMAND, PCI_ENA_MEMIO);	/* enable memory mapped ports, disable busmaster */
-	cs->hw.hfcpci.int_m2 = 0;	/* disable alle interrupts */
+	cs->hw.hfcpci.int_m2 = 0;	/* disable all interrupts */
 	cs->hw.hfcpci.int_m1 = 0;
 	Write_hfc(cs, HFCPCI_INT_M1, cs->hw.hfcpci.int_m1);
 	Write_hfc(cs, HFCPCI_INT_M2, cs->hw.hfcpci.int_m2);
