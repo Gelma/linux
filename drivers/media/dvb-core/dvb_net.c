@@ -325,7 +325,7 @@ static void dvb_net_ule( struct net_device *dev, const u8 *buf, size_t buf_len )
 #endif
 
 	/* For all TS cells in current buffer.
-	 * Appearently, we are called for every single TS cell.
+	 * Apparently, we are called for every single TS cell.
 	 */
 	for (ts = buf, ts_end = buf + buf_len; ts < ts_end; /* no default incr. */ ) {
 
