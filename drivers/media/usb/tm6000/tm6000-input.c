@@ -133,7 +133,7 @@ static int tm6000_ir_config(struct tm6000_IR *ir)
 	/* Remote WAKEUP = enable, normal mode, from IR decoder output */
 	tm6000_set_reg(dev, TM6010_REQ07_RE5_REMOTE_WAKEUP, 0xfe);
 
-	/* Enable IR reception on non-busrt mode */
+	/* Enable IR reception on non-burst mode */
 	tm6000_set_reg(dev, TM6010_REQ07_RD8_IR, 0x2f);
 
 	/* IR_WKUP_SEL = Low byte in decoded IR data */
