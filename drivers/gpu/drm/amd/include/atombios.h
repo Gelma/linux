@@ -3937,7 +3937,7 @@ typedef struct _ATOM_DPCD_INFO
 // note2: From RV770, the memory is more than 32bit addressable, so we will change
 //        ucTableFormatRevision=1,ucTableContentRevision=4, the strcuture remains
 //        exactly same as 1.1 and 1.2 (1.3 is never in use), but ulStartAddrUsedByFirmware
-//        (in offset to start of memory address) is KB aligned instead of byte aligend.
+//        (in offset to start of memory address) is KB aligned instead of byte aligned.
 // Note3:
 /* If we change usReserved to "usFBUsedbyDrvInKB", then to VBIOS this usFBUsedbyDrvInKB is a predefined, unchanged
 constant across VGA or non VGA adapter,
@@ -7034,7 +7034,7 @@ typedef   struct _ATOM_MEMORY_FORMAT
   UCHAR                        ucRefreshRateFactor;   // memory refresh rate in unit of ms
   UCHAR                        ucDensity;             // _8Mx32, _16Mx32, _16Mx16, _32Mx16
   UCHAR                        ucPreamble;            // [7:4] Write Preamble, [3:0] Read Preamble
-  UCHAR                        ucMemAttrib;           // Memory Device Addribute, like RDBI/WDBI etc
+  UCHAR                        ucMemAttrib;           // Memory Device Attribute, like RDBI/WDBI etc
   ATOM_MEMORY_TIMING_FORMAT    asMemTiming[5];        // Memory Timing block sort from lower clock to higher clock
 }ATOM_MEMORY_FORMAT;
 
@@ -8217,7 +8217,7 @@ typedef struct _DFP_DPMS_STATUS_CHANGE_PARAMETERS
 #define ATOM_PM_MISCINFO_DYNAMIC_CLOCK_DIVIDER_BY_4      0x01000000L
 #define ATOM_PM_MISCINFO_DYNAMIC_HDP_BLOCK_EN            0x02000000L  //When set, Dynamic
 #define ATOM_PM_MISCINFO_DYNAMIC_MC_HOST_BLOCK_EN        0x04000000L  //When set, Dynamic
-#define ATOM_PM_MISCINFO_3D_ACCELERATION_EN              0x08000000L  //When set, This mode is for acceleated 3D mode
+#define ATOM_PM_MISCINFO_3D_ACCELERATION_EN              0x08000000L  //When set, This mode is for accelerated 3D mode
 
 #define ATOM_PM_MISCINFO_POWERPLAY_SETTINGS_GROUP_MASK   0x70000000L  //1-Optimal Battery Life Group, 2-High Battery, 3-Balanced, 4-High Performance, 5- Optimal Performance (Default state with Default clocks)
 #define ATOM_PM_MISCINFO_POWERPLAY_SETTINGS_GROUP_SHIFT  28
