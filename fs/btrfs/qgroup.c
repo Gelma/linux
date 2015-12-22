@@ -1842,7 +1842,7 @@ out:
 }
 
 /*
- * copy the acounting information between qgroups. This is necessary when a
+ * copy the accounting information between qgroups. This is necessary when a
  * snapshot or a subvolume is created
  */
 int btrfs_qgroup_inherit(struct btrfs_trans_handle *trans,
