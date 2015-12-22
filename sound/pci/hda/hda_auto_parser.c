@@ -158,7 +158,7 @@ static bool can_be_headset_mic(struct hda_codec *codec,
  * in the order of front, rear, CLFE, side, ...
  *
  * If more extra outputs (speaker and headphone) are found, the pins are
- * assisnged to hp_pins[] and speaker_pins[], respectively.  If no line-out jack
+ * assigned to hp_pins[] and speaker_pins[], respectively.  If no line-out jack
  * is detected, one of speaker of HP pins is assigned as the primary
  * output, i.e. to line_out_pins[0].  So, line_outs is always positive
  * if any analog output exists.
