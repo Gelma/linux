@@ -81,7 +81,7 @@ void ip_options_build(struct sk_buff *skb, struct ip_options *opt,
 /*
  * Provided (sopt, skb) points to received options,
  * build in dopt compiled option set appropriate for answering.
- * i.e. invert SRR option, copy anothers,
+ * i.e. invert SRR option, copy another,
  * and grab room in RR/TS options.
  *
  * NOTE: dopt cannot point to skb.
