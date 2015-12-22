@@ -27,7 +27,7 @@
  */
 
 /*
- * Create /proc/fs/jfs if procfs is enabled andeither
+ * Create /proc/fs/jfs if procfs is enabled and either
  * CONFIG_JFS_DEBUG or CONFIG_JFS_STATISTICS is defined
  */
 #if defined(CONFIG_PROC_FS) && (defined(CONFIG_JFS_DEBUG) || defined(CONFIG_JFS_STATISTICS))
