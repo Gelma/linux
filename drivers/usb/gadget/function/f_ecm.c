@@ -89,7 +89,7 @@ static inline unsigned ecm_bitrate(struct usb_gadget *g)
  * waste less bandwidth.
  *
  * Some drivers (like Linux 2.4 cdc-ether!) "need" it to exist even
- * if they ignore the connect/disconnect notifications that real aether
+ * if they ignore the connect/disconnect notifications that real ether
  * can provide.  More advanced cdc configurations might want to support
  * encapsulated commands (vendor-specific, using control-OUT).
  */
