@@ -196,7 +196,7 @@ typedef struct format_data_t {
 typedef struct attrib_data_t {
 	unsigned char operation:3;     /* cache operation mode */
 	unsigned char reserved:5;      /* cache operation mode */
-	__u16         nr_cyl;          /* no of cyliners for read ahaed */
+	__u16         nr_cyl;          /* no of cyliners for read ahead */
 	__u8          reserved2[29];   /* for future use */
 } __attribute__ ((packed)) attrib_data_t;
 
