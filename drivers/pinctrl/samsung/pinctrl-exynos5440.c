@@ -189,7 +189,7 @@ static int exynos5440_dt_node_to_map(struct pinctrl_dev *pctldev,
 
 	/*
 	 * Find out the number of map entries to create. All the config options
-	 * can be accomadated into a single config map entry.
+	 * can be accomodated into a single config map entry.
 	 */
 	if (cfg_cnt)
 		map_cnt = 1;
