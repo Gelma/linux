@@ -4,7 +4,7 @@
  * Copyright (C) 2012 Texas Instruments
  * Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
  *
- * This driver is a complete rewrite of the former pwm-twl6030.c authorded by:
+ * This driver is a complete rewrite of the former pwm-twl6030.c authored by:
  * Hemanth V <hemanthv@ti.com>
  *
  * This program is free software; you can redistribute it and/or modify it
