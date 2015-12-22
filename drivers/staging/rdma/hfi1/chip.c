@@ -4625,7 +4625,7 @@ static inline int check_packet_present(struct hfi1_ctxtdata *rcd)
 /*
  * Receive packet IRQ handler.  This routine expects to be on its own IRQ.
  * This routine will try to handle packets immediately (latency), but if
- * it finds too many, it will invoke the thread handler (bandwitdh).  The
+ * it finds too many, it will invoke the thread handler (bandwidth).  The
  * chip receive interupt is *not* cleared down until this or the thread (if
  * invoked) is finished.  The intent is to avoid extra interrupts while we
  * are processing packets anyway.
