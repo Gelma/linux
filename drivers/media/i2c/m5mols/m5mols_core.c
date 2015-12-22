@@ -422,7 +422,7 @@ int m5mols_set_mode(struct m5mols_info *info, u8 mode)
  * m5mols_get_version - retrieve full revisions information of M-5MOLS
  *
  * The version information includes revisions of hardware and firmware,
- * AutoFocus alghorithm version and the version string.
+ * AutoFocus algorithm version and the version string.
  */
 static int m5mols_get_version(struct v4l2_subdev *sd)
 {
