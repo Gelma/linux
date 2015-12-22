@@ -173,7 +173,7 @@ OPTIONS
 --call-graph=<print_type,threshold[,print_limit],order,sort_key,branch>::
         Display call chains using type, min percent threshold, print limit,
 	call order, sort key and branch.  Note that ordering of parameters is not
-	fixed so any parement can be given in an arbitraty order.  One exception
+	fixed so any parement can be given in an arbitrary order.  One exception
 	is the print_limit which should be preceded by threshold.
 
 	print_type can be either:
