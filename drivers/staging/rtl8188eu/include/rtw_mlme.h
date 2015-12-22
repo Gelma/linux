@@ -191,7 +191,7 @@ struct wifidirect_info {
 	struct timer_list find_phase_timer;
 	struct timer_list restore_p2p_state_timer;
 
-	/* Used to do the scanning. After confirming the peer is availalble,
+	/* Used to do the scanning. After confirming the peer is available,
 	 * the driver transmits the P2P frame to peer. */
 	struct timer_list pre_tx_scan_timer;
 	struct timer_list reset_ch_sitesurvey;
