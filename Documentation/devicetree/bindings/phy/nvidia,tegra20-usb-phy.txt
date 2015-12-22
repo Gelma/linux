@@ -39,7 +39,7 @@ Required PHY timing params for utmi phy, for all chips:
   - nvidia,elastic-limit : Variable FIFO Depth of elastic input store
   - nvidia,idle-wait-delay : Number of 480 Mhz clock cycles of idle to wait
     before declare IDLE.
-  - nvidia,term-range-adj : Range adjusment on terminations
+  - nvidia,term-range-adj : Range adjustment on terminations
   - Either one of the following for HS driver output control:
     - nvidia,xcvr-setup : integer, uses the provided value.
     - nvidia,xcvr-setup-use-fuses : boolean, indicates that the value is read
