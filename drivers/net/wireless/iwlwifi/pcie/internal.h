@@ -129,7 +129,7 @@ struct iwl_rxq {
 /**
  * struct iwl_rb_allocator - Rx allocator
  * @pool: initial pool of allocator
- * @req_pending: number of requests the allcator had not processed yet
+ * @req_pending: number of requests the allocator had not processed yet
  * @req_ready: number of requests honored and ready for claiming
  * @rbd_allocated: RBDs with pages allocated and ready to be handled to
  *	the queue. This is a list of &struct iwl_rx_mem_buffer
