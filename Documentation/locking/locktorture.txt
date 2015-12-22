@@ -97,7 +97,7 @@ stutter		  The length of time to run the test before pausing for this
 		  Specifying "stutter=0" causes the test to run continuously
 		  without pausing, which is the old default behavior.
 
-shuffle_interval  The number of seconds to keep the test threads affinitied
+shuffle_interval  The number of seconds to keep the test threads affinitized
 		  to a particular subset of the CPUs, defaults to 3 seconds.
 		  Used in conjunction with test_no_idle_hz.
 
