@@ -239,7 +239,7 @@ static int genwqe_bus_reset(struct genwqe_dev *cd)
  * had different kinds of problems. Here is where we adjust those
  * bitstreams to function will with this version of our device driver.
  *
- * Thise circumventions are applied to the physical function only.
+ * These circumventions are applied to the physical function only.
  * The magical numbers below are identifying development/manufacturing
  * versions of the bitstream used on the card.
  *
