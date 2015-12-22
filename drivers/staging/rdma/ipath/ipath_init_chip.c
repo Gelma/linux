@@ -954,7 +954,7 @@ int ipath_init_chip(struct ipath_devdata *dd, int reinit)
 				(unsigned long)dd);
 		/* every 5 seconds; */
 		dd->ipath_stats_timer.expires = jiffies + 5 * HZ;
-		/* takes ~16 seconds to overflow at full IB 4x bandwdith */
+		/* takes ~16 seconds to overflow at full IB 4x bandwidth */
 		add_timer(&dd->ipath_stats_timer);
 		dd->ipath_stats_timer_active = 1;
 	}
