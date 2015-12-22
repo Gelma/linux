@@ -287,7 +287,7 @@ u32 rsnd_get_dalign(struct rsnd_mod *mod, struct rsnd_dai_stream *io)
 	}
 
 	/*
-	 * exchange channeles on SRC if possible,
+	 * exchange channels on SRC if possible,
 	 * otherwise, R/L volume settings on DVC
 	 * changes inverted channels
 	 */
