@@ -188,7 +188,7 @@ void __init memory_present(int nid, unsigned long start, unsigned long end)
 }
 
 /*
- * Only used by the i386 NUMA architecures, but relatively
+ * Only used by the i386 NUMA architectures, but relatively
  * generic code.
  */
 unsigned long __init node_memmap_size_bytes(int nid, unsigned long start_pfn,
