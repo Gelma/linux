@@ -445,7 +445,7 @@ static u8 rgbbalance_ctrl_to_reg_value(s32 rgb_ctrl_val)
 	/* Normed value [0...k] */
 	norm = k * (rgb_ctrl_val - PAC7302_RGB_BALANCE_MIN)
 		    / (PAC7302_RGB_BALANCE_MAX - PAC7302_RGB_BALANCE_MIN);
-	/* Qudratic apporach improves control at small (register) values: */
+	/* Qudratic approach improves control at small (register) values: */
 	return 64 * norm * norm / (k*k)  +  32 * norm / k  +  32;
 	/* Y = 64*X*X + 32*X + 32
 	 * => register values 0x20-0x80; Windows driver uses these limits */
