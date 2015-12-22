@@ -830,7 +830,7 @@ static const struct ethtool_ops tlan_ethtool_ops = {
  *	device structure and driver.  It reserves the IO
  *	addresses, allocates memory for the lists and bounce
  *	buffers, retrieves the MAC address from the eeprom
- *	and assignes the device's methods.
+ *	and assigns the device's methods.
  *
  **************************************************************/
 
@@ -1145,7 +1145,7 @@ static netdev_tx_t tlan_start_tx(struct sk_buff *skb, struct net_device *dev)
  *	assigned TLAN adapter.  The function deactivates
  *	interrupts on its adapter, records the type of
  *	interrupt, executes the appropriate subhandler, and
- *	acknowdges the interrupt to the adapter (thus
+ *	acknowledges the interrupt to the adapter (thus
  *	re-enabling adapter interrupts.
  *
  **************************************************************/
@@ -1268,7 +1268,7 @@ static struct net_device_stats *tlan_get_stats(struct net_device *dev)
  *
  *	This function sets the TLAN adaptor to various receive
  *	modes.  If the IFF_PROMISC flag is set, promiscuous
- *	mode is acitviated.  Otherwise,	promiscuous mode is
+ *	mode is activated.  Otherwise, promiscuous mode is
  *	turned off.  If the IFF_ALLMULTI flag is set, then
  *	the hash table is set to receive all group addresses.
  *	Otherwise, the first three multicast addresses are
@@ -1819,7 +1819,7 @@ ThunderLAN driver timer function
  *
  *	This function handles timed functionality for the
  *	TLAN driver.  The two current timer uses are for
- *	delaying for autonegotionation and driving the ACT LED.
+ *	delaying for autonegotiation and driving the ACT LED.
  *	-	Autonegotiation requires being allowed about
  *		2 1/2 seconds before attempting to transmit a
  *		packet.  It would be a very bad thing to hang
@@ -2536,7 +2536,7 @@ static void tlan_phy_power_down(struct net_device *dev)
 	}
 
 	/* Wait for 50 ms and powerup
-	 * This is abitrary.  It is intended to make sure the
+	 * This is arbitrary.  It is intended to make sure the
 	 * transceiver settles.
 	 */
 	tlan_set_timer(dev, msecs_to_jiffies(50), TLAN_TIMER_PHY_PUP);
