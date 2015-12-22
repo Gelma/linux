@@ -1461,7 +1461,7 @@ def parseTraceLog():
 							{'begin': t.time, 'end': t.time})
 					else:
 						if(len(testrun.ttemp[name]) > 0):
-							# if an antry exists, assume this is its end
+							# if an entry exists, assume this is its end
 							testrun.ttemp[name][-1]['end'] = t.time
 						elif(phase == 'post_resume'):
 							# post resume events can just have ends
@@ -3518,7 +3518,7 @@ if __name__ == '__main__':
 			cmdarg = val
 			sysvals.notestrun = True
 			if(os.path.isdir(val) == False):
-				doError('%s isnt accesible' % val, False)
+				doError('%s isnt accessible' % val, False)
 		elif(arg == '-filter'):
 			try:
 				val = args.next()
