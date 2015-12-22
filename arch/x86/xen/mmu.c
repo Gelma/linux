@@ -1474,7 +1474,7 @@ static void xen_write_cr3(unsigned long cr3)
 /*
  * At the start of the day - when Xen launches a guest, it has already
  * built pagetables for the guest. We diligently look over them
- * in xen_setup_kernel_pagetable and graft as appropiate them in the
+ * in xen_setup_kernel_pagetable and graft as appropriate them in the
  * init_level4_pgt and its friends. Then when we are happy we load
  * the new init_level4_pgt - and continue on.
  *
