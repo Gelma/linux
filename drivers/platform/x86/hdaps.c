@@ -231,7 +231,7 @@ static int hdaps_device_init(void)
 	 * Most ThinkPads return 0x01.
 	 *
 	 * Others--namely the R50p, T41p, and T42p--return 0x03.  These laptops
-	 * have "inverted" axises.
+	 * have "inverted" axes.
 	 *
 	 * The 0x02 value occurs when the chip has been previously initialized.
 	 */
