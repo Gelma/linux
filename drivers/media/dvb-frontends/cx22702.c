@@ -490,7 +490,7 @@ static int cx22702_read_ber(struct dvb_frontend *fe, u32 *ber)
 		*ber = (cx22702_readreg(state, 0xDE) & 0x7F) << 7
 			| (cx22702_readreg(state, 0xDF) & 0x7F);
 	} else {
-		/* Averagtine statistics */
+		/* Averaging statistics */
 		*ber = (cx22702_readreg(state, 0xDE) & 0x7F) << 7
 			| cx22702_readreg(state, 0xDF);
 	}
@@ -536,7 +536,7 @@ static int cx22702_read_snr(struct dvb_frontend *fe, u16 *snr)
 		rs_ber = (cx22702_readreg(state, 0xDE) & 0x7F) << 7
 			| (cx22702_readreg(state, 0xDF) & 0x7F);
 	} else {
-		/* Averagine statistics */
+		/* Averaging statistics */
 		rs_ber = (cx22702_readreg(state, 0xDE) & 0x7F) << 8
 			| cx22702_readreg(state, 0xDF);
 	}
