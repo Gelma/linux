@@ -1761,7 +1761,7 @@ aiptek_probe(struct usb_interface *intf, const struct usb_device_id *id)
 	aiptek->newSetting = aiptek->curSetting;
 
 	/* Determine the usb devices' physical path.
-	 * Asketh not why we always pretend we're using "../input0",
+	 * Asked not why we always pretend we're using "../input0",
 	 * but I suspect this will have to be refactored one
 	 * day if a single USB device can be a keyboard & a mouse
 	 * & a tablet, and the inputX number actually will tell
