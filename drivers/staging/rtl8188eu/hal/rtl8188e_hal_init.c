@@ -313,7 +313,7 @@ Hal_EfuseParseIDCode88E(
 	struct eeprom_priv *pEEPROM = GET_EEPROM_EFUSE_PRIV(padapter);
 	u16			EEPROMId;
 
-	/*  Checl 0x8129 again for making sure autoload status!! */
+	/*  Check 0x8129 again for making sure autoload status!! */
 	EEPROMId = le16_to_cpu(*((__le16 *)hwinfo));
 	if (EEPROMId != RTL_EEPROM_ID) {
 		DBG_88E("EEPROM ID(%#x) is invalid!!\n", EEPROMId);
