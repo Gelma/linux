@@ -1798,7 +1798,7 @@ struct noa_host_interface_partition {
 
 /**
  * struct transport_link_layer_pair - The SCU Hardware pairs up the TL
- *    registers with the LL registers so we must place them adjcent to make the
+ *    registers with the LL registers so we must place them adjacent to make the
  *    array of registers in the PEG.
  *
  *
