@@ -70,7 +70,7 @@ u8 r8712_usb_hal_bus_init(struct _adapter *padapter)
 		r8712_write8(padapter, SYS_ISO_CTRL + 1, val8);
 		val8 = r8712_read8(padapter, SYS_ISO_CTRL + 1);
 		val8 = val8 & 0xEF;
-		/* attatch AFE PLL to MACTOP/BB/PCIe Digital */
+		/* attach AFE PLL to MACTOP/BB/PCIe Digital */
 		r8712_write8(padapter, SYS_ISO_CTRL + 1, val8);
 		val8 = r8712_read8(padapter, AFE_XTAL_CTRL + 1);
 		val8 = val8 & 0xFB;
