@@ -16,9 +16,9 @@
    Always copies 4096 bytes.
 
    Points to review.
-   * Currently the prefetch is 4 lines ahead and the alloco is 2 lines ahead.
+   * Currently the prefetch is 4 lines ahead and the alloc is 2 lines ahead.
      It seems like the prefetch needs to be at at least 4 lines ahead to get
-     the data into the cache in time, and the allocos contend with outstanding
+     the data into the cache in time, and the allocs contend with outstanding
      prefetches for the same cache set, so it's better to have the numbers
      different.
    */
