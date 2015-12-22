@@ -79,7 +79,7 @@
 /*
  * This CPU module needs a baseboard to work. After basic initializing
  * its own devices, it calls baseboard's init function.
- * TODO: Add your own basebaord init function and call it from
+ * TODO: Add your own baseboard init function and call it from
  * inside pcm027_init(). This example here is for the developmen board.
  * Refer pcm990-baseboard.c
  */
