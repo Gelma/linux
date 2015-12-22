@@ -476,7 +476,7 @@ static void compliance_mode_recovery(unsigned long arg)
  * The quirk creates a timer that polls every 2 seconds the link state of
  * each host controller's port and recovers it by issuing a Warm reset
  * if Compliance mode is detected, otherwise the port will become "dead" (no
- * device connections or disconnections will be detected anymore). Becasue no
+ * device connections or disconnections will be detected anymore). Because no
  * status event is generated when entering compliance mode (per xhci spec),
  * this quirk is needed on systems that have the failing hardware installed.
  */
@@ -2211,7 +2211,7 @@ static int xhci_check_bw_table(struct xhci_hcd *xhci,
 	block_size = xhci_get_block_size(virt_dev->udev);
 
 	/* If we are manipulating a LS/FS device under a HS hub, double check
-	 * that the HS bus has enough bandwidth if we are activing a new TT.
+	 * that the HS bus has enough bandwidth if we are activating a new TT.
 	 */
 	if (virt_dev->tt_info) {
 		xhci_dbg_trace(xhci, trace_xhci_dbg_quirks,
