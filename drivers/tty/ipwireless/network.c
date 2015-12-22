@@ -49,7 +49,7 @@ struct ipw_network {
 	spinlock_t lock;
 	struct mutex close_lock;
 
-	/* PPP ioctl data, not actually used anywere */
+	/* PPP ioctl data, not actually used anywhere */
 	unsigned int flags;
 	unsigned int rbits;
 	u32 xaccm[8];
