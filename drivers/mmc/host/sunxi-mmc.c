@@ -65,7 +65,7 @@
 #define SDXC_REG_DBGC	(0x50) /* SMC Debug Enable Register */
 #define SDXC_REG_HWRST	(0x78) /* SMC Card Hardware Reset for Register */
 #define SDXC_REG_DMAC	(0x80) /* SMC IDMAC Control Register */
-#define SDXC_REG_DLBA	(0x84) /* SMC IDMAC Descriptor List Base Addre */
+#define SDXC_REG_DLBA	(0x84) /* SMC IDMAC Descriptor List Base Address */
 #define SDXC_REG_IDST	(0x88) /* SMC IDMAC Status Register */
 #define SDXC_REG_IDIE	(0x8C) /* SMC IDMAC Interrupt Enable Register */
 #define SDXC_REG_CHDA	(0x90)
