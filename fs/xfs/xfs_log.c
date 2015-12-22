@@ -1835,7 +1835,7 @@ xlog_sync(
 		iclog->ic_bwritecnt = 1;
 	}
 
-	/* calculcate the checksum */
+	/* calculate the checksum */
 	iclog->ic_header.h_crc = xlog_cksum(log, &iclog->ic_header,
 					    iclog->ic_datap, size);
 
