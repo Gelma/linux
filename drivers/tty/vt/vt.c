@@ -809,7 +809,7 @@ int vc_allocate(unsigned int currcons)	/* return 0 on success */
 static inline int resize_screen(struct vc_data *vc, int width, int height,
 				int user)
 {
-	/* Resizes the resolution of the display adapater */
+	/* Resizes the resolution of the display adapter */
 	int err = 0;
 
 	if (vc->vc_mode != KD_GRAPHICS && vc->vc_sw->con_resize)
