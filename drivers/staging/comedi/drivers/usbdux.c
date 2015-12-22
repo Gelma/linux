@@ -203,7 +203,7 @@ struct usbdux_private {
 	/* time between samples in units of the timer */
 	unsigned int ai_timer;
 	unsigned int ao_timer;
-	/* counter between aquisitions */
+	/* counter between acquisitions */
 	unsigned int ai_counter;
 	unsigned int ao_counter;
 	/* interval in frames/uframes */
@@ -730,7 +730,7 @@ static int usbdux_ai_cmd(struct comedi_device *dev, struct comedi_subdevice *s)
 		s->async->inttrig = NULL;
 	} else {
 		/* TRIG_INT */
-		/* don't enable the acquision operation */
+		/* don't enable the acquisition operation */
 		/* wait for an internal signal */
 		s->async->inttrig = usbdux_ai_inttrig;
 	}
