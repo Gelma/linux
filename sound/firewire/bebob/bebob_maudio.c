@@ -677,7 +677,7 @@ static const char *const ozonic_meter_labels[] = {
 	STRM_IN, STRM_IN,
 	ANA_OUT, ANA_OUT
 };
-/* TODO: need testers. these positions are based on authour's assumption */
+/* TODO: need testers. these positions are based on author's assumption */
 static const char *const nrv10_meter_labels[] = {
 	ANA_IN, ANA_IN, ANA_IN, ANA_IN,
 	DIG_IN,
