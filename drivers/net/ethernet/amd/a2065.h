@@ -107,7 +107,7 @@ struct lance_rx_desc {
 	short    length;    	    /* This length is 2s complement (negative)!
 				     * Buffer length
 				     */
-	unsigned short mblength;    /* Aactual number of bytes received */
+	unsigned short mblength;    /* Actual number of bytes received */
 };
 
 struct lance_tx_desc {
