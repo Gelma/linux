@@ -31,7 +31,7 @@
  * Arnaldo C. de Melo	: added missing restore_flags in ad1848_resume
  * Miguel Freitas       : added ISA PnP support
  * Alan Cox		: Added CS4236->4239 identification
- * Daniel T. Cobra	: Alernate config/mixer for later chips
+ * Daniel T. Cobra	: Alternate config/mixer for later chips
  * Alan Cox		: Merged chip idents and config code
  *
  * TODO
