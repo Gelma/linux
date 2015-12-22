@@ -240,7 +240,7 @@ static inline int iwpm_validate_nlmsg_attr(struct nlattr *nltb[],
  * @nlh: Holds address of the netlink message header in skb
  * @nl_client: The index of the netlink client
  *
- * Returns the newly allcated skb, or NULL if the tailroom of the skb
+ * Returns the newly allocated skb, or NULL if the tailroom of the skb
  * is insufficient to store the message header and payload
  */
 struct sk_buff *iwpm_create_nlmsg(u32 nl_op, struct nlmsghdr **nlh,
