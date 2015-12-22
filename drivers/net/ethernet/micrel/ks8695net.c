@@ -975,7 +975,7 @@ ks8695_wan_set_settings(struct net_device *ndev, struct ethtool_cmd *cmd)
 
 /**
  *	ks8695_wan_nwayreset - Restart the autonegotiation on the port.
- *	@ndev: The network device to restart autoneotiation on
+ *	@ndev: The network device to restart autonegotiation on
  */
 static int
 ks8695_wan_nwayreset(struct net_device *ndev)
