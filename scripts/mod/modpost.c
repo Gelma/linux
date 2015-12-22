@@ -172,7 +172,7 @@ struct symbol {
 
 static struct symbol *symbolhash[SYMBOL_HASH_SIZE];
 
-/* This is based on the hash agorithm from gdbm, via tdb */
+/* This is based on the hash algorithm from gdbm, via tdb */
 static inline unsigned int tdb_hash(const char *name)
 {
 	unsigned value;	/* Used to compute the hash value.  */
