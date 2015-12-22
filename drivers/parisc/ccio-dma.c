@@ -252,7 +252,7 @@ struct ioc {
 	u32 chainid_shift; 		/* specify bit location of chain_id */
 	struct ioc *next;		/* Linked list of discovered iocs */
 	const char *name;		/* device name from firmware */
-	unsigned int hw_path;           /* the hardware path this ioc is associatd with */
+	unsigned int hw_path;           /* the hardware path this ioc is associated with */
 	struct pci_dev *fake_pci_dev;   /* the fake pci_dev for non-pci devs */
 	struct resource mmio_region[2]; /* The "routed" MMIO regions */
 };
