@@ -3465,7 +3465,7 @@ static int bond_neigh_init(struct neighbour *n)
 	return parms.neigh_setup(n);
 }
 
-/* The bonding ndo_neigh_setup is called at init time beofre any
+/* The bonding ndo_neigh_setup is called at init time before any
  * slave exists. So we must declare proxy setup function which will
  * be used at run time to resolve the actual slave neigh param setup.
  *
