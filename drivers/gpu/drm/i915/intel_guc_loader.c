@@ -477,7 +477,7 @@ static void guc_fw_fetch(struct drm_device *dev, struct intel_guc_fw *guc_fw)
 	DRM_DEBUG_DRIVER("firmware file size %zu (minimum %zu, maximum %zu)\n",
 		fw->size, minsize, maxsize);
 
-	/* Check the size of the blob befoe examining buffer contents */
+	/* Check the size of the blob before examining buffer contents */
 	if (fw->size < minsize || fw->size > maxsize)
 		goto fail;
 
