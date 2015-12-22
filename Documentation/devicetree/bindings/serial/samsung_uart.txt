@@ -21,7 +21,7 @@ Required properties:
 - clock-names: input names of clocks used by the controller:
   - "uart" - controller bus clock,
   - "clk_uart_baudN" - Nth baud base clock input (N = 0, 1, ...),
-    according to SoC User's Manual (only N = 0 is allowedfor SoCs without
+    according to SoC User's Manual (only N = 0 is allowed for SoCs without
     internal baud clock mux).
 - clocks: phandles and specifiers for all clocks specified in "clock-names"
   property, in the same order, according to clock bindings documentation [2].
