@@ -3471,7 +3471,7 @@ static void smack_d_instantiate(struct dentry *opt_dentry, struct inode *inode)
 		}
 		/*
 		 * No xattr support means, alas, no SMACK label.
-		 * Use the aforeapplied default.
+		 * Use the afor applied default.
 		 * It would be curious if the label of the task
 		 * does not match that assigned.
 		 */
