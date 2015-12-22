@@ -132,7 +132,7 @@ static void btrfs_handle_error(struct btrfs_fs_info *fs_info)
 
 /*
  * __btrfs_std_error decodes expected errors from the caller and
- * invokes the approciate error response.
+ * invokes the appropriate error response.
  */
 __cold
 void __btrfs_std_error(struct btrfs_fs_info *fs_info, const char *function,
