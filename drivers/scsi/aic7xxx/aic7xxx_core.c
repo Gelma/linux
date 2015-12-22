@@ -2869,7 +2869,7 @@ ahc_assert_atn(struct ahc_softc *ahc)
 /*
  * When an initiator transaction with the MK_MESSAGE flag either reconnects
  * or enters the initial message out phase, we are interrupted.  Fill our
- * outgoing message buffer with the appropriate message and beging handing
+ * outgoing message buffer with the appropriate message and begin handing
  * the message phase(s) manually.
  */
 static void
