@@ -1172,7 +1172,7 @@ int nicvf_open(struct net_device *netdev)
 		     (unsigned long)nic);
 	INIT_DELAYED_WORK(&nic->rbdr_work, nicvf_rbdr_work);
 
-	/* Configure CPI alorithm */
+	/* Configure CPI algorithm */
 	nic->cpi_alg = cpi_alg;
 	if (!nic->sqs_mode)
 		nicvf_config_cpi(nic);
