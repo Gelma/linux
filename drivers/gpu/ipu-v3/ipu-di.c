@@ -444,7 +444,7 @@ static void ipu_di_config_clock(struct ipu_di *di,
 		}
 	} else {
 		/*
-		 * For other interfaces, we can arbitarily select between
+		 * For other interfaces, we can arbitrarily select between
 		 * the DI specific clock and the internal IPU clock.  See
 		 * DI_GENERAL bit 20.  We select the IPU clock if it can
 		 * give us a clock rate within 1% of the requested frequency,
