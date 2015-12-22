@@ -143,7 +143,7 @@ static irqreturn_t hix5hd2_ir_rx_interrupt(int irq, void *data)
 	if (irq_sr & INTMS_OVERFLOW) {
 		/*
 		 * we must read IR_DATAL first, then we can clean up
-		 * IR_INTS availably since logic would not clear
+		 * IR_INTS available since logic would not clear
 		 * fifo when overflow, drv do the job
 		 */
 		ir_raw_event_reset(priv->rdev);
