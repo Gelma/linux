@@ -111,7 +111,7 @@ static WAIT_STATE(WAIT_FOR_CLEARANCE,	"?CLR",
  * Out-of-band event transition tables.  These are for handling unexpected
  * events, such as an I/O error.  If an OOB event occurs, the state machine
  * clears and disables the event and forces a transition to the nominated work
- * state (acurrently executing work states will complete first).
+ * state (a currently executing work states will complete first).
  *
  * In such a situation, object->state remembers the state the machine should
  * have been in/gone to and returning NO_TRANSIT returns to that.
