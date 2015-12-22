@@ -3057,7 +3057,7 @@ __call_rcu(struct rcu_head *head, rcu_callback_t func,
 	 * Opportunistically note grace-period endings and beginnings.
 	 * Note that we might see a beginning right after we see an
 	 * end, but never vice versa, since this CPU has to pass through
-	 * a quiescent state betweentimes.
+	 * a quiescent state between times.
 	 */
 	local_irq_save(flags);
 	rdp = this_cpu_ptr(rsp->rda);
