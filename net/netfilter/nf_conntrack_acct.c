@@ -1,4 +1,4 @@
-/* Accouting handling for netfilter. */
+/* Accounting handling for netfilter. */
 
 /*
  * (C) 2008 Krzysztof Piotr Oledzki <ole@ans.pl>
