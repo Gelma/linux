@@ -1134,7 +1134,7 @@ static void advance_oldest_read(struct t3_wq *wq)
  *
  * Caller must:
  *     check the validity of the first CQE,
- *     supply the wq assicated with the qpid.
+ *     supply the wq associated with the qpid.
  *
  * credit: cq credit to return to sge.
  * cqe_flushed: 1 iff the CQE is flushed.
