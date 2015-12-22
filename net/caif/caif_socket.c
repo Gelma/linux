@@ -812,7 +812,7 @@ static int caif_connect(struct socket *sock, struct sockaddr *uaddr,
 	sk->sk_state = CAIF_CONNECTING;
 
 	/* Check priority value comming from socket */
-	/* if priority value is out of range it will be ajusted */
+	/* if priority value is out of range it will be adjusted */
 	if (cf_sk->sk.sk_priority > CAIF_PRIO_MAX)
 		cf_sk->conn_req.priority = CAIF_PRIO_MAX;
 	else if (cf_sk->sk.sk_priority < CAIF_PRIO_MIN)
