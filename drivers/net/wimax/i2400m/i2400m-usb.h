@@ -69,7 +69,7 @@
 
 
 /*
- * Error Density Count: cheapo error density (over time) counter
+ * Error Density Count: cheap error density (over time) counter
  *
  * Originally by Reinette Chatre <reinette.chatre@intel.com>
  *
