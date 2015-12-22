@@ -474,7 +474,7 @@ static struct pci_ops elroy_cfg_ops = {
 
 /*
  * The mercury_cfg_ops are slightly misnamed; they're also used for Elroy
- * TR4.0 as no additional bugs were found in this areea between Elroy and
+ * TR4.0 as no additional bugs were found in this area between Elroy and
  * Mercury
  */
 
