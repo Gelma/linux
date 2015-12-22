@@ -328,7 +328,7 @@ int drxbsp_tuner_default_i2c_write_read(struct tuner_instance *tuner,
 
 /**************
 *
-* This section describes flag definitions for the device capbilities.
+* This section describes flag definitions for the device capabilities.
 *
 **************/
 
