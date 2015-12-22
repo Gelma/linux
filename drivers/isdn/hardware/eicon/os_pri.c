@@ -117,7 +117,7 @@ int diva_pri_init_card(diva_os_xdi_adapter_t *a)
 
 		/*
 		  First initialization step: get and check hardware resoures.
-		  Do not map resources and do not acecess card at this step
+		  Do not map resources and do not access card at this step
 		*/
 		for (bar = 0; bar < 5; bar++) {
 			a->resources.pci.bar[bar] =
@@ -301,7 +301,7 @@ static int diva_pri_cleanup_adapter(diva_os_xdi_adapter_t *a)
 	diva_os_destroy_spin_lock(&a->xdi_adapter.data_spin_lock, "rm");
 
 	/*
-	  Free memory accupied by XDI adapter
+	  Free memory occupied by XDI adapter
 	*/
 	if (a->xdi_adapter.e_tbl) {
 		diva_os_free(0, a->xdi_adapter.e_tbl);
