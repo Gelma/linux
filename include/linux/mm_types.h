@@ -148,7 +148,7 @@ struct page {
 			 * On 64 bit system we have enough space in struct page
 			 * to encode compound_dtor and compound_order with
 			 * unsigned int. It can help compiler generate better or
-			 * smaller code on some archtectures.
+			 * smaller code on some architectures.
 			 */
 			unsigned int compound_dtor;
 			unsigned int compound_order;
