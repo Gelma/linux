@@ -846,7 +846,7 @@ static inline void pmdp_set_wrprotect(struct mm_struct *mm,
 /*
  * clone_pgd_range(pgd_t *dst, pgd_t *src, int count);
  *
- *  dst - pointer to pgd range anwhere on a pgd page
+ *  dst - pointer to pgd range anywhere on a pgd page
  *  src - ""
  *  count - the number of pgds to copy.
  *
