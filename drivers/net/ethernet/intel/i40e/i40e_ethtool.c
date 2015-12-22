@@ -2256,7 +2256,7 @@ static int i40e_set_rss_hash_opt(struct i40e_pf *pf, struct ethtool_rxnfc *nfc)
 /**
  * i40e_match_fdir_input_set - Match a new filter against an existing one
  * @rule: The filter already added
- * @input: The new filter to comapre against
+ * @input: The new filter to compare against
  *
  * Returns true if the two input set match
  **/
