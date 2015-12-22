@@ -31,7 +31,7 @@
 
    In order to clearly tell the driver that we are in user DMA
    YUV mode you need to call IVTV_IOC_DMA_FRAME with y_source == NULL
-   first (althrough if you don't then the first time
+   first (although if you don't then the first time
    DMA_FRAME is called the mode switch is done automatically).
 
    When you close the file handle the user DMA mode is exited again.
