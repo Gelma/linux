@@ -520,7 +520,7 @@ unsigned long sm501_set_clock(struct device *dev,
 
 	struct sm501_clock to;
 
-	/* find achivable discrete frequency and setup register value
+	/* find achievable discrete frequency and setup register value
 	 * accordingly, V2XCLK, MCLK and M1XCLK are the same P2XCLK
 	 * has an extra bit for the divider */
 
@@ -642,7 +642,7 @@ unsigned long sm501_find_clock(struct device *dev,
 			       unsigned long req_freq)
 {
 	struct sm501_devdata *sm = dev_get_drvdata(dev);
-	unsigned long sm501_freq; /* the frequency achieveable by the 501 */
+	unsigned long sm501_freq; /* the frequency achievable by the 501 */
 	struct sm501_clock to;
 
 	switch (clksrc) {
