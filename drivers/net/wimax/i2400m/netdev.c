@@ -474,7 +474,7 @@ void i2400m_rx_fake_eth_header(struct net_device *net_dev,
  * still use netif_rx() instead of netif_receive_skb() as was
  * recommended in the mailing list. Reason is in some stress tests
  * when sending/receiving a lot of data we seem to hit a softlock in
- * the kernel's TCP implementation [aroudn tcp_delay_timer()]. Using
+ * the kernel's TCP implementation [around tcp_delay_timer()]. Using
  * netif_rx() took care of the issue.
  *
  * This is, of course, still open to do more research on why running
@@ -543,7 +543,7 @@ error_skb_realloc:
  * still use netif_rx() instead of netif_receive_skb() as was
  * recommended in the mailing list. Reason is in some stress tests
  * when sending/receiving a lot of data we seem to hit a softlock in
- * the kernel's TCP implementation [aroudn tcp_delay_timer()]. Using
+ * the kernel's TCP implementation [around tcp_delay_timer()]. Using
  * netif_rx() took care of the issue.
  *
  * This is, of course, still open to do more research on why running
@@ -626,7 +626,7 @@ void i2400m_netdev_setup(struct net_device *net_dev)
 		  NETIF_F_VLAN_CHALLENGED
 		| NETIF_F_HIGHDMA;
 	net_dev->flags =
-		IFF_NOARP		/* i2400m is apure IP device */
+		IFF_NOARP		/* i2400m is a pure IP device */
 		& (~IFF_BROADCAST	/* i2400m is P2P */
 		   & ~IFF_MULTICAST);
 	net_dev->watchdog_timeo = I2400M_TX_TIMEOUT;
