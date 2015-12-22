@@ -445,7 +445,7 @@ static void __rsnd_ssi_interrupt(struct rsnd_mod *mod,
 				   rsnd_dai_pointer_offset(io, 0));
 
 		/*
-		 * 8/16/32 data can be assesse to TDR/RDR register
+		 * 8/16/32 data can be accessed to TDR/RDR register
 		 * directly as 32bit data
 		 * see rsnd_ssi_init()
 		 */
