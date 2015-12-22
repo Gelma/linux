@@ -323,7 +323,7 @@ EXPORT_SYMBOL(cfs_free_nidlist);
  * Parses with rigorous syntax and overflow checking \a str into
  * \<nidrange\> [ ' ' \<nidrange\> ], compiles \a str into set of
  * structures and links that structure to \a nidlist. The resulting
- * list can be used to match a NID againts set of NIDS defined by \a
+ * list can be used to match a NID against set of NIDS defined by \a
  * str.
  * \see cfs_match_nid
  *
