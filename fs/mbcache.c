@@ -807,7 +807,7 @@ mb_cache_entry_find_first(struct mb_cache *cache, struct block_device *bdev,
  *
  * Find the next cache entry on a given device with a certain key in an
  * additional index. Returns NULL if no match could be found. The previous
- * entry is atomatically released, so that mb_cache_entry_find_next() can
+ * entry is automatically released, so that mb_cache_entry_find_next() can
  * be called like this:
  *
  * entry = mb_cache_entry_find_first();
