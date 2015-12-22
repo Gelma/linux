@@ -6,7 +6,7 @@
  * This file is licensed under GPLv2
  *
  * The basic idea here is to enable a device to be attached to an
- * aritrary numer of classes without having to allocate storage for them.
+ * arbitrary numer of classes without having to allocate storage for them.
  * Instead, the contained classes select the devices they need to attach
  * to via a matching function.
  */
