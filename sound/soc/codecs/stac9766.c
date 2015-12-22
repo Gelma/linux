@@ -262,7 +262,7 @@ static struct snd_soc_dai_driver stac9766_dai[] = {
 {
 	.name = "stac9766-hifi-analog",
 
-	/* stream cababilities */
+	/* stream capabilities */
 	.playback = {
 		.stream_name = "stac9766 analog",
 		.channels_min = 1,
@@ -283,7 +283,7 @@ static struct snd_soc_dai_driver stac9766_dai[] = {
 {
 	.name = "stac9766-hifi-IEC958",
 
-	/* stream cababilities */
+	/* stream capabilities */
 	.playback = {
 		.stream_name = "stac9766 IEC958",
 		.channels_min = 1,
