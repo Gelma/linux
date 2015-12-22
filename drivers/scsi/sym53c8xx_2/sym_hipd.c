@@ -2170,7 +2170,7 @@ sym_setpprot(struct sym_hcb *np, int target, u_char opts, u_char ofs,
  *
  *  There are some small SCRIPTS sections that deal with 
  *  the start queue and the done queue that may break any 
- *  assomption from the C code if we are interrupted 
+ *  assumption from the C code if we are interrupted 
  *  inside, so we reset if this happens. Btw, since these 
  *  SCRIPTS sections are executed while the SCRIPTS hasn't 
  *  started SCSI operations, it is very unlikely to happen.
@@ -3376,8 +3376,8 @@ static void sym_sir_task_recovery(struct sym_hcb *np, int num)
 		}
 		if (!i) {
 			/*
-			 *  We are done, so we donnot need 
-			 *  to synchronize with the SCRIPTS anylonger.
+			 *  We are done, so we donnot need
+			 *  to synchronize with the SCRIPTS any longer.
 			 *  Remove the SEM flag from the ISTAT.
 			 */
 			np->istat_sem = 0;
@@ -3482,10 +3482,10 @@ static void sym_sir_task_recovery(struct sym_hcb *np, int num)
 		}
 
 		/*
-		 *  If we have none, probably since the device has 
-		 *  completed the command before we won abitration,
+		 *  If we have none, probably since the device has
+		 *  completed the command before we won arbitration,
 		 *  send a M_ABORT message without IDENTIFY.
-		 *  According to the specs, the device must just 
+		 *  According to the specs, the device must just
 		 *  disconnect the BUS and not abort any task.
 		 */
 		if (!i) {
