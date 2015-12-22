@@ -448,7 +448,7 @@ static void _InitRetryFunction(struct adapter *Adapter)
  * Function:	usb_AggSettingTxUpdate()
  *
  * Overview:	Separate TX/RX parameters update independent for TP detection and
- *			dynamic TX/RX aggreagtion parameters update.
+ *			dynamic TX/RX aggregation parameters update.
  *
  * Input:			struct adapter *
  *
@@ -480,7 +480,7 @@ static void usb_AggSettingTxUpdate(struct adapter *Adapter)
  * Function:	usb_AggSettingRxUpdate()
  *
  * Overview:	Separate TX/RX parameters update independent for TP detection and
- *			dynamic TX/RX aggreagtion parameters update.
+ *			dynamic TX/RX aggregation parameters update.
  *
  * Input:			struct adapter *
  *
