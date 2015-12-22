@@ -40,7 +40,7 @@
 
 /* MPU semphore POST stage values */
 #define POST_STAGE_AWAITING_HOST_RDY 	0x1 /* FW awaiting goahead from host */
-#define POST_STAGE_HOST_RDY 		0x2 /* Host has given go-ahed to FW */
+#define POST_STAGE_HOST_RDY 		0x2 /* Host has given go-ahead to FW */
 #define POST_STAGE_BE_RESET		0x3 /* Host wants to reset chip */
 #define POST_STAGE_ARMFW_RDY		0xc000	/* FW is done with POST */
 
