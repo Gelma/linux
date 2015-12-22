@@ -81,7 +81,7 @@ enum nfs_stat_bytecounters {
  * is working, and answer questions such as "why are there so many
  * GETATTR requests on the wire?"
  *
- * They also count anamolous events such as short reads and writes,
+ * They also count anomalous events such as short reads and writes,
  * silly renames due to close-after-delete, and operations that
  * change the size of a file (such operations can often be the
  * source of data corruption if applications aren't using file
