@@ -1261,7 +1261,7 @@ static void b43legacy_beacon_update_trigger_work(struct work_struct *work)
 static void b43legacy_update_templates(struct b43legacy_wl *wl)
 {
 	struct sk_buff *beacon;
-	/* This is the top half of the ansynchronous beacon update. The bottom
+	/* This is the top half of the asynchronous beacon update. The bottom
 	 * half is the beacon IRQ. Beacon update must be asynchronous to avoid
 	 * sending an invalid beacon. This can happen for example, if the
 	 * firmware transmits a beacon while we are updating it. */
