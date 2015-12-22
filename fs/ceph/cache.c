@@ -245,7 +245,7 @@ static inline int cache_valid(struct ceph_inode_info *ci)
 }
 
 
-/* Atempt to read from the fscache,
+/* Attempt to read from the fscache,
  *
  * This function is called from the readpage_nounlock context. DO NOT attempt to
  * unlock the page here (or in the callback).
