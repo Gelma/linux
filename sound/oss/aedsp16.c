@@ -203,7 +203,7 @@
    v0.9 (BETA)
    - Integrated with linux-pre2.0.7
    - Integrated with configuration scripts.
-   - Cleaned up and beautyfied the code.
+   - Cleaned up and beautified the code.
    v0.9.9 (BETA)
    - Thanks to Piercarlo Grandi: corrected the conditonal compilation code.
      Now only the code configured is compiled in, with some memory saving.
