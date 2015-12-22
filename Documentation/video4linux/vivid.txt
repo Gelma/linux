@@ -313,7 +313,7 @@ will be SMPTE-170M.
 The pixel aspect ratio will depend on the TV standard. The video aspect ratio
 can be selected through the 'Standard Aspect Ratio' Vivid control.
 Choices are '4x3', '16x9' which will give letterboxed widescreen video and
-'16x9 Anomorphic' which will give full screen squashed anamorphic widescreen
+'16x9 Anamorphic' which will give full screen squashed anamorphic widescreen
 video that will need to be scaled accordingly.
 
 The TV 'tuner' supports a frequency range of 44-958 MHz. Channels are available
