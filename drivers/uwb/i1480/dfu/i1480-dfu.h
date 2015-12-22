@@ -102,7 +102,7 @@ struct uwb_rceb;
  *              i1480_fw_upload().
  *              Size has to be @buf_size.
  * @cmd_complete
- *              Low level driver uses this to notify code waiting afor
+ *              Low level driver uses this to notify code waiting for
  *              an event that the event has arrived and data is in
  *              i1480->evt_buf (and size/result in i1480->evt_result).
  * @hw_rev
