@@ -72,7 +72,7 @@ static int smsusb_submit_urb(struct smsusb_device_t *dev,
 
 /**
  * Completing URB's callback handler - top half (interrupt context)
- * adds completing sms urb to the global surbs list and activtes the worker
+ * adds completing sms urb to the global surbs list and activates the worker
  * thread the surb
  * IMPORTANT - blocking functions must not be called from here !!!
 
