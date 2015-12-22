@@ -909,7 +909,7 @@ spider_net_xmit(struct sk_buff *skb, struct net_device *netdev)
  *
  * spider_net_cleanup_tx_ring is called by either the tx_timer
  * or from the NAPI polling routine.
- * This routine releases resources associted with transmitted
+ * This routine releases resources associated with transmitted
  * packets, including updating the queue tail pointer.
  */
 static void
