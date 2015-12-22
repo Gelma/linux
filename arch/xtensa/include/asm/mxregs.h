@@ -37,7 +37,7 @@
 #define MIENG		0x180
 #define MIENGSET	0x184
 #define MIASG		0x188	/* Read Global Assert Register */
-#define MIASGSET	0x18c	/* Set Global Addert Regiter */
+#define MIASGSET	0x18c	/* Set Global Assert Register */
 #define MIPIPART	0x190
 #define SYSCFGID	0x1a0
 #define MPSCORE		0x200
