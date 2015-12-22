@@ -462,7 +462,7 @@
 #define bfin_read_MDMA_S0_PERIPHERAL_MAP()   bfin_read16(MDMA_S0_PERIPHERAL_MAP)
 #define bfin_write_MDMA_S0_PERIPHERAL_MAP(val) bfin_write16(MDMA_S0_PERIPHERAL_MAP,val)
 
-/* Aysnchronous Memory Controller - External Bus Interface Unit (0xFFC0 3C00-0xFFC0 3FFF) */
+/* Asynchronous Memory Controller - External Bus Interface Unit (0xFFC0 3C00-0xFFC0 3FFF) */
 #define bfin_read_EBIU_AMGCTL()              bfin_read16(EBIU_AMGCTL)
 #define bfin_write_EBIU_AMGCTL(val)          bfin_write16(EBIU_AMGCTL,val)
 #define bfin_read_EBIU_AMBCTL0()             bfin_read32(EBIU_AMBCTL0)
