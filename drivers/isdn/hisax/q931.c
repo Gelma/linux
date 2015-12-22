@@ -848,7 +848,7 @@ struct DTag { /* Display tags */
 	{ 0x85, "Progress indicator" },
 	{ 0x86, "Notification indicator" },
 	{ 0x87, "Prompt" },
-	{ 0x88, "Accumlated digits" },
+	{ 0x88, "Accumulated digits" },
 	{ 0x89, "Status" },
 	{ 0x8a, "Inband" },
 	{ 0x8b, "Calling address" },
