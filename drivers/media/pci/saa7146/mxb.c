@@ -620,7 +620,7 @@ static int vidioc_s_frequency(struct file *file, void *fh, const struct v4l2_fre
 	if (mxb->cur_input)
 		return 0;
 
-	/* hack: changing the frequency should invalidate the vbi-counter (=> alevt) */
+	/* hack: changing the frequency should invalidate the vbi-counter (=> alert) */
 	spin_lock(&dev->slock);
 	vv->vbi_fieldcount = 0;
 	spin_unlock(&dev->slock);
