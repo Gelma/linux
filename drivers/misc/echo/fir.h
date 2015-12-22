@@ -39,7 +39,7 @@
 
    1/ Rewrite filter for dual MAC inner loop.  The issue here is handling
    history sample offsets that are 16 bit aligned - the dual MAC needs
-   32 bit aligmnent.  There are some good examples in libbfdsp.
+   32 bit alignment.  There are some good examples in libbfdsp.
 
    2/ Use the hardware circular buffer facility tohalve memory usage.
 
