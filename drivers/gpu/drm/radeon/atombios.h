@@ -3818,15 +3818,15 @@ typedef struct _ATOM_DPCD_INFO
 #define	ATOM_VRAM_BLOCK_NEEDS_NO_RESERVATION   0x1
 #define	ATOM_VRAM_BLOCK_NEEDS_RESERVATION      0x0
 
-/***********************************************************************************/	
+/***********************************************************************************/
 // Structure used in VRAM_UsageByFirmwareTable
 // Note1: This table is filled by SetBiosReservationStartInFB in CoreCommSubs.asm
-//        at running time.   
-// note2: From RV770, the memory is more than 32bit addressable, so we will change 
-//        ucTableFormatRevision=1,ucTableContentRevision=4, the strcuture remains 
-//        exactly same as 1.1 and 1.2 (1.3 is never in use), but ulStartAddrUsedByFirmware 
-//        (in offset to start of memory address) is KB aligned instead of byte aligend.
-/***********************************************************************************/	
+//        at running time.
+// note2: From RV770, the memory is more than 32bit addressable, so we will change
+//        ucTableFormatRevision=1,ucTableContentRevision=4, the strcuture remains
+//        exactly same as 1.1 and 1.2 (1.3 is never in use), but ulStartAddrUsedByFirmware
+//        (in offset to start of memory address) is KB aligned instead of byte aligned.
+/***********************************************************************************/
 // Note3:
 /* If we change usReserved to "usFBUsedbyDrvInKB", then to VBIOS this usFBUsedbyDrvInKB is a predefined, unchanged constant across VGA or non VGA adapter,
 for CAIL, The size of FB access area is known, only thing missing is the Offset of FB Access area, so we can  have:
@@ -6565,7 +6565,7 @@ typedef	struct _ATOM_MEMORY_FORMAT
   UCHAR                      ucRefreshRateFactor;	// memory refresh rate in unit of ms	
 	UCHAR											 ucDensity;					// _8Mx32, _16Mx32, _16Mx16, _32Mx16
 	UCHAR											 ucPreamble;				//[7:4] Write Preamble, [3:0] Read Preamble
-  UCHAR											 ucMemAttrib;				// Memory Device Addribute, like RDBI/WDBI etc
+  UCHAR											 ucMemAttrib;				// Memory Device Attribute, like RDBI/WDBI etc
 	ATOM_MEMORY_TIMING_FORMAT	 asMemTiming[5];		//Memory Timing block sort from lower clock to higher clock
 }ATOM_MEMORY_FORMAT;
 
@@ -7641,16 +7641,16 @@ typedef struct _DFP_DPMS_STATUS_CHANGE_PARAMETERS
 #define ATOM_PM_MISCINFO_THERMAL_DIODE_MODE              0x00080000L
 
 #define ATOM_PM_MISCINFO_FRAME_MODULATION_MASK           0x00300000L  //0-FM Disable, 1-2 level FM, 2-4 level FM, 3-Reserved
-#define ATOM_PM_MISCINFO_FRAME_MODULATION_SHIFT          20 
+#define ATOM_PM_MISCINFO_FRAME_MODULATION_SHIFT          20
 
 #define ATOM_PM_MISCINFO_DYN_CLK_3D_IDLE                 0x00400000L
 #define ATOM_PM_MISCINFO_DYNAMIC_CLOCK_DIVIDER_BY_2      0x00800000L
 #define ATOM_PM_MISCINFO_DYNAMIC_CLOCK_DIVIDER_BY_4      0x01000000L
-#define ATOM_PM_MISCINFO_DYNAMIC_HDP_BLOCK_EN            0x02000000L  //When set, Dynamic 
+#define ATOM_PM_MISCINFO_DYNAMIC_HDP_BLOCK_EN            0x02000000L  //When set, Dynamic
 #define ATOM_PM_MISCINFO_DYNAMIC_MC_HOST_BLOCK_EN        0x04000000L  //When set, Dynamic
-#define ATOM_PM_MISCINFO_3D_ACCELERATION_EN              0x08000000L  //When set, This mode is for acceleated 3D mode
+#define ATOM_PM_MISCINFO_3D_ACCELERATION_EN              0x08000000L  //When set, This mode is for accelerated 3D mode
 
-#define ATOM_PM_MISCINFO_POWERPLAY_SETTINGS_GROUP_MASK   0x70000000L  //1-Optimal Battery Life Group, 2-High Battery, 3-Balanced, 4-High Performance, 5- Optimal Performance (Default state with Default clocks) 
+#define ATOM_PM_MISCINFO_POWERPLAY_SETTINGS_GROUP_MASK   0x70000000L  //1-Optimal Battery Life Group, 2-High Battery, 3-Balanced, 4-High Performance, 5- Optimal Performance (Default state with Default clocks)
 #define ATOM_PM_MISCINFO_POWERPLAY_SETTINGS_GROUP_SHIFT  28
 #define ATOM_PM_MISCINFO_ENABLE_BACK_BIAS                0x80000000L
 
