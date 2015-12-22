@@ -1245,7 +1245,7 @@ enum llioc_iter {
  * Parameters:
  *  @magic: Dynamic ioctl call routine will feed this value with the pointer
  *      returned to ll_iocontrol_register.  Callback functions should use this
- *      data to check the potential collasion of ioctl cmd. If collasion is
+ *      data to check the potential collision of ioctl cmd. If collision is
  *      found, callback function should return LLIOC_CONT.
  *  @rcp: The result of ioctl command.
  *
