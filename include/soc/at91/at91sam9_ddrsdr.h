@@ -108,7 +108,7 @@
 #define		AT91_DDRSDRC_MDVAL	(0xff <<  8)		/* Master Delay value */
 
 #define AT91_DDRSDRC_HS		0x2C	/* High Speed Register [SAM9 Only] */
-#define		AT91_DDRSDRC_DIS_ATCP_RD	(1 << 2)	/* Anticip read access is disabled */
+#define		AT91_DDRSDRC_DIS_ATCP_RD	(1 << 2)	/* Anticipate read access is disabled */
 
 #define AT91_DDRSDRC_DELAY(n)	(0x30 + (0x4 * (n)))	/* Delay I/O Register n */
 
