@@ -306,7 +306,7 @@ static int bd_available_ep(struct bdc_ep *ep)
 
 	/*
 	 * Depending upon where eqp and dqp pointers are, caculate number
-	 * of avaialble bd's
+	 * of available bd's
 	 */
 	if (bd_list->hwd_bdi < bd_list->eqp_bdi) {
 		/* available bd's are from eqp..max_bds + 0..dqp - chain_bds */
@@ -526,7 +526,7 @@ static int bdc_queue_xfr(struct bdc *bdc, struct bdc_req *req)
 	num_bds =  bd_needed_req(req);
 	bd_available = bd_available_ep(ep);
 
-	/* how many bd's are avaialble on ep */
+	/* how many bd's are available on ep */
 	if (num_bds > bd_available)
 		return -ENOMEM;
 
