@@ -341,7 +341,7 @@ struct xfs_cil {
 #define XLOG_CIL_SPACE_LIMIT(log)	(log->l_logsize >> 3)
 
 /*
- * ticket grant locks, queues and accounting have their own cachlines
+ * ticket grant locks, queues and accounting have their own cachelines
  * as these are quite hot and can be operated on concurrently.
  */
 struct xlog_grant_head {
