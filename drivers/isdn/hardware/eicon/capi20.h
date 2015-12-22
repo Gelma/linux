@@ -35,7 +35,7 @@
 #define CAPI20_CTL_GET_VERSION          0x0806
 #define CAPI20_CTL_GET_SERIAL           0x0807
 #define CAPI20_CTL_GET_PROFILE          0x0808
-/* INTERNAL_DEVICE_CONTROL codes for kernel mode applicatios only */
+/* INTERNAL_DEVICE_CONTROL codes for kernel mode applications only */
 #define CAPI20_CTL_PUT_MESSAGE          0x0803
 #define CAPI20_CTL_GET_MESSAGE          0x0804
 /* the wrapped codes as required by the system */
