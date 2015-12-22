@@ -488,7 +488,7 @@ void rtl92se_tx_fill_desc(struct ieee80211_hw *hw,
 		/* We will assign magement queue to BK. */
 		SET_TX_DESC_QUEUE_SEL(pdesc, fw_qsel);
 
-		/* Alwasy enable all rate fallback range */
+		/* Always enable all rate fallback range */
 		SET_TX_DESC_DATA_RATE_FB_LIMIT(pdesc, 0x1F);
 
 		/* Fix: I don't kown why hw use 6.5M to tx when set it */
