@@ -46,7 +46,7 @@ static int fwh_xxlock_oneblock(struct map_info *map, struct flchip *chip,
 	 *
 	 * The address manipulation is first done on the logical address
 	 * which is 0 at the start of the chip, and then the offset of
-	 * the individual chip is addted to it.  Any other order a weird
+	 * the individual chip is added to it.  Any other order a weird
 	 * map offset could cause problems.
 	 */
 	adr = (adr & ~0xffffUL) | 0x2;
