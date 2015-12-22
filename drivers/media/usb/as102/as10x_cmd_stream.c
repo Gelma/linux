@@ -76,7 +76,7 @@ out:
 
 /**
  * as10x_cmd_del_PID_filter - Send delete filter command to AS10x
- * @adap:         pointer to AS10x bus adapte
+ * @adap:         pointer to AS10x bus adapter
  * @pid_value:    PID to delete
  *
  * Return 0 on success or negative value in case of error.
