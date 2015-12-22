@@ -12,7 +12,7 @@
  * due to context switches.  Context numbers are implemented using ia-64
  * region ids.  Since the IA-64 TLB does not consider the region number when
  * performing a TLB lookup, we need to assign a unique region id to each
- * region in a process.  We use the least significant three bits in aregion
+ * region in a process.  We use the least significant three bits in a region
  * id for this purpose.
  */
 
