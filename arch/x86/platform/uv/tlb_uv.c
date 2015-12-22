@@ -1193,7 +1193,7 @@ void process_uv2_message(struct msg_desc *mdp, struct bau_control *bcp)
 	if ((swack_vec & mmr_image) == 0) {
 		/*
 		 * This message was assigned a swack resource, but no
-		 * reserved acknowlegment is pending.
+		 * reserved acknowledgment is pending.
 		 * The bug has prevented this message from setting the MMR.
 		 */
 		/*
