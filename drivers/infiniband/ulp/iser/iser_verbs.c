@@ -72,7 +72,7 @@ static void iser_event_handler(struct ib_event_handler *handler,
 /**
  * iser_create_device_ib_res - creates Protection Domain (PD), Completion
  * Queue (CQ), DMA Memory Region (DMA MR) with the device associated with
- * the adapator.
+ * the adapter.
  *
  * returns 0 on success, -1 on failure
  */
@@ -173,7 +173,7 @@ comps_err:
 
 /**
  * iser_free_device_ib_res - destroy/dealloc/dereg the DMA MR,
- * CQ and PD created with the device associated with the adapator.
+ * CQ and PD created with the device associated with the adapter.
  */
 static void iser_free_device_ib_res(struct iser_device *device)
 {
