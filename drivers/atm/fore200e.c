@@ -171,7 +171,7 @@ fore200e_irq_itoa(int irq)
 }
 
 
-/* allocate and align a chunk of memory intended to hold the data behing exchanged
+/* allocate and align a chunk of memory intended to hold the data behind exchanged
    between the driver and the adapter (using streaming DVMA) */
 
 static int
