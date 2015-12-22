@@ -2549,7 +2549,7 @@ static void hifn_tasklet_callback(unsigned long data)
 
 	/*
 	 * This is ok to call this without lock being held,
-	 * althogh it modifies some parameters used in parallel,
+	 * although it modifies some parameters used in parallel,
 	 * (like dev->success), but they are used in process
 	 * context or update is atomic (like setting dev->sa[i] to NULL).
 	 */
