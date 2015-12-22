@@ -305,7 +305,7 @@ static int configfs_create_dir(struct config_item *item, struct dentry *dentry)
 
 /*
  * Allow userspace to create new entries under a new directory created with
- * configfs_create_dir(), and under all of its chidlren directories recursively.
+ * configfs_create_dir(), and under all of its children directories recursively.
  * @sd		configfs_dirent of the new directory to validate
  *
  * Caller must hold configfs_dirent_lock.
@@ -644,7 +644,7 @@ static void detach_groups(struct config_group *group)
 
 /*
  * This fakes mkdir(2) on a default_groups[] entry.  It
- * creates a dentry, attachs it, and then does fixup
+ * creates a dentry, attaches it, and then does fixup
  * on the sd->s_type.
  *
  * We could, perhaps, tweak our parent's ->mkdir for a minute and
