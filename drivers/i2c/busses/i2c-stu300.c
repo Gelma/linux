@@ -126,7 +126,7 @@ enum stu300_error {
 #define STU300_TIMEOUT (msecs_to_jiffies(1000))
 
 /*
- * The number of address send athemps tried before giving up.
+ * The number of address send attempts tried before giving up.
  * If the first one failes it seems like 5 to 8 attempts are required.
  */
 #define NUM_ADDR_RESEND_ATTEMPTS 12
