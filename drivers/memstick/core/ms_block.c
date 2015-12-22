@@ -334,7 +334,7 @@ static int h_msb_default_bad(struct memstick_dev *card,
 /*
  * This function is a handler for reads of one page from device.
  * Writes output to msb->current_sg, takes sector address from msb->reg.param
- * Can also be used to read extra data only. Set params accordintly.
+ * Can also be used to read extra data only. Set params accordingly.
  */
 static int h_msb_read_page(struct memstick_dev *card,
 					struct memstick_request **out_mrq)
