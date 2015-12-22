@@ -189,7 +189,7 @@ struct ufs_query {
 };
 
 /**
- * struct ufs_dev_cmd - all assosiated fields with device management commands
+ * struct ufs_dev_cmd - all associated fields with device management commands
  * @type: device management command type - Query, NOP OUT
  * @lock: lock to allow one command at a time
  * @complete: internal commands completion
