@@ -1693,7 +1693,7 @@ static inline void enable_msgout_abort(struct AdapterCtlBlk *acb,
  * dc395x_handle_interrupt - Handle an interrupt that has been confirmed to
  *                           have been triggered for this card.
  *
- * @acb:	 a pointer to the adpter control block
+ * @acb:	 a pointer to the adapter control block
  * @scsi_status: the status return when we checked the card
  **/
 static void dc395x_handle_interrupt(struct AdapterCtlBlk *acb,
@@ -3617,7 +3617,7 @@ static void set_basic_config(struct AdapterCtlBlk *acb)
 	DC395x_write8(acb, TRM_S1040_SCSI_CONFIG1, 0x03);	/* was 0x13: default */
 	/* program Host ID                  */
 	DC395x_write8(acb, TRM_S1040_SCSI_HOSTID, acb->scsi_host->this_id);
-	/* set ansynchronous transfer       */
+	/* set asynchronous transfer        */
 	DC395x_write8(acb, TRM_S1040_SCSI_OFFSET, 0x00);
 	/* Turn LED control off */
 	wval = DC395x_read16(acb, TRM_S1040_GEN_CONTROL) & 0x7F;
