@@ -1052,7 +1052,7 @@ static void ali_ircc_sir_change_speed(struct ali_ircc_cb *priv, __u32 speed)
 		FIR2SIR(iobase);
 	}
 		
-	// Clear Line and Auxiluary status registers 2000/11/24 11:47AM
+	// Clear Line and Auxiliary status registers 2000/11/24 11:47AM
 		
 	inb(iobase+UART_LSR);
 	inb(iobase+UART_SCR);
