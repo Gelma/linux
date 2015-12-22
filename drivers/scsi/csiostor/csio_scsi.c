@@ -792,7 +792,7 @@ csio_scsis_io_active(struct csio_ioreq *req, enum csio_scsi_ev evt)
 		 * internally queue up such up such completions in the rnode.
 		 * The reporting of I-T nexus loss to the upper layer is then
 		 * followed by the returning of I/Os in this internal queue.
-		 * Having another state alongwith another queue helps us take
+		 * Having another state along with another queue helps us take
 		 * actions for events such as ABORT received while we are
 		 * in this rnode queue.
 		 */
