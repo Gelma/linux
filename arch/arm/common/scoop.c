@@ -27,7 +27,7 @@
    is used which is setup by the platform code.
 
    This file is never modular so this symbol is always
-   accessile to the board support files.
+   accessible to the board support files.
 */
 struct scoop_pcmcia_config *platform_scoop_config;
 EXPORT_SYMBOL(platform_scoop_config);
