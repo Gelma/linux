@@ -100,7 +100,7 @@ static void ieee80211_send_addba_request(struct ieee80211_sub_if_data *sdata,
 	capab = (u16)(1 << 0);		/* bit 0 A-MSDU support */
 	capab |= (u16)(1 << 1);		/* bit 1 aggregation policy */
 	capab |= (u16)(tid << 2); 	/* bit 5:2 TID number */
-	capab |= (u16)(agg_size << 6);	/* bit 15:6 max size of aggergation */
+	capab |= (u16)(agg_size << 6);	/* bit 15:6 max size of aggregation */
 
 	mgmt->u.action.u.addba_req.capab = cpu_to_le16(capab);
 
