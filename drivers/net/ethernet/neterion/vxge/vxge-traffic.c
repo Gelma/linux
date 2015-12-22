@@ -283,7 +283,7 @@ void vxge_hw_vpath_dynamic_rti_rtimer_set(struct __vxge_hw_ring *ring)
 
 /**
  * vxge_hw_channel_msix_mask - Mask MSIX Vector.
- * @channeh: Channel for rx or tx handle
+ * @channel: Channel for rx or tx handle
  * @msix_id:  MSIX ID
  *
  * The function masks the msix interrupt for the given msix_id
@@ -300,7 +300,7 @@ void vxge_hw_channel_msix_mask(struct __vxge_hw_channel *channel, int msix_id)
 
 /**
  * vxge_hw_channel_msix_unmask - Unmask the MSIX Vector.
- * @channeh: Channel for rx or tx handle
+ * @channel: Channel for rx or tx handle
  * @msix_id:  MSI ID
  *
  * The function unmasks the msix interrupt for the given msix_id
@@ -2199,7 +2199,7 @@ exit:
 
 /**
  * vxge_hw_vpath_msix_set - Associate MSIX vectors with TIM interrupts and
- *                            alrms
+ *                            alarms
  * @vp: Virtual Path handle.
  * @tim_msix_id: MSIX vectors associated with VXGE_HW_MAX_INTR_PER_VP number of
  *             interrupts(Can be repeated). If fifo or ring are not enabled
