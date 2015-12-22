@@ -424,7 +424,7 @@ struct atl1e_rx_ring {
 	dma_addr_t  	dma;
 	int         	size;
 	u32	    	page_size; /* bytes length of rxf page */
-	u32		real_page_size; /* real_page_size = page_size + jumbo + aliagn */
+	u32		real_page_size; /* real_page_size = page_size + jumbo + align */
 	struct atl1e_rx_page_desc	rx_page_desc[AT_MAX_RECEIVE_QUEUE];
 };
 
