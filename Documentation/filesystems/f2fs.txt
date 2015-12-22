@@ -192,7 +192,7 @@ Files in /sys/fs/f2fs/<devname>
                               policy for garbage collection. Setting gc_idle = 0
                               (default) will disable this option. Setting
                               gc_idle = 1 will select the Cost Benefit approach
-                              & setting gc_idle = 2 will select the greedy aproach.
+                              & setting gc_idle = 2 will select the greedy approach.
 
  reclaim_segments             This parameter controls the number of prefree
                               segments to be reclaimed. If the number of prefree
