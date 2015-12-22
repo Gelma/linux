@@ -937,7 +937,7 @@ void cx88_set_stereo(struct cx88_core *core, u32 mode, int manual)
 				/* fall back to fm / am mono */
 				set_audio_standard_A2(core, EN_A2_FORCE_MONO1);
 			} else {
-				/* TODO: Add A2 autodection */
+				/* TODO: Add A2 autodetection */
 				mask = 0x3f;
 				switch (mode) {
 				case V4L2_TUNER_MODE_MONO:
