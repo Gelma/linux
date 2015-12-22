@@ -4380,7 +4380,7 @@ findFirstRetry:
 		name_len =
 		    cifsConvertToUTF16((__le16 *) pSMB->FileName, searchName,
 				       PATH_MAX, nls_codepage, remap);
-		/* We can not add the asterik earlier in case
+		/* We can not add the asterisk earlier in case
 		it got remapped to 0xF03A as if it were part of the
 		directory name instead of a wildcard */
 		name_len *= 2;
