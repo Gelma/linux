@@ -1273,7 +1273,7 @@ static int sony_raw_event(struct hid_device *hdev, struct hid_report *report,
 	struct sony_sc *sc = hid_get_drvdata(hdev);
 
 	/*
-	 * Sixaxis HID report has acclerometers/gyro with MSByte first, this
+	 * Sixaxis HID report has accelerometers/gyro with MSByte first, this
 	 * has to be BYTE_SWAPPED before passing up to joystick interface
 	 */
 	if ((sc->quirks & SIXAXIS_CONTROLLER) && rd[0] == 0x01 && size == 49) {
