@@ -473,7 +473,7 @@ struct uwb_rc *__uwb_rc_try_get(struct uwb_rc *target_rc)
 EXPORT_SYMBOL_GPL(__uwb_rc_try_get);
 
 /*
- * RC get for external refcount acquirers...
+ * RC get for external refcount acquires...
  *
  * Increments the refcount of the device and it's backend modules
  */
