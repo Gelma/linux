@@ -2354,7 +2354,7 @@ static int mmc_blk_alloc_part(struct mmc_card *card,
 
 /* MMC Physical partitions consist of two boot partitions and
  * up to four general purpose partitions.
- * For each partition enabled in EXT_CSD a block device will be allocatedi
+ * For each partition enabled in EXT_CSD a block device will be allocated
  * to provide access to the partition.
  */
 
