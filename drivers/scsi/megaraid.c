@@ -3065,7 +3065,7 @@ megadev_ioctl(struct file *filep, unsigned int cmd, unsigned long arg)
 		/*
 		 * Shucks. MIMD interface returns a positive value for number
 		 * of adapters. TODO: Change it to return 0 when there is no
-		 * applicatio using mimd interface.
+		 * application using mimd interface.
 		 */
 		return hba_count;
 
