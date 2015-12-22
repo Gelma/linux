@@ -2111,7 +2111,7 @@ static void xhci_add_in_port(struct xhci_hcd *xhci, unsigned int num_ports,
 			rhub->psi[i] = readl(addr + 4 + i);
 
 			/* count unique ID values, two consecutive entries can
-			 * have the same ID if link is assymetric
+			 * have the same ID if link is asymmetric
 			 */
 			if (i && (XHCI_EXT_PORT_PSIV(rhub->psi[i]) !=
 				  XHCI_EXT_PORT_PSIV(rhub->psi[i - 1])))
