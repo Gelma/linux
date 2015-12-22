@@ -450,7 +450,7 @@ static int s5h1411_set_mpeg_timing(struct dvb_frontend *fe, int mode)
 		return -EINVAL;
 	}
 
-	/* Configure MPEG Signal Timing charactistics */
+	/* Configure MPEG Signal Timing characteristics */
 	return s5h1411_writereg(state, S5H1411_I2C_TOP_ADDR, 0xbe, val);
 }
 
