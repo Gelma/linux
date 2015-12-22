@@ -88,7 +88,7 @@ static void validate_firmware_response(struct kim_data_s *kim_gdata)
 		kfree_skb(skb);
 		return;		/* keep waiting for the proper response */
 	}
-	/* becos of all the script being downloaded */
+	/* because of all the script being downloaded */
 	complete_all(&kim_gdata->kim_rcvd);
 	kfree_skb(skb);
 }
