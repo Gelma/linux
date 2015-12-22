@@ -232,7 +232,7 @@ struct ccdc_config_params_raw {
 	/* Threshold of median filter */
 	int med_filt_thres;
 	/*
-	 * horz and vertical data offset. Appliable for defect correction
+	 * horz and vertical data offset. Applicable for defect correction
 	 * and lsc
 	 */
 	struct ccdc_data_offset data_offset;
