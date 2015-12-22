@@ -9,7 +9,7 @@
  *
  * Rewritten by Corey Minyard <minyard@acm.org> to support the
  * non-blocking I2C interface, add support for multi-part
- * transactions, add PEC support, and general clenaup.
+ * transactions, add PEC support, and general clean up.
  *
  * Copyright 2003 Intel Corporation
  * Copyright 2005 MontaVista Software
@@ -166,7 +166,7 @@ enum ssif_stat_indexes {
 	/* Number of watchdog pretimeouts. */
 	SSIF_STAT_watchdog_pretimeouts,
 
-	/* Number of alers received. */
+	/* Number of alerts received. */
 	SSIF_STAT_alerts,
 
 	/* Always add statistics before this value, it must be last. */
@@ -1179,7 +1179,7 @@ static int ssif_remove(struct i2c_client *client)
 		return 0;
 
 	/*
-	 * After this point, we won't deliver anything asychronously
+	 * After this point, we won't deliver anything asynchronously
 	 * to the message handler.  We can unregister ourself.
 	 */
 	rv = ipmi_unregister_smi(ssif_info->intf);
