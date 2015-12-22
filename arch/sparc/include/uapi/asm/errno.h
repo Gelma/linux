@@ -95,7 +95,7 @@
 #define	EISNAM		120	/* Is a named type file */
 #define	EREMOTEIO	121	/* Remote I/O error */
 #define	EILSEQ		122	/* Illegal byte sequence */
-#define	ELIBMAX		123	/* Atmpt to link in too many shared libs */
+#define	ELIBMAX		123	/* Attempt to link in too many shared libs */
 #define	ELIBSCN		124	/* .lib section in a.out corrupted */
 
 #define	ENOMEDIUM	125	/* No medium found */
