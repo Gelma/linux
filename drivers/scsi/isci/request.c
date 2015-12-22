@@ -656,7 +656,7 @@ static void sci_atapi_construct(struct isci_request *ireq)
 	if (task->data_dir == DMA_NONE)
 		task->total_xfer_len = 0;
 
-	/* clear the response so we can detect arrivial of an
+	/* clear the response so we can detect arrival of an
 	 * unsolicited h2d fis
 	 */
 	ireq->stp.rsp.fis_type = 0;
