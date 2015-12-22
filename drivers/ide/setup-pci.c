@@ -453,7 +453,7 @@ out:
  *	necessary per port setup. Attach the devices and ask the
  *	generic DMA layer to do its work for us.
  *
- *	Normally called automaticall from do_ide_pci_setup_device,
+ *	Normally called automatically from do_ide_pci_setup_device,
  *	but is also used directly as a helper function by some controllers
  *	where the chipset setup is not the default PCI IDE one.
  */
