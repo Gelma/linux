@@ -5516,7 +5516,7 @@
 #define XCM_REG_GLB_DEL_ACK_MAX_CNT_1				 0x2011c
 #define XCM_REG_GLB_DEL_ACK_TMR_VAL_0				 0x20108
 #define XCM_REG_GLB_DEL_ACK_TMR_VAL_1				 0x2010c
-/* [RW 1] Arbitratiojn between Input Arbiter groups: 0 - fair Round-Robin; 1
+/* [RW 1] Arbitration between Input Arbiter groups: 0 - fair Round-Robin; 1
    - strict priority defined by ~xcm_registers_gr_ag_pr.gr_ag_pr;
    ~xcm_registers_gr_ld0_pr.gr_ld0_pr and
    ~xcm_registers_gr_ld1_pr.gr_ld1_pr. */
