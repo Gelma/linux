@@ -321,7 +321,7 @@ static void ieee80211_tx_query_agg_cap(struct ieee80211_device *ieee,
 #ifdef TO_DO_LIST
 	if(pTcb->PacketLength >= 4096)
 		return;
-	// For RTL819X, if pairwisekey = wep/tkip, we don't aggrregation.
+	// For RTL819X, if pairwisekey = wep/tkip, we don't aggregate.
 	if(!Adapter->HalFunc.GetNmodeSupportBySecCfgHandler(Adapter))
 		return;
 #endif
