@@ -696,7 +696,7 @@ s32 brcmf_notify_escan_complete(struct brcmf_cfg80211_info *cfg,
 		params_le.home_time = cpu_to_le32(-1);
 		/* Scan is aborted by setting channel_list[0] to -1 */
 		params_le.channel_list[0] = cpu_to_le16(-1);
-		/* E-Scan (or anyother type) can be aborted by SCAN */
+		/* E-Scan (or any other type) can be aborted by SCAN */
 		err = brcmf_fil_cmd_data_set(ifp, BRCMF_C_SCAN,
 					     &params_le, sizeof(params_le));
 		if (err)
