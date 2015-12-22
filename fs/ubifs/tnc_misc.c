@@ -21,7 +21,7 @@
  */
 
 /*
- * This file contains miscelanious TNC-related functions shared betweend
+ * This file contains miscelanious TNC-related functions shared between
  * different files. This file does not form any logically separate TNC
  * sub-system. The file was created because there is a lot of TNC code and
  * putting it all in one file would make that file too big and unreadable.
