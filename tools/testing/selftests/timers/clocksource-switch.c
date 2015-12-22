@@ -145,7 +145,7 @@ int main(int argv, char **argc)
 		return -1;
 	}
 
-	/* Check everything is sane before we start switching asyncrhonously */
+	/* Check everything is sane before we start switching asynchronously */
 	for (i = 0; i < count; i++) {
 		printf("Validating clocksource %s\n", clocksource_list[i]);
 		if (change_clocksource(clocksource_list[i])) {
