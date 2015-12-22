@@ -350,7 +350,7 @@ static void pl011_dma_probe(struct uart_amba_port *uap)
 		/*
 		 * Some DMA controllers provide information on their capabilities.
 		 * If the controller does, check for suitable residue processing
-		 * otherwise assime all is well.
+		 * otherwise assume all is well.
 		 */
 		if (0 == dma_get_slave_caps(chan, &caps)) {
 			if (caps.residue_granularity ==
