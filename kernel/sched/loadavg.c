@@ -134,7 +134,7 @@ calc_load(unsigned long load, unsigned long exp, unsigned long active)
  *    w:0 1 1           0 0           1 1           0 0
  *
  *    This ensures we'll fold the old idle contribution in this window while
- *    accumlating the new one.
+ *    accumulating the new one.
  *
  *  - When we wake up from NO_HZ idle during the window, we push up our
  *    contribution, since we effectively move our sample point to a known
