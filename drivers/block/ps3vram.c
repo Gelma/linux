@@ -652,7 +652,7 @@ static int ps3vram_probe(struct ps3_system_bus_device *dev)
 		goto fail_free_priv;
 	}
 
-	/* Put FIFO at begginning of XDR buffer */
+	/* Put FIFO at beginning of XDR buffer */
 	priv->fifo_base = (u32 *) (priv->xdr_buf + FIFO_OFFSET);
 	priv->fifo_ptr = priv->fifo_base;
 
