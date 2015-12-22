@@ -387,7 +387,7 @@ struct sta_info *sta_info_alloc(struct ieee80211_sub_if_data *sdata,
 				IEEE80211_HT_CAP_SM_PS_SHIFT;
 		/*
 		 * Assume that hostapd advertises our caps in the beacon and
-		 * this is the known_smps_mode for a station that just assciated
+		 * this is the known_smps_mode for a station that just associated
 		 */
 		switch (smps) {
 		case WLAN_HT_SMPS_CONTROL_DISABLED:
