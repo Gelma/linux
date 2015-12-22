@@ -45,7 +45,7 @@
       is a STORED block. It also resets the mode to be read for the next
       data, all as per PPP requirements.
     * Addition of zlib_inflateIncomp which copies incompressible data into
-      the history window and adjusts the accoutning without calling
+      the history window and adjusts the accounting without calling
       zlib_inflate itself to inflate the data.
 */
 
