@@ -693,7 +693,7 @@
  * the ROUTE_0_COLOR bit is set and ROUTE_0_COLOR_DEST contains the
  * color register index.
  *
- * Apperently you may set the R300_RS_ROUTE_0_COLOR bit, but not provide any
+ * Apparently you may set the R300_RS_ROUTE_0_COLOR bit, but not provide any
  * R300_RS_ROUTE_0_COLOR_DEST value; this setup is used for clearing the state.
  * See r300_ioctl.c:r300EmitClearState. I'm not sure if this setup is strictly
  * correct or not. - Oliver.
