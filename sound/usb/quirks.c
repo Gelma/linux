@@ -613,7 +613,7 @@ static int snd_usb_fasttrackpro_boot_quirk(struct usb_device *dev)
 		dev_info(&dev->dev,
 			   "Fast Track Pro switching to config #2\n");
 		/* This function has to be available by the usb core module.
-		 * if it is not avialable the boot quirk has to be left out
+		 * if it is not available the boot quirk has to be left out
 		 * and the configuration has to be set by udev or hotplug
 		 * rules
 		 */
