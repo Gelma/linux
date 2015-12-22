@@ -1098,7 +1098,7 @@ static int process_idi_info(diva_strace_context_t *pLib,
 
   Update Modem Status Information and issue notification to user,
   that will inform about change in the state of modem instance, that is
-  associuated with this channel
+  associated with this channel
 */
 static int diva_modem_info(diva_strace_context_t *pLib,
 			   int Channel,
