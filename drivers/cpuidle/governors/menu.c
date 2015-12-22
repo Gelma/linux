@@ -7,7 +7,7 @@
  *        Arjan van de Ven <arjan@linux.intel.com>
  *
  * This code is licenced under the GPL version 2 as described
- * in the COPYING file that acompanies the Linux Kernel.
+ * in the COPYING file that accompanies the Linux Kernel.
  */
 
 #include <linux/kernel.h>
