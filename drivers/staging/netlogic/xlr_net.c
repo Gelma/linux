@@ -446,7 +446,7 @@ static void *xlr_config_spill(struct xlr_net_priv *priv, int reg_start_0,
 }
 
 /*
- * Configure the 6 FIFO's that are used by the network accelarator to
+ * Configure the 6 FIFO's that are used by the network accelerator to
  * communicate with the rest of the XLx device. 4 of the FIFO's are for
  * packets from NA --> cpu (called Class FIFO's) and 2 are for feeding
  * the NA with free descriptors.
