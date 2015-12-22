@@ -208,7 +208,7 @@ static int sgiwd93_bus_reset(struct scsi_cmnd *cmd)
 
 /*
  * Kludge alert - the SCSI code calls the abort and reset method with int
- * arguments not with pointers.  So this is going to blow up beautyfully
+ * arguments not with pointers.  So this is going to blow up beautifully
  * on 64-bit systems with memory outside the compat address spaces.
  */
 static struct scsi_host_template sgiwd93_template = {
