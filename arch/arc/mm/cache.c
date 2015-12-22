@@ -208,7 +208,7 @@ slc_chk:
  * ------------------
  * This ver of MMU supports variable page sizes (1k-16k): although Linux will
  * only support 8k (default), 16k and 4k.
- * However from hardware perspective, smaller page sizes aggrevate aliasing
+ * However from hardware perspective, smaller page sizes aggravate aliasing
  * meaning more vaddr bits needed to disambiguate the cache-line-op ;
  * the existing scheme of piggybacking won't work for certain configurations.
  * Two new registers IC_PTAG and DC_PTAG inttoduced.
@@ -929,7 +929,7 @@ void arc_cache_init(void)
 			      ic->ver, CONFIG_ARC_MMU_VER);
 
 		/*
-		 * In MMU v4 (HS38x) the alising icache config uses IVIL/PTAG
+		 * In MMU v4 (HS38x) the aliasing icache config uses IVIL/PTAG
 		 * pair to provide vaddr/paddr respectively, just as in MMU v3
 		 */
 		if (is_isa_arcv2() && ic->alias)
