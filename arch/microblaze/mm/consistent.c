@@ -95,7 +95,7 @@ void *consistent_alloc(gfp_t gfp, size_t size, dma_addr_t *dma_handle)
 	/*
 	 * Here's the magic!  Note if the uncached shadow is not implemented,
 	 * it's up to the calling code to also test that condition and make
-	 * other arranegments, such as manually flushing the cache and so on.
+	 * other arrangements, such as manually flushing the cache and so on.
 	 */
 # ifdef CONFIG_XILINX_UNCACHED_SHADOW
 	ret = (void *)((unsigned) ret | UNCACHED_SHADOW_MASK);
