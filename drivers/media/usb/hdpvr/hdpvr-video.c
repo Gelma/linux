@@ -356,7 +356,7 @@ static int hdpvr_stop_streaming(struct hdpvr_device *dev)
 	/* kill the still outstanding urbs */
 	hdpvr_cancel_queue(dev);
 
-	/* emptying the device buffer beforeshutting it down */
+	/* emptying the device buffer before shutting it down */
 	while (buf && ++c < 500 &&
 	       !usb_bulk_msg(dev->udev,
 			     usb_rcvbulkpipe(dev->udev,
