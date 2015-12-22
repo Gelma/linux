@@ -561,7 +561,7 @@ static int
 prism54_set_scan(struct net_device *dev, struct iw_request_info *info,
 		 struct iw_param *vwrq, char *extra)
 {
-	/* hehe the device does this automagicaly */
+	/* hehe the device does this automagically */
 	return 0;
 }
 
