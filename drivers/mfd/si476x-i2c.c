@@ -466,7 +466,7 @@ EXPORT_SYMBOL_GPL(si476x_core_i2c_xfer);
  * si476x_get_status()
  * @core: Core device structure
  *
- * Get the status byte of the core device by berforming one byte I2C
+ * Get the status byte of the core device by performing one byte I2C
  * read.
  *
  * The function returns a status value or a negative error code on
