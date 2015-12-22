@@ -172,7 +172,7 @@ static int cw1200_load_firmware_cw1200(struct cw1200_common *priv)
 		goto free_buffer;
 	}
 
-	/* Calculcate number of download blocks */
+	/* Calculate number of download blocks */
 	num_blocks = (firmware->size - 1) / DOWNLOAD_BLOCK_SIZE + 1;
 
 	/* Updating the length in Download Ctrl Area */
