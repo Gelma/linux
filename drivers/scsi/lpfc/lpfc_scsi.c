@@ -2834,8 +2834,8 @@ err:
 }
 
 /*
- * This function calcuates the T10 DIF guard tag
- * on the specified data using a CRC algorithmn
+ * This function calculates the T10 DIF guard tag
+ * on the specified data using a CRC algorithm
  * using crc_t10dif.
  */
 static uint16_t
@@ -2850,8 +2850,8 @@ lpfc_bg_crc(uint8_t *data, int count)
 }
 
 /*
- * This function calcuates the T10 DIF guard tag
- * on the specified data using a CSUM algorithmn
+ * This function calculates the T10 DIF guard tag
+ * on the specified data using a CSUM algorithm
  * using ip_compute_csum.
  */
 static uint16_t
@@ -4829,7 +4829,7 @@ wait_for_cmpl:
 		ret = FAILED;
 		lpfc_printf_vlog(vport, KERN_ERR, LOG_FCP,
 				 "0748 abort handler timed out waiting "
-				 "for abortng I/O (xri:x%x) to complete: "
+				 "for aborting I/O (xri:x%x) to complete: "
 				 "ret %#x, ID %d, LUN %llu\n",
 				 iocb->sli4_xritag, ret,
 				 cmnd->device->id, cmnd->device->lun);
