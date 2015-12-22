@@ -668,7 +668,7 @@ int find_inline_backref(struct extent_buffer *leaf, int slot,
  *
  * the basic idea of this function is check backrefs of a given block
  * to find upper level blocks that refernece the block, and then check
- * bakcrefs of these upper level blocks recursively. the recursion stop
+ * backrefs of these upper level blocks recursively. the recursion stop
  * when tree root is reached or backrefs for the block is cached.
  *
  * NOTE: if we find backrefs for a block are cached, we know backrefs
