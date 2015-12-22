@@ -666,7 +666,7 @@ enum reiserfs_mount_options {
 	/*
 	 * -o hash={tea, rupasov, r5, detect} is meant for properly mounting
 	 * reiserfs disks from 3.5.19 or earlier.  99% of the time, this
-	 * option is not required.  If the normal autodection code can't
+	 * option is not required.  If the normal autodetection code can't
 	 * determine which hash to use (because both hashes had the same
 	 * value for a file) use this option to force a specific hash.
 	 * It won't allow you to override the existing hash on the FS, so
