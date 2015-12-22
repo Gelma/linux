@@ -410,7 +410,7 @@ static void newport_putcs(struct vc_data *vc, const unsigned short *s,
 	ypos <<= 4;
 
 	if (!logo_active)
-		/* Clear the area behing the string */
+		/* Clear the area behind the string */
 		newport_render_background(xpos, ypos,
 					  xpos + ((count - 1) << 3), ypos,
 					  (charattr & 0xf0) >> 4);
