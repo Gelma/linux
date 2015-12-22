@@ -639,7 +639,7 @@ struct dwarf_frame *dwarf_unwind_stack(unsigned long pc,
 		 * This is our normal exit path. There are two reasons
 		 * why we might exit here,
 		 *
-		 *	a) pc has no asscociated DWARF frame info and so
+		 *	a) pc has no associated DWARF frame info and so
 		 *	we don't know how to unwind this frame. This is
 		 *	usually the case when we're trying to unwind a
 		 *	frame that was called from some assembly code
