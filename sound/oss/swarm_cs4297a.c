@@ -636,7 +636,7 @@ static int init_serdma(serdma_t *dma)
                 return -1;
         }
         dma->descrtab_end = dma->descrtab + dma->ringsz;
-	/* XXX bloddy mess, use proper DMA API here ...  */
+	/* XXX bloody mess, use proper DMA API here ...  */
 	dma->descrtab_phys = CPHYSADDR((long)dma->descrtab);
         dma->descr_add = dma->descr_rem = dma->descrtab;
 
