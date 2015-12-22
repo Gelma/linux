@@ -299,7 +299,7 @@ static int se2_rd_all(struct orc_host * host)
 			return -1;
 	}
 
-	/*------ Is ckecksum ok ? ------*/
+	/*------ Is checksum ok ? ------*/
 	np = (u8 *) nvramp;
 	for (i = 0; i < 63; i++)
 		chksum += *np++;
