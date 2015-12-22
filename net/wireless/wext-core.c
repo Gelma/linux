@@ -849,7 +849,7 @@ out:
  *
  * Note : our current commit strategy is currently pretty dumb,
  * but we will be able to improve on that...
- * The goal is to try to agreagate as many changes as possible
+ * The goal is to try to aggregate as many changes as possible
  * before doing the commit. Drivers that will define a commit handler
  * are usually those that need a reset after changing parameters, so
  * we want to minimise the number of reset.
