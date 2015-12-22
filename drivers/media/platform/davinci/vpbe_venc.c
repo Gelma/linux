@@ -196,7 +196,7 @@ static void venc_enabledigitaloutput(struct v4l2_subdev *sd, int benable)
 		venc_write(sd, VENC_YCCCTL, 0);
 		venc_write(sd, VENC_VSTARTA, 0);
 
-		/* Set OSD clock and OSD Sync Adavance registers */
+		/* Set OSD clock and OSD Sync Advance registers */
 		venc_write(sd, VENC_OSDCLK0, 1);
 		venc_write(sd, VENC_OSDCLK1, 2);
 	}
