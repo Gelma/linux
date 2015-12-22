@@ -89,7 +89,7 @@ guides the adaption to choose the generalised one. Allowing an untrained
 canceller to converge on this kind of narrowband energy probably a good thing,
 since at least it cancels the tones. Allowing a well converged canceller to
 continue converging on such energy is just a way to ruin its generalised
-adaption. A narrowband detector is needed, so adapation can be suspended at
+adaption. A narrowband detector is needed, so adaptation can be suspended at
 appropriate times.
 
 The adaption process is based on trying to eliminate the received signal. When
