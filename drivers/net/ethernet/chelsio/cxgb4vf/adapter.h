@@ -108,7 +108,7 @@ struct port_info {
 /*
  * Scatter Gather Engine resources for the "adapter".  Our ingress and egress
  * queues are organized into "Queue Sets" with one ingress and one egress
- * queue per Queue Set.  These Queue Sets are aportionable between the "ports"
+ * queue per Queue Set.  These Queue Sets are apportionable between the "ports"
  * (Virtual Interfaces).  One extra ingress queue is used to receive
  * asynchronous messages from the firmware.  Note that the "Queue IDs" that we
  * use here are really "Relative Queue IDs" which are returned as part of the
