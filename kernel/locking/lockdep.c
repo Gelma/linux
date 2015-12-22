@@ -898,7 +898,7 @@ static int add_lock_to_list(struct lock_class *class, struct lock_class *this,
 
 /*
  * The circular_queue and helpers is used to implement the
- * breadth-first search(BFS)algorithem, by which we can build
+ * breadth-first search(BFS) algorithm, by which we can build
  * the shortest path from the next lock to be acquired to the
  * previous held lock if there is a circular between them.
  */
