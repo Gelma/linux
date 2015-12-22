@@ -171,7 +171,7 @@ static void nsp_cs_dmessage(const char *func, int line, int mask, char *fmt, ...
 /***********************************************************/
 
 /*====================================================
- * Clenaup parameters and call done() functions.
+ * Clean up parameters and call done() functions.
  * You must be set SCpnt->result before call this function.
  */
 static void nsp_scsi_done(struct scsi_cmnd *SCpnt)
