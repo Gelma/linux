@@ -101,7 +101,7 @@
  *
  * This code is bus-generic; the bus-specific driver provides back end
  * implementations to send a boot mode command to the device and to
- * read an acknolwedgement from it (or an asynchronous notification)
+ * read an acknowledgement from it (or an asynchronous notification)
  * from it.
  *
  * FIRMWARE LOADING
