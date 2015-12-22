@@ -561,7 +561,7 @@ int xen_selfballoon_init(bool use_selfballooning, bool use_frontswap_selfshrink)
 	 *    space, like slab pages and memory used by device drivers.
 	 *
 	 * 2) The balloon driver may not give back memory to guest OS fast
-	 *    enough when the workload suddenly aquries a lot of physical memory.
+	 *    enough when the workload suddenly acquries a lot of physical memory.
 	 *
 	 * In both cases, the guest OS will suffer from memory pressure and
 	 * OOM killer may be triggered.
