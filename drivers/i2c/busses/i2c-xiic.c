@@ -385,7 +385,7 @@ static irqreturn_t xiic_process(int irq, void *dev_id)
 	if ((pend & XIIC_INTR_ARB_LOST_MASK) ||
 		((pend & XIIC_INTR_TX_ERROR_MASK) &&
 		!(pend & XIIC_INTR_RX_FULL_MASK))) {
-		/* bus arbritration lost, or...
+		/* bus arbitration lost, or...
 		 * Transmit error _OR_ RX completed
 		 * if this happens when RX_FULL is not set
 		 * this is probably a TX error
