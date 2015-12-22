@@ -116,7 +116,7 @@ static void sctp_auth_shkey_free(struct sctp_shared_key *sh_key)
 }
 
 /* Destroy the entire key list.  This is done during the
- * associon and endpoint free process.
+ * association and endpoint free process.
  */
 void sctp_auth_destroy_keys(struct list_head *keys)
 {
