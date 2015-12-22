@@ -759,7 +759,7 @@ struct xpc_partition {
 	atomic_t nchannels_engaged;  /* #of channels engaged with remote part */
 	struct xpc_channel *channels;	/* array of channel structures */
 
-	/* fields used for managing channel avialability and activity */
+	/* fields used for managing channel availability and activity */
 
 	union xpc_channel_ctl_flags chctl; /* chctl flags yet to be processed */
 	spinlock_t chctl_lock;	/* chctl flags lock */
