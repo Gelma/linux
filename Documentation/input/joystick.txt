@@ -54,7 +54,7 @@ you should be set.
 2.1 inpututils
 ~~~~~~~~~~~~~~
 For testing and other purposes (for example serial devices), a set of
-utilities is available at the abovementioned website. I suggest you download
+utilities is available at the above mentioned website. I suggest you download
 and install it before going on.
 
 2.2 Device nodes
