@@ -76,7 +76,7 @@ void usnic_uiom_remove_interval(struct rb_root *root,
 				struct list_head *removed);
 /*
  * Returns {start...last} - {root} (relative complement of {start...last} in
- * {root}) in diff_set sorted ascendingly
+ * {root}) in diff_set sorted ascending
  */
 int usnic_uiom_get_intervals_diff(unsigned long start,
 					unsigned long last, int flags,
