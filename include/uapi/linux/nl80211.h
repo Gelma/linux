@@ -668,7 +668,7 @@
  *
  * @NL80211_CMD_PROBE_CLIENT: Probe an associated station on an AP interface
  *	by sending a null data frame to it and reporting when the frame is
- *	acknowleged. This is used to allow timing out inactive clients. Uses
+ *	acknowledged. This is used to allow timing out inactive clients. Uses
  *	%NL80211_ATTR_IFINDEX and %NL80211_ATTR_MAC. The command returns a
  *	direct reply with an %NL80211_ATTR_COOKIE that is later used to match
  *	up the event with the request. The event includes the same data and
