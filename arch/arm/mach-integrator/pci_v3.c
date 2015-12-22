@@ -324,7 +324,7 @@ static u64 pre_mem_pci_sz;
  * configuration address space, you present the V3 with the following pattern
  * (which is very nearly a type 1 (except that the lower two bits are 00 and
  * not 01).   In order for this mapping to work you need to set up one of
- * the local to PCI aperatures to 16Mbytes in length translating to
+ * the local to PCI apertures to 16Mbytes in length translating to
  * PCI configuration space starting at 0x0000.0000.
  *
  * PCI configuration cycles look like this:
