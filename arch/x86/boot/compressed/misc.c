@@ -76,7 +76,7 @@
  *
  * All of which is enough to compute an amount of extra data that is required
  * to be safe.  To avoid problems at the block level allocating 5 extra bytes
- * per 32767 bytes of data is sufficient.  To avoind problems internal to a
+ * per 32767 bytes of data is sufficient.  To avoid problems internal to a
  * block adding an extra 32767 bytes (the worst case uncompressed block size)
  * is sufficient, to ensure that in the worst case the decompressed data for
  * block will stop the byte before the compressed data for a block begins.
