@@ -43,7 +43,7 @@
  * when it becomes full, it starts a leaf of a external extent
  * of length of 1 block. each time the first leaf becomes full,
  * it is extended rather than split (its size is doubled),
- * until its length becoms 4 KBytes, from then the extent is split
+ * until its length becomes 4 KBytes, from then the extent is split
  * with new 4 Kbyte extent when it becomes full
  * to reduce external fragmentation of small directories.
  *
