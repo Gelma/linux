@@ -1541,7 +1541,7 @@ snic_send_abort_and_wait(struct snic *snic, struct scsi_cmnd *sc)
 	/*
 	 * Command is still pending, need to abort it
 	 * If the fw completes the command after this point,
-	 * the completion won't be done till mid-layer, since abot
+	 * the completion won't be done till mid-layer, since about
 	 * has already started.
 	 */
 	CMD_STATE(sc) = SNIC_IOREQ_ABTS_PENDING;
