@@ -222,7 +222,7 @@ xfs_btree_check_ptr(
  * Calculate CRC on the whole btree block and stuff it into the
  * long-form btree header.
  *
- * Prior to calculting the CRC, pull the LSN out of the buffer log item and put
+ * Prior to calculating the CRC, pull the LSN out of the buffer log item and put
  * it into the buffer so recovery knows what the last modification was that made
  * it to disk.
  */
@@ -260,7 +260,7 @@ xfs_btree_lblock_verify_crc(
  * Calculate CRC on the whole btree block and stuff it into the
  * short-form btree header.
  *
- * Prior to calculting the CRC, pull the LSN out of the buffer log item and put
+ * Prior to calculating the CRC, pull the LSN out of the buffer log item and put
  * it into the buffer so recovery knows what the last modification was that made
  * it to disk.
  */
