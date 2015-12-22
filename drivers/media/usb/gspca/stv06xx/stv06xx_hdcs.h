@@ -164,7 +164,7 @@ const struct stv06xx_sensor stv06xx_sensor_hdcs1020 = {
 	.i2c_len = 1,
 
 	/* FIXME (see if we can lower min_packet_size, needs testing, and also
-	   adjusting framerate when the bandwidthm gets lower) */
+	   adjusting framerate when the bandwidth gets lower) */
 	.min_packet_size = { 847 },
 	.max_packet_size = { 847 },
 
