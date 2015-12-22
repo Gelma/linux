@@ -2598,7 +2598,7 @@ csio_hws_removing(struct csio_hw *hw, enum csio_hw_ev evt)
 		if (!csio_is_hw_master(hw))
 			break;
 		/*
-		 * The BYE should have alerady been issued, so we cant
+		 * The BYE should have already been issued, so we cant
 		 * use the mailbox interface. Hence we use the PL_RST
 		 * register directly.
 		 */
