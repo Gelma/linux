@@ -1,7 +1,7 @@
 /* exynos_drm_gem.h
  *
  * Copyright (c) 2011 Samsung Electronics Co., Ltd.
- * Authoer: Inki Dae <inki.dae@samsung.com>
+ * Author: Inki Dae <inki.dae@samsung.com>
  *
  * This program is free software; you can redistribute  it and/or modify it
  * under  the terms of  the GNU General  Public License as published by the
@@ -29,7 +29,7 @@
  *	by user request or at framebuffer creation.
  *	continuous memory region allocated by user request
  *	or at framebuffer creation.
- * @flags: indicate memory type to allocated buffer and cache attruibute.
+ * @flags: indicate memory type to allocated buffer and cache attribute.
  * @size: size requested from user, in bytes and this size is aligned
  *	in page unit.
  * @cookie: cookie returned by dma_alloc_attrs
