@@ -67,7 +67,7 @@ HOSTLOADLIBES_lathist += -lelf
 # point this to your LLVM backend with bpf support
 LLC=$(srctree)/tools/bpf/llvm/bld/Debug+Asserts/bin/llc
 
-# asm/sysreg.h inline assmbly used by it is incompatible with llvm.
+# asm/sysreg.h inline assembly used by it is incompatible with llvm.
 # But, ehere is not easy way to fix it, so just exclude it since it is
 # useless for BPF samples.
 $(obj)/%.o: $(src)/%.c
