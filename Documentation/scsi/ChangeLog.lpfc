@@ -571,7 +571,7 @@ Changes from 20041018 to 20041123
 	* Fix memset byte count in lpfc_hba_init so that
 	  LP1050 would initialize correctly.
 	* Backround nodev_timeout processing to DPC This enables us to
-	  unblock (stop dev_loss_tmo) when appopriate.
+	  unblock (stop dev_loss_tmo) when appropriate.
 	* Fix array discovery with multiple luns.  The max_luns was 0 at
 	  the time the host structure was initialized.  lpfc_cfg_params
 	  then set the max_luns to the correct value afterwards.
@@ -1012,7 +1012,7 @@ Changes from 20040614 to 20040709
 	  LINK_[UP|DOWN] and RSCN events.
 	* Get rid of delay_iodone timer.
 	* Remove qfull timers and qfull logic.
-	* Convert mbox_tmo, nlp_xri_tmo to 1 argment clock handler
+	* Convert mbox_tmo, nlp_xri_tmo to 1 argument clock handler
 	* Removed duplicate extern defs of the bind variables.
 	* Streamline usage of the defines CLASS2 and CLASS3, removing
 	  un-necessary checks on config[LPFC_CFG_FCP_CLASS].
