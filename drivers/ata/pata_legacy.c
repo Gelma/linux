@@ -441,7 +441,7 @@ static u8 opti_syscfg(u8 reg)
 	unsigned long flags;
 	u8 r;
 
-	/* Uniprocessor chipset and must force cycles adjancent */
+	/* Uniprocessor chipset and must force cycles adjacent */
 	local_irq_save(flags);
 	outb(reg, 0x22);
 	r = inb(0x24);
