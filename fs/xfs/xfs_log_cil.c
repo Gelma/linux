@@ -144,7 +144,7 @@ xfs_cil_prepare_item(
  * regions into the flat buffer. We can do this because we still have to do a
  * formatting step to write the regions into the iclog buffer.  Writing the
  * ophdrs during the iclog write means that we can support splitting large
- * regions across iclog boundares without needing a change in the format of the
+ * regions across iclog boundaries without needing a change in the format of the
  * item/region encapsulation.
  *
  * Hence what we need to do now is change the rewrite the vector array to point
