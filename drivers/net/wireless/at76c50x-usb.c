@@ -53,7 +53,7 @@
 #define DRIVER_DESC "Atmel at76x USB Wireless LAN Driver"
 
 /* at76_debug bits */
-#define DBG_PROGRESS		0x00000001	/* authentication/accociation */
+#define DBG_PROGRESS		0x00000001	/* authentication/association */
 #define DBG_BSS_TABLE		0x00000002	/* show BSS table after scans */
 #define DBG_IOCTL		0x00000004	/* ioctl calls / settings */
 #define DBG_MAC_STATE		0x00000008	/* MAC state transitions */
