@@ -218,7 +218,7 @@ enum xp_retval {
  * specifies the address of the message's payload. The user must call
  * xpc_received() when finished with the payload.
  *
- * All other reason codes indicate failure. The data argmument is NULL.
+ * All other reason codes indicate failure. The data argument is NULL.
  * When a failure reason code is received, one can assume that the channel
  * is not connected.
  */
