@@ -259,7 +259,7 @@ static void inline sh64_dcache_purge_sets(int sets_to_purge_base, int n_sets)
 		 * Do one alloco which hits the required set per cache
 		 * way.  For write-back mode, this will purge the #ways
 		 * resident lines.  There's little point unrolling this
-		 * loop because the allocos stall more if they're too
+		 * loop because the allocs stall more if they're too
 		 * close together.
 		 */
 		eaddr1 = eaddr0 + cpu_data->dcache.way_size *
