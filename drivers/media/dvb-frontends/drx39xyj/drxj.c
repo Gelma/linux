@@ -8980,7 +8980,7 @@ qam64auto(struct drx_demod_instance *demod,
 	     ((jiffies_to_msecs(jiffies) - start_time) <
 	      (DRXJ_QAM_MAX_WAITTIME + timeout_ofs))
 	    );
-	/* Returning control to apllication ... */
+	/* Returning control to application... */
 
 	return 0;
 rw_error:
@@ -9692,7 +9692,7 @@ rw_error:
        later on because of the schedule)
 
       Several HW/SCU "settings" can be used for ATV. The standard selection
-      will reset most of these settings. To avoid that the end user apllication
+      will reset most of these settings. To avoid that the end user application
       has to perform these settings each time the ATV or FM standards is
       selected the driver will shadow these settings. This enables the end user
       to perform the settings only once after a drx_open(). The driver must
