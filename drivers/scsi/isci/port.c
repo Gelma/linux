@@ -1489,7 +1489,7 @@ static void sci_port_stopped_state_enter(struct sci_base_state_machine *sm)
 
 	if (iport->sm.previous_state_id == SCI_PORT_STOPPING) {
 		/*
-		 * If we enter this state becasuse of a request to stop
+		 * If we enter this state because of a request to stop
 		 * the port then we want to disable the hardwares port
 		 * task scheduler. */
 		sci_port_disable_port_task_scheduler(iport);
