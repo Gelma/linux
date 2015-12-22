@@ -17,7 +17,7 @@
  * it copes with BREAKs properly, so I am happy to ignore the RESERVED
  * feature from the latter versions of the manual.
  *
- * If it becomes aparrent that latter versions of the 2410 remove these
+ * If it becomes apparent that latter versions of the 2410 remove these
  * bits, then action will have to be taken to differentiate the versions
  * and change the policy on BREAK
  *
