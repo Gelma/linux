@@ -67,7 +67,7 @@ csio_mb_fw_retval(struct csio_mb *mbp)
  * @hw: The HW structure
  * @mbp: Mailbox structure
  * @m_mbox: Master mailbox number, if any.
- * @a_mbox: Mailbox number for asycn notifications.
+ * @a_mbox: Mailbox number for async notifications.
  * @master: Device mastership.
  * @cbfn: Callback, if any.
  *
