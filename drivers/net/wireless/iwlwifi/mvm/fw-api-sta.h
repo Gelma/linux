@@ -141,7 +141,7 @@ enum iwl_sta_flags {
  * @STA_KEY_FLG_EXT: extended cipher algorithm (depends on the FW support)
  * @STA_KEY_FLG_CMAC: CMAC encryption algorithm
  * @STA_KEY_FLG_ENC_UNKNOWN: unknown encryption algorithm
- * @STA_KEY_FLG_EN_MSK: mask for encryption algorithmi value
+ * @STA_KEY_FLG_EN_MSK: mask for encryption algorithm value
  * @STA_KEY_FLG_WEP_KEY_MAP: wep is either a group key (0 - legacy WEP) or from
  *	station info array (1 - n 1X mode)
  * @STA_KEY_FLG_KEYID_MSK: the index of the key
