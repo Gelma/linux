@@ -1373,7 +1373,7 @@ struct ieee80211_network {
 	u8  dtim_data;
 	u32 last_dtim_sta_time[2];
 
-	//appeded for QoS
+	//appended for QoS
 	u8 wmm_info;
 	struct ieee80211_wmm_ac_param wmm_param[4];
 	u8 QoS_Enable;
@@ -1417,7 +1417,7 @@ enum ieee80211_state {
 	/* the association procedure is sending AUTH request*/
 	IEEE80211_ASSOCIATING_AUTHENTICATING,
 
-	/* the association procedure has successfully authentcated
+	/* the association procedure has successfully authenticated
 	 * and is sending association request
 	 */
 	IEEE80211_ASSOCIATING_AUTHENTICATED,
