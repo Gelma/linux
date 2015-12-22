@@ -4393,10 +4393,10 @@ lpfc_fcp_cpu_map_store(struct device *dev, struct device_attribute *attr,
 # for the HBA.
 #
 # Value range is [0 to 2]. Default value is LPFC_DRIVER_CPU_MAP (2).
-#	0 - Do not affinitze IRQ vectors
-#	1 - Affintize HBA vectors with respect to each HBA
+#	0 - Do not affinitize IRQ vectors
+#	1 - Affinitize HBA vectors with respect to each HBA
 #	    (start with CPU0 for each HBA)
-#	2 - Affintize HBA vectors with respect to the entire driver
+#	2 - Affinitize HBA vectors with respect to the entire driver
 #	    (round robin thru all CPUs across all HBAs)
 */
 static int lpfc_fcp_cpu_map = LPFC_DRIVER_CPU_MAP;
@@ -4410,7 +4410,7 @@ MODULE_PARM_DESC(lpfc_fcp_cpu_map,
  * @val: link speed value.
  *
  * Description:
- * If val is in a valid range [0-2], then affinitze the adapter's
+ * If val is in a valid range [0-2], then affinitize the adapter's
  * MSIX vectors.
  *
  * Returns:
@@ -4580,7 +4580,7 @@ LPFC_ATTR_R(multi_ring_type, FC_TYPE_IP, 1,
 #           LPFC_FDMI_REG_DELAY	60 sec registration delay after FDMI login
 #       bit 2 = All attributes     Use a attribute subset
 #           LPFC_FDMI_ALL_ATTRIB applies to both port and HBA attributes
-#           Port attrutes subset: 1 thru 6 OR all: 1 thru 0xd 0x101 0x102 0x103
+#           Port attributes subset: 1 thru 6 OR all: 1 thru 0xd 0x101 0x102 0x103
 #           HBA attributes subset: 1 thru 0xb OR all: 1 thru 0xc
 # Value range [0,7]. Default value is 0.
 */
