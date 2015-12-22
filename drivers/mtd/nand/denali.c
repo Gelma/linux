@@ -1364,7 +1364,7 @@ static void denali_hw_init(struct denali_nand_info *denali)
 }
 
 /*
- * Althogh controller spec said SLC ECC is forceb to be 4bit,
+ * Although controller spec said SLC ECC is forceb to be 4bit,
  * but denali controller in MRST only support 15bit and 8bit ECC
  * correction
  */
