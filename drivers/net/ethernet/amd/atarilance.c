@@ -32,7 +32,7 @@
 		  be restored!
 		  Now possible to compile as module.
 	v1.3: 03/30/96 Jes Sorensen, Roman (in 1.3)
-	      Several little 1.3 adaptions
+	      Several little 1.3 adaptations
 		  When the lance is stopped it jumps back into little-endian
 		  mode. It is therefore necessary to put it back where it
 		  belongs, in big endian mode, in order to make things work.
