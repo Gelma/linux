@@ -395,7 +395,7 @@ static int t4_edc_err_read(struct adapter *adap, int idx)
  *
  *	Reads/writes an [almost] arbitrary memory region in the firmware: the
  *	firmware memory address and host buffer must be aligned on 32-bit
- *	boudaries; the length may be arbitrary.  The memory is transferred as
+ *	boundaries; the length may be arbitrary.  The memory is transferred as
  *	a raw byte sequence from/to the firmware's memory.  If this memory
  *	contains data structures which contain multi-byte integers, it's the
  *	caller's responsibility to perform appropriate byte order conversions.
@@ -7171,7 +7171,7 @@ int t4_bar2_sge_qregs(struct adapter *adapter,
 	 * the BAR2 Queue ID and the hardware will infer the Absolute Queue ID
 	 * from the BAR2 Page and BAR2 Queue ID.
 	 *
-	 * One important censequence of this is that some BAR2 SGE registers
+	 * One important consequence of this is that some BAR2 SGE registers
 	 * have a "Queue ID" field and we can write the BAR2 SGE Queue ID
 	 * there.  But other registers synthesize the SGE Queue ID purely
 	 * from the writes to the registers -- the Write Combined Doorbell
