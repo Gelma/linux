@@ -390,7 +390,7 @@ bool GetTs(
 			//
 			// Create a new Traffic stream for current Tx/Rx
 			// This is for EDCA and WMM to add a new TS.
-			// For HCCA or WMMSA, TS cannot be addmit without negotiation.
+			// For HCCA or WMMSA, TS cannot be admit without negotiation.
 			//
 			TSPEC_BODY	TSpec;
 			PQOS_TSINFO		pTSInfo = &TSpec.f.TSInfo;
