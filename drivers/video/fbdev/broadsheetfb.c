@@ -318,7 +318,7 @@ static int broadsheet_setup_plls(struct broadsheetfb_par *par)
 	int retry_count = 0;
 	u16 tmp;
 
-	/* disable arral saemipu mode */
+	/* disable array saemipu mode */
 	broadsheet_write_reg(par, 0x0006, 0x0000);
 
 	broadsheet_write_reg(par, 0x0010, 0x0004);
