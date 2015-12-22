@@ -1521,7 +1521,7 @@ _scsih_display_sata_capabilities(struct MPT3SAS_ADAPTER *ioc,
 /*
  * raid transport support -
  * Enabled for SLES11 and newer, in older kernels the driver will panic when
- * unloading the driver followed by a load - I beleive that the subroutine
+ * unloading the driver followed by a load - I believe that the subroutine
  * raid_class_release() is not cleaning up properly.
  */
 
