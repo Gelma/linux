@@ -342,7 +342,7 @@ struct sctp_chunk *sctp_make_init(const struct sctp_association *asoc,
 	sctp_addto_chunk(retval, sizeof(ecap_param), &ecap_param);
 
 	/* Add the supported extensions parameter.  Be nice and add this
-	 * fist before addiding the parameters for the extensions themselves
+	 * fist before adding the parameters for the extensions themselves
 	 */
 	if (num_ext) {
 		ext_param.param_hdr.type = SCTP_PARAM_SUPPORTED_EXT;
@@ -745,7 +745,7 @@ nodata:
 	return retval;
 }
 
-/* Create a selective ackowledgement (SACK) for the given
+/* Create a selective acknowledgement (SACK) for the given
  * association.  This reports on which TSN's we've seen to date,
  * including duplicates and gaps.
  */
