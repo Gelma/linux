@@ -1146,7 +1146,7 @@ static void qib_6120_init_hwerrors(struct qib_devdata *dd)
 	if (!(extsval & QLOGIC_IB_EXTS_MEMBIST_ENDTEST))
 		qib_dev_err(dd, "MemBIST did not complete!\n");
 
-	/* init so all hwerrors interrupt, and enter freeze, ajdust below */
+	/* init so all hwerrors interrupt, and enter freeze, adjust below */
 	val = ~0ULL;
 	if (dd->minrev < 2) {
 		/*
