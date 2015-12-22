@@ -3846,7 +3846,7 @@ void cifs_oplock_break(struct work_struct *work)
 
 /*
  * The presence of cifs_direct_io() in the address space ops vector
- * allowes open() O_DIRECT flags which would have failed otherwise.
+ * allows open() O_DIRECT flags which would have failed otherwise.
  *
  * In the non-cached mode (mount with cache=none), we shunt off direct read and write requests
  * so this method should never be called.
