@@ -231,7 +231,7 @@ This allows the tunables to be changed for the scripts via an external
 configuration file
 
 It should be installed as /etc/default/laptop-mode on Debian, and as
-/etc/sysconfig/laptop-mode on Red Hat, SUSE, Mandrake, and other work-alikes.
+/etc/sysconfig/laptop-mode on Red Hat, SUSE, Mandrake, and other work-alike.
 
 --------------------CONFIG FILE BEGIN-------------------------------------------
 # Maximum time, in seconds, of hard drive spindown time that you are
