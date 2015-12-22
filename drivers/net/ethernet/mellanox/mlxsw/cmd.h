@@ -229,7 +229,7 @@ static inline int mlxsw_cmd_query_fw(struct mlxsw_core *mlxsw_core,
 }
 
 /* cmd_mbox_query_fw_fw_pages
- * Amount of physical memory to be allocatedfor firmware usage in 4KB pages.
+ * Amount of physical memory to be allocated for firmware usage in 4KB pages.
  */
 MLXSW_ITEM32(cmd_mbox, query_fw, fw_pages, 0x00, 16, 16);
 
