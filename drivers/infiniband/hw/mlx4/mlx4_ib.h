@@ -370,7 +370,7 @@ enum mlx4_guid_alias_rec_method {
 struct mlx4_sriov_alias_guid_info_rec_det {
 	u8 all_recs[GUID_REC_SIZE * NUM_ALIAS_GUID_IN_REC];
 	ib_sa_comp_mask guid_indexes; /*indicates what from the 8 records are valid*/
-	enum mlx4_guid_alias_rec_status status; /*indicates the administraively status of the record.*/
+	enum mlx4_guid_alias_rec_status status; /*indicates the administratively status of the record.*/
 	unsigned int guids_retry_schedule[NUM_ALIAS_GUID_IN_REC];
 	u64 time_to_run;
 };
