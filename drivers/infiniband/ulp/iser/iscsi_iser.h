@@ -225,7 +225,7 @@ enum iser_data_dir {
  *
  * @sg:           pointer to the sg list
  * @size:         num entries of this sg
- * @data_len:     total beffer byte len
+ * @data_len:     total buffer byte len
  * @dma_nents:    returned by dma_map_sg
  */
 struct iser_data_buf {
