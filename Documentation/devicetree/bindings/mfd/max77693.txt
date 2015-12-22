@@ -29,7 +29,7 @@ Optional properties:
 
 - haptic : The MAX77693 haptic device utilises a PWM controlled motor to provide
   users with tactile feedback. PWM period and duty-cycle are varied in
-  order to provide the approprite level of feedback.
+  order to provide the appropriate level of feedback.
 
  Required properties:
 	- compatible : Must be "maxim,max77693-hpatic"
