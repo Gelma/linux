@@ -871,12 +871,12 @@ struct dos_header {
 				   but this compiler solves it  by adding silently 
 				   adding a pad byte so data won't fit
 				   and this took about 3h to discover.... */
-	unsigned char gap1[22];     /* for longword-alignedness (0x4e) */
+	unsigned char gap1[22];     /* for longword-aligned-ness (0x4e) */
 };
 
 /* crc routines are borrowed from the messydos-handler  */
 
-/* excerpt from the messydos-device           
+/* excerpt from the messydos-device
 ; The CRC is computed not only over the actual data, but including
 ; the SYNC mark (3 * $a1) and the 'ID/DATA - Address Mark' ($fe/$fb).
 ; As we don't read or encode these fields into our buffers, we have to
