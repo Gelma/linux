@@ -1168,7 +1168,7 @@ static void qcom_channel_state_worker(struct work_struct *work)
 	unsigned remote_state;
 
 	/*
-	 * Rescan smem if we have reason to belive that there are new channels.
+	 * Rescan smem if we have reason to believe that there are new channels.
 	 */
 	if (edge->need_rescan) {
 		edge->need_rescan = false;
