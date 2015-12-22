@@ -81,7 +81,7 @@ extern int ioc3_register_submodule(struct ioc3_submodule *);
 extern void ioc3_unregister_submodule(struct ioc3_submodule *);
 /* enables IRQs indicated by irq_mask for a specified IOC3 chip */
 extern void ioc3_enable(struct ioc3_submodule *, struct ioc3_driver_data *, unsigned int);
-/* ackowledges specified IRQs */
+/* acknowledges specified IRQs */
 extern void ioc3_ack(struct ioc3_submodule *, struct ioc3_driver_data *, unsigned int);
 /* disables IRQs indicated by irq_mask for a specified IOC3 chip */
 extern void ioc3_disable(struct ioc3_submodule *, struct ioc3_driver_data *, unsigned int);
