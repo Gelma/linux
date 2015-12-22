@@ -189,7 +189,7 @@ static void find_regs(tilegx_bundle_bits bundle, uint64_t *rd, uint64_t *ra,
 	 * Parse fault bundle, find potential used registers and mark
 	 * corresponding bits in reg_map and alias_map. These 2 bit maps
 	 * are used to find the scratch registers and determine if there
-	 * is register alais.
+	 * is register alias.
 	 */
 	if (bundle & TILEGX_BUNDLE_MODE_MASK) {  /* Y Mode Bundle. */
 
