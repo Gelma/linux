@@ -385,7 +385,7 @@ static int p9_get_mapped_pages(struct virtio_chan *chan,
  * p9_virtio_zc_request - issue a zero copy request
  * @client: client instance issuing the request
  * @req: request to be issued
- * @uidata: user bffer that should be ued for zero copy read
+ * @uidata: user buffer that should be ued for zero copy read
  * @uodata: user buffer that shoud be user for zero copy write
  * @inlen: read buffer size
  * @olen: write buffer size
