@@ -21,7 +21,7 @@ acornfb_valid_pixrate(struct fb_var_screeninfo *var)
 		return 0;
 
 	/*
-	 * Limits below are taken from RISC OS bandwidthlimit file
+	 * Limits below are taken from RISC OS bandwidth limit file
 	 */
 	if (current_par.using_vram) {
 		if (current_par.vram_half_sam == 2048)
