@@ -47,7 +47,7 @@ void __delayacct_tsk_init(struct task_struct *tsk)
 
 /*
  * Finish delay accounting for a statistic using its timestamps (@start),
- * accumalator (@total) and @count
+ * accumulator (@total) and @count
  */
 static void delayacct_end(u64 *start, u64 *total, u32 *count)
 {
