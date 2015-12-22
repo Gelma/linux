@@ -463,7 +463,7 @@ static void copy_image_block_CrCb(const int *src, unsigned char *dst, unsigned i
  * skip_bits(n): discard n bits from the reservoir
  * get_bits(n): fill the reservoir, returns the first n bits and discard the
  *              bits from the reservoir.
- * __get_nbits(n): faster version of get_bits(n), but asumes that the reservoir
+ * __get_nbits(n): faster version of get_bits(n), but assumes that the reservoir
  *                 contains at least n bits. bits returned is discarded.
  */
 #define fill_nbits(pdec, nbits_wanted) do { \
