@@ -496,7 +496,7 @@ int t4vf_bar2_sge_qregs(struct adapter *adapter,
 	 * the BAR2 Queue ID and the hardware will infer the Absolute Queue ID
 	 * from the BAR2 Page and BAR2 Queue ID.
 	 *
-	 * One important censequence of this is that some BAR2 SGE registers
+	 * One important consequence of this is that some BAR2 SGE registers
 	 * have a "Queue ID" field and we can write the BAR2 SGE Queue ID
 	 * there.  But other registers synthesize the SGE Queue ID purely
 	 * from the writes to the registers -- the Write Combined Doorbell
