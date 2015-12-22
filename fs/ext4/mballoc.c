@@ -181,7 +181,7 @@ MODULE_PARM_DESC(mballoc_debug, "Debugging level for ext4's mballoc");
  *
  * there are two types of preallocations:
  *  - inode
- *    assiged to specific inode and can be used for this inode only.
+ *    assigned to specific inode and can be used for this inode only.
  *    it describes part of inode's space preallocated to specific
  *    physical blocks. any block from that preallocated can be used
  *    independent. the descriptor just tracks number of blocks left
