@@ -354,7 +354,7 @@ int16_t oslec_update(struct oslec_state *ec, int16_t tx, int16_t rx)
 	/*
 	 * Input scaling was found be required to prevent problems when tx
 	 * starts clipping.  Another possible way to handle this would be the
-	 * filter coefficent scaling.
+	 * filter coefficient scaling.
 	 */
 
 	ec->tx = tx;
