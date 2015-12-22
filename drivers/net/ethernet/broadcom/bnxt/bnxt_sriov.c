@@ -372,7 +372,7 @@ static int bnxt_hwrm_func_cfg(struct bnxt *bp, int *num_vfs)
 
 	bnxt_hwrm_cmd_hdr_init(bp, &req, HWRM_FUNC_CFG, -1, -1);
 
-	/* Remaining rings are distributed equally amongs VF's for now */
+	/* Remaining rings are distributed equally among VF's for now */
 	/* TODO: the following workaroud is needed to restrict total number
 	 * of vf_cp_rings not exceed number of HW ring groups. This WA should
 	 * be removed once new HWRM provides HW ring groups capability in
