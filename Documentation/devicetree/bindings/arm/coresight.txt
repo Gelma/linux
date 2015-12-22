@@ -6,7 +6,7 @@ SoCs tracing needs. These trace components can generally be classified as
 sinks, links and sources. Trace data produced by one or more sources flows
 through the intermediate links connecting the source to the currently selected
 sink. Each CoreSight component device should use these properties to describe
-its hardware characteristcs.
+its hardware characteristics.
 
 * Required properties for all components *except* non-configurable replicators:
 
