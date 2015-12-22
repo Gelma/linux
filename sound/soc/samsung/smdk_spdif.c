@@ -74,7 +74,7 @@ out1:
 }
 
 /* We should haved to set clock directly on this part because of clock
- * scheme of Samsudng SoCs did not support to set rates from abstrct
+ * scheme of Samsudng SoCs did not support to set rates from abstract
  * clock of it's hierarchy.
  */
 static int set_audio_clock_rate(unsigned long epll_rate,
