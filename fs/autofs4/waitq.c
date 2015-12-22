@@ -276,7 +276,7 @@ static int validate_request(struct autofs_wait_queue **wait,
 	 */
 	if (notify == NFY_NONE) {
 		/*
-		 * Either we've betean the pending expire to post it's
+		 * Either we've beaten the pending expire to post it's
 		 * wait or it finished while we waited on the mutex.
 		 * So we need to wait till either, the wait appears
 		 * or the expire finishes.
