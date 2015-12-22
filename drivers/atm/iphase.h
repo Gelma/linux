@@ -27,7 +27,7 @@
           Modify the basic memory allocation and dma logic.
           Port the driver to the latest kernel from 2.0.46.
           Complete the ABR logic of the driver, and added the ABR work-
-              around for the hardware anormalies.
+              around for the hardware anomalies.
           Add the CBR support.
 	  Add the flow control logic to the driver to allow rate-limit VC.
           Add 4K VC support to the board with 512K control memory.
