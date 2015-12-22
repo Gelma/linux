@@ -2846,7 +2846,7 @@ static int velocity_probe(struct device *dev, int irq,
 	vptr->options.flags &= info->flags;
 
 	/*
-	 *	Enable the chip specified capbilities
+	 *	Enable the chip specified capabilities
 	 */
 
 	vptr->flags = vptr->options.flags | (info->flags & 0xFF000000UL);
