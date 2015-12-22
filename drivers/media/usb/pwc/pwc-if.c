@@ -28,7 +28,7 @@
 
 /*
    This code forms the interface between the USB layers and the Philips
-   specific stuff. Some adanved stuff of the driver falls under an
+   specific stuff. Some advanced stuff of the driver falls under an
    NDA, signed between me and Philips B.V., Eindhoven, the Netherlands, and
    is thus not distributed in source form. The binary pwcx.o module
    contains the code that falls under the NDA.
