@@ -1162,7 +1162,7 @@ fail_elvpriv:
 	 * elvpriv init failed.  ioc, icq and elvpriv aren't mempool backed
 	 * and may fail indefinitely under memory pressure and thus
 	 * shouldn't stall IO.  Treat this request as !elvpriv.  This will
-	 * disturb iosched and blkcg but weird is bettern than dead.
+	 * disturb iosched and blkcg but weird is better than dead.
 	 */
 	printk_ratelimited(KERN_WARNING "%s: dev %s: request aux data allocation failed, iosched may be disturbed\n",
 			   __func__, dev_name(q->backing_dev_info.dev));
