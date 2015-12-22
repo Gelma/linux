@@ -2275,7 +2275,7 @@ loopback_mode_end_exit:
  * @job: LPFC_BSG_VENDOR_DIAG_LINK_TEST
  *
  * This function is to perform SLI4 diag link test request from the user
- * applicaiton.
+ * application.
  */
 static int
 lpfc_sli4_bsg_link_diag_test(struct fc_bsg_job *job)
