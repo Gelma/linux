@@ -89,7 +89,7 @@ int snd_hdac_ext_bus_parse_capabilities(struct hdac_ext_bus *ebus)
 			break;
 		}
 
-		/* read the offset of next capabiity */
+		/* read the offset of next capability */
 		offset = cur_cap & AZX_CAP_HDR_NXT_PTR_MASK;
 
 	} while (offset);
