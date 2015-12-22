@@ -1344,7 +1344,7 @@ struct lpfc_fdmi_reg_portattr {
 #define  RHBA_SYM_NODENAME       0xc /* 4 to 256 byte ASCII string */
 
 /*
- * Port Attrubute Types
+ * Port Attribute Types
  */
 #define  RPRT_SUPPORTED_FC4_TYPES     0x1 /* 32 byte binary array */
 #define  RPRT_SUPPORTED_SPEED         0x2 /* 32-bit unsigned int */
