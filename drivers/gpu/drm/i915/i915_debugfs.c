@@ -5427,7 +5427,7 @@ int i915_debugfs_connector_add(struct drm_connector *connector)
 {
 	struct dentry *root = connector->debugfs_entry;
 
-	/* The connector must have been registered beforehands. */
+	/* The connector must have been registered beforehand. */
 	if (!root)
 		return -ENODEV;
 
