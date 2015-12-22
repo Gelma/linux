@@ -4612,7 +4612,7 @@ static int cas_get_settings(struct net_device *dev, struct ethtool_cmd *cmd)
 	}
 	if (linkstate != link_up) {
 		/* Force these to "unknown" if the link is not up and
-		 * autonogotiation in enabled. We can set the link
+		 * autonegotiation in enabled. We can set the link
 		 * speed to 0, but not cmd->duplex,
 		 * because its legal values are 0 and 1.  Ethtool will
 		 * print the value reported in parentheses after the
