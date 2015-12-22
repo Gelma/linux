@@ -124,5 +124,5 @@ We don't need to reset it to NULL, since we are guaranteed that there
 will be a call of ps_set_intr() before we look at ps_continuation again.
 We can remove the check for ps_continuation being NULL for the same
 reason - the value is guaranteed to be set by the last ps_set_intr() and
-we never pass it NULL.  Assignements in the beginning of ps_set_intr()
+we never pass it NULL.  Assignments in the beginning of ps_set_intr()
 can be taken to callers as long as they remain within the area.
