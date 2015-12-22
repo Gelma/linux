@@ -11,7 +11,7 @@
  *	.pm_runtime_resume() or ordinary .resume() for example.
  * @PINCTRL_STATE_INIT: normally the pinctrl will be set to "default"
  *	before the driver's probe() function is called.  There are some
- *	drivers where that is not appropriate becausing doing so would
+ *	drivers where that is not appropriate because doing so would
  *	glitch the pins.  In those cases you can add an "init" pinctrl
  *	which is the state of the pins before drive probe.  After probe
  *	if the pins are still in "init" state they'll be moved to
