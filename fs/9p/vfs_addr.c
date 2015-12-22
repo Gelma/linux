@@ -234,7 +234,7 @@ static int v9fs_launder_page(struct page *page)
  * @pos: offset in file to begin the operation
  *
  * The presence of v9fs_direct_IO() in the address space ops vector
- * allowes open() O_DIRECT flags which would have failed otherwise.
+ * allows open() O_DIRECT flags which would have failed otherwise.
  *
  * In the non-cached mode, we shunt off direct read and write requests before
  * the VFS gets them, so this method should never be called.
