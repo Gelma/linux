@@ -629,7 +629,7 @@ static int p9_rdma_bind_privport(struct p9_trans_rdma *rdma)
 }
 
 /**
- * trans_create_rdma - Transport method for creating atransport instance
+ * trans_create_rdma - Transport method for creating a transport instance
  * @client: client instance
  * @addr: IP address string
  * @args: Mount options string
