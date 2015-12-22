@@ -178,7 +178,7 @@ static void irda_task_delete(struct irda_task *task)
  * Function irda_task_kick (task)
  *
  *    Tries to execute a task possible multiple times until the task is either
- *    finished, or askes for a timeout. When a task is finished, we do post
+ *    finished, or asks for a timeout. When a task is finished, we do post
  *    processing, and notify the parent task, that is waiting for this task
  *    to complete.
  */
@@ -191,7 +191,7 @@ static int irda_task_kick(struct irda_task *task)
 	IRDA_ASSERT(task != NULL, return -1;);
 	IRDA_ASSERT(task->magic == IRDA_TASK_MAGIC, return -1;);
 
-	/* Execute task until it's finished, or askes for a timeout */
+	/* Execute task until it's finished, or asks for a timeout */
 	do {
 		timeout = task->function(task);
 		if (count++ > 100) {
