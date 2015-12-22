@@ -262,7 +262,7 @@ u8 r8712_construct_txaggr_cmd_desc(struct xmit_buf *pxmitbuf)
 {
 	struct tx_desc *ptx_desc = (struct tx_desc *)pxmitbuf->pbuf;
 
-	/* Fill up TxCmd Descriptor according as USB FW Tx Aaggregation info.*/
+	/* Fill up TxCmd Descriptor according as USB FW Tx aggregation info.*/
 	/* dw0 */
 	ptx_desc->txdw0 = cpu_to_le32(CMD_HDR_SZ & 0xffff);
 	ptx_desc->txdw0 |=
