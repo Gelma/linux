@@ -1241,7 +1241,7 @@ int i915_driver_open(struct drm_device *dev, struct drm_file *file)
  * in case the last client left us in a bad state).
  *
  * Additionally, in the non-mode setting case, we'll tear down the GTT
- * and DMA structures, since the kernel won't be using them, and clea
+ * and DMA structures, since the kernel won't be using them, and clean
  * up any GEM state.
  */
 void i915_driver_lastclose(struct drm_device *dev)
