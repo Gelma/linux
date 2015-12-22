@@ -7361,7 +7361,7 @@ lpfc_sli4_async_mbox_unblock(struct lpfc_hba *phba)
 	psli->sli_flag &= ~LPFC_SLI_ASYNC_MBX_BLK;
 	spin_unlock_irq(&phba->hbalock);
 
-	/* wake up worker thread to post asynchronlous mailbox command */
+	/* wake up worker thread to post asynchronous mailbox command */
 	lpfc_worker_wake_up(phba);
 }
 
@@ -10916,7 +10916,7 @@ lpfc_sli_sp_intr_handler(int irq, void *dev_id)
 		return IRQ_NONE;
 
 	/*
-	 * Stuff needs to be attented to when this function is invoked as an
+	 * Stuff needs to be attended to when this function is invoked as an
 	 * individual interrupt handler in MSI-X multi-message interrupt mode
 	 */
 	if (phba->intr_type == MSIX) {
@@ -11206,7 +11206,7 @@ lpfc_sli_fp_intr_handler(int irq, void *dev_id)
 		return IRQ_NONE;
 
 	/*
-	 * Stuff needs to be attented to when this function is invoked as an
+	 * Stuff needs to be attended to when this function is invoked as an
 	 * individual interrupt handler in MSI-X multi-message interrupt mode
 	 */
 	if (phba->intr_type == MSIX) {
@@ -11596,7 +11596,7 @@ lpfc_sli4_els_wcqe_to_rspiocbq(struct lpfc_hba *phba,
 }
 
 /**
- * lpfc_sli4_sp_handle_async_event - Handle an asynchroous event
+ * lpfc_sli4_sp_handle_async_event - Handle an asynchronous event
  * @phba: Pointer to HBA context object.
  * @cqe: Pointer to mailbox completion queue entry.
  *
