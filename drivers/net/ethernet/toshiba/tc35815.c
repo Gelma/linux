@@ -166,8 +166,8 @@ struct tc35815_regs {
 #define CAM_CompEn	       0x00000010 /* 1:CAM Compare Enable	     */
 #define CAM_NegCAM	       0x00000008 /* 1:Reject packets CAM recognizes,*/
 					  /*			accept other */
-#define CAM_BroadAcc	       0x00000004 /* 1:Broadcast assept		     */
-#define CAM_GroupAcc	       0x00000002 /* 1:Multicast assept		     */
+#define CAM_BroadAcc	       0x00000004 /* 1:Broadcast accept		     */
+#define CAM_GroupAcc	       0x00000002 /* 1:Multicast accept		     */
 #define CAM_StationAcc	       0x00000001 /* 1:unicast accept		     */
 
 /* CAM_Ena bit assign ------------------------------------------------------- */
