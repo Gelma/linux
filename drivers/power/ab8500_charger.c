@@ -1302,9 +1302,9 @@ static int ab8500_charger_set_output_curr(struct ab8500_charger *di,
 }
 
 /**
- * ab8500_charger_led_en() - turn on/off chargign led
+ * ab8500_charger_led_en() - turn on/off charging led
  * @di:		pointer to the ab8500_charger structure
- * @on:		flag to turn on/off the chargign led
+ * @on:		flag to turn on/off the charging led
  *
  * Power ON/OFF charging LED indication
  * Returns error code in case of failure else 0(on success)
