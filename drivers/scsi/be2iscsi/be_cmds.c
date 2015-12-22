@@ -304,7 +304,7 @@ static inline void be_mcc_compl_use(struct be_mcc_compl *compl)
 }
 
 /*
- * be_mcc_compl_process()- Check the MBX comapletion status
+ * be_mcc_compl_process()- Check the MBX completion status
  * @ctrl: Function specific MBX data structure
  * @compl: Completion status of MBX Command
  *
