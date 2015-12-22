@@ -224,7 +224,7 @@ vortex_mix_setenablebit(vortex_t * vortex, unsigned char mix, int mixin, int en)
 		temp |= (1 << (mixin & 3));
 	else
 		temp &= ~(1 << (mixin & 3));
-	/* Mute input. Astatic void crackling? */
+	/* Mute input. A static void crackling? */
 	hwwrite(vortex->mmio,
 		VORTEX_MIX_INVOL_B + (((mix << 5) + mixin) << 2), 0x80);
 	/* Looks like clear buffer. */
@@ -1861,7 +1861,7 @@ vortex_connection_mixin_mix(vortex_t * vortex, int en, unsigned char mixin,
 		vortex_mix_disableinput(vortex, mix, mixin, a);
 }
 
-// Connect absolut address to mixin.
+// Connect absolute address to mixin.
 static void
 vortex_connection_adb_mixin(vortex_t * vortex, int en,
 			    unsigned char channel, unsigned char source,
@@ -1887,7 +1887,7 @@ vortex_connection_src_src_adbdma(vortex_t * vortex, int en,
 			ADB_DMA(adbdma));
 }
 
-// mix to absolut address.
+// mix to absolute address.
 static void
 vortex_connection_mix_adb(vortex_t * vortex, int en, unsigned char ch,
 			  unsigned char mix, unsigned char dest)
