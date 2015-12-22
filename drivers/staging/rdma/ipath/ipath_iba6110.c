@@ -512,7 +512,7 @@ static void ipath_ht_handle_hwerrors(struct ipath_devdata *dd, char *msg,
 	if (!hwerrs) {
 		ipath_cdbg(VERBOSE, "Called but no hardware errors set\n");
 		/*
-		 * better than printing cofusing messages
+		 * better than printing confusing messages
 		 * This seems to be related to clearing the crc error, or
 		 * the pll error during init.
 		 */
