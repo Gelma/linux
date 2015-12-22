@@ -157,7 +157,7 @@ static int gplugd_eth_init(void)
 struct pxa168_eth_platform_data gplugd_eth_platform_data = {
 	.port_number = 0,
 	.phy_addr    = 0,
-	.speed       = 0, /* Autonagotiation */
+	.speed       = 0, /* Autonegotiation */
 	.intf        = PHY_INTERFACE_MODE_RMII,
 	.init        = gplugd_eth_init,
 };
