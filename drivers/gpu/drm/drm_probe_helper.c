@@ -418,7 +418,7 @@ out:
  * This function disables the output polling work.
  *
  * Drivers can call this helper from their device suspend implementation. It is
- * not an error to call this even when output polling isn't enabled or arlready
+ * not an error to call this even when output polling isn't enabled or already
  * disabled.
  */
 void drm_kms_helper_poll_disable(struct drm_device *dev)
