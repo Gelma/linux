@@ -343,7 +343,7 @@ extern ssize_t traceprobe_probes_write(struct file *file,
 
 extern int traceprobe_command(const char *buf, int (*createfn)(int, char**));
 
-/* Sum up total data length for dynamic arraies (strings) */
+/* Sum up total data length for dynamic arrays (strings) */
 static nokprobe_inline int
 __get_data_size(struct trace_probe *tp, struct pt_regs *regs)
 {
