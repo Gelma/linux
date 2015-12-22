@@ -320,7 +320,7 @@ static void sdma_wait_for_packet_egress(struct sdma_engine *sde,
 		reg >>= SDMA_EGRESS_PACKET_OCCUPANCY_SHIFT;
 		if (reg == 0)
 			break;
-		/* counter is reest if accupancy count changes */
+		/* counter is reset if occupancy count changes */
 		if (reg != reg_prev)
 			lcnt = 0;
 		if (lcnt++ > 500) {
