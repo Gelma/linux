@@ -112,7 +112,7 @@ enum WIFI_REASON_CODE	{
 	_RSON_INVALID_RSNE_CAP_		= 22,
 	_RSON_IEEE_802DOT1X_AUTH_FAIL_	= 23,
 
-	/* belowing are Realtek definition */
+	/* below are Realtek definition */
 	_RSON_PMK_NOT_AVAILABLE_	= 24,
 	_RSON_TDLS_TEAR_TOOFAR_		= 25,
 	_RSON_TDLS_TEAR_UN_RSN_		= 26,
