@@ -193,7 +193,7 @@ struct ioc3_port {
 	/* DCD state is on */
 #define LOWAT_WRITTEN		0x04
 #define READ_ABORTED		0x08
-	/* the read was aborted - used to avaoid infinate looping
+	/* the read was aborted - used to avoid infinate looping
 	 * in the interrupt handler
 	 */
 #define INPUT_ENABLE		0x10
