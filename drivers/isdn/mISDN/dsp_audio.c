@@ -178,7 +178,7 @@ dsp_audio_generate_s2law_table(void)
 
 /*
  * the seven bit sample is the number of every second alaw-sample ordered by
- * aplitude. 0x00 is negative, 0x7f is positive amplitude.
+ * amplitude. 0x00 is negative, 0x7f is positive amplitude.
  */
 u8 dsp_audio_seven2law[128];
 u8 dsp_audio_law2seven[256];
