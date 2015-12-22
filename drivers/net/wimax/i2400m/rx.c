@@ -274,7 +274,7 @@ void i2400m_report_hook_queue(struct i2400m *i2400m, struct sk_buff *skb_rx,
  * @payload: pointer to message
  * @size: size of the message
  *
- * Pass the acknodledgment (in an skb) to the thread that is waiting
+ * Pass the acknowledgment (in an skb) to the thread that is waiting
  * for it in i2400m->msg_completion.
  *
  * We need to coordinate properly with the thread waiting for the
