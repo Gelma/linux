@@ -183,7 +183,7 @@ EXPORT_SYMBOL(cxgb4_clip_release);
 
 /* Retrieves IPv6 addresses from a root device (bond, vlan) associated with
  * a physical device.
- * The physical device reference is needed to send the actul CLIP command.
+ * The physical device reference is needed to send the actual CLIP command.
  */
 static int cxgb4_update_dev_clip(struct net_device *root_dev,
 				 struct net_device *dev)
