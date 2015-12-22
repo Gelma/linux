@@ -580,7 +580,7 @@ asmlinkage __visible void smp_irq_move_cleanup_interrupt(void)
 
 		irr = apic_read(APIC_IRR + (vector / 32 * 0x10));
 		/*
-		 * Check if the vector that needs to be cleanedup is
+		 * Check if the vector that needs to be cleaned up is
 		 * registered at the cpu's IRR. If so, then this is not
 		 * the best time to clean it up. Lets clean it up in the
 		 * next attempt by sending another IRQ_MOVE_CLEANUP_VECTOR
