@@ -5015,7 +5015,7 @@ lpfc_sli_driver_resource_setup(struct lpfc_hba *phba)
 		 * the FCP rsp, and a BDE for each. Sice we have no control
 		 * over how many protection data segments the SCSI Layer
 		 * will hand us (ie: there could be one for every block
-		 * in the IO), we just allocate enough BDEs to accomidate
+		 * in the IO), we just allocate enough BDEs to accomodate
 		 * our max amount and we need to limit lpfc_sg_seg_cnt to
 		 * minimize the risk of running out.
 		 */
@@ -5208,7 +5208,7 @@ lpfc_sli4_driver_resource_setup(struct lpfc_hba *phba)
 		 * the FCP rsp, and a SGE for each. Sice we have no control
 		 * over how many protection data segments the SCSI Layer
 		 * will hand us (ie: there could be one for every block
-		 * in the IO), we just allocate enough SGEs to accomidate
+		 * in the IO), we just allocate enough SGEs to accomodate
 		 * our max amount and we need to limit lpfc_sg_seg_cnt to
 		 * minimize the risk of running out.
 		 */
@@ -8013,7 +8013,7 @@ lpfc_sli4_cq_event_release_all(struct lpfc_hba *phba)
 	/* Pending ELS XRI abort events */
 	list_splice_init(&phba->sli4_hba.sp_els_xri_aborted_work_queue,
 			 &cqelist);
-	/* Pending asynnc events */
+	/* Pending async events */
 	list_splice_init(&phba->sli4_hba.sp_asynce_work_queue,
 			 &cqelist);
 	spin_unlock_irqrestore(&phba->hbalock, iflags);
