@@ -450,7 +450,7 @@ static ssize_t xenbus_file_write(struct file *filp,
 	/*
 	 * Make sure concurrent writers can't stomp all over each
 	 * other's messages and make a mess of our partial message
-	 * buffer.  We don't make any attemppt to stop multiple
+	 * buffer.  We don't make any attempt to stop multiple
 	 * writers from making a mess of each other's incomplete
 	 * messages; we're just trying to guarantee our own internal
 	 * consistency and make sure that single writes are handled
