@@ -415,7 +415,7 @@ struct smt_p_reason {
 #define SMT_RDF_ILLEGAL 0x00000005	/* read only (PMF) */
 #define SMT_RDF_NOPARAM	0x6		/* parameter not supported (PMF) */
 #define SMT_RDF_RANGE	0x8		/* out of range */
-#define SMT_RDF_AUTHOR	0x9		/* not autohorized */
+#define SMT_RDF_AUTHOR	0x9		/* not authorized */
 #define SMT_RDF_LENGTH	0x0a		/* length error */
 #define SMT_RDF_TOOLONG	0x0b		/* length error */
 #define SMT_RDF_SBA	0x0d		/* SBA denied */
