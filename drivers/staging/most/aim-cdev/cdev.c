@@ -411,7 +411,7 @@ static struct most_aim cdev_aim;
  * @parent: pointer to kobject (needed for sysfs hook-up)
  * @name: name of the device to be created
  *
- * This allocates achannel object and creates the device node in /dev
+ * This allocates a channel object and creates the device node in /dev
  *
  * Returns 0 on success or error code otherwise.
  */
