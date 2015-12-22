@@ -2133,7 +2133,7 @@ EXPORT_SYMBOL(drm_fb_helper_initial_config);
  * hotplug interrupt).
  *
  * Note that drivers may call this even before calling
- * drm_fb_helper_initial_config but only aftert drm_fb_helper_init. This allows
+ * drm_fb_helper_initial_config but only after drm_fb_helper_init. This allows
  * for a race-free fbcon setup and will make sure that the fbdev emulation will
  * not miss any hotplug events.
  *
