@@ -377,7 +377,7 @@ static int cfv_create_genpool(struct cfv_info *cfv)
 
 	/* dma_alloc can only allocate whole pages, and we need a more
 	 * fine graned allocation so we use genpool. We ask for space needed
-	 * by IP and a full ring. If the dma allcoation fails we retry with a
+	 * by IP and a full ring. If the dma allocation fails we retry with a
 	 * smaller allocation size.
 	 */
 	err = -ENOMEM;
@@ -463,7 +463,7 @@ static int cfv_netdev_close(struct net_device *netdev)
 	vringh_notify_disable_kern(cfv->vr_rx);
 	napi_disable(&cfv->napi);
 
-	/* Release any TX buffers on both used and avilable rings */
+	/* Release any TX buffers on both used and available rings */
 	cfv_release_used_buf(cfv->vq_tx);
 	spin_lock_irqsave(&cfv->tx_lock, flags);
 	while ((buf_info = virtqueue_detach_unused_buf(cfv->vq_tx)))
