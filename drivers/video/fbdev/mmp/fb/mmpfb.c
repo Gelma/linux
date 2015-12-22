@@ -605,7 +605,7 @@ static int mmpfb_probe(struct platform_device *pdev)
 	}
 
 	/*
-	 * if get modes success, means not hotplug panels, use caculated buffer
+	 * if get modes success, means not hotplug panels, use calculated buffer
 	 * or use default size
 	 */
 	if (modes_num > 0) {
