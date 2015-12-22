@@ -23,7 +23,7 @@
  * @src_len:	Size of the input buffer
  * @dst_len:	Size of the output buffer. It needs to be at leaset
  *		as big as the expected result depending	on the operation
- *		After operation it will be updated with the acctual size of the
+ *		After operation it will be updated with the actual size of the
  *		result.
  *		In case of error where the dst sgl size was insufficient,
  *		it will be updated to the size required for the operation.
