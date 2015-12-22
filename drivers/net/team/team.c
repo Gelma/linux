@@ -1745,7 +1745,7 @@ static int team_change_mtu(struct net_device *dev, int new_mtu)
 	int err;
 
 	/*
-	 * Alhough this is reader, it's guarded by team lock. It's not possible
+	 * Although this is reader, it's guarded by team lock. It's not possible
 	 * to traverse list in reverse under rcu_read_lock
 	 */
 	mutex_lock(&team->lock);
@@ -1819,7 +1819,7 @@ static int team_vlan_rx_add_vid(struct net_device *dev, __be16 proto, u16 vid)
 	int err;
 
 	/*
-	 * Alhough this is reader, it's guarded by team lock. It's not possible
+	 * Although this is reader, it's guarded by team lock. It's not possible
 	 * to traverse list in reverse under rcu_read_lock
 	 */
 	mutex_lock(&team->lock);
