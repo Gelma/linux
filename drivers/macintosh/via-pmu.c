@@ -1276,7 +1276,7 @@ pmu_wait_complete(struct adb_request *req)
 }
 
 /* This function loops until the PMU is idle and prevents it from
- * anwsering to ADB interrupts. pmu_request can still be called.
+ * answering to ADB interrupts. pmu_request can still be called.
  * This is done to avoid spurrious shutdowns when we know we'll have
  * interrupts switched off for a long time
  */
