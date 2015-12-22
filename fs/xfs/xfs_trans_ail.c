@@ -547,7 +547,7 @@ xfsaild(
  * The push is run asynchronously in a workqueue, which means the caller needs
  * to handle waiting on the async flush for space to become available.
  * We don't want to interrupt any push that is in progress, hence we only queue
- * work if we set the pushing bit approriately.
+ * work if we set the pushing bit appropriately.
  *
  * We do this unlocked - we only need to know whether there is anything in the
  * AIL at the time we are called. We don't need to access the contents of
