@@ -47,7 +47,7 @@ struct coh901318_lli {
  * @pool: pool handle
  * @dev: dma device
  * @lli_nbr: number of lli:s in the pool
- * @algin: address alignemtn of lli:s
+ * @align: address alignment of lli:s
  * returns 0 on success otherwise none zero
  */
 int coh901318_pool_create(struct coh901318_pool *pool,
