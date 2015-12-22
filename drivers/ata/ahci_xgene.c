@@ -261,7 +261,7 @@ static unsigned int xgene_ahci_read_id(struct ata_device *dev,
 	/*
 	 * Mask reserved area. Word78 spec of Link Power Management
 	 * bit15-8: reserved
-	 * bit7: NCQ autosence
+	 * bit7: NCQ autosense
 	 * bit6: Software settings preservation supported
 	 * bit5: reserved
 	 * bit4: In-order sata delivery supported
