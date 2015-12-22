@@ -921,7 +921,7 @@ sn_sal_console_write(struct console *co, const char *s, unsigned count)
 		 * and plow ahead. If the lock is freed within the time out
 		 * period we re-get the lock and go ahead normally. We also
 		 * remember if we have plowed ahead so that we don't have
-		 * to wait out the time out period again - the asumption
+		 * to wait out the time out period again - the assumption
 		 * is that we will time out again.
 		 */
 
