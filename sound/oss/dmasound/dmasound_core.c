@@ -905,7 +905,7 @@ static int sq_release(struct inode *inode, struct file *file)
 	 * to open() returning. */
 
 	/* Iain: hmm I don't understand this next comment ... */
-	/* There is probably a DOS atack here. They change the mode flag. */
+	/* There is probably a DOS attack here. They change the mode flag. */
 	/* XXX add check here,*/
 	read_sq_wake_up(file); /* checks f_mode */
 	write_sq_wake_up(file); /* checks f_mode */
