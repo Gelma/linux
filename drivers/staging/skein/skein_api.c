@@ -132,7 +132,7 @@ void skein_reset(struct skein_ctx *ctx)
 	/*
 	 * The following two lines rely of the fact that the real Skein
 	 * contexts are a union in out context and thus have tha maximum
-	 * memory available.  The beautiy of C :-) .
+	 * memory available.  The beauty of C :-) .
 	 */
 	x = ctx->m.s256.x;
 	x_len = ctx->skein_size / 8;
