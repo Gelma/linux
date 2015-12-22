@@ -3793,7 +3793,7 @@ int bond_update_slave_arr(struct bonding *bond, struct slave *skipslave)
 		if (bond_3ad_get_active_agg_info(bond, &ad_info)) {
 			pr_debug("bond_3ad_get_active_agg_info failed\n");
 			kfree_rcu(new_arr, rcu);
-			/* No active aggragator means it's not safe to use
+			/* No active aggregator means it's not safe to use
 			 * the previous array.
 			 */
 			old_arr = rtnl_dereference(bond->slave_arr);
