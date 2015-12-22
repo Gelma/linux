@@ -575,7 +575,7 @@ int cx88_reset(struct cx88_core *core)
 	/* misc init ... */
 	cx_write(MO_INPUT_FORMAT, ((1 << 13) |   // agc enable
 				   (1 << 12) |   // agc gain
-				   (1 << 11) |   // adaptibe agc
+				   (1 << 11) |   // adaptive agc
 				   (0 << 10) |   // chroma agc
 				   (0 <<  9) |   // ckillen
 				   (7)));
