@@ -33,7 +33,7 @@ struct mmpfb_info {
 	const char	*name;
 
 	struct fb_info	*fb_info;
-	/* basicaly videomode is for output */
+	/* basically videomode is for output */
 	struct fb_videomode	mode;
 	int	pix_fmt;
 
