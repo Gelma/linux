@@ -730,7 +730,7 @@ static int bsg_put_device(struct bsg_device *bd)
 	set_bit(BSG_F_BLOCK, &bd->flags);
 
 	/*
-	 * correct error detection baddies here again. it's the responsibility
+	 * correct error detection buddies here again. It's the responsibility
 	 * of the app to properly reap commands before close() if it wants
 	 * fool-proof error detection
 	 */
