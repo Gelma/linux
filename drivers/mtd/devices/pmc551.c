@@ -58,7 +58,7 @@
  *	fit to the needs of this driver.  All we added was PCI
  *	detection/initialization to the driver and automatically figure
  *	out the size via the PCI detection.o, later changes by Corey
- *	Minyard set up the card to utilize a 1M sliding apature.
+ *	Minyard set up the card to utilize a 1M sliding aperture.
  *
  *	Corey Minyard <minyard@nortelnetworks.com>
  *	* Modified driver to utilize a sliding aperture instead of
