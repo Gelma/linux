@@ -95,7 +95,7 @@ static void store_vblank(struct drm_device *dev, unsigned int pipe,
 	 * vblank timestamp updates are protected on the write side with
 	 * vblank_time_lock, but on the read side done locklessly using a
 	 * sequence-lock on the vblank counter. Ensure correct ordering using
-	 * memory barrriers. We need the barrier both before and also after the
+	 * memory barriers. We need the barrier both before and also after the
 	 * counter update to synchronize with the next timestamp write.
 	 * The read-side barriers for this are in drm_vblank_count_and_time.
 	 */
