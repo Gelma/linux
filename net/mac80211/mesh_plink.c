@@ -1019,7 +1019,7 @@ mesh_plink_get_event(struct ieee80211_sub_if_data *sdata,
 			 * order to avoid a livelock when MP A sees an
 			 * establish peer link to MP B but MP B does not
 			 * see it. This can be caused by a timeout in
-			 * B's peer link establishment or B beign
+			 * B's peer link establishment or B being
 			 * restarted.
 			 */
 			event = CLS_ACPT;
