@@ -1057,7 +1057,7 @@ static int pch_can_suspend(struct pci_dev *pdev, pm_message_t state)
 	/* Stop the CAN controller */
 	pch_can_set_run_mode(priv, PCH_CAN_STOP);
 
-	/* Indicate that we are aboutto/in suspend */
+	/* Indicate that we are about to/in suspend */
 	priv->can.state = CAN_STATE_STOPPED;
 
 	/* Waiting for all transmission to complete. */
