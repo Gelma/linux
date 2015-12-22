@@ -73,7 +73,7 @@ struct s3c_fb;
  * @vidtcon: The base for the VIDTCONx registers
  * @wincon: The base for the WINxCON registers.
  * @winmap: The base for the WINxMAP registers.
- * @keycon: The abse for the WxKEYCON registers.
+ * @keycon: The base for the WxKEYCON registers.
  * @buf_start: Offset of buffer start registers.
  * @buf_size: Offset of buffer size registers.
  * @buf_end: Offset of buffer end registers.
