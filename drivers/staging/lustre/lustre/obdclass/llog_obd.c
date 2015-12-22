@@ -120,7 +120,7 @@ int llog_cleanup(const struct lu_env *env, struct llog_ctxt *ctxt)
 	idx = ctxt->loc_idx;
 
 	/*
-	 * Banlance the ctxt get when calling llog_cleanup()
+	 * Balance the ctxt get when calling llog_cleanup()
 	 */
 	LASSERT(atomic_read(&ctxt->loc_refcount) < LI_POISON);
 	LASSERT(atomic_read(&ctxt->loc_refcount) > 1);
