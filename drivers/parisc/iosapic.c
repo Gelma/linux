@@ -498,7 +498,7 @@ iosapic_xlate_pin(struct iosapic_info *isi, struct pci_dev *pcidev)
 		** This is architecturally "cleaner". HP-UX doesn't
 		** support other secondary bus types (eg. E/ISA) directly.
 		** May be needed for other processor (eg IA64) architectures
-		** or by some ambitous soul who wants to watch TV.
+		** or by some ambitious soul who wants to watch TV.
 		*/
 		if (pci_bridge_funcs->xlate_intr_line) {
 			intr_pin = pci_bridge_funcs->xlate_intr_line(pcidev);
