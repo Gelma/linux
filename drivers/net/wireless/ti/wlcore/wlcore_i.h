@@ -483,7 +483,7 @@ struct wl12xx_vif {
 
 	/*
 	 * This struct must be last!
-	 * data that has to be saved acrossed reconfigs (e.g. recovery)
+	 * data that has to be saved across reconfigs (e.g. recovery)
 	 * should be declared in this struct.
 	 */
 	struct {
