@@ -113,7 +113,7 @@ enum wcn36xx_hal_host_msg_type {
 	WCN36XX_HAL_DELETE_BSS_REQ = 18,
 	WCN36XX_HAL_DELETE_BSS_RSP = 19,
 
-	/* Infra STA asscoiation */
+	/* Infra STA association */
 	WCN36XX_HAL_JOIN_REQ = 20,
 	WCN36XX_HAL_JOIN_RSP = 21,
 	WCN36XX_HAL_POST_ASSOC_REQ = 22,
@@ -1981,7 +1981,7 @@ struct wcn36xx_hal_set_bss_key_rsp_msg {
 /*
  * This is used  configure the key information on a given station.
  * When the sec_type is WEP40 or WEP104, the def_wep_idx is used to locate
- * a preconfigured key from a BSS the station assoicated with; otherwise
+ * a preconfigured key from a BSS the station associated with; otherwise
  * a new key descriptor is created based on the key field.
  */
 struct wcn36xx_hal_set_sta_key_req_msg {
