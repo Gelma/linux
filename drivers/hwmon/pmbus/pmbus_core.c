@@ -1407,7 +1407,7 @@ static const struct pmbus_sensor_attr power_attributes[] = {
 	}
 };
 
-/* Temperature atributes */
+/* Temperature attributes */
 
 static const struct pmbus_limit_attr temp_limit_attrs[] = {
 	{
