@@ -1047,7 +1047,7 @@ static int fsl_qspi_probe(struct platform_device *pdev)
 		if (q->nor_size == 0) {
 			q->nor_size = mtd->size;
 
-			/* Map the SPI NOR to accessiable address */
+			/* Map the SPI NOR to accessible address */
 			fsl_qspi_set_map_addr(q);
 		}
 
