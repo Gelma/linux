@@ -8,7 +8,7 @@
 #include "ieee754.h"
 
 /*
- * Emulate the arbritrary instruction ir at xcp->cp0_epc.  Required when
+ * Emulate the arbitrary instruction ir at xcp->cp0_epc.  Required when
  * we have to emulate the instruction in a COP1 branch delay slot.  Do
  * not change cp0_epc due to the instruction
  *
