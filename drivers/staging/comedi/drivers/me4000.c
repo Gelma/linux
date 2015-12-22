@@ -431,7 +431,7 @@ static void me4000_reset(struct comedi_device *dev)
 	for (chan = 0; chan < 4; chan++)
 		outl(val, dev->iobase + ME4000_AO_CTRL_REG(chan));
 
-	/* Set the adustment register for AO demux */
+	/* Set the adjustment register for AO demux */
 	outl(ME4000_AO_DEMUX_ADJUST_VALUE,
 	     dev->iobase + ME4000_AO_DEMUX_ADJUST_REG);
 
