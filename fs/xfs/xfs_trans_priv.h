@@ -39,7 +39,7 @@ void	xfs_trans_committed_bulk(struct xfs_ail *ailp, struct xfs_log_vec *lv,
  * AIL traversal cursor.
  *
  * Rather than using a generation number for detecting changes in the ail, use
- * a cursor that is protected by the ail lock. The aild cursor exists in the
+ * a cursor that is protected by the ail lock. The ail cursor exists in the
  * struct xfs_ail, but other traversals can declare it on the stack and link it
  * to the ail list.
  *
