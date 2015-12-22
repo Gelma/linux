@@ -557,7 +557,7 @@
 	}
 
 /*
- * Allow archectures to redefine BSS_FIRST_SECTIONS to add extra
+ * Allow architectures to redefine BSS_FIRST_SECTIONS to add extra
  * sections to the front of bss.
  */
 #ifndef BSS_FIRST_SECTIONS
