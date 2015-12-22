@@ -1711,7 +1711,7 @@ static int fsl_diu_probe(struct platform_device *pdev)
 	 * always page-aligned.  We need the memory to be 32-byte aligned,
 	 * so that's good.  However, if one day the allocator changes, we
 	 * need to catch that.  It's not worth the effort to handle unaligned
-	 * alloctions now because it's highly unlikely to ever be a problem.
+	 * allocations now because it's highly unlikely to ever be a problem.
 	 */
 	if ((unsigned long)data & 31) {
 		dev_err(&pdev->dev, "misaligned allocation");
