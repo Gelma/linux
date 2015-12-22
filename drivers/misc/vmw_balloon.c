@@ -60,7 +60,7 @@ MODULE_LICENSE("GPL");
  */
 
 /*
- * Rates of memory allocaton when guest experiences memory pressure
+ * Rates of memory allocation when guest experiences memory pressure
  * (driver performs sleeping allocations).
  */
 #define VMW_BALLOON_RATE_ALLOC_MIN	512U
