@@ -833,7 +833,7 @@ static s32 Handle_Scan(struct host_if_drv *hif_drv,
 	}
 
 	if (g_obtainingIP || connecting) {
-		PRINT_D(GENERIC_DBG, "[handle_scan]: Don't do obss scan until IP adresss is obtained\n");
+		PRINT_D(GENERIC_DBG, "[handle_scan]: Don't do obss scan until IP address is obtained\n");
 		PRINT_ER("Don't do obss scan\n");
 		result = -EBUSY;
 		goto ERRORHANDLER;
@@ -2499,7 +2499,7 @@ static int Handle_RemainOnChan(struct host_if_drv *hif_drv,
 	}
 
 	if (g_obtainingIP || connecting) {
-		PRINT_D(GENERIC_DBG, "[handle_scan]: Don't do obss scan until IP adresss is obtained\n");
+		PRINT_D(GENERIC_DBG, "[handle_scan]: Don't do obss scan until IP address is obtained\n");
 		result = -EBUSY;
 		goto ERRORHANDLER;
 	}
