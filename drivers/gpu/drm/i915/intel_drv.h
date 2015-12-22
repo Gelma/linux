@@ -322,7 +322,7 @@ struct intel_crtc_scaler_state {
 	 *
 	 * intel_atomic_setup_scalers will setup available scalers to users
 	 * requesting scalers. It will gracefully fail if request exceeds
-	 * avilability.
+	 * availability.
 	 */
 #define SKL_CRTC_INDEX 31
 	unsigned scaler_users;
