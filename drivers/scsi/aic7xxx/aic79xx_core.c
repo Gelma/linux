@@ -4394,7 +4394,7 @@ ahd_scb_devinfo(struct ahd_softc *ahd, struct ahd_devinfo *devinfo,
 /*
  * When an initiator transaction with the MK_MESSAGE flag either reconnects
  * or enters the initial message out phase, we are interrupted.  Fill our
- * outgoing message buffer with the appropriate message and beging handing
+ * outgoing message buffer with the appropriate message and begin handing
  * the message phase(s) manually.
  */
 static void
@@ -10063,7 +10063,7 @@ ahd_read_seeprom(struct ahd_softc *ahd, uint16_t *buf,
 }
 
 /*
- * Write count 16bit words from buf, into SEEPROM attache to the
+ * Write count 16bit words from buf, into SEEPROM attached to the
  * controller starting at 16bit word address start_addr, using the
  * controller's SEEPROM writing state machine.
  */
