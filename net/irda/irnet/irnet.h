@@ -134,7 +134,7 @@
  * v2 - 5.6.00 - Jean II
  *	o Enable DROP_NOT_READY to avoid PPP timeouts & other weirdness...
  *	o Add DISCONNECT_TO event and rename DISCONNECT_FROM.
- *	o Set official device number alloaction on /dev/irnet
+ *	o Set official device number allocation on /dev/irnet
  *
  * v3 - 30.8.00 - Jean II
  *	o Update to latest Linux-IrDA changes :
