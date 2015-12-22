@@ -38,7 +38,7 @@
  * 			It's required to blacklist AverMedia USB Radio
  * 			in usbhid/hid-quirks.c
  * Version 0.10:	A lot of cleanups and fixes: unpluging the device,
- * 			few mutex locks were added, codinstyle issues, etc.
+ * 			few mutex locks were added, coding style issues, etc.
  * 			Added stereo support. Thanks to
  * 			Douglas Schilling Landgraf <dougsland@gmail.com> and
  * 			David Ellingsworth <david@identd.dyndns.org>
