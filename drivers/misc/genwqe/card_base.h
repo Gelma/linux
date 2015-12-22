@@ -156,7 +156,7 @@ enum genwqe_dbg_type {
 /**
  * struct dma_mapping_type - Mapping type definition
  *
- * To avoid memcpying data arround we use user memory directly. To do
+ * To avoid memcpying data around we use user memory directly. To do
  * this we need to pin/swap-in the memory and request a DMA address
  * for it.
  */
