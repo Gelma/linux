@@ -150,7 +150,7 @@
  If bit is set, four ID bytes are included in frame.
 
  - ID = Connection ID
- Additional ID to prevent Denial of Service attacs. Also it prevents hijacking
+ Additional ID to prevent Denial of Service attacks. Also it prevents hijacking
  connections with dynamic IP. The ID should be random and must not be 0.
 
  - Coding = Type of codec
