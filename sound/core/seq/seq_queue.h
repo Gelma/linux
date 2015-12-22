@@ -40,7 +40,7 @@ struct snd_seq_queue {
 	
 	struct snd_seq_timer *timer;	/* time keeper for this queue */
 	int	owner;		/* client that 'owns' the timer */
-	unsigned int	locked:1,	/* timer is only accesibble by owner if set */
+	unsigned int	locked:1,	/* timer is only accessible by owner if set */
 		klocked:1,	/* kernel lock (after START) */	
 		check_again:1,
 		check_blocked:1;
