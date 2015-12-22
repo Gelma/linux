@@ -696,7 +696,7 @@ static int rt9455_hw_init(struct rt9455_info *info, u32 ichrg,
 	/*
 	 * Disable Safety Timer. In charge mode, this timer terminates charging
 	 * if no read or write via I2C is done within 32 minutes. This timer
-	 * avoids overcharging the baterry when the OS is not loaded and the
+	 * avoids overcharging the battery when the OS is not loaded and the
 	 * charger is connected to a power source.
 	 * In boost mode, this timer triggers BST32SI interrupt if no read or
 	 * write via I2C is done within 32 seconds.
