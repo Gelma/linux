@@ -162,7 +162,7 @@ static inline void name##_writel(struct bcm_sf2_priv *priv,		\
 /* Accesses to 64-bits register requires us to latch the hi/lo pairs
  * using the REG_DIR_DATA_{READ,WRITE} ancillary registers. The 'indir_lock'
  * spinlock is automatically grabbed and released to provide relative
- * atomiticy with latched reads/writes.
+ * atomicity with latched reads/writes.
  */
 #define SF2_IO64_MACRO(name) \
 static inline u64 name##_readq(struct bcm_sf2_priv *priv, u32 off)	\
