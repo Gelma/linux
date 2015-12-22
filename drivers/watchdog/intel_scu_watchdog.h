@@ -39,7 +39,7 @@
 
 #define MAX_SOFT_TO_HARD_MARGIN (MAX_TIME-MIN_TIME_CYCLE)
 
-/* Ajustment to clock tick frequency to make timing come out right */
+/* Adjustment to clock tick frequency to make timing come out right */
 #define FREQ_ADJUSTMENT 8
 
 struct intel_scu_watchdog_dev {
