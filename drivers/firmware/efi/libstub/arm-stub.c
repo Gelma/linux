@@ -162,7 +162,7 @@ efi_status_t handle_kernel_image(efi_system_table_t *sys_table,
 /*
  * EFI entry point for the arm/arm64 EFI stubs.  This is the entrypoint
  * that is described in the PE/COFF header.  Most of the code is the same
- * for both archictectures, with the arch-specific code provided in the
+ * for both architectures, with the arch-specific code provided in the
  * handle_kernel_image() function.
  */
 unsigned long efi_entry(void *handle, efi_system_table_t *sys_table,
