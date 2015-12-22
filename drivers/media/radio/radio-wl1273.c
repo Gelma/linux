@@ -895,7 +895,7 @@ out:
 /**
  * wl1273_fm_set_preemphasis() - Set the TX pre-emphasis value.
  * @radio:			 A pointer to the device struct.
- * @preemphasis:		 The new pre-amphasis value.
+ * @preemphasis:		 The new pre-emphasis value.
  *
  * Possible pre-emphasis values are: V4L2_PREEMPHASIS_DISABLED,
  * V4L2_PREEMPHASIS_50_uS and V4L2_PREEMPHASIS_75_uS.
