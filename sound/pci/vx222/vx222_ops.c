@@ -745,7 +745,7 @@ static void vx2_reset_codec(struct vx_core *_chip)
 		return;
 	}
 
-	msleep(5);  /* additionnel wait time for AKM's */
+	msleep(5);  /* additional wait time for AKM's */
 
 	vx2_write_codec_reg(_chip, AKM_CODEC_POWER_CONTROL_CMD); /* DAC power up, ADC power up, Vref power down */
 	
