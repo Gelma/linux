@@ -175,7 +175,7 @@ struct net_device *alloc_ieee80211(int sizeof_priv)
 	  ieee->last_packet_time[i] = 0;
 	}
 
-/* These function were added to load crypte module autoly */
+/* These function were added to load crypto module autonomously */
 	ieee80211_tkip_null();
 	ieee80211_wep_null();
 	ieee80211_ccmp_null();
@@ -238,7 +238,7 @@ static int debug = \
 	//		    IEEE80211_DL_REORDER|
 //			    IEEE80211_DL_TRACE  |
 			    //IEEE80211_DL_DATA	|
-			    IEEE80211_DL_ERR	  /* awayls open this flags to show error out */
+			    IEEE80211_DL_ERR	  /* always open this flags to show error out */
 			    ;
 static struct proc_dir_entry *ieee80211_proc;
 
