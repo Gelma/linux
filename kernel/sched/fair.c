@@ -4236,7 +4236,7 @@ static void dequeue_task_fair(struct rq *rq, struct task_struct *p, int flags)
 #ifdef CONFIG_SMP
 
 /*
- * per rq 'load' arrray crap; XXX kill this.
+ * per rq 'load' array crap; XXX kill this.
  */
 
 /*
