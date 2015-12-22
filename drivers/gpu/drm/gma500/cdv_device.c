@@ -76,7 +76,7 @@ static int cdv_output_init(struct drm_device *dev)
 #ifdef CONFIG_BACKLIGHT_CLASS_DEVICE
 
 /*
- *	Cedartrail Backlght Interfaces
+ *	Cedartrail Backlight Interfaces
  */
 
 static struct backlight_device *cdv_backlight_device;
