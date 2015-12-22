@@ -89,7 +89,7 @@
 #define SSM_PSR_IC_AND_DEFAULT_BITS_AND_SRLZ_I(clob0, clob1)		\
 	ssm psr.ic | PSR_DEFAULT_BITS					\
 	;;								\
-	srlz.i /* guarantee that interruption collectin is on */	\
+	srlz.i /* guarantee that interruption collection is on */	\
 	;;
 
 #define SSM_PSR_IC_AND_SRLZ_D(clob0, clob1)	\
