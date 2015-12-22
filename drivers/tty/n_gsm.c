@@ -2336,7 +2336,7 @@ static void gsmld_flush_buffer(struct tty_struct *tty)
  *	@tty: device
  *
  *	Called from the terminal layer when this line discipline is
- *	being shut down, either because of a close or becsuse of a
+ *	being shut down, either because of a close or because of a
  *	discipline change. The function will not be called while other
  *	ldisc methods are in progress.
  */
