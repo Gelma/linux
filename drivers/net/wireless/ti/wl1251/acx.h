@@ -318,7 +318,7 @@ struct acx_tx_queue_qos_config {
 	u8 qid;
 	u8 pad[3];
 
-	/* Max number of blocks allowd in the queue */
+	/* Max number of blocks allowed in the queue */
 	u16 high_threshold;
 
 	/* Lowest memory blocks guaranteed for this queue */
