@@ -2187,7 +2187,7 @@ bail:
 }
 
 /* If status is non zero, I'll mark it as not being in refresh
- * anymroe, but i won't clear the needs refresh flag. */
+ * anymore, but i won't clear the needs refresh flag. */
 static inline void ocfs2_complete_lock_res_refresh(struct ocfs2_lock_res *lockres,
 						   int status)
 {
