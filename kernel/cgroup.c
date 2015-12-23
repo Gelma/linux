@@ -982,7 +982,7 @@ static void link_css_set(struct list_head *tmp_links, struct css_set *cset,
 
 	/*
 	 * Always add links to the tail of the lists so that the lists are
-	 * in choronological order.
+	 * in chronological order.
 	 */
 	list_move_tail(&link->cset_link, &cgrp->cset_links);
 	list_add_tail(&link->cgrp_link, &cset->cgrp_links);
