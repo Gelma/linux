@@ -303,7 +303,7 @@ static inline int rt2x00lib_txdone_bar_status(struct queue_entry *entry)
 			continue;
 
 		spin_lock_bh(&rt2x00dev->bar_list_lock);
-		/* Return whether this BAR was blockacked or not */
+		/* Return whether this BAR was blocked or not */
 		ret = bar_entry->block_acked;
 		/* Remove the BAR from our checklist */
 		list_del_rcu(&bar_entry->list);
