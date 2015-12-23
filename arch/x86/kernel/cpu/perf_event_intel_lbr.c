@@ -297,7 +297,7 @@ void intel_pmu_lbr_sched_task(struct perf_event_context *ctx, bool sched_in)
 	}
 
 	/*
-	 * When sampling the branck stack in system-wide, it may be
+	 * When sampling the branch stack in system-wide, it may be
 	 * necessary to flush the stack on context switch. This happens
 	 * when the branch stack does not tag its entries with the pid
 	 * of the current task. Otherwise it becomes impossible to
