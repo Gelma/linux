@@ -2192,7 +2192,7 @@ static ssize_t dapm_widget_show_component(struct snd_soc_component *cmpnt,
 		if (w->dapm != dapm)
 			continue;
 
-		/* only display widgets that burnm power */
+		/* only display widgets that burn power */
 		switch (w->id) {
 		case snd_soc_dapm_hp:
 		case snd_soc_dapm_mic:
