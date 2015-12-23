@@ -43,7 +43,7 @@ static inline void enter_lazy_tlb(struct mm_struct *mm, struct task_struct *tsk)
 
 /*
  * Set the current MMU context.
- * This is done byloading up the segment registers for the user part of the
+ * This is done by loading up the segment registers for the user part of the
  * address space.
  *
  * Since the PGD is immediately available, it is much faster to simply
