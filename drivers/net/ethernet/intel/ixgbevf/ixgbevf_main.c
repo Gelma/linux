@@ -995,7 +995,7 @@ static int ixgbevf_clean_rx_irq(struct ixgbevf_q_vector *q_vector,
 }
 
 /**
- * ixgbevf_poll - NAPI polling calback
+ * ixgbevf_poll - NAPI polling callback
  * @napi: napi struct with our devices info in it
  * @budget: amount of work driver is allowed to do this pass, in packets
  *
