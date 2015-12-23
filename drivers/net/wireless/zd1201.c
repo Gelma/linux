@@ -448,7 +448,7 @@ static int zd1201_getconfig(struct zd1201 *zd, int rid, void *riddata,
 	}
 
 	zd->rxdatas = 0;
-	/* Issue SetRxRid commnd */			
+	/* Issue SetRxRid command */			
 	err = zd1201_docmd(zd, ZD1201_CMDCODE_SETRXRID, rid, 0, length);
 	if (err)
 		return err;
