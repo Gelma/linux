@@ -320,7 +320,7 @@ static void do_nothing(void)
 	return;
 }
 
-/* Must immediately follow do_nothing for size calculuations to work out. */
+/* Must immediately follow do_nothing for size calculations to work out. */
 static void do_overwritten(void)
 {
 	pr_info("do_overwritten wasn't overwritten!\n");
