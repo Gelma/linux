@@ -4854,7 +4854,7 @@ void cfg80211_cqm_beacon_loss_notify(struct net_device *dev, gfp_t gfp);
  * @chandef: chandef for the current channel
  * @gfp: context flags
  *
- * This function is called when a radar is detected on the current chanenl.
+ * This function is called when a radar is detected on the current channel.
  */
 void cfg80211_radar_event(struct wiphy *wiphy,
 			  struct cfg80211_chan_def *chandef, gfp_t gfp);
