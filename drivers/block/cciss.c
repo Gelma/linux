@@ -4033,7 +4033,7 @@ static void cciss_put_controller_into_performant_mode(ctlr_info_t *h)
 
 	dev_dbg(&h->pdev->dev, "Placing controller into performant mode\n");
 	/* Performant mode demands commands on a 32 byte boundary
-	 * pci_alloc_consistent aligns on page boundarys already.
+	 * pci_alloc_consistent aligns on page boundaries already.
 	 * Just need to check if divisible by 32
 	 */
 	if ((sizeof(CommandList_struct) % 32) != 0) {
