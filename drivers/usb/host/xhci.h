@@ -704,7 +704,7 @@ struct xhci_ep_ctx {
 #define EP_STATE_HALTED		2
 #define EP_STATE_STOPPED	3
 #define EP_STATE_ERROR		4
-/* Mult - Max number of burtst within an interval, in EP companion desc. */
+/* Mult - Max number of burst within an interval, in EP companion desc. */
 #define EP_MULT(p)		(((p) & 0x3) << 8)
 #define CTX_TO_EP_MULT(p)	(((p) >> 8) & 0x3)
 /* bits 10:14 are Max Primary Streams */
