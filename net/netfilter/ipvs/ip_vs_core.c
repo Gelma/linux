@@ -1029,7 +1029,7 @@ static int ip_vs_out_icmp_v6(struct netns_ipvs *ipvs, struct sk_buff *skb,
 #endif
 
 /*
- * Check if sctp chunc is ABORT chunk
+ * Check if sctp chunk is ABORT chunk
  */
 static inline int is_sctp_abort(const struct sk_buff *skb, int nh_len)
 {
