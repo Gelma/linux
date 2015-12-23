@@ -80,7 +80,7 @@ static inline void inc_frontswap_invalidates(void) { }
 
 /*
  * Due to the asynchronous nature of the backends loading potentially
- * _after_ the swap system has been activated, we have chokepoints
+ * _after_ the swap system has been activated, we have checkpoints
  * on all frontswap functions to not call the backend until the backend
  * has registered.
  *
