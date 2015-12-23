@@ -215,7 +215,7 @@ static int sigma_fw_load_control(struct sigmadsp *sigmadsp,
 	if (name_len >= SNDRV_CTL_ELEM_ID_NAME_MAXLEN)
 		name_len = SNDRV_CTL_ELEM_ID_NAME_MAXLEN - 1;
 
-	/* Make sure there are no non-displayable characaters in the string */
+	/* Make sure there are no non-displayable characters in the string */
 	if (!sigma_fw_validate_control_name(ctrl_chunk->name, name_len))
 		return -EINVAL;
 
