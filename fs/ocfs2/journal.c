@@ -1485,7 +1485,7 @@ bail:
 
 	kfree(rm_quota);
 
-	/* no one is callint kthread_stop() for us so the kthread() api
+	/* no one is calling kthread_stop() for us so the kthread() api
 	 * requires that we call do_exit().  And it isn't exported, but
 	 * complete_and_exit() seems to be a minimal wrapper around it. */
 	complete_and_exit(NULL, status);
