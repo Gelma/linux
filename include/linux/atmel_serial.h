@@ -129,7 +129,7 @@
 #define ATMEL_US_NER		0x44	/* Number of Errors Register */
 #define ATMEL_US_IF		0x4c	/* IrDA Filter Register */
 
-#define ATMEL_US_CMPR		0x90	/* Comparaison Register */
+#define ATMEL_US_CMPR		0x90	/* Comparision Register */
 #define ATMEL_US_FMR		0xa0	/* FIFO Mode Register */
 #define	ATMEL_US_TXRDYM(data)	(((data) & 0x3) << 0)	/* TX Ready Mode */
 #define	ATMEL_US_RXRDYM(data)	(((data) & 0x3) << 4)	/* RX Ready Mode */
