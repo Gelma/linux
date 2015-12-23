@@ -204,7 +204,7 @@ out:
 }
 
 /**
- * Cliens updates SOM attributes on MDS (including llog cookies):
+ * Clients updates SOM attributes on MDS (including llog cookies):
  * obd_getattr with no lock and md_setattr.
  */
 int ll_som_update(struct inode *inode, struct md_op_data *op_data)
