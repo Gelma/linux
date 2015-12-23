@@ -2069,7 +2069,7 @@ enum ieee80211_tdls_actioncode {
 #define WLAN_EXT_CAPA4_INTERWORKING_ENABLED	BIT(7)
 
 /*
- * TDLS capabililites to be enabled in the 5th byte of the
+ * TDLS capabilities to be enabled in the 5th byte of the
  * @WLAN_EID_EXT_CAPABILITY information element
  */
 #define WLAN_EXT_CAPA5_TDLS_ENABLED	BIT(5)
