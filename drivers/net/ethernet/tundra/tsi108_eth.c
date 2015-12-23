@@ -941,7 +941,7 @@ static void tsi108_rx_int(struct net_device *dev)
 			 * and then up in rapid succession, as the device could
 			 * be made running after the above check and before
 			 * the masking below.  This will only happen if the IRQ
-			 * thread has a lower priority than the task brining
+			 * thread has a lower priority than the task bringing
 			 * up the interface.  Fixing this race would likely
 			 * require changes in generic code.
 			 */
