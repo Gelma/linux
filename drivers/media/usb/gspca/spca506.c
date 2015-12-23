@@ -1,7 +1,7 @@
 /*
  * SPCA506 chip based cameras function
  * M Xhaard 15/04/2004 based on different work Mark Taylor and others
- * and my own snoopy file on a pv-321c donate by a german compagny
+ * and my own snoopy file on a pv-321c donate by a german company
  *                "Firma Frank Gmbh" from  Saarbruecken
  *
  * V4L2 by Jean-Francois Moine <http://moinejf.free.fr>
