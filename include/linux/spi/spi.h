@@ -115,7 +115,7 @@ void spi_statistics_add_transfer_stats(struct spi_statistics *stats,
  *	FIFO initialization parameters; from board_info.controller_data
  * @modalias: Name of the driver to use with this device, or an alias
  *	for that name.  This appears in the sysfs "modalias" attribute
- *	for driver coldplugging, and in uevents used for hotplugging
+ *	for driver cold plugging, and in uevents used for hotplugging
  * @cs_gpio: gpio number of the chipselect line (optional, -ENOENT when
  *	when not using a GPIO line)
  *
