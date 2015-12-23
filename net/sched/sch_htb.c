@@ -512,7 +512,7 @@ htb_class_mode(struct htb_class *cl, s64 *diff)
  * htb_change_class_mode - changes classe's mode
  *
  * This should be the only way how to change classe's mode under normal
- * cirsumstances. Routine will update feed lists linkage, change mode
+ * circumstances. Routine will update feed lists linkage, change mode
  * and add class to the wait event queue if appropriate. New mode should
  * be different from old one and cl->pq_key has to be valid if changing
  * to mode other than HTB_CAN_SEND (see htb_add_to_wait_tree).
