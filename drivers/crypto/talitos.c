@@ -863,7 +863,7 @@ badkey:
  * @dma_link_tbl: bus physical address of link_tbl/buf
  * @desc: h/w descriptor
  * @link_tbl: input and output h/w link tables (if {src,dst}_nents > 1) (SEC2)
- * @buf: input and output buffeur (if {src,dst}_nents > 1) (SEC1)
+ * @buf: input and output buffer (if {src,dst}_nents > 1) (SEC1)
  *
  * if decrypting (with authcheck), or either one of src_nents or dst_nents
  * is greater than 1, an integrity check value is concatenated to the end
