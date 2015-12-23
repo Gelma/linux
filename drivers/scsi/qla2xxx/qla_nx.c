@@ -777,7 +777,7 @@ qla82xx_pci_mem_write_direct(struct qla_hw_data *ha,
 		(qla82xx_pci_is_same_window(ha, off + size - 1) == 0)) {
 		write_unlock_irqrestore(&ha->hw_lock, flags);
 		ql_log(ql_log_fatal, vha, 0xb009,
-		    "%s out of bount memory "
+		    "%s out of bound memory "
 		    "access, offset is 0x%llx.\n",
 		    QLA2XXX_DRIVER_NAME, off);
 		return -1;
