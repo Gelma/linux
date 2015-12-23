@@ -159,7 +159,7 @@
 #define U2DMACSR_EORIRQEN	(1 << 28)	/* End of Receive Interrupt Enable (R/W) */
 #define U2DMACSR_EORJMPEN	(1 << 27)	/* Jump to next descriptor on EOR */
 #define U2DMACSR_EORSTOPEN	(1 << 26)	/* STOP on an EOR */
-#define U2DMACSR_RASIRQEN	(1 << 23)	/* Request After Cnannel Stopped Interrupt Enable */
+#define U2DMACSR_RASIRQEN	(1 << 23)	/* Request After Channel Stopped Interrupt Enable */
 #define U2DMACSR_MASKRUN	(1 << 22)	/* Mask Run */
 #define U2DMACSR_SCEMC		(3 << 18)	/* System Bus Split Completion Error Message Class */
 #define U2DMACSR_SCEMI		(0x1f << 13)	/* System Bus Split Completion Error Message Index */
