@@ -893,7 +893,7 @@ struct htt_rx_in_ord_ind {
  *     Purpose: indicate how many 32-bit integers follow the message header
  *   - NUM_CHARS
  *     Bits 31:16
- *     Purpose: indicate how many 8-bit charaters follow the series of integers
+ *     Purpose: indicate how many 8-bit characters follow the series of integers
  */
 struct htt_rx_test {
 	u8 num_ints;
