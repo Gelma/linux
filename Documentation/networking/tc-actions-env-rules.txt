@@ -1,7 +1,7 @@
 
 The "environmental" rules for authors of any new tc actions are:
 
-1) If you stealeth or borroweth any packet thou shalt be branching
+1) If you stealeth or borrowed any packet thou shalt be branching
 from the righteous path and thou shalt cloneth.
 
 For example if your action queues a packet to be processed later,
