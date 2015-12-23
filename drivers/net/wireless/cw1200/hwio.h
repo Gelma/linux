@@ -38,7 +38,7 @@
 #define DOWNLOAD_CTRL_DATA_DWORDS	(32-6)
 
 struct download_cntl_t {
-	/* size of whole firmware file (including Cheksum), host init */
+	/* size of whole firmware file (including Checksum), host init */
 	u32 image_size;
 	/* downloading flags */
 	u32 flags;
