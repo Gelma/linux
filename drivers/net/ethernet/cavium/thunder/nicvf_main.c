@@ -150,7 +150,7 @@ int nicvf_send_msg_to_pf(struct nicvf *nic, union nic_mbx *mbx)
 	return 0;
 }
 
-/* Checks if VF is able to comminicate with PF
+/* Checks if VF is able to communicate with PF
 * and also gets the VNIC number this VF is associated to.
 */
 static int nicvf_check_pf_ready(struct nicvf *nic)
