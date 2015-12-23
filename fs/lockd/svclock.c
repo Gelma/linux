@@ -203,7 +203,7 @@ found:
  * the blocked lock request. The spec explicitly mentions that the client
  * should _not_ rely on the callback containing the same cookie as the
  * request, but (as I found out later) that's because some implementations
- * do just this. Never mind the standards comittees, they support our
+ * do just this. Never mind the standards committees, they support our
  * logging industries.
  *
  * 10 years later: I hope we can safely ignore these old and broken
