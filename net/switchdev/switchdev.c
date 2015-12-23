@@ -32,7 +32,7 @@
  *	@tritem: transaction item being queued
  *
  *	Enqeueue data item to transaction queue. tritem is typically placed in
- *	cointainter pointed at by data pointer. Destructor is called on
+ *	container pointed at by data pointer. Destructor is called on
  *	transaction abort and after successful commit phase in case
  *	the caller did not dequeue the item before.
  */
