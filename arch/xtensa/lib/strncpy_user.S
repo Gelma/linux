@@ -114,7 +114,7 @@ __strncpy_user:
 #else
 	beqz	a12, .Loop1done
 	slli	a12, a12, 2
-	add	a12, a12, a11	# a12 = end of last 4B chunck
+	add	a12, a12, a11	# a12 = end of last 4B chunk
 #endif
 .Loop1:
 	EX(l32i, a9, a3, 0, fixup_l)	# get word from src
