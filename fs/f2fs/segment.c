@@ -2037,7 +2037,7 @@ static int build_sit_info(struct f2fs_sb_info *sbi)
 	/* get information related with SIT */
 	sit_segs = le32_to_cpu(raw_super->segment_count_sit) >> 1;
 
-	/* setup SIT bitmap from ckeckpoint pack */
+	/* setup SIT bitmap from checkpoint pack */
 	bitmap_size = __bitmap_size(sbi, SIT_BITMAP);
 	src_bitmap = __bitmap_ptr(sbi, SIT_BITMAP);
 
