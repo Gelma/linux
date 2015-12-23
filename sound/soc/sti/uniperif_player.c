@@ -518,7 +518,7 @@ static int uni_player_prepare_pcm(struct uniperif *player,
 	/* Set clock divisor */
 	SET_UNIPERIF_CTRL_DIVIDER(player, clk_div / (2 * output_frame_size));
 
-	/* Number of channelsmust be even*/
+	/* Number of channels must be even*/
 	if ((runtime->channels % 2) || (runtime->channels < 2) ||
 	    (runtime->channels > 10)) {
 		dev_err(player->dev, "%s: invalid nb of channels", __func__);
