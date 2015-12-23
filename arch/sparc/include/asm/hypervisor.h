@@ -1994,7 +1994,7 @@ unsigned long sun4v_vintr_set_target(unsigned long dev_handle,
  * The caller must have permission to write to the given devhandle, real
  * address, which must be an IO address.  The argument real address must be a
  * size aligned address.  The caller must have permission to read from
- * the given devhandle, pci_device cofiguration space offset 0.
+ * the given devhandle, pci_device configuration space offset 0.
  *
  * The hypervisor implementation of this function must block access to any
  * IO address that the guest does not have explicit permission to access.
