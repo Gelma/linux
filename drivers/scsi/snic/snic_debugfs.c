@@ -375,7 +375,7 @@ static const struct file_operations snic_reset_stats_fops = {
  * per snic
  *
  * Description:
- * When debugfs is cofigured this routine sets up the stats file per snic
+ * When debugfs is configured this routine sets up the stats file per snic
  * It will create file stats and reset_stats under statistics/host# directory
  * to log per snic stats
  */
