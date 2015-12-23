@@ -366,7 +366,7 @@ struct iwl_dev_tx_power_cmd {
  *      Roaming Energy Delta Threshold, otherwise use normal Energy Delta
  *      Threshold. Typical energy threshold is -72dBm.
  * @bf_temp_threshold: This threshold determines the type of temperature
- *	filtering (Slow or Fast) that is selected (Units are in Celsuis):
+ *	filtering (Slow or Fast) that is selected (Units are in Celsius):
  *      If the current temperature is above this threshold - Fast filter
  *	will be used, If the current temperature is below this threshold -
  *	Slow filter will be used.
