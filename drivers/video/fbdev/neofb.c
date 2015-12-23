@@ -868,7 +868,7 @@ static int neofb_set_par(struct fb_info *info)
 		lcd_stretch = 0;
 
 	/*
-	 * If the screen is to be centerd, turn on the centering for the
+	 * If the screen is to be centered, turn on the centering for the
 	 * various modes.
 	 */
 	par->PanelVertCenterReg1 = 0x00;
