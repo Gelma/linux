@@ -295,7 +295,7 @@ enum {
 /*
  * Calculate how much tail room is available
  *
- * Note the trick here. This path is ONLY caleed for Case A (see
+ * Note the trick here. This path is ONLY called for Case A (see
  * i2400m_tx_fifo_push() below), where we have:
  *
  *       Case A
