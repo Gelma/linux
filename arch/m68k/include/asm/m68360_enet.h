@@ -28,7 +28,7 @@
 #define T_RL    0x0040          /* error: retransmission limit */
 #define T_RC    0x003c          /* retry count */
 #define T_UN    0x0002          /* error: underrun */
-#define T_CSL   0x0001          /* carier sense lost */
+#define T_CSL   0x0001          /* carrier sense lost */
 #define T_ERROR (T_HB | T_LC | T_RL | T_UN | T_CSL)
 
 /*
