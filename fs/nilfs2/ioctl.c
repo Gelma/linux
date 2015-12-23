@@ -308,7 +308,7 @@ out:
  * @nilfs: nilfs object
  * @posp: pointer on array of checkpoint's numbers
  * @flags: checkpoint mode (checkpoint or snapshot)
- * @buf: buffer for storing checkponts' info
+ * @buf: buffer for storing checkpoints' info
  * @size: size in bytes of one checkpoint info item in array
  * @nmembs: number of checkpoints in array (numbers and infos)
  *
