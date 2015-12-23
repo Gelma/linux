@@ -453,7 +453,7 @@ static struct scsi_host_template nv_swncq_sht = {
  * - Softreset during boot always works.
  *
  * - Hardreset during boot sometimes fails to bring up the link on
- *   certain comibnations and device signature acquisition is
+ *   certain combinations and device signature acquisition is
  *   unreliable.
  *
  * - Hardreset is often necessary after hotplug.
