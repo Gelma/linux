@@ -830,7 +830,7 @@ static int starfire_init_one(struct pci_dev *pdev,
 			memset(&np->mii_if, 0, sizeof(np->mii_if));
 	}
 
-	printk(KERN_INFO "%s: scatter-gather and hardware TCP cksumming %s.\n",
+	printk(KERN_INFO "%s: scatter-gather and hardware TCP checksumming %s.\n",
 	       dev->name, enable_hw_cksum ? "enabled" : "disabled");
 	return 0;
 
