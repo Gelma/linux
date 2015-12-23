@@ -1651,7 +1651,7 @@ config PERF_EVENTS
 
 	  Most modern CPUs support performance events via performance
 	  counter registers. These registers count the number of certain
-	  types of hw events: such as instructions executed, cachemisses
+	  types of hw events: such as instructions executed, cache misses
 	  suffered, or branches mis-predicted - without slowing down the
 	  kernel or applications. These registers can also trigger interrupts
 	  when a threshold number of events have passed - and can thus be
