@@ -592,7 +592,7 @@ static int init_dma_desc_rings(struct net_device *netd)
 		}
 
 		/* save private pointer in each ring this
-		 * pointer is needed during cleaing TX queue
+		 * pointer is needed during cleaning TX queue
 		 */
 		priv->rxq[queue_num]->priv_ptr = priv;
 	}
