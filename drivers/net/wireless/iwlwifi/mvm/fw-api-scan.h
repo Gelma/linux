@@ -154,7 +154,7 @@ struct iwl_scan_offload_profile {
 
 /**
  * iwl_scan_offload_profile_cfg - SCAN_OFFLOAD_PROFILES_CFG_API_S_VER_1
- * @blaclist:		AP list to filter off from scan results
+ * @blacklist:		AP list to filter off from scan results
  * @profiles:		profiles to search for match
  * @blacklist_len:	length of blacklist
  * @num_profiles:	num of profiles in the list
