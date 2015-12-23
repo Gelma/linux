@@ -80,7 +80,7 @@ typedef union _u64bit
 
 /* STRUCTURES */
 #define CISS_MAX_PHYS_LUN	1024
-/* SCSI-3 Cmmands */
+/* SCSI-3 Commands */
 
 #pragma pack(1)	
 
