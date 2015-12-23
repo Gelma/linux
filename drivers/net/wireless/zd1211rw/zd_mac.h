@@ -53,7 +53,7 @@ struct zd_ctrlset {
 #define ZD_RATE(modulation) ((modulation) & ZD_RATE_MASK)
 
 /* The two possible modulation types. Notify that 802.11b doesn't use the CCK
- * codeing for the 1 and 2 MBit/s rate. We stay with the term here to remain
+ * coding for the 1 and 2 MBit/s rate. We stay with the term here to remain
  * consistent with uses the term at other places.
  */
 #define ZD_CCK                  0x00
