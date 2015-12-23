@@ -549,7 +549,7 @@ static int i2c_nuvoton_probe(struct i2c_client *client,
 	chip->vendor.timeout_d = msecs_to_jiffies(TPM_I2C_SHORT_TIMEOUT);
 
 	/*
-	 * I2C intfcaps (interrupt capabilitieis) in the chip are hard coded to:
+	 * I2C intfcaps (interrupt capabilities) in the chip are hard coded to:
 	 *   TPM_INTF_INT_LEVEL_LOW | TPM_INTF_DATA_AVAIL_INT
 	 * The IRQ should be set in the i2c_board_info (which is done
 	 * automatically in of_i2c_register_devices, for device tree users */
