@@ -87,7 +87,7 @@
  *     - Add R100/R200 surface allocation/free support
  * 1.15- Add support for texture micro tiling
  *     - Add support for r100 cube maps
- * 1.16- Add R200_EMIT_PP_TRI_PERF_CNTL packet to support brilinear
+ * 1.16- Add R200_EMIT_PP_TRI_PERF_CNTL packet to support bilinear
  *       texture filtering on r200
  * 1.17- Add initial support for R300 (3D).
  * 1.18- Add support for GL_ATI_fragment_shader, new packets
