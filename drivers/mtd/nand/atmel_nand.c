@@ -854,7 +854,7 @@ static int pmecc_correction(struct mtd_info *mtd, u32 pmecc_stat, uint8_t *buf,
 	uint8_t *buf_pos;
 	int max_bitflips = 0;
 
-	/* If can correct bitfilps from erased page, do the normal check */
+	/* If can correct bitflips from erased page, do the normal check */
 	if (host->caps->pmecc_correct_erase_page)
 		goto normal_check;
 
