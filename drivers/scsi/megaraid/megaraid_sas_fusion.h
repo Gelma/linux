@@ -703,7 +703,7 @@ struct LD_LOAD_BALANCE_INFO {
 	u64     last_accessed_block[MAX_PHYSICAL_DEVICES];
 };
 
-/* SPAN_SET is info caclulated from span info from Raid map per LD */
+/* SPAN_SET is info calculated from span info from Raid map per LD */
 typedef struct _LD_SPAN_SET {
 	u64  log_start_lba;
 	u64  log_end_lba;
