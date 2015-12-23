@@ -322,7 +322,7 @@ static void enable_dc_servo(struct snd_soc_codec *codec)
 		dcs_cfg |= reg_l;
 	}
 
-	/* Save the callibrated offset if we're in class W mode and
+	/* Save the calibrated offset if we're in class W mode and
 	 * therefore don't have any analogue signal mixed in. */
 	if (wm_hubs_dac_hp_direct(codec))
 		wm_hubs_dcs_cache_set(codec, dcs_cfg);
