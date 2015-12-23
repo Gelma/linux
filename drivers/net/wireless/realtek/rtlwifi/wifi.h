@@ -1606,7 +1606,7 @@ struct rtl_security {
 	bool use_defaultkey;
 	/*Encryption Algorithm for Unicast Packet */
 	enum rt_enc_alg pairwise_enc_algorithm;
-	/*Encryption Algorithm for Brocast/Multicast */
+	/*Encryption Algorithm for Broadcast/Multicast */
 	enum rt_enc_alg group_enc_algorithm;
 	/*Cam Entry Bitmap */
 	u32 hwsec_cam_bitmap;
