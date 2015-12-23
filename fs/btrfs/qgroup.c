@@ -1436,7 +1436,7 @@ int btrfs_qgroup_prepare_account_extents(struct btrfs_trans_handle *trans,
 
 	/*
 	 * No need to do lock, since this function will only be called in
-	 * btrfs_commmit_transaction().
+	 * btrfs_commit_transaction().
 	 */
 	node = rb_first(&delayed_refs->dirty_extent_root);
 	while (node) {
