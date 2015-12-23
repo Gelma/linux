@@ -1400,7 +1400,7 @@ int hns_dsaf_add_mac_mc_port(struct dsaf_device *dsaf_dev,
 	struct dsaf_drv_tbl_tcam_key tmp_mac_key;
 	int mskid;
 
-	/*chechk mac addr */
+	/*check mac addr */
 	if (MAC_IS_ALL_ZEROS(mac_entry->addr)) {
 		dev_err(dsaf_dev->dev, "set_entry failed,addr %pM!\n",
 			mac_entry->addr);
