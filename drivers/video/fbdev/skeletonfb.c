@@ -21,7 +21,7 @@
  *  dependent state in the par field in struct fb_info and to change the 
  *  hardware to that state. This allows a very clean separation of the fbdev
  *  layer from the console layer. It also allows one to use fbdev on its own
- *  which is a bounus for embedded devices. The reason this approach works is  
+ *  which is a bonus for embedded devices. The reason this approach works is  
  *  for each framebuffer device when used as a tty/console device is allocated
  *  a set of virtual terminals to it. Only one virtual terminal can be active 
  *  per framebuffer device. We already have all the data we need in struct 
