@@ -4535,7 +4535,7 @@ LPFC_ATTR_RW(fcp2_no_tgt_reset, 0, 0, 1, "Determine bus reset behavior for "
 
 
 /*
-# lpfc_cr_delay & lpfc_cr_count: Default values for I/O colaesing
+# lpfc_cr_delay & lpfc_cr_count: Default values for I/O coalescing
 # cr_delay (msec) or cr_count outstanding commands. cr_delay can take
 # value [0,63]. cr_count can take value [1,255]. Default value of cr_delay
 # is 0. Default value of cr_count is 1. The cr_count feature is disabled if
