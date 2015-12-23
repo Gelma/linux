@@ -92,7 +92,7 @@ union ks8851_tx_hdr {
  *
  * The @lock ensures that the chip is protected when certain operations are
  * in progress. When the read or write packet transfer is in progress, most
- * of the chip registers are not ccessible until the transfer is finished and
+ * of the chip registers are not accessible until the transfer is finished and
  * the DMA has been de-asserted.
  *
  * The @statelock is used to protect information in the structure which may
