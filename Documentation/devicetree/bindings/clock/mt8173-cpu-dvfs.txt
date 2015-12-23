@@ -1,4 +1,4 @@
-Device Tree Clock bindins for CPU DVFS of Mediatek MT8173 SoC
+Device Tree Clock bindings for CPU DVFS of Mediatek MT8173 SoC
 
 Required properties:
 - clocks: A list of phandle + clock-specifier pairs for the clocks listed in clock names.
