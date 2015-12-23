@@ -672,7 +672,7 @@ static ssize_t info_debugfs_read(struct file *file, char __user *buf,
  *				       from serverdown
  *	@work: work structure for this serverdown request
  *
- *	Called when we are done cleanning up from serverdown, stop processing
+ *	Called when we are done cleaning up from serverdown, stop processing
  *	queue, fail pending IOs.
  *	Returns void when finished cleaning up
  */
