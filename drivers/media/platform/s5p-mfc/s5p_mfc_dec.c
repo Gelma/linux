@@ -778,7 +778,7 @@ static int vidioc_g_crop(struct file *file, void *priv,
 	if (ctx->state != MFCINST_HEAD_PARSED &&
 	ctx->state != MFCINST_RUNNING && ctx->state != MFCINST_FINISHING
 					&& ctx->state != MFCINST_FINISHED) {
-			mfc_err("Cannont set crop\n");
+			mfc_err("Can not set crop\n");
 			return -EINVAL;
 		}
 	if (ctx->src_fmt->fourcc == V4L2_PIX_FMT_H264) {
