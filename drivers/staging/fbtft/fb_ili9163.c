@@ -214,7 +214,7 @@ static int set_var(struct fbtft_par *par)
 		break;
 	}
 
-	/* Colorspcae */
+	/* Colorspace */
 	if (par->bgr)
 		mactrl_data |= (1 << 2);
 	write_reg(par, CMD_MADCTL, mactrl_data);
