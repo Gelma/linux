@@ -946,7 +946,7 @@ static int cops_ioctl(struct net_device *dev, struct ifreq *ifr, int cmd)
 			aa->s_net               = sa->sat_addr.s_net;
                         aa->s_node              = lp->node_acquire;
 
-			/* Set broardcast address. */
+			/* Set broadcast address. */
                         dev->broadcast[0]       = 0xFF;
 			
 			/* Set hardware address. */
