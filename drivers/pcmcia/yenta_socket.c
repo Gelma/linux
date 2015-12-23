@@ -244,7 +244,7 @@ static int yenta_get_status(struct pcmcia_socket *sock, unsigned int *value)
 
 static void yenta_set_power(struct yenta_socket *socket, socket_state_t *state)
 {
-	/* some birdges require to use the ExCA registers to power 16bit cards */
+	/* some bridges require to use the ExCA registers to power 16bit cards */
 	if (!(cb_readl(socket, CB_SOCKET_STATE) & CB_CBCARD) &&
 	    (socket->flags & YENTA_16BIT_POWER_EXCA)) {
 		u8 reg, old;
