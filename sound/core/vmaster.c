@@ -44,7 +44,7 @@ struct link_master {
 /*
  * link slave - this contains a slave control element
  *
- * It fakes the control callbacsk with additional attenuation by the
+ * It fakes the control callback with additional attenuation by the
  * master control.  A slave may have either one or two channels.
  */
 
