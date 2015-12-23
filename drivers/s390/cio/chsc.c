@@ -740,7 +740,7 @@ static int s390_subchannel_vary_chpid_on(struct subchannel *sch, void *data)
 
 /**
  * chsc_chp_vary - propagate channel-path vary operation to subchannels
- * @chpid: channl-path ID
+ * @chpid: channel-path ID
  * @on: non-zero for vary online, zero for vary offline
  */
 int chsc_chp_vary(struct chp_id chpid, int on)
