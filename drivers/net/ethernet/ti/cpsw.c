@@ -2180,7 +2180,7 @@ static int cpsw_probe_dual_emac(struct platform_device *pdev,
 
 static struct platform_device_id cpsw_devtype[] = {
 	{
-		/* keep it for existing comaptibles */
+		/* keep it for existing compatibles */
 		.name = "cpsw",
 		.driver_data = CPSW_QUIRK_IRQ,
 	}, {
