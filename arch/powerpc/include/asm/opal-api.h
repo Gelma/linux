@@ -801,7 +801,7 @@ struct opal_sg_entry {
 };
 
 /*
- * Candiate image SG list.
+ * Candidate image SG list.
  *
  * length = VER | length
  */
