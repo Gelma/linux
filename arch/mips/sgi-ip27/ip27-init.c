@@ -76,7 +76,7 @@ static void per_hub_init(cnodeid_t cnode)
 #ifdef CONFIG_REPLICATE_EXHANDLERS
 	/*
 	 * If this is not a headless node initialization,
-	 * copy over the caliased exception handlers.
+	 * copy over the aliased exception handlers.
 	 */
 	if (get_compact_nodeid() == cnode) {
 		extern char except_vec2_generic, except_vec3_generic;
