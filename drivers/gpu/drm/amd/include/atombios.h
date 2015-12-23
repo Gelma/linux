@@ -90,7 +90,7 @@
 #define ENCODER_REFCLK_SRC_EXTCLK      3
 #define ENCODER_REFCLK_SRC_INVALID     0xFF
 
-#define ATOM_SCALER_DISABLE   0   //For Fudo, it's bypass and auto-cengter & no replication
+#define ATOM_SCALER_DISABLE   0   //For Fudo, it's bypass and auto-center & no replication
 #define ATOM_SCALER_CENTER    1   //For Fudo, it's bypass and auto-center & auto replication
 #define ATOM_SCALER_EXPANSION 2   //For Fudo, it's 2 Tap alpha blending mode
 #define ATOM_SCALER_MULTI_EX  3   //For Fudo only, it's multi-tap mode only used to drive TV or CV, only used by Bios
