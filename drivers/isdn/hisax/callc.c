@@ -39,7 +39,7 @@ static int chancount;
  * here is no value given by ITU, but experience shows that 300 ms will
  * work on many networks, if you or your other side is behind local exchanges
  * a greater value may be recommented. If the delay is to short the first paket
- * will be lost and autodetect on many commercial routers goes wrong !
+ * will be lost and autodetect on many commercial routers goes wrong!
  * You can adjust this value on runtime with
  * hisaxctrl <id> 2 <value>
  * value is in milliseconds
