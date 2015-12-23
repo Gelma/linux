@@ -708,7 +708,7 @@ struct iwl_fw_dbg_trigger_time_event {
  * rx_bar: tid bitmap to configure on what tid the trigger should occur
  *	when a BAR is received (for a Tx BlockAck session).
  * tx_bar: tid bitmap to configure on what tid the trigger should occur
- *	when a BAR is send (for an Rx BlocAck session).
+ *	when a BAR is send (for an Rx BlockAck session).
  * frame_timeout: tid bitmap to configure on what tid the trigger should occur
  *	when a frame times out in the reodering buffer.
  */
