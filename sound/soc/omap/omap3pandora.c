@@ -175,7 +175,7 @@ static int omap3pandora_in_init(struct snd_soc_pcm_runtime *rtd)
 {
 	struct snd_soc_dapm_context *dapm = &rtd->card->dapm;
 
-	/* Not comnnected */
+	/* Not connected */
 	snd_soc_dapm_nc_pin(dapm, "HSMIC");
 	snd_soc_dapm_nc_pin(dapm, "CARKITMIC");
 	snd_soc_dapm_nc_pin(dapm, "DIGIMIC0");
