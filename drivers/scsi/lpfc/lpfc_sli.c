@@ -8575,7 +8575,7 @@ lpfc_sli4_iocb2wqe(struct lpfc_hba *phba, struct lpfc_iocbq *iocbq,
 		bf_set(wqe_qosd, &wqe->xmit_bls_rsp.wqe_com, 1);
 		bf_set(wqe_lenloc, &wqe->xmit_bls_rsp.wqe_com,
 		       LPFC_WQE_LENLOC_NONE);
-		/* Overwrite the pre-set comnd type with OTHER_COMMAND */
+		/* Overwrite the pre-set command type with OTHER_COMMAND */
 		command_type = OTHER_COMMAND;
 		if (iocbq->iocb.un.xseq64.w5.hcsw.Rctl == FC_RCTL_BA_RJT) {
 			bf_set(xmit_bls_rsp64_rjt_vspec, &wqe->xmit_bls_rsp,
