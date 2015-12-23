@@ -487,7 +487,7 @@ static netdev_tx_t irda_usb_hard_xmit(struct sk_buff *skb,
 	 * Then, same story for our outgoing frame...
 	 *
 	 * In theory, the USB dongle is supposed to handle the turnaround
-	 * by itself (spec 1.0, chater 4, page 6). Who knows ??? That's
+	 * by itself (spec 1.0, chapter 4, page 6). Who knows ??? That's
 	 * why this code is enabled only for dongles that doesn't meet
 	 * the spec.
 	 * Jean II */
