@@ -103,7 +103,7 @@ struct hsc_channel {
 
 /**
  * struct hsc_client_data - hsi_char internal client data
- * @cdev: Characther device associated to the hsi_client
+ * @cdev: Character device associated to the hsi_client
  * @lock: Lock to serialize open/close access
  * @flags: Keeps track of port state (rx hwbreak armed)
  * @usecnt: Use count for claiming the HSI port (mutex protected)
