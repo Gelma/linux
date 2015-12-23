@@ -62,7 +62,7 @@ enum _LED_STATE_871x {
 	LED_NO_LINK_BLINK = 7, /* LED is blinking during no link state. */
 	LED_BLINK_StartToBlink = 8,/* Customized for Sercomm Printer
 				    * Server case */
-	LED_BLINK_WPS = 9,	/* LED is blinkg during WPS communication */
+	LED_BLINK_WPS = 9,	/* LED is blinking during WPS communication */
 	LED_TXRX_BLINK = 10,
 	LED_BLINK_WPS_STOP = 11,	/*for ALPHA */
 	LED_BLINK_WPS_STOP_OVERLAP = 12,	/*for BELKIN */
