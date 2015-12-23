@@ -1006,7 +1006,7 @@ rio_error (struct net_device *dev, int int_status)
 		get_stats (dev);
 	}
 
-	/* PCI Error, a catastronphic error related to the bus interface
+	/* PCI Error, a catastrophic error related to the bus interface
 	   occurs, set GlobalReset and HostReset to reset. */
 	if (int_status & HostError) {
 		printk (KERN_ERR "%s: HostError! IntStatus %4.4x.\n",
