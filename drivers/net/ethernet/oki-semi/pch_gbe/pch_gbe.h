@@ -279,7 +279,7 @@ struct pch_gbe_regs {
 #define PCH_GBE_IDLE_CHECK       0xFFFFFFFE
 
 /* Wake On LAN Status */
-#define PCH_GBE_WLS_BR          0x00000008 /* Broadcas Address */
+#define PCH_GBE_WLS_BR          0x00000008 /* Broadcast Address */
 #define PCH_GBE_WLS_MLT         0x00000004 /* Multicast Address */
 
 /* The Frame registered in Address Recognizer */
