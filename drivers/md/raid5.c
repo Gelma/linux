@@ -2941,7 +2941,7 @@ schedule_reconstruction(struct stripe_head *sh, struct stripe_head_state *s,
 }
 
 /*
- * Each stripe/dev can have one or more bion attached.
+ * Each stripe/dev can have one or more bio attached.
  * toread/towrite point to the first in a chain.
  * The bi_next chain must be in order.
  */
