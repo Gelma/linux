@@ -607,7 +607,7 @@ static int nuc900fb_probe(struct platform_device *pdev)
 
 	fbi->clk_rate = clk_get_rate(fbi->clk);
 
-	/* calutate the video buffer size */
+	/* calculate the video buffer size */
 	for (i = 0; i < mach_info->num_displays; i++) {
 		unsigned long smem_len = mach_info->displays[i].xres;
 		smem_len *= mach_info->displays[i].yres;
