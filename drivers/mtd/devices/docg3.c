@@ -1989,7 +1989,7 @@ static int docg3_resume(struct platform_device *pdev)
  * @pdev: platform device
  * @state: power state
  *
- * Shuts off most of docg3 circuitery to lower power consumption.
+ * Shuts off most of docg3 circuitry to lower power consumption.
  *
  * Returns 0 if suspend succeeded, -EIO if chip refused suspend
  */
