@@ -181,7 +181,7 @@
 /*
  * srb->segement_x is the hw sg list. It is always allocated as a
  * DC395x_MAX_SG_LISTENTRY entries in a linear block which does not
- * cross a page boundy.
+ * cross a page boundary.
  */
 #define SEGMENTX_LEN	(sizeof(struct SGentry)*DC395x_MAX_SG_LISTENTRY)
 
