@@ -54,7 +54,7 @@
 					/* 2=Bresenham */
 					/* 3=Unix Timer */
 #define H2_IAR_NUM_M		0x0F00	/* bits 11:8 instance of the */
-					/* blockin which the indirect */
+					/* blocking which the indirect */
 					/* register resides */
 					/* If IAR_TYPE_M=DMA Port: */
 					/* 1=Synth In */
