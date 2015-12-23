@@ -326,7 +326,7 @@ static void dcb_tx_queue_prio_enable(struct net_device *dev, int enable)
 		value = enable ? i : 0xffffffff;
 
 		/* Since we can be called while atomic (from "interrupt
-		 * level") we need to issue the Set Parameters Commannd
+		 * level") we need to issue the Set Parameters Command
 		 * without sleeping (timeout < 0).
 		 */
 		err = t4_set_params_timeout(adap, adap->mbox, adap->pf, 0, 1,
