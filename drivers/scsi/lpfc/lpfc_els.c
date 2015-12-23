@@ -8632,7 +8632,7 @@ lpfc_cmpl_fabric_iocb(struct lpfc_hba *phba, struct lpfc_iocbq *cmdiocb,
  * fabric iocb count it indicate that there is one fabric iocb on the wire.
  *
  * Note, this implementation has a potential sending out fabric IOCBs out of
- * order. The problem is caused by the construction of the "ready" boolen does
+ * order. The problem is caused by the construction of the "ready" boolean does
  * not include the condition that the internal fabric IOCB list is empty. As
  * such, it is possible a fabric IOCB issued by this routine might be "jump"
  * ahead of the fabric IOCBs in the internal list.
