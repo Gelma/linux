@@ -184,7 +184,7 @@ struct aic31xx_rate_divs {
 	u8 madc;
 };
 
-/* ADC dividers can be disabled by cofiguring them to 0 */
+/* ADC dividers can be disabled by configuring them to 0 */
 static const struct aic31xx_rate_divs aic31xx_divs[] = {
 	/* mclk/p    rate  pll: j     d        dosr ndac mdac  aors nadc madc */
 	/* 8k rate */
