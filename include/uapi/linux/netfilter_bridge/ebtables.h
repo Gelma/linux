@@ -192,7 +192,7 @@ struct ebt_entry {
 #define EBT_SO_GET_MAX          (EBT_SO_GET_INIT_ENTRIES+1)
 
 
-/* blatently stolen from ip_tables.h
+/* blatantly stolen from ip_tables.h
  * fn returns 0 to continue iteration */
 #define EBT_MATCH_ITERATE(e, fn, args...)                   \
 ({                                                          \
