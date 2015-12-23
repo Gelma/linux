@@ -969,7 +969,7 @@ static void tsi108_check_rxring(struct net_device *dev)
 {
 	struct tsi108_prv_data *data = netdev_priv(dev);
 
-	/* A poll is scheduled, as opposed to caling tsi108_refill_rx
+	/* A poll is scheduled, as opposed to calling tsi108_refill_rx
 	 * directly, so as to keep the receive path single-threaded
 	 * (and thus not needing a lock).
 	 */
