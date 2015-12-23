@@ -753,7 +753,7 @@ convert_to_non_syscall (struct task_struct *child, struct pt_regs  *pt,
 
 	/*
 	 * Note: at the time of this call, the target task is blocked
-	 * in notify_resume_user() and by clearling PRED_LEAVE_SYSCALL
+	 * in notify_resume_user() and by clearing PRED_LEAVE_SYSCALL
 	 * (aka, "pLvSys") we redirect execution from
 	 * .work_pending_syscall_end to .work_processed_kernel.
 	 */
