@@ -480,7 +480,7 @@ typedef struct {
     u32     al_controller;                  /* controller ID */
     u8      al_cache_drive;                 /* cache drive number */
     u8      al_status;                      /* cache drive state */
-    u8      al_res[2];     
+    u8      al_res[2];
 } __attribute__((packed)) gdth_arraycomp_str;
 
 /* array drive information */
