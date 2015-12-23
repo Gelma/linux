@@ -715,7 +715,7 @@ static loff_t udf_check_vsd(struct super_block *sb)
 	 * filesystems will be recognised. There is no mention of an upper
 	 * bound to the size of the volume recognition area in the standard.
 	 *  The limit will prevent the code to read all the sectors of a
-	 * specially crafted image (like a bluray disc full of CD001 sectors),
+	 * specially crafted image (like a blu-ray disc full of CD001 sectors),
 	 * potentially causing minutes or even hours of uninterruptible I/O
 	 * activity. This actually happened with uninitialised SSD partitions
 	 * (all 0xFF) before the check for the limit and all valid IDs were
