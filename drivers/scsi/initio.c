@@ -458,7 +458,7 @@ static int initio_se2_rd_all(unsigned long base)
 	/* Is signature "ini" ok ? */
 	if (i91unvramp->NVM_Signature != INI_SIGNATURE)
 		return -1;
-	/* Is ckecksum ok ? */
+	/* Is checksum ok ? */
 	np = (u16 *) i91unvramp;
 	for (i = 0; i < 31; i++)
 		chksum += *np++;
