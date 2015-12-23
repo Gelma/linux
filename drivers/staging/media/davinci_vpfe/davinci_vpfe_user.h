@@ -1014,7 +1014,7 @@ enum vpfe_chr_pos {
 struct vpfe_ipipe_yuv422_conv {
 	/* Max Chrominance value */
 	unsigned char en_chrom_lpf;
-	/* 1 - enable LPF for chrminance, 0 - disable */
+	/* 1 - enable LPF for chrominance, 0 - disable */
 	enum vpfe_chr_pos chrom_pos;
 };
 
