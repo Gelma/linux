@@ -305,7 +305,7 @@ send:
 		if (!primary_if)
 			goto dropped;
 
-		/* in case of ARP request, we do not immediately broadcasti the
+		/* in case of ARP request, we do not immediately broadcast the
 		 * packet, instead we first wait for DAT to try to retrieve the
 		 * correct ARP entry
 		 */
