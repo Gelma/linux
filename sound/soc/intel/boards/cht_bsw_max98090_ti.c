@@ -132,7 +132,7 @@ static int cht_codec_init(struct snd_soc_pcm_runtime *runtime)
 	struct snd_soc_jack *jack = &ctx->jack;
 
 	/**
-	* TI supports 4 butons headset detection
+	* TI supports 4 buttons headset detection
 	* KEY_MEDIA
 	* KEY_VOICECOMMAND
 	* KEY_VOLUMEUP
