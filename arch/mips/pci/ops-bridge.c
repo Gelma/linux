@@ -35,7 +35,7 @@ static u32 emulate_ioc3_cfg(int where, int size)
  * Therefore we use type 0 accesses for now even though they won't work
  * correcly for PCI-to-PCI bridges.
  *
- * The function is complicated by the ultimate brokeness of the IOC3 chip
+ * The function is complicated by the ultimate brokenness of the IOC3 chip
  * which is used in SGI systems.  The IOC3 can only handle 32-bit PCI
  * accesses and does only decode parts of it's address space.
  */
