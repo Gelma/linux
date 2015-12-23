@@ -226,7 +226,7 @@
 #define HDMI_HTOP1_DDC_FAIL_SAFE		0x0084 /* DDC fail safe */
 #define HDMI_HTOP1_PRBS				0x0088 /* PRBS */
 #define HDMI_HTOP1_EDID_AINC_CONTROL		0x008C /* EDID ainc Control */
-#define HDMI_HTOP1_HTOP_DCL_MODE		0x00FC /* Deep Coloer Mode */
+#define HDMI_HTOP1_HTOP_DCL_MODE		0x00FC /* Deep Color Mode */
 #define HDMI_HTOP1_HTOP_DCL_FRC_COEF0		0x0100 /* Deep Color:FRC COEF0 */
 #define HDMI_HTOP1_HTOP_DCL_FRC_COEF1		0x0104 /* Deep Color:FRC COEF1 */
 #define HDMI_HTOP1_HTOP_DCL_FRC_COEF2		0x0108 /* Deep Color:FRC COEF2 */
