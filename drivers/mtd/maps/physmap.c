@@ -273,7 +273,7 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("David Woodhouse <dwmw2@infradead.org>");
 MODULE_DESCRIPTION("Generic configurable MTD map driver");
 
-/* legacy platform drivers can't hotplug or coldplg */
+/* legacy platform drivers can't hotplug or coldplug */
 #ifndef CONFIG_MTD_PHYSMAP_COMPAT
 /* work with hotplug and coldplug */
 MODULE_ALIAS("platform:physmap-flash");
