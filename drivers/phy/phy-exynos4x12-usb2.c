@@ -95,7 +95,7 @@
  * it was determined that the hardware behaves contrary
  * to the manual.
  *
- * The following bit values were chaned accordingly to the
+ * The following bit values were chained accordingly to the
  * results of real hardware experiments.
  */
 #define EXYNOS_4x12_URSTCON_PHY1		BIT(4)
