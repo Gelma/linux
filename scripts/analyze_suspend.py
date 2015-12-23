@@ -3210,7 +3210,7 @@ def statusCheck():
 
 # Function: doError
 # Description:
-#	 generic error function for catastrphic failures
+#	 generic error function for catastrophic failures
 # Arguments:
 #	 msg: the error message to print
 #	 help: True if printHelp should be called after, False otherwise
