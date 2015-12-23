@@ -407,7 +407,7 @@ struct snd_soc_tplg_pcm {
 struct snd_soc_tplg_link_config {
 	__le32 size;            /* in bytes of this structure */
 	__le32 id;              /* unique ID - used to match */
-	struct snd_soc_tplg_stream stream[SND_SOC_TPLG_STREAM_CONFIG_MAX]; /* supported configs playback and captrure */
+	struct snd_soc_tplg_stream stream[SND_SOC_TPLG_STREAM_CONFIG_MAX]; /* supported configs playback and capture */
 	__le32 num_streams;     /* number of streams */
 } __attribute__((packed));
 #endif
