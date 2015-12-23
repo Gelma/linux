@@ -902,7 +902,7 @@ static int fsl_spdif_usync_put(struct snd_kcontrol *kcontrol,
 
 /* FSL SPDIF IEC958 controller defines */
 static struct snd_kcontrol_new fsl_spdif_ctrls[] = {
-	/* Status cchanel controller */
+	/* Status channel controller */
 	{
 		.iface = SNDRV_CTL_ELEM_IFACE_MIXER,
 		.name = SNDRV_CTL_NAME_IEC958("", PLAYBACK, DEFAULT),
