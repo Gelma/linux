@@ -1342,7 +1342,7 @@ static void print_rxfd(struct rxf_desc *rxfd)
  * 1) TX Free Fifo - TXF - holds ack descriptors for sent packets
  * 2) TX Data Fifo - TXD - holds descriptors of full buffers.
  *
- * Currently NIC supports TSO, checksuming and gather DMA
+ * Currently NIC supports TSO, checksumming and gather DMA
  * UFO and IP fragmentation is on the way
  *
  * RX SW Data Structures
