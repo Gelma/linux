@@ -217,7 +217,7 @@ static acpi_status acpi_db_execute_setup(struct acpi_db_method_info *info)
 
 	ACPI_FUNCTION_NAME(db_execute_setup);
 
-	/* Catenate the current scope to the supplied name */
+	/* Concatenate the current scope to the supplied name */
 
 	info->pathname[0] = 0;
 	if ((info->name[0] != '\\') && (info->name[0] != '/')) {
