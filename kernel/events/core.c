@@ -522,7 +522,7 @@ static void perf_cgroup_switch(struct task_struct *task, int mode)
 				 * event_filter_match() to not have to pass
 				 * task around
 				 * we pass the cpuctx->ctx to perf_cgroup_from_task()
-				 * because cgorup events are only per-cpu
+				 * because cgroup events are only per-cpu
 				 */
 				cpuctx->cgrp = perf_cgroup_from_task(task, &cpuctx->ctx);
 				cpu_ctx_sched_in(cpuctx, EVENT_ALL, task);
