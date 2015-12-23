@@ -379,7 +379,7 @@ static int aead_recvmsg(struct socket *sock, struct msghdr *msg, size_t ignored,
 	 * The memory structure for cipher operation has the following
 	 * structure:
 	 *	AEAD encryption input:  assoc data || plaintext
-	 *	AEAD encryption output: cipherntext || auth tag
+	 *	AEAD encryption output: ciphertext || auth tag
 	 *	AEAD decryption input:  assoc data || ciphertext || auth tag
 	 *	AEAD decryption output: plaintext
 	 */
