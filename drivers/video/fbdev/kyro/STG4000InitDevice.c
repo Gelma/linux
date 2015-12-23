@@ -200,7 +200,7 @@ u32 ProgramClock(u32 refClock,
 						/* is this better, ( aim for highest Score) */
 			/*--------------------------------------------------------------------------
                              Here we want to use a scoring system which will take account of both the
-                            value at the phase comparater and the VCO output
+                            value at the phase comparator and the VCO output
                              to do this we will use a cumulative score between the two
                           The way this ends up is that we choose the first value in the loop anyway
                           but we shall keep this code in case new restrictions come into play
