@@ -643,7 +643,7 @@ EXPORT_SYMBOL(on_each_cpu_mask);
  * @cond_func:	A callback function that is passed a cpu id and
  *		the the info parameter. The function is called
  *		with preemption disabled. The function should
- *		return a blooean value indicating whether to IPI
+ *		return a boolean value indicating whether to IPI
  *		the specified CPU.
  * @func:	The function to run on all applicable CPUs.
  *		This must be fast and non-blocking.
