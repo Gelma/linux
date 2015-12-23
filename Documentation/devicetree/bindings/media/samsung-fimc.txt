@@ -82,7 +82,7 @@ Optional properties:
   the output rotator. Bits 4 and 0 correspond to input and output rotator
   respectively. If a rotator is present its corresponding bit should be set.
   Default value when this property is not specified is 0x11.
-- samsung,cam-if: a bolean property indicating whether the IP block includes
+- samsung,cam-if: a boolean property indicating whether the IP block includes
   the camera input interface.
 - samsung,isp-wb: this property must be present if the IP block has the ISP
   writeback input.
