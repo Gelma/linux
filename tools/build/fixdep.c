@@ -6,7 +6,7 @@
  *   Copyright    2002 by Kai Germaschewski  <kai.germaschewski@gmx.de>
  *
  * This code has been borrowed from kbuild's fixdep (scripts/basic/fixdep.c),
- * Please check it for detailed explanation. This fixdep borow only the
+ * Please check it for detailed explanation. This fixdep borrow only the
  * base transformation of dependecies without the CONFIG mangle.
  */
 
