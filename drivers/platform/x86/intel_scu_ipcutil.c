@@ -26,7 +26,7 @@
 
 static int major;
 
-/* ioctl commnds */
+/* ioctl commands */
 #define	INTE_SCU_IPC_REGISTER_READ	0
 #define INTE_SCU_IPC_REGISTER_WRITE	1
 #define INTE_SCU_IPC_REGISTER_UPDATE	2
