@@ -152,7 +152,7 @@ ST506 hard drives
 CONFIG_MACH_ and CONFIG_ARCH_
 -----------------------------
   A change was made in 2003 to the macro names for new machines.
-  Historically, CONFIG_ARCH_ was used for the bonafide architecture,
+  Historically, CONFIG_ARCH_ was used for the bona fide architecture,
   e.g. SA1100, as well as implementations of the architecture,
   e.g. Assabet.  It was decided to change the implementation macros
   to read CONFIG_MACH_ for clarity.  Moreover, a retroactive fixup has
