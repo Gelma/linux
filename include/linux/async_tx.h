@@ -37,7 +37,7 @@
  * @node - node for the channel to be placed on async_tx_master_list
  * @rcu - for list_del_rcu
  * @count - number of times this channel is listed in the pool
- *	(for channels with multiple capabiities)
+ *	(for channels with multiple capabilities)
  */
 struct dma_chan_ref {
 	struct dma_chan *chan;
