@@ -429,7 +429,7 @@ static void ifx_spi_setup_spi_header(unsigned char *txbuffer, int tx_count,
  *	ifx_spi_prepare_tx_buffer	-	prepare transmit frame
  *	@ifx_dev: our SPI device
  *
- *	The transmit buffr needs a header and various other bits of
+ *	The transmit buffer needs a header and various other bits of
  *	information followed by as much data as we can pull from the FIFO
  *	and transfer. This function formats up a suitable buffer in the
  *	ifx_dev->tx_buffer
