@@ -432,7 +432,7 @@ struct i2400m_barker_db;
  *
  * @rx_size_min: smallest RX message received.
  *
- * @rx_size_max: buggest RX message received.
+ * @rx_size_max: biggest RX message received.
  *
  * @rx_roq: RX ReOrder queues. (fw >= v1.4) When packets are received
  *     out of order, the device will ask the driver to hold certain
