@@ -605,7 +605,7 @@ bail:
 *
 * Returns:
 *	zero on success, a negative errno on failure.  Possible values:
-*		-EBUSY	device is bussy (cmd not possible)
+*		-EBUSY	device is busy (cmd not possible)
 *		-and errors returned by: p80211req_dorequest(..)
 *
 * by: Collin R. Mulliner <collin@mulliner.org>
