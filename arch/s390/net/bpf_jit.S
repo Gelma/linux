@@ -58,10 +58,10 @@ ENTRY(sk_load_##NAME##_pos);						\
 sk_load_##NAME##_slow:;							\
 	lgr	%r2,%r7;		/* Arg1 = skb pointer */	\
 	aghi	%r3,-SIZE;		/* Arg2 = offset */		\
-	la	%r4,STK_OFF_TMP(%r15);	/* Arg3 = temp bufffer */	\
+	la	%r4,STK_OFF_TMP(%r15);	/* Arg3 = temp buffer */	\
 	lghi	%r5,SIZE;		/* Arg4 = size */		\
 	brasl	%r14,skb_copy_bits;	/* Get data from skb */		\
-	LOAD	%r14,STK_OFF_TMP(%r15);	/* Load from temp bufffer */	\
+	LOAD	%r14,STK_OFF_TMP(%r15);	/* Load from temp buffer */	\
 	ltgr	%r2,%r2;		/* Set cc to (%r2 != 0) */	\
 	br	%r6;			/* Return */
 
