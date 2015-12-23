@@ -2016,7 +2016,7 @@ static void lpfc_sli4_fcf_pri_list_del(struct lpfc_hba *phba,
  * This routine acquires the hbalock and then set the LPFC_FCF_FLOGI_FAILED
  * flag so the the round robin slection for the particular priority level
  * will try a different fcf record that does not have this bit set.
- * If the fcf record is re-read for any reason this flag is cleared brfore
+ * If the fcf record is re-read for any reason this flag is cleared before
  * adding it to the priority list.
  **/
 void
