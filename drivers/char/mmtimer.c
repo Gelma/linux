@@ -513,7 +513,7 @@ static int sgi_clock_set(const clockid_t clockid, const struct timespec *tp)
  * @irq: irq received
  * @dev_id: device the irq came from
  *
- * Called when one of the comarators matches the counter, This
+ * Called when one of the comparators matches the counter, This
  * routine will send signals to processes that have requested
  * them.
  *
