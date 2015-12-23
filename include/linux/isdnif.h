@@ -61,7 +61,7 @@
 /* timeout, datalen and data fields must be set before calling.      */
 /*                                                                   */
 /* The return value is a positive hl_id value also delivered in the  */
-/* hl_id field. A value of zero signals no more left hl_id capacitys.*/
+/* hl_id field.A value of zero signals no more left hl_id capacities.*/
 /* A negative return value signals errors in LL. So if the return    */
 /* value is <= 0 no action in LL will be taken -> request ignored    */
 /*                                                                   */
