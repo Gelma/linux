@@ -188,7 +188,7 @@ enum {
 	PRD_END			= (1 << 7),  /* APRD chain end */
 };
 
-/* Comman Parameter Block */
+/* Command Parameter Block */
 struct inic_cpb {
 	u8		resp_flags;	/* Response Flags */
 	u8		error;		/* ATA Error */
