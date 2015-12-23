@@ -41,7 +41,7 @@
  * @offset: unsigned pseudo_register base + offset of value
  * @is_egal: wait for the equal value
  * @value: value
- * @timeout: timeout in centisenconds
+ * @timeout: timeout in centiseconds
  */
 static int mixart_wait_nice_for_register_value(struct mixart_mgr *mgr,
 					       u32 offset, int is_egal,
