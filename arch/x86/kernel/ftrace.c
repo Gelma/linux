@@ -368,7 +368,7 @@ static int add_breakpoints(struct dyn_ftrace *rec, int enable)
 
 /*
  * On error, we need to remove breakpoints. This needs to
- * be done caefully. If the address does not currently have a
+ * be done carefully. If the address does not currently have a
  * breakpoint, we know we are done. Otherwise, we look at the
  * remaining 4 bytes of the instruction. If it matches a nop
  * we replace the breakpoint with the nop. Otherwise we replace
