@@ -9681,7 +9681,7 @@ static int broadwell_modeset_calc_cdclk(struct drm_atomic_state *state)
 		cdclk = 337500;
 
 	/*
-	 * FIXME move the cdclk caclulation to
+	 * FIXME move the cdclk calculation to
 	 * compute_config() so we can fail gracegully.
 	 */
 	if (cdclk > dev_priv->max_cdclk_freq) {
