@@ -502,7 +502,7 @@ struct mr_data_fx00 {
  * Temperature (degrees C) = ((3,153,000 - (10,000 * X)) / 13,825)
  * where X is the bit field value
  * this macro reads the register, extracts the bitfield value,
- * performs the calcualtions and returns temperature in Celsius
+ * performs the calculations and returns temperature in Celsius
  */
 #define QLAFX00_GET_TEMPERATURE(ha) ((3153000 - (10000 * \
 	((QLAFX00_RD_REG(ha, QLAFX00_SOC_TEMP_REG) & 0x3FE) >> 1))) / 13825)
