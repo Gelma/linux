@@ -29,7 +29,7 @@
 
 #include <net/ip_vs.h>
 
-/* The WRR algorithm depends on some caclulations:
+/* The WRR algorithm depends on some calculations:
  * - mw: maximum weight
  * - di: weight step, greatest common divisor from all weights
  * - cw: current required weight
