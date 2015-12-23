@@ -372,7 +372,7 @@ struct bdc_ep {
 	bool ignore_next_sr;
 };
 
-/* bdc cmmand parameter structure */
+/* bdc command parameter structure */
 struct bdc_cmd_params {
 	u32	param2;
 	u32	param1;
