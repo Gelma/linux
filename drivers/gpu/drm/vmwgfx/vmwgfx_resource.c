@@ -1055,7 +1055,7 @@ int vmw_dumb_map_offset(struct drm_file *file_priv,
 }
 
 /**
- * vmw_dumb_destroy - Destroy a dumb boffer
+ * vmw_dumb_destroy - Destroy a dumb buffer
  *
  * @file_priv: Pointer to a struct drm_file identifying the caller.
  * @dev: Pointer to the drm device.
