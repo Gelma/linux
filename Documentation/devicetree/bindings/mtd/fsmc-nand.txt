@@ -13,7 +13,7 @@ Optional properties:
 - timings: array of 6 bytes for NAND timings. The meanings of these bytes
   are:
   byte 0 TCLR  : CLE to RE delay in number of AHB clock cycles, only 4 bits
-                 are valid. Zero means one clockcycle, 15 means 16 clock
+                 are valid. Zero means one clock cycle, 15 means 16 clock
                  cycles.
   byte 1 TAR   : ALE to RE delay, 4 bits are valid. Same format as TCLR.
   byte 2 THIZ  : number of HCLK clock cycles during which the data bus is
