@@ -102,7 +102,7 @@ static int vga_str_to_iostate(char *buf, int str_size, int *io_state)
 		return 1;
 	}
 
-	/* XXX We're not chekcing the str_size! */
+	/* XXX We're not checking the str_size! */
 	if (strncmp(buf, "io+mem", 6) == 0)
 		goto both;
 	else if (strncmp(buf, "io", 2) == 0)
