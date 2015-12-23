@@ -2,7 +2,7 @@
  * arch/ia64/kernel/machine_kexec.c
  *
  * Handle transition of Linux booting another kernel
- * Copyright (C) 2005 Hewlett-Packard Development Comapny, L.P.
+ * Copyright (C) 2005 Hewlett-Packard Development Company, L.P.
  * Copyright (C) 2005 Khalid Aziz <khalid.aziz@hp.com>
  * Copyright (C) 2006 Intel Corp, Zou Nan hai <nanhai.zou@intel.com>
  *
