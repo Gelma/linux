@@ -354,7 +354,7 @@ static void jl2005c_dostream(struct work_struct *work)
 					act_len, JL2005C_MAX_TRANSFER);
 			if (ret < 0 || act_len < JL2005C_MAX_TRANSFER)
 				goto quit_stream;
-			/* Check whether we actually got the first blodk */
+			/* Check whether we actually got the first block */
 			if (memcmp(header_sig, buffer, 2) != 0) {
 				pr_err("First block is not the first block\n");
 				goto quit_stream;
