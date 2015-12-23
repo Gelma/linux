@@ -11,7 +11,7 @@ INTRODUCTION.
 
 This paper describes installing and operating 3270 devices under
 Linux/390.  A 3270 device is a block-mode rows-and-columns terminal of
-which I'm sure hundreds of millions were sold by IBM and clonemakers
+which I'm sure hundreds of millions were sold by IBM and clone-makers
 twenty and thirty years ago.
 
 You may have 3270s in-house and not know it.  If you're using the
