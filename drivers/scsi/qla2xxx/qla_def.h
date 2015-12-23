@@ -2971,7 +2971,7 @@ struct qla_hw_data {
 
 	/* This spinlock is used to protect "io transactions", you must
 	* acquire it before doing any IO to the card, eg with RD_REG*() and
-	* WRT_REG*() for the duration of your entire commandtransaction.
+	* WRT_REG*() for the duration of your entire command transaction.
 	*
 	* This spinlock is of lower priority than the io request lock.
 	*/
