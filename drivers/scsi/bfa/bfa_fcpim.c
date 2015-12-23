@@ -2720,7 +2720,7 @@ bfa_ioim_delayed_comp(struct bfa_ioim_s *ioim, bfa_boolean_t iotov)
 	 * If path tov timer expired, failback with PATHTOV status - these
 	 * IO requests are not normally retried by IO stack.
 	 *
-	 * Otherwise device cameback online and fail it with normal failed
+	 * Otherwise device came back online and fail it with normal failed
 	 * status so that IO stack retries these failed IO requests.
 	 */
 	if (iotov)
