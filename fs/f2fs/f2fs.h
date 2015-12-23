@@ -777,7 +777,7 @@ struct f2fs_sb_info {
 	block_t user_block_count;		/* # of user blocks */
 	block_t total_valid_block_count;	/* # of valid blocks */
 	block_t alloc_valid_block_count;	/* # of allocated blocks */
-	block_t discard_blks;			/* discard command candidats */
+	block_t discard_blks;			/* discard command candidates */
 	block_t last_valid_block_count;		/* for recovery */
 	u32 s_next_generation;			/* for NFS support */
 	atomic_t nr_pages[NR_COUNT_TYPE];	/* # of pages, see count_type */
