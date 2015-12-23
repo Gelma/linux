@@ -3601,7 +3601,7 @@ static int rt2800_get_txpower_reg_delta(struct rt2x00_dev *rt2x00dev,
 	 * the EEPROM doesn't expose it. We only know that we are calibrated
 	 * to 100% tx power.
 	 *
-	 * Hence, we assume the regulatory limit that cfg80211 calulated for
+	 * Hence, we assume the regulatory limit that cfg80211 calculated for
 	 * the current channel is our maximum and if we are requested to lower
 	 * the value we just reduce our tx power accordingly.
 	 */
