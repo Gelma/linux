@@ -181,7 +181,7 @@ static int si570_update_rfreq(struct clk_si570 *data)
 }
 
 /**
- * si570_calc_divs() - Caluclate clock dividers
+ * si570_calc_divs() - Calculate clock dividers
  * @frequency:	Target frequency
  * @data:	Driver data structure
  * @out_rfreq:	RFREG fractional multiplier (output)
