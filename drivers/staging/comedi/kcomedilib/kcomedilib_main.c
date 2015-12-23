@@ -1,6 +1,6 @@
 /*
  * kcomedilib/kcomedilib.c
- * a comedlib interface for kernel modules
+ * a comedilib interface for kernel modules
  *
  * COMEDI - Linux Control and Measurement Device Interface
  * Copyright (C) 1997-2000 David A. Schleef <ds@schleef.org>
