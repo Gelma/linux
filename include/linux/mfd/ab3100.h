@@ -26,7 +26,7 @@ struct device;
 
 /*
  * AB3100, EVENTA1, A2 and A3 event register flags
- * these are catenated into a single 32-bit flag in the code
+ * these are concatenated into a single 32-bit flag in the code
  * for event notification broadcasts.
  */
 #define AB3100_EVENTA1_ONSWA				(0x01<<16)
