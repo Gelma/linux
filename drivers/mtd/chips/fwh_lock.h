@@ -40,7 +40,7 @@ static int fwh_xxlock_oneblock(struct map_info *map, struct flchip *chip,
 	}
 	/*
 	 * lock block registers:
-	 * - on 64k boundariesand
+	 * - on 64k boundaries and
 	 * - bit 1 set high
 	 * - block lock registers are 4MiB lower - overflow subtract (danger)
 	 *
