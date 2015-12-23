@@ -574,7 +574,7 @@ int __jbd2_journal_remove_checkpoint(struct journal_head *jh)
 
 	/*
 	 * There is one special case to worry about: if we have just pulled the
-	 * buffer off a running or committing transaction's checkpoing list,
+	 * buffer off a running or committing transaction's checkpoint list,
 	 * then even if the checkpoint list is empty, the transaction obviously
 	 * cannot be dropped!
 	 *
