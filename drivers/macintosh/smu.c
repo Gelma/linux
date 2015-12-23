@@ -964,7 +964,7 @@ static struct smu_sdbp_header *smu_create_sdb_partition(int id)
 	/* Fetch address and length from reply */
 	addr = *((u16 *)cmd.buffer);
 	len = cmd.buffer[3] << 2;
-	/* Calucluate total length to allocate, including the 17 bytes
+	/* Calculate total length to allocate, including the 17 bytes
 	 * for "sdb-partition-XX" that we append at the end of the buffer
 	 */
 	tlen = sizeof(struct property) + len + 18;
