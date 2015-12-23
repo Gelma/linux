@@ -253,12 +253,12 @@ struct cdrom_multisession
 	__u8 addr_format;    /* CDROM_LBA or CDROM_MSF */
 };
 
-/* This struct is used with the CDROM_GET_MCN ioctl.  
- * Very few audio discs actually have Universal Product Code information, 
- * which should just be the Medium Catalog Number on the box.  Also note 
- * that the way the codeis written on CD is _not_ uniform across all discs!
- */  
-struct cdrom_mcn 
+/* This struct is used with the CDROM_GET_MCN ioctl.
+ * Very few audio discs actually have Universal Product Code information,
+ * which should just be the Medium Catalog Number on the box.  Also note
+ * that the way the code is written on CD is _not_ uniform across all discs!
+ */
+struct cdrom_mcn
 {
   __u8 medium_catalog_number[14]; /* 13 ASCII digits, null-terminated */
 };
