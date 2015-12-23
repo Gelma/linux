@@ -136,7 +136,7 @@ void skein_reset(struct skein_ctx *ctx)
 	 */
 	x = ctx->m.s256.x;
 	x_len = ctx->skein_size / 8;
-	/* Restore the chaing variable, reset byte counter */
+	/* Restore the chain variable, reset byte counter */
 	memcpy(x, ctx->x_save, x_len);
 
 	/* Setup context to process the message */
