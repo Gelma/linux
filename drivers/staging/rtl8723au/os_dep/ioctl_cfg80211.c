@@ -1159,7 +1159,7 @@ static int cfg80211_infrastructure_mode(struct rtw_adapter *padapter,
 		    old_mode == NL80211_IFTYPE_ADHOC) {
 			if (check_fwstate(pmlmepriv, _FW_LINKED)) {
 				/* will clr Linked_state; before this function,
-				   we must have chked whether issue
+				   we must have checked whether issue
 				   dis-assoc_cmd or not */
 				rtw_indicate_disconnect23a(padapter);
 			}
