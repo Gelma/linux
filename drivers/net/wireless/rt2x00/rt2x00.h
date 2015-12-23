@@ -102,7 +102,7 @@
 
 /*
  * Determine the alignment requirement,
- * to make sure the 802.11 payload is padded to a 4-byte boundrary
+ * to make sure the 802.11 payload is padded to a 4-byte boundary
  * we must determine the address of the payload and calculate the
  * amount of bytes needed to move the data.
  */
