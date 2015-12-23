@@ -70,7 +70,7 @@
  * of 5 bytes per 32767 bytes.
  *
  * The worst case internal to a compressed block is very hard to figure.
- * The worst case can at least be boundined by having one bit that represents
+ * The worst case can at least be bounded by having one bit that represents
  * 32764 bytes and then all of the rest of the bytes representing the very
  * very last byte.
  *
