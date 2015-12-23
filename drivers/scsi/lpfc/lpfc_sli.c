@@ -7405,7 +7405,7 @@ lpfc_sli4_wait_bmbx_ready(struct lpfc_hba *phba, LPFC_MBOXQ_t *mboxq)
  * @mboxq: Pointer to mailbox object.
  *
  * The function posts a mailbox to the port.  The mailbox is expected
- * to be comletely filled in and ready for the port to operate on it.
+ * to be completely filled in and ready for the port to operate on it.
  * This routine executes a synchronous completion operation on the
  * mailbox by polling for its completion.
  *
