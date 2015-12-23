@@ -79,7 +79,7 @@ struct lio {
 	/** msg level flag per interface. */
 	u32 msg_enable;
 
-	/** Copy of Interface capabilities: TSO, TSO6, LRO, Chescksums . */
+	/** Copy of Interface capabilities: TSO, TSO6, LRO, Checksums . */
 	u64 dev_capability;
 
 	/** Copy of beacon reg in phy */
