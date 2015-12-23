@@ -105,7 +105,7 @@ struct ucc_geth {
 				   that had destination address equal to the
 				   broadcast address */
 	u32 scar;		/* Statistics carry register */
-	u32 scam;		/* Statistics caryy mask register */
+	u32 scam;		/* Statistics carry mask register */
 	u8 res5[0x200 - 0x1c4];
 } __packed;
 
