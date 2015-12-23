@@ -1322,7 +1322,7 @@ static int irlap_state_nrm_p(struct irlap_cb *self, IRLAP_EVENT event,
 				self->ack_required = FALSE;
 
 				/* Make sure we account for the time
-				 * to transmit our frames. See comemnts
+				 * to transmit our frames. See comments
 				 * in irlap_send_data_primary_poll().
 				 * Jean II */
 				irlap_start_final_timer(self, 2 * self->final_timeout);
