@@ -1135,7 +1135,7 @@ nv50_gr_construct_mmio_ddata(struct nvkm_grctx *ctx)
  * as in 400040 register.
  *
  * The most common value in default context is 0, and when the genes
- * are separated by 0's, gene bounduaries are quite speculative...
+ * are separated by 0's, gene boundaries are quite speculative...
  * some of them can be clearly deduced, others can be guessed, and yet
  * others won't be resolved without figuring out the real meaning of
  * given ctxval. For the same reason, ending point of each strand
