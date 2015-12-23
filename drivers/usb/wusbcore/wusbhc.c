@@ -362,7 +362,7 @@ EXPORT_SYMBOL_GPL(wusbd);
  * (that's space for 31 WUSB controllers, as 0xff can't be taken). We
  * start taking from 0xff, 0xfe, 0xfd... (hence the += or -= 0xff).
  *
- * For each one we taken, we pin it in the bitap
+ * For each one we taken, we pin it in the bitmap
  */
 #define CLUSTER_IDS 32
 static DECLARE_BITMAP(wusb_cluster_id_table, CLUSTER_IDS);
