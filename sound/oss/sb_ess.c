@@ -73,7 +73,7 @@
  * About the documentation
  *
  * I don't know if the chips all are OK, but the documentation is buggy. 'cause
- * I don't have all the cips myself, there's a lot I cannot verify. I'll try to
+ * I don't have all the chips myself, there's a lot I cannot verify. I'll try to
  * keep track of my latest insights about his here. If you have additional info,
  * please enlighten me (fokkensr@vertis.nl)!
  *
