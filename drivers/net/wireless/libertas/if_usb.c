@@ -654,7 +654,7 @@ static inline void process_cmdrequest(int recvlength, uint8_t *recvbuff,
 
 /**
  *  if_usb_receive - read the packet into the upload buffer,
- *  wake up the main thread and initialise the Rx callack
+ *  wake up the main thread and initialise the Rx callback
  *
  *  @urb:	pointer to &struct urb
  *  returns:	N/A
