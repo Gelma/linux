@@ -1206,7 +1206,7 @@ static int es_do_reclaim_extents(struct ext4_inode_info *ei, ext4_lblk_t end,
 		node = rb_next(&es->rb_node);
 		/*
 		 * We can't reclaim delayed extent from status tree because
-		 * fiemap, bigallic, and seek_data/hole need to use it.
+		 * fiemap, bigalloc, and seek_data/hole need to use it.
 		 */
 		if (ext4_es_is_delayed(es))
 			goto next;
