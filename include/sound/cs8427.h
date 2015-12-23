@@ -156,7 +156,7 @@
 /* CS8427_REG_RECVERRORS */
 /* CS8427_REG_RECVERRMASK for CS8427_RERR */
 #define CS8427_QCRC		(1<<6)	/* Q-subcode data CRC error indicator */
-#define CS8427_CCRC		(1<<5)	/* Chancnel Status Block Cyclick Redundancy Check Bit */
+#define CS8427_CCRC		(1<<5)	/* Channel Status Block Cyclick Redundancy Check Bit */
 #define CS8427_UNLOCK		(1<<4)	/* PLL lock status bit */
 #define CS8427_V		(1<<3)	/* 0 = valid data */
 #define CS8427_CONF		(1<<2)	/* Confidence bit */
