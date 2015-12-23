@@ -291,7 +291,7 @@ static struct sk_buff **gue_gro_receive(struct sk_buff **head,
 	hdrlen = sizeof(*guehdr) + optlen;
 
 	/* Adjust NAPI_GRO_CB(skb)->csum to account for guehdr,
-	 * this is needed if there is a remote checkcsum offload.
+	 * this is needed if there is a remote checksum offload.
 	 */
 	skb_gro_postpull_rcsum(skb, guehdr, hdrlen);
 
