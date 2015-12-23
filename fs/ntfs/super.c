@@ -2750,7 +2750,7 @@ static int ntfs_fill_super(struct super_block *sb, void *opt, const int silent)
 		 * Default is group and other don't have any access to files or
 		 * directories while owner has full access. Further, files by
 		 * default are not executable but directories are of course
-		 * browseable.
+		 * browsable.
 		 */
 		.fmask = 0177,
 		.dmask = 0077,
