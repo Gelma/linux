@@ -827,7 +827,7 @@ s32 host_int_get_link_speed(struct host_if_drv *hWFIDrv, s8 *ps8lnkspd);
  *                              Channels Array
  *                              Channels Array length
  *                              Scan Callback function
- *                              User Argument to be delivered back through the Scan Cllback function
+ *                              User Argument to be delivered back through the Scan Callback function
  *  @return             Error code indicating success/failure
  *  @note
  *  @author		zsalah
