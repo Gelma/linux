@@ -493,11 +493,11 @@ struct fs_dev {
 
 
 
-/* Number of channesl that the FS50 supports. */
+/* Number of channels that the FS50 supports. */
 #define FS50_CHANNEL_BITS  5
 #define FS50_NR_CHANNELS      (1 << FS50_CHANNEL_BITS)
 
-         
+
 #define FS_DEV(atm_dev) ((struct fs_dev *) (atm_dev)->dev_data)
 #define FS_VCC(atm_vcc) ((struct fs_vcc *) (atm_vcc)->dev_data)
 
