@@ -5842,7 +5842,7 @@ static void ipw_adhoc_create(struct ipw_priv *priv,
 	 * exactly which band to use.
 	 *
 	 * We also have the possibility of an invalid channel for the
-	 * chossen band.  Attempting to create a new ad-hoc network
+	 * choosen band.  Attempting to create a new ad-hoc network
 	 * with an invalid channel for wireless mode will trigger a
 	 * FW fatal error.
 	 *
