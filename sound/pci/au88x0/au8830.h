@@ -223,7 +223,7 @@
 
 //#define VORTEX_IRQ_U0 0x2a008 /* ?? */
 #define VORTEX_STAT		0x2a008	/* Some sort of status */
-#define 	STAT_IRQ	0x00000001	/* This bitis set if the IRQ is valid. */
+#define 	STAT_IRQ	0x00000001	/* This bits set if the IRQ is valid. */
 
 #define VORTEX_CTRL		0x2a00c
 #define 	CTRL_MIDI_EN	0x00000001
