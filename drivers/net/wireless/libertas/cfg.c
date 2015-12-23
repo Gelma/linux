@@ -2140,7 +2140,7 @@ static void lbs_reg_notifier(struct wiphy *wiphy,
 
 /*
  * This function get's called after lbs_setup_firmware() determined the
- * firmware capabities. So we can setup the wiphy according to our
+ * firmware capabilities. So we can setup the wiphy according to our
  * hardware/firmware.
  */
 int lbs_cfg_register(struct lbs_private *priv)
