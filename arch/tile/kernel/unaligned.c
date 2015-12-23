@@ -1531,7 +1531,7 @@ void do_unaligned(struct pt_regs *regs, int vecnum)
 	}
 
 
-	/* Read the bundle casued the exception! */
+	/* Read the bundle caused the exception! */
 	pc = (tilegx_bundle_bits __user *)(regs->pc);
 	if (get_user(bundle, pc) != 0) {
 		/* Probably never be here since pc is valid user address.*/
