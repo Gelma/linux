@@ -1223,7 +1223,7 @@ static const struct snd_kcontrol_new sst_gain_controls[] = {
  * instance invoked, gain, mute and ramp duration, which use the same gain
  * cell sst_gain to keep track of data
  * To calculate number of gain cell instances we need to device by 3 in
- * below caulcation for gain cell memory.
+ * below calculation for gain cell memory.
  * This gets rid of static number and issues while adding new controls
  */
 static struct sst_gain_value sst_gains[ARRAY_SIZE(sst_gain_controls)/SST_GAIN_NUM_CONTROLS];
