@@ -86,7 +86,7 @@
  *
  * - REQUESTS AND EVENTS
  *
- * The requests can be clasified as follows:
+ * The requests can be classified as follows:
  *
  *   COMMAND:  implies a request from the host to the device requesting
  *             an action being performed. The device will reply with a
