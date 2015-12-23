@@ -2340,7 +2340,7 @@ static void _rtl8821ae_clear_pci_pme_status(struct ieee80211_hw *hw)
 
 	if (cap_id == 0x01) {
 		/* Get the PM CSR (Control/Status Register),
-		 * The PME_Status is located at PM Capatibility offset 5, bit 7
+		 * The PME_Status is located at PM Capability offset 5, bit 7
 		 */
 		pci_read_config_byte(rtlpci->pdev, cap_pointer + 5, &pmcs_reg);
 
