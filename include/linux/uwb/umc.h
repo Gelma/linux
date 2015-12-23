@@ -21,7 +21,7 @@
  * loads when WHCI devices are detected. These WHCI devices expose
  * many devices in the same PCI function (they couldn't have reused
  * functions, no), so for each PCI function that exposes these many
- * devices, whci ceates a umc_dev [whci_probe() -> whci_add_cap()]
+ * devices, whci creates a umc_dev [whci_probe() -> whci_add_cap()]
  * with umc_device_create() and adds it to the bus with
  * umc_device_register().
  *
