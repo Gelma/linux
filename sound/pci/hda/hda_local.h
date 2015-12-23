@@ -581,7 +581,7 @@ snd_hda_query_pin_caps(struct hda_codec *codec, hda_nid_t nid)
  * @nid: the NID to override
  * @caps: the capability bits to set
  *
- * Override the cached PIN capabilitiy bits value by the given one.
+ * Override the cached PIN capability bits value by the given one.
  *
  * Returns zero if successful or a negative error code.
  */
