@@ -710,7 +710,7 @@ int beiscsi_set_param(struct iscsi_cls_conn *cls_conn,
 
 /**
  * beiscsi_get_initname - Read Initiator Name from flash
- * @buf: buffer bointer
+ * @buf: buffer pointer
  * @phba: The device priv structure instance
  *
  * returns number of bytes
