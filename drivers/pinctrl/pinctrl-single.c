@@ -1073,7 +1073,7 @@ static int pcs_parse_pinconf(struct pcs_device *pcs, struct device_node *np,
 	if (!PCS_HAS_PINCONF)
 		return 0;
 
-	/* cacluate how much properties are supported in current node */
+	/* calculate how much properties are supported in current node */
 	for (i = 0; i < ARRAY_SIZE(prop2); i++) {
 		if (of_find_property(np, prop2[i].name, NULL))
 			nconfs++;
