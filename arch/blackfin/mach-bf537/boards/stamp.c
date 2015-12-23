@@ -629,7 +629,7 @@ static struct ad714x_platform_data ad7142_i2c_platform_data = {
 	.button_num = 4,
 	.button = ad7142_i2c_button_plat,
 	.stage_cfg_reg =  {
-		/* fixme: figure out right setting for all comoponent according
+		/* fixme: figure out right setting for all component according
 		 * to hardware feature of EVAL-AD7142EB board */
 		{0xE7FF, 0x3FFF, 0x0005, 0x2626, 0x01F4, 0x01F4, 0x028A, 0x028A},
 		{0xFDBF, 0x3FFF, 0x0001, 0x2626, 0x01F4, 0x01F4, 0x028A, 0x028A},
