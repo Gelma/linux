@@ -1695,7 +1695,7 @@ static int tty3270_put_char(struct tty_struct *tty, unsigned char ch)
 }
 
 /*
- * Flush all characters from the ttys characeter buffer put there
+ * Flush all characters from the ttys character buffer put there
  * by tty3270_put_char.
  */
 static void
