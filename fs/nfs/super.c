@@ -1877,7 +1877,7 @@ static int nfs_parse_devname(const char *dev_name,
 	size_t len;
 	char *end;
 
-	/* Is the host name protected with square brakcets? */
+	/* Is the host name protected with square brackets? */
 	if (*dev_name == '[') {
 		end = strchr(++dev_name, ']');
 		if (end == NULL || end[1] != ':')
