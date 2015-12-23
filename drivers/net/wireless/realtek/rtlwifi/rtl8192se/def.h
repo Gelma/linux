@@ -236,7 +236,7 @@
 #define SET_TX_DESC_NEXT_DESC_ADDRESS(__pdesc, __val)		\
 	SET_BITS_OFFSET_LE(__pdesc + 36, 0, 32, __val)
 
-/* Because the PCI Tx descriptors are chaied at the
+/* Because the PCI Tx descriptors are chained at the
  * initialization and all the NextDescAddresses in
  * these descriptors cannot not be cleared (,or
  * driver/HW cannot find the next descriptor), the
