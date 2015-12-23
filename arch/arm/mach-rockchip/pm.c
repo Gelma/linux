@@ -280,7 +280,7 @@ static int rk3288_suspend_init(struct device_node *np)
 
 	rk3288_config_bootdata();
 
-	/* copy resume code and data to bootsram */
+	/* copy resume code and data to bootram */
 	memcpy(rk3288_bootram_base, rockchip_slp_cpu_resume,
 	       rk3288_bootram_sz);
 
