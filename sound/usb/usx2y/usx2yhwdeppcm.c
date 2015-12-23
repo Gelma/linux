@@ -16,7 +16,7 @@
 
 /* USX2Y "rawusb" aka hwdep_pcm implementation
 
- Its usb's unableness to atomically handle power of 2 period sized data chuncs
+ Its usb's unableness to atomically handle power of 2 period sized data chunks
  at standard samplerates,
  what led to this part of the usx2y module: 
  It provides the alsa kernel half of the usx2y-alsa-jack driver pair.
