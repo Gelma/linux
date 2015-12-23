@@ -12,7 +12,7 @@
  *      Copyright (C) 2004, SigmaTel, Inc. <irquality@sigmatel.com>
  *      Copyright (C) 2005, Milan Beno <beno@pobox.sk>
  *      Copyright (C) 2006, Nick Fedchik <nick@fedchik.org.ua>
- *          
+ *
  *	This program is free software; you can redistribute it and/or modify
  *	it under the terms of the GNU General Public License as published by
  *	the Free Software Foundation; either version 2 of the License, or
@@ -976,7 +976,7 @@ static void irda_usb_rx_defer_expired(unsigned long data)
 
 /*------------------------------------------------------------------*/
 /*
- * Callbak from IrDA layer. IrDA wants to know if we have
+ * Callback from IrDA layer. IrDA wants to know if we have
  * started receiving anything.
  */
 static int irda_usb_is_receiving(struct irda_usb_cb *self)
