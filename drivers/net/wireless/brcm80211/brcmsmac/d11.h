@@ -625,7 +625,7 @@ struct d11regs {
 #define CCS_ERSRC_AVAIL_D11PLL	0x01000000	/* d11 core pll available */
 #define CCS_ERSRC_AVAIL_PHYPLL	0x02000000	/* PHY pll available */
 
-/* HT Cloclk Ctrl and Clock Avail for 4313 */
+/* HT Clock Ctrl and Clock Avail for 4313 */
 #define CCS_ERSRC_REQ_HT    0x00000010	/* HT avail request */
 #define CCS_ERSRC_AVAIL_HT  0x00020000	/* HT clock available */
 
