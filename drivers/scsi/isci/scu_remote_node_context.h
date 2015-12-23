@@ -183,7 +183,7 @@ struct ssp_remote_node_context {
 
 	/* WORD 6 */
 	/**
-	 * This field tells the SCU hardware what to use as the more capibilities in
+	 * This field tells the SCU hardware what to use as the more capabilities in
 	 * the open address frame. See the SAS Spec for details.
 	 */
 	u32 oaf_more_compatibility_features;
