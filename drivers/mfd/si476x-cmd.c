@@ -904,7 +904,7 @@ EXPORT_SYMBOL_GPL(si476x_core_cmd_fm_seek_start);
  *                RDSFIFOUSED is not decremented and data in all the
  *                rest RDS data contains the last valid info received
  * @mtfifo if set the command clears RDS receive FIFO
- * @intack if set the command clards the RDSINT bit.
+ * @intack if set the command clears the RDSINT bit.
  *
  * Function returns 0 on success and negative error code on failure
  */
