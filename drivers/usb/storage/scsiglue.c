@@ -239,7 +239,7 @@ static int slave_configure(struct scsi_device *sdev)
 		 * automatically, requiring a START-STOP UNIT command. */
 		sdev->allow_restart = 1;
 
-		/* Some USB cardreaders have trouble reading an sdcard's last
+		/* Some USB card readers have trouble reading an sdcard's last
 		 * sector in a larger then 1 sector read, since the performance
 		 * impact is negligible we set this flag for all USB disks */
 		sdev->last_sector_bug = 1;
