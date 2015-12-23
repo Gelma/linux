@@ -787,7 +787,7 @@ ia64_sal_register_physical_addr (u64 phys_entry, u64 phys_addr)
 /*
  * Register software dependent code locations within SAL. These locations are handlers or
  * entry points where SAL will pass control for the specified event. These event handlers
- * are for the bott rendezvous, MCAs and INIT scenarios.
+ * are for the boot rendezvous, MCAs and INIT scenarios.
  */
 static inline s64
 ia64_sal_set_vectors (u64 vector_type,
