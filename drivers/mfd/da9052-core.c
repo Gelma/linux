@@ -324,7 +324,7 @@ static bool da9052_reg_volatile(struct device *dev, unsigned int reg)
  * Default values are R25 = 10e3, B = 3380, ITBAT = 50e-6
  * Example:
  * R25=10E3, B=3380, ITBAT=50e-6, ADCVAL=62d calculates
- * TBAT = 20015 mili degrees Centrigrade
+ * TBAT = 20015 mili degrees Centigrade
  *
 */
 static const int32_t tbat_lookup[255] = {
