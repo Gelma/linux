@@ -1766,7 +1766,7 @@ struct sctp_association {
 
 	/* These ASCONF chunks are waiting to be sent.
 	 *
-	 * These chunaks can't be pushed to outqueue until receiving
+	 * These chunks can't be pushed to outqueue until receiving
 	 * ASCONF_ACK for the previous ASCONF indicated by
 	 * addip_last_asconf, so as to guarantee that only one ASCONF
 	 * is in flight at any time.
