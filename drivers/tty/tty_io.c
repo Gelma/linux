@@ -1904,7 +1904,7 @@ int tty_release(struct inode *inode, struct file *filp)
 	 */
 	tty_ldisc_release(tty);
 
-	/* Wait for pending work before tty destruction commmences */
+	/* Wait for pending work before tty destruction begins */
 	tty_flush_works(tty);
 
 	tty_debug_hangup(tty, "freeing structure...\n");
