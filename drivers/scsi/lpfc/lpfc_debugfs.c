@@ -2467,7 +2467,7 @@ lpfc_idiag_queacc_read_qe(char *pbuffer, int len, struct lpfc_queue *pque,
  * Description:
  * This routine reads data from the @phba device queue memory according to the
  * idiag command, and copies to user @buf. Depending on the queue dump read
- * command setup, it does either a single queue entry read or browing through
+ * command setup, it does either a single queue entry read or browsing through
  * all entries of the queue.
  *
  * Returns:
