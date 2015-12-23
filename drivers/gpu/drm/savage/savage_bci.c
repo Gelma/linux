@@ -579,7 +579,7 @@ int savage_driver_firstopen(struct drm_device *dev)
 		aperture_base = fb_base + SAVAGE_APERTURE_OFFSET;
 		/* this should always be true */
 		if (pci_resource_len(dev->pdev, 0) == 0x08000000) {
-			/* Don't make MMIO write-cobining! We need 3
+			/* Don't make MMIO write-combining! We need 3
 			 * MTRRs. */
 			dev_priv->mtrr_handles[0] =
 				arch_phys_wc_add(fb_base, 0x01000000);
