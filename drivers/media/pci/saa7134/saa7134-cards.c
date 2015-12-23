@@ -36,7 +36,7 @@
 #include "xc5000.h"
 #include "s5h1411.h"
 
-/* commly used strings */
+/* commonly used strings */
 static char name_mute[]    = "mute";
 static char name_radio[]   = "Radio";
 static char name_tv[]      = "Television";
