@@ -64,7 +64,7 @@ static inline int IQ_INSTR_MODE_64B(struct octeon_device *oct, int iq_no)
 
 #define IQ_INSTR_MODE_32B(oct, iq_no)  (!IQ_INSTR_MODE_64B(oct, iq_no))
 
-/* Define this to return the request status comaptible to old code */
+/* Define this to return the request status compatible to old code */
 /*#define OCTEON_USE_OLD_REQ_STATUS*/
 
 /* Return 0 on success, 1 on failure */
