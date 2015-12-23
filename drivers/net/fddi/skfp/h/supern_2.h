@@ -951,7 +951,7 @@ struct tx_queue {
 
 /*
  * PLC interrupt event register (PL_INTR_EVENT: log. addr. 0x17)
- * It is read only and is clearde whenever it is read!
+ * It is read only and is cleared whenever it is read!
  * It is used by the PLC to report events to the node processor.
  */
 #define	PL_PARITY_ERR	0x0001		/* p. error h.b.detected on TX9-0 inp*/
