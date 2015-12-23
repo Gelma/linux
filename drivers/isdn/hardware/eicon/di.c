@@ -441,7 +441,7 @@ static byte isdn_rc(ADAPTER *a,
 		  of flow control condition marked with DIVA_RC_TYPE_OK_FC extended
 		  information element type.
 		  If like return code arrives then application is able to process
-		  all return codes self and XDI should not cances return codes.
+		  all return codes self and XDI should not cancel return codes.
 		  This return code does not decrement XMOREC partial return code
 		  counter due to fact that it was no request for this return code,
 		  also XMOREC was not incremented.
