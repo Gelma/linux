@@ -24,7 +24,7 @@
 /*
  * ANDs reg2 with mask and places the result in reg1.
  *
- * You cannnot use the same register for reg1 & reg2.
+ * You can not use the same register for reg1 & reg2.
  */
 
 .macro ANDI32	reg1, reg2, mask
