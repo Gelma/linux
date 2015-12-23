@@ -2098,7 +2098,7 @@ static void ath9k_set_power_network_sleep(struct ath_hw *ah)
 
 		/* When chip goes into network sleep, it could be waken
 		 * up by MCI_INT interrupt caused by BT's HW messages
-		 * (LNA_xxx, CONT_xxx) which chould be in a very fast
+		 * (LNA_xxx, CONT_xxx) which could be in a very fast
 		 * rate (~100us). This will cause chip to leave and
 		 * re-enter network sleep mode frequently, which in
 		 * consequence will have WLAN MCI HW to generate lots of
