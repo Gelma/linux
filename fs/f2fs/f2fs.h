@@ -170,7 +170,7 @@ struct inode_entry {
 	struct inode *inode;	/* vfs inode pointer */
 };
 
-/* for the list of blockaddresses to be discarded */
+/* for the list of block addresses to be discarded */
 struct discard_entry {
 	struct list_head list;	/* list head */
 	block_t blkaddr;	/* block address to be discarded */
