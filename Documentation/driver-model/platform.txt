@@ -115,7 +115,7 @@ Legacy Drivers:  Device Probing
 Some drivers are not fully converted to the driver model, because they take
 on a non-driver role:  the driver registers its platform device, rather than
 leaving that for system infrastructure.  Such drivers can't be hotplugged
-or coldplugged, since those mechanisms require device creation to be in a
+or cold plugged, since those mechanisms require device creation to be in a
 different system component than the driver.
 
 The only "good" reason for this is to handle older system designs which, like
