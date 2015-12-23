@@ -782,7 +782,7 @@ struct rt2x00_dev {
 	unsigned long flags;
 
 	/*
-	 * Device capabiltiy flags.
+	 * Device capability flags.
 	 * In these flags the device/driver capabilities are stored.
 	 * Access to these flags should occur non-atomically.
 	 */
