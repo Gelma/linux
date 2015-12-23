@@ -81,7 +81,7 @@ static int lm3630a_chip_init(struct lm3630a_chip *pchip)
 	usleep_range(1000, 2000);
 	/* set Filter Strength Register */
 	rval = lm3630a_write(pchip, 0x50, 0x03);
-	/* set Cofig. register */
+	/* set Config. register */
 	rval |= lm3630a_update(pchip, REG_CONFIG, 0x07, pdata->pwm_ctrl);
 	/* set boost control */
 	rval |= lm3630a_write(pchip, REG_BOOST, 0x38);
