@@ -8673,7 +8673,7 @@ __lpfc_sli_issue_iocb_s4(struct lpfc_hba *phba, uint32_t ring_number,
 		sglq = NULL;
 	} else {
 		/*
-		 * This is a continuation of a commandi,(CX) so this
+		 * This is a continuation of a command,(CX) so this
 		 * sglq is on the active list
 		 */
 		sglq = __lpfc_get_active_sglq(phba, piocb->sli4_lxritag);
