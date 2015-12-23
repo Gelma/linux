@@ -3642,7 +3642,7 @@ SYSCALL_DEFINE2(mkdir, const char __user *, pathname, umode_t, mode)
  * dentry, and if that is true (possibly after pruning the dcache),
  * then we drop the dentry now.
  *
- * A low-level filesystem can, if it choses, legally
+ * A low-level filesystem can, if it chooses, legally
  * do a
  *
  *	if (!d_unhashed(dentry))
