@@ -296,7 +296,7 @@ out:
 	return err;
 }
 
-/* callcain + NO children */
+/* callchain + NO children */
 static int test2(struct perf_evsel *evsel, struct machine *machine)
 {
 	int err;
