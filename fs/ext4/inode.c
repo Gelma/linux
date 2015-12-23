@@ -416,7 +416,7 @@ static void ext4_map_blocks_es_recheck(handle_t *handle,
 		up_read((&EXT4_I(inode)->i_data_sem));
 
 	/*
-	 * We don't check m_len because extent will be collpased in status
+	 * We don't check m_len because extent will be collapsed in status
 	 * tree.  So the m_len might not equal.
 	 */
 	if (es_map->m_lblk != map->m_lblk ||
