@@ -1129,7 +1129,7 @@ void isci_host_completion_routine(unsigned long data)
 	active = isci_tci_active(ihost) - SCI_MAX_PORTS;
 
 	/*
-	 * the coalesence timeout doubles at each encoding step, so
+	 * the coalescence timeout doubles at each encoding step, so
 	 * update it based on the ilog2 value of the outstanding requests
 	 */
 	writel(SMU_ICC_GEN_VAL(NUMBER, active) |
