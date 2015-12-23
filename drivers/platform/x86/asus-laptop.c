@@ -485,7 +485,7 @@ static void pega_accel_poll(struct input_polled_dev *ipd)
 
 	/* Note transform, convert to "right/up/out" in the native
 	 * landscape orientation (i.e. the vector is the direction of
-	 * "real up" in the device's cartiesian coordinates). */
+	 * "real up" in the device's cartesian coordinates). */
 	input_report_abs(ipd->input, ABS_X, -asus->pega_acc_x);
 	input_report_abs(ipd->input, ABS_Y, -asus->pega_acc_y);
 	input_report_abs(ipd->input, ABS_Z,  asus->pega_acc_z);
