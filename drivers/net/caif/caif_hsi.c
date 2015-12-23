@@ -1281,7 +1281,7 @@ static int cfhsi_close(struct net_device *ndev)
 	/* Destroy workqueue */
 	destroy_workqueue(cfhsi->wq);
 
-	/* Store bufferes: will be freed later. */
+	/* Store buffers: will be freed later. */
 	tx_buf = cfhsi->tx_buf;
 	rx_buf = cfhsi->rx_buf;
 	flip_buf = cfhsi->rx_flip_buf;
