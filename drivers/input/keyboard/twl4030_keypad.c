@@ -162,7 +162,7 @@ static int twl4030_kpwrite_u8(struct twl4030_keypad *kp, u8 data, u32 reg)
 
 static inline u16 twl4030_col_xlate(struct twl4030_keypad *kp, u8 col)
 {
-	/* If all bits in a row are active for all coloumns then
+	/* If all bits in a row are active for all columns then
 	 * we have that row line connected to gnd. Mark this
 	 * key on as if it was on matrix position n_cols (ie
 	 * one higher than the size of the matrix).
