@@ -962,7 +962,7 @@ int setup_profiling_timer(unsigned int multiplier)
  * clear_local_APIC - shutdown the local APIC
  *
  * This is called, when a CPU is disabled and before rebooting, so the state of
- * the local APIC has no dangling leftovers. Also used to cleanout any BIOS
+ * the local APIC has no dangling leftovers. Also used to clean out any BIOS
  * leftovers during boot.
  */
 void clear_local_APIC(void)
