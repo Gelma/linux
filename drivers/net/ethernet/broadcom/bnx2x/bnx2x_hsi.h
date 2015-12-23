@@ -5567,7 +5567,7 @@ struct hc_sb_data {
 
 
 /*
- * Segment types for host coaslescing
+ * Segment types for host coalescing
  */
 enum hc_segment {
 	HC_REGULAR_SEGMENT,
