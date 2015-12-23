@@ -1293,7 +1293,7 @@ brcmf_p2p_stop_wait_next_action_frame(struct brcmf_cfg80211_info *cfg)
 
 
 /**
- * brcmf_p2p_gon_req_collision() - Check if go negotiaton collission
+ * brcmf_p2p_gon_req_collision() - Check if go negotiaton collision
  *
  * @p2p: p2p device info struct.
  *
