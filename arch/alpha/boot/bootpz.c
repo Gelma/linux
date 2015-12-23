@@ -326,7 +326,7 @@ start_kernel(void)
 	 * 0x20000000, we have to ensure that the physical memory
 	 * pages occupied by that image do NOT overlap the physical
 	 * address range where the kernel wants to be run.  This
-	 * causes real problems when attempting to cdecompress the
+	 * causes real problems when attempting to decompress the
 	 * former into the latter... :-(
 	 *
 	 * So, we may have to decompress/move the kernel/INITRD image
