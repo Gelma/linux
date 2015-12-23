@@ -555,7 +555,7 @@ static void atc_handle_error(struct at_dma_chan *atchan)
 
 	/*
 	 * The descriptor currently at the head of the active list is
-	 * broked. Since we don't have any way to report errors, we'll
+	 * broken. Since we don't have any way to report errors, we'll
 	 * just have to scream loudly and try to carry on.
 	 */
 	bad_desc = atc_first_active(atchan);
