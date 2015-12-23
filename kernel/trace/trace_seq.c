@@ -228,7 +228,7 @@ EXPORT_SYMBOL_GPL(trace_seq_puts);
  * @c: simple character to record
  *
  * The tracer may use either the sequence operations or its own
- * copy to user routines. This function records a simple charater
+ * copy to user routines. This function records a simple character
  * into a special buffer (@s) for later retrieval by a sequencer
  * or other mechanism.
  */
