@@ -1457,7 +1457,7 @@ lnet_rtrpools_alloc(int im_a_router)
 						sizeof(lnet_rtrbufpool_t));
 	if (the_lnet.ln_rtrpools == NULL) {
 		LCONSOLE_ERROR_MSG(0x10c,
-				   "Failed to initialize router buffe pool\n");
+				   "Failed to initialize router buffer pool\n");
 		return -ENOMEM;
 	}
 
