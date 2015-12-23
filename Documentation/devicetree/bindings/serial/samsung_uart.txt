@@ -1,7 +1,7 @@
 * Samsung's UART Controller
 
 The Samsung's UART controller is used for interfacing SoC with serial
-communicaion devices.
+communication devices.
 
 Required properties:
 - compatible: should be one of following:
