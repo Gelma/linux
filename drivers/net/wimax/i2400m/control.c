@@ -507,7 +507,7 @@ void i2400m_report_state_hook(struct i2400m *i2400m,
  *        declaration is assumed to be congruent with @size (as in
  *        sizeof(*l3l4_hdr) + l3l4_hdr->length == size)
  *
- * Extract information we might need (like carrien on/off) from a
+ * Extract information we might need (like carrier on/off) from a
  * device report.
  */
 void i2400m_report_hook(struct i2400m *i2400m,
