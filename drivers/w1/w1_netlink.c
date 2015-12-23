@@ -69,7 +69,7 @@ struct w1_cb_node {
  *
  * Calculates the current message length including possible multiple
  * cn_msg and data, excludes the first sizeof(struct cn_msg).  Direclty
- * compariable to maxlen and usable to send the message.
+ * comparable to maxlen and usable to send the message.
  */
 static u16 w1_reply_len(struct w1_cb_block *block)
 {
