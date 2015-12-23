@@ -330,7 +330,7 @@ static int tegra_i2c_fill_tx_fifo(struct tegra_i2c_dev *i2c_dev)
 			words_to_transfer = tx_fifo_avail;
 
 		/*
-		 * Update state before writing to FIFO.  If this casues us
+		 * Update state before writing to FIFO.  If this causes us
 		 * to finish writing all bytes (AKA buf_remaining goes to 0) we
 		 * have a potential for an interrupt (PACKET_XFER_COMPLETE is
 		 * not maskable).  We need to make sure that the isr sees
