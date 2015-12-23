@@ -378,7 +378,7 @@ int twl6040_set_pll(struct twl6040 *twl6040, int pll_id,
 	switch (pll_id) {
 	case TWL6040_SYSCLK_SEL_LPPLL:
 		/* low-power PLL divider */
-		/* Change the sysclk configuration only if it has been canged */
+		/* Change the sysclk configuration only if it has been changed */
 		if (twl6040->sysclk != freq_out) {
 			switch (freq_out) {
 			case 17640000:
