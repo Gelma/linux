@@ -247,7 +247,7 @@ static void omap2_set_gpio_debounce(struct gpio_bank *bank, unsigned offset,
 	 * Enable debounce clock per module.
 	 * This call is mandatory because in omap_gpio_request() when
 	 * *_runtime_get_sync() is called,  _gpio_dbck_enable() within
-	 * runtime callbck fails to turn on dbck because dbck_enable_mask
+	 * runtime callback fails to turn on dbck because dbck_enable_mask
 	 * used within _gpio_dbck_enable() is still not initialized at
 	 * that point. Therefore we have to enable dbck here.
 	 */
