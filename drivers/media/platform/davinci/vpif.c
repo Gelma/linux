@@ -307,7 +307,7 @@ static void vpif_set_mode_info(const struct vpif_channel_config_params *config,
 
 /* config_vpif_params
  * Function to set the parameters of a channel
- * Mainly modifies the channel ciontrol register
+ * Mainly modifies the channel control register
  * It sets frame format, yc mux mode
  */
 static void config_vpif_params(struct vpif_params *vpifparams,
