@@ -57,7 +57,7 @@
 	- this is an almost perfect 2.6 scsi driver now! ;)
     Rev  3.23.39 December 17, 2003, Jes Sorensen
 	- Delete completion queue from srb if mailbox command failed to
-	  to avoid qla1280_done completeting qla1280_error_action's
+	  to avoid qla1280_done completing qla1280_error_action's
 	  obsolete context
 	- Reduce arguments for qla1280_done
     Rev  3.23.38 October 18, 2003, Christoph Hellwig
