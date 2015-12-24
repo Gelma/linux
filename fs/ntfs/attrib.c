@@ -559,7 +559,7 @@ retry_remap:
  * If @ctx->is_first is 'true', the search begins with @ctx->attr itself.  If it
  * is 'false', the search begins after @ctx->attr.
  *
- * If @ic is IGNORE_CASE, the @name comparisson is not case sensitive and
+ * If @ic is IGNORE_CASE, the @name comparision is not case sensitive and
  * @ctx->ntfs_ino must be set to the ntfs inode to which the mft record
  * @ctx->mrec belongs.  This is so we can get at the ntfs volume and hence at
  * the upcase table.  If @ic is CASE_SENSITIVE, the comparison is case
