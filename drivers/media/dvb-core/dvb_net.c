@@ -42,7 +42,7 @@
  *                     Bugfixes and robustness improvements.
  *                     Filtering on dest MAC addresses, if present (D-Bit = 0)
  *                     ULE_DEBUG compile-time option.
- * Apr 2006: cp v3:    Bugfixes and compliency with RFC 4326 (ULE) by
+ * Apr 2006: cp v3:    Bugfixes and compliance with RFC 4326 (ULE) by
  *                       Christian Praehauser <cpraehaus@cosy.sbg.ac.at>,
  *                       Paris Lodron University of Salzburg.
  */
