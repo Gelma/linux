@@ -68,7 +68,7 @@ int mips_dsemul(struct pt_regs *regs, mips_instruction ir, unsigned long cpc)
 	fr = (struct emuframe __user *)
 		((regs->regs[29] - sizeof(struct emuframe)) & ~0x7);
 
-	/* Verify that the stack pointer is not competely insane */
+	/* Verify that the stack pointer is not completely insane */
 	if (unlikely(!access_ok(VERIFY_WRITE, fr, sizeof(struct emuframe))))
 		return SIGBUS;
 
