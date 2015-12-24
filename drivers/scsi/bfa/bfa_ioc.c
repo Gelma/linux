@@ -3949,7 +3949,7 @@ bfa_sfp_media_get(struct bfa_sfp_s *sfp)
 			 (xmtr_tech & SFP_XMTR_TECH_SN) ||
 			 (xmtr_tech & SFP_XMTR_TECH_SA))
 			*media = BFA_SFP_MEDIA_SW;
-		/* Check 10G Ethernet Compilance code */
+		/* Check 10G Ethernet Compliance code */
 		else if (e10g.r.e10g_sr)
 			*media = BFA_SFP_MEDIA_SW;
 		else if (e10g.r.e10g_lrm && e10g.r.e10g_lr)
