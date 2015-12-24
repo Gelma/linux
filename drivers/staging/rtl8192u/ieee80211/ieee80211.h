@@ -1943,7 +1943,7 @@ struct ieee80211_device {
 	 */
 	void (*data_hard_stop)(struct net_device *dev);
 
-	/* OK this is complementar to data_poll_hard_stop */
+	/* OK this is complementary to data_poll_hard_stop */
 	void (*data_hard_resume)(struct net_device *dev);
 
 	/* ask to the driver to retune the radio .
