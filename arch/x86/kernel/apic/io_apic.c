@@ -1740,7 +1740,7 @@ static inline void ioapic_irqd_unmask(struct irq_data *data, bool masked)
 		 * with masking the ioapic entry and then polling until
 		 * Remote IRR was clear before reprogramming the
 		 * ioapic I don't trust the Remote IRR bit to be
-		 * completey accurate.
+		 * completely accurate.
 		 *
 		 * However there appears to be no other way to plug
 		 * this race, so if the Remote IRR bit is not
