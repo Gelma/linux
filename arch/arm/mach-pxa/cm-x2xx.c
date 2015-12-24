@@ -376,7 +376,7 @@ static int __init cmx2xx_set_display(char *str)
    frame buffer.
    Indeed, pxafb parameters can be used istead, but CM-X2XX bootloader
    has limitied line length for kernel command line, and also it will
-   break compatibitlty with proprietary releases already in field.
+   break compatibility with proprietary releases already in field.
 */
 __setup("monitor=", cmx2xx_set_display);
 
