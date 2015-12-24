@@ -2070,7 +2070,7 @@ static void gelic_wl_disconnect_event(struct gelic_wl_info *wl,
 
 	/*
 	 * If we fall here in the middle of association,
-	 * associate_bss() should be waiting for complation of
+	 * associate_bss() should be waiting for compilation of
 	 * wl->assoc_done.
 	 * As it waits with timeout, just leave assoc_done
 	 * uncompleted, then it terminates with timeout
