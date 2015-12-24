@@ -683,7 +683,7 @@ static void process_done_list(unsigned long data)
 
 DECLARE_TASKLET(fhci_tasklet, process_done_list, 0);
 
-/* transfer complted callback */
+/* transfer completed callback */
 u32 fhci_transfer_confirm_callback(struct fhci_hcd *fhci)
 {
 	if (!fhci->process_done_task->state)
