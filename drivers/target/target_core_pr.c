@@ -2402,7 +2402,7 @@ core_scsi3_pro_reserve(struct se_cmd *cmd, int type, int scope, u64 res_key)
 		 * the SCOPE field contain the same values as the existing type
 		 * and scope from a persistent reservation holder, it shall not
 		 * make any change to the existing persistent reservation and
-		 * shall completethe command with GOOD status.
+		 * shall complete the command with GOOD status.
 		 */
 		spin_unlock(&dev->dev_reservation_lock);
 		ret = 0;
