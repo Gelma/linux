@@ -782,7 +782,7 @@ csio_scsis_io_active(struct csio_ioreq *req, enum csio_scsi_ev evt)
 		list_del_init(&req->sm.sm_list);
 		csio_set_state(&req->sm, csio_scsis_uninit);
 		/*
-		 * In MSIX mode, with multiple queues, the SCSI compeltions
+		 * In MSIX mode, with multiple queues, the SCSI completions
 		 * could reach us sooner than the FW events sent to indicate
 		 * I-T nexus loss (link down, remote device logo etc). We
 		 * dont want to be returning such I/Os to the upper layer
