@@ -1018,7 +1018,7 @@ csio_scsis_closing(struct csio_ioreq *req, enum csio_scsi_ev evt)
 
 		/*
 		 * Either close succeeded, or we issued close to FW at the
-		 * same time FW compelted it to us. Either way, the I/O
+		 * same time FW completed it to us. Either way, the I/O
 		 * is closed.
 		 */
 		CSIO_DB_ASSERT((req->wr_status == FW_SUCCESS) ||
