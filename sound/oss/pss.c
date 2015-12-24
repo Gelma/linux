@@ -1156,7 +1156,7 @@ MODULE_PARM_DESC(pss_cdrom_port, "Set the PSS CDROM port i/o base (0x340 or othe
 module_param(pss_enable_joystick, bool, 0);
 MODULE_PARM_DESC(pss_enable_joystick, "Enables the PSS joystick port (1 to enable, 0 to disable)");
 module_param(pss_no_sound, bool, 0);
-MODULE_PARM_DESC(pss_no_sound, "Configure sound compoents (0 - no, 1 - yes)");
+MODULE_PARM_DESC(pss_no_sound, "Configure sound components (0 - no, 1 - yes)");
 module_param(pss_keep_settings, bool, 0);
 MODULE_PARM_DESC(pss_keep_settings, "Keep hardware setting at driver unloading (0 - no, 1 - yes)");
 module_param(pss_firmware, charp, 0);
