@@ -1212,7 +1212,7 @@ lba_legacy_resources(struct parisc_device *pa_dev, struct lba_device *lba_dev)
 	 * Which looks like this in /proc/iomem:
 	 * f4000000-f47fffff : PCI00 LMMIO
 	 *   f4000000-f4001fff : sym53c8xx
-	 *   ...[deteled core devices - same as above]...
+	 *   ...[deleted core devices - same as above]...
 	 *   f4008000-f40083ff : tulip
 	 * f4800000-f4ffffff : PCI01 LMMIO
 	 * f6000000-f67fffff : PCI02 LMMIO
