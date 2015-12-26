@@ -376,7 +376,7 @@ static int htcpld_register_chip_i2c(
 	/* Add the I2C device.  This calls the probe() function. */
 	client = i2c_new_device(adapter, &info);
 	if (!client) {
-		/* I2C device registration failed, contineu with the next */
+		/* I2C device registration failed, continue with the next */
 		dev_warn(dev, "Unable to add I2C device for 0x%x\n",
 			 plat_chip_data->addr);
 		return -ENODEV;
