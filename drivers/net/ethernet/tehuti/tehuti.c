@@ -25,7 +25,7 @@
  *
  * Current NIC configuration (registers + firmware) makes NIC use 2 RXF Fifos.
  * One holds 1.5K packets and another - 26K packets. Depending on incoming
- * packet size, HW desides on a RXF Fifo to pop buffer from. When packet is
+ * packet size, HW decides on a RXF Fifo to pop buffer from. When packet is
  * filled with data, HW builds new RXD descriptor for it and push it into single
  * RXD Fifo.
  *
