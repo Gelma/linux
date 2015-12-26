@@ -76,7 +76,7 @@ function handle_suspicious_generic_reloc()
 {
     if is_executable_section ${section}; then
 	# We've got a relocation to a non white listed _executable_
-	# section, print a warning so the developper adds the section to
+	# section, print a warning so the developer adds the section to
 	# the white list or fix his code.  We try to pretty-print the file
 	# and line number where that relocation was added.
 	echo "Warning: found a reference to section \"${section}\" in __ex_table:"
