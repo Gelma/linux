@@ -838,7 +838,7 @@ typedef struct {
 
 	int	support_random_del;	/* Do we support random deletion of
 					   logdrvs */
-	int	read_ldidmap;	/* set after logical drive deltion. The
+	int	read_ldidmap;	/* set after logical drive deletion. The
 				   logical drive number must be read from the
 				   map */
 	atomic_t	quiescent;	/* a stage reached when delete logical
