@@ -281,7 +281,7 @@ main(int argc, char *argv[])
 		/* Process outmost scope */
 		process_scope(SLIST_FIRST(&scope_stack));
 		/*
-		 * Decend the tree of scopes and insert/emit
+		 * Descend the tree of scopes and insert/emit
 		 * patches as appropriate.  We perform a depth first
 		 * tranversal, recursively handling each scope.
 		 */
