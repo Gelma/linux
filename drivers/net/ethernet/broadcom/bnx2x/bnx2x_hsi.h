@@ -1718,7 +1718,7 @@ struct eee_remote_vals {
  * elements on a per byte or word boundary.
  *
  * example: an array with 8 entries each 4 bit wide. This array will fit into
- * a single dword. The diagrmas below show the array order of the nibbles.
+ * a single dword. The diagrams below show the array order of the nibbles.
  *
  * SHMEM_ARRAY_BITPOS(i, 4, 4) defines the stadard ordering:
  *
