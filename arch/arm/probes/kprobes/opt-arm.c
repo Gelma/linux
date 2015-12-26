@@ -320,7 +320,7 @@ void __kprobes arch_optimize_kprobes(struct list_head *oplist)
 
 		/*
 		 * Make it a conditional branch if replaced insn
-		 * is consitional
+		 * is conditional
 		 */
 		insn = (__mem_to_opcode_arm(
 			  op->optinsn.copied_insn[0]) & 0xf0000000) |
