@@ -1065,7 +1065,7 @@ unsigned long sun4v_con_write(unsigned long buffer,
  *
  * This allows the guest to report it's soft state to the hypervisor.  There
  * are two primary components to this state.  The first part states whether
- * the guest software is running or not.  The second containts optional
+ * the guest software is running or not.  The second contains optional
  * details specific to the software.
  *
  * The software state argument is defined below in HV_SOFT_STATE_*, and
