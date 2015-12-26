@@ -287,7 +287,7 @@ static void q40_irq_handler(unsigned int irq, struct pt_regs *fp)
 	}
  iirq:
 	mir = master_inb(IIRQ_REG);
-	/* should test whether keyboard irq is really enabled, doing it in defhand */
+	/* should test whether keyboard irq is really enabled, doing it in defend */
 	if (mir & Q40_IRQ_KEYB_MASK)
 		do_IRQ(Q40_IRQ_KEYBOARD, fp);
 
