@@ -222,7 +222,7 @@ struct msi_domain_ops {
 
 /**
  * struct msi_domain_info - MSI interrupt domain data
- * @flags:		Flags to decribe features and capabilities
+ * @flags:		Flags to describe features and capabilities
  * @ops:		The callback data structure
  * @chip:		Optional: associated interrupt chip
  * @chip_data:		Optional: associated interrupt chip data
