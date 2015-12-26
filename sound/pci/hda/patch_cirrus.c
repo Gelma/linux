@@ -864,7 +864,7 @@ static const struct hda_verb cs421x_coef_init_verbs[] = {
  * http://www.cirrus.com/en/pubs/errata/
  *
  * Description:
- * 1. Performance degredation is present in the ADC.
+ * 1. Performance degradation is present in the ADC.
  * 2. Speaker output is not completely muted upon HP detect.
  * 3. Noise is present when clipping occurs on the amplified
  *    speaker outputs.
