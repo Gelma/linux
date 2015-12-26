@@ -8,7 +8,7 @@
  * ucontext now has room for all registers which need to be saved and
  * restored.  Coprocessor registers are stored in uc_regspace.  Each
  * coprocessor's saved state should start with a documented 32-bit magic
- * number, followed by a 32-bit word giving the coprocessor's saved size.
+ * number, followed by a 32-bit word giving the coprocessor saved size.
  * uc_regspace may be expanded if necessary, although this takes some
  * coordination with glibc.
  */
