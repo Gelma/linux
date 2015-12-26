@@ -1299,7 +1299,7 @@ static int sctp_cmd_interpreter(sctp_event_t event_type,
 			break;
 
 		case SCTP_CMD_REPORT_FWDTSN:
-			/* Move the Cumulattive TSN Ack ahead. */
+			/* Move the Cumulative TSN Ack ahead. */
 			sctp_tsnmap_skip(&asoc->peer.tsn_map, cmd->obj.u32);
 
 			/* purge the fragmentation queue */
