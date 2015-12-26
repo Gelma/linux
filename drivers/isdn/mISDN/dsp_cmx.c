@@ -1,5 +1,5 @@
 /*
- * Audio crossconnecting/conferrencing (hardware level).
+ * Audio crossconnecting/conferencing (hardware level).
  *
  * Copyright 2002 by Andreas Eversberg (jolly@eversberg.eu)
  *
