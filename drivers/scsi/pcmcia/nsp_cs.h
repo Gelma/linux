@@ -257,7 +257,7 @@ typedef struct _nsp_hw_data {
 	int           TimerCount;
 	int           SelectionTimeOut;
 	struct scsi_cmnd *CurrentSC;
-	//int           CurrnetTarget;
+	//int           CurrentTarget;
 
 	int           FifoCount;
 
