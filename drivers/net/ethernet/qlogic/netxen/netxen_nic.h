@@ -1302,7 +1302,7 @@ Entry Type Defines
 
 struct netxen_minidump {
 	u32 pos;			/* position in the dump buffer */
-	u8  fw_supports_md;		/* FW supports Mini cordump */
+	u8  fw_supports_md;		/* FW supports Mini coredump */
 	u8  has_valid_dump;		/* indicates valid dump */
 	u8  md_capture_mask;		/* driver capture mask */
 	u8  md_enabled;			/* Turn Mini Coredump on/off */
