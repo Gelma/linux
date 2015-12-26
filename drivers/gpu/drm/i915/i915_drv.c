@@ -1488,7 +1488,7 @@ static int intel_runtime_suspend(struct device *device)
 	 * for consistency return -EAGAIN, which will reschedule this suspend.
 	 */
 	if (!mutex_trylock(&dev->struct_mutex)) {
-		DRM_DEBUG_KMS("device lock contention, deffering suspend\n");
+		DRM_DEBUG_KMS("device lock contention, deferring suspend\n");
 		/*
 		 * Bump the expiration timestamp, otherwise the suspend won't
 		 * be rescheduled.
