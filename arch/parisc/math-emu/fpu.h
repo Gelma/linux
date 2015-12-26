@@ -64,8 +64,8 @@
 
 /*
  * The only was to differentiate between TIMEX and ROLEX (or PCX-S and PCX-T)
- * is thorough the potential type field from the PDC_MODEL call.  The 
- * following flags are used at assist this differeniation.
+ * is thorough the potential type field from the PDC_MODEL call.  The
+ * following flags are used at assist this differentiation.
  */
 
 #define ROLEX_POTENTIAL_KEY_FLAGS	PDC_MODEL_CPU_KEY_WORD_TO_IO
