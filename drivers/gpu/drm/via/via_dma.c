@@ -620,7 +620,7 @@ static void via_cmdbuf_jump(drm_via_private_t *dev_priv)
 
 	/*
 	 * Now, set a trap that will pause the regulator if it tries to rerun the old
-	 * command buffer. (Which may happen if via_hook_segment detecs a command regulator pause
+	 * command buffer. (Which may happen if via_hook_segment detects a command regulator pause
 	 * and reissues the jump command over PCI, while the regulator has already taken the jump
 	 * and actually paused at the current buffer end).
 	 * There appears to be no other way to detect this condition, since the hw_addr_pointer
