@@ -2576,7 +2576,7 @@ enum rt2800_eeprom_word {
 /*
  * EEPROM TXpower delta: 20MHZ AND 40 MHZ use different power.
  * This is delta in 40MHZ.
- * VALUE: Tx Power dalta value, MAX=4(unit: dbm)
+ * VALUE: Tx Power delta value, MAX=4(unit: dbm)
  * TYPE: 1: Plus the delta value, 0: minus the delta value
  * ENABLE: enable tx power compensation for 40BW
  */
