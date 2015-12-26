@@ -376,7 +376,7 @@ static __be32 pcr_break_modify(struct cmp_connection *c, __be32 pcr)
  * cmp_connection_break - break the connection to the target
  * @c: the connection manager
  *
- * This function deactives the connection in the target's input/output plug
+ * This function deactivates the connection in the target's input/output plug
  * control register, and frees the isochronous resources of the connection.
  * Before calling this function, the caller should cease transmitting packets.
  */
