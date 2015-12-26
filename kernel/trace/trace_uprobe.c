@@ -1336,7 +1336,7 @@ static int unregister_uprobe_event(struct trace_uprobe *tu)
 	return 0;
 }
 
-/* Make a trace interface for controling probe points */
+/* Make a trace interface for controlling probe points */
 static __init int init_uprobe_trace(void)
 {
 	struct dentry *d_tracer;
