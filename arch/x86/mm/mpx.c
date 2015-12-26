@@ -453,7 +453,7 @@ static int allocate_bt(struct mm_struct *mm, long __user *bd_entry)
 	/*
 	 * We expected an empty 'expected_old_val', but instead found
 	 * an apparently valid entry.  Assume we raced with another
-	 * thread to instantiate this table and desclare succecss.
+	 * thread to instantiate this table and declare success.
 	 */
 	if (actual_old_val & MPX_BD_ENTRY_VALID_FLAG) {
 		ret = 0;
