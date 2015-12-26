@@ -590,7 +590,7 @@ static ssize_t pdcs_autosearch_read(struct kobject *kobj,
  * pdcs_timer_read - Stable Storage timer count output (in seconds).
  * @buf: The output buffer to write to.
  *
- * The value of the timer field correponds to a number of seconds in powers of 2.
+ * The value of the timer field corresponds to a number of seconds in powers of 2.
  */
 static ssize_t pdcs_timer_read(struct kobject *kobj,
 			       struct kobj_attribute *attr, char *buf)
