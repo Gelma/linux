@@ -586,7 +586,7 @@ static void internal_shift_right(
 			       dest_bi.bi_bh != tb->R[h],
 			       "src (%p) must be == tb->S[h](%p) when it disappears",
 			       src_bi.bi_bh, PATH_H_PBUFFER(tb->tb_path, h));
-			/* when S[h] disappers replace left delemiting key as well */
+			/* when S[h] disappers replace left delimiting key as well */
 			if (tb->CFL[h])
 				replace_key(tb, cf, d_key_position, tb->CFL[h],
 					    tb->lkey[h]);
