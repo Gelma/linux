@@ -80,7 +80,7 @@ void ev_dispatcher(struct s_smc *smc)
 	while (ev != smc->q.ev_put) {
 		PRINTF("dispatch class %d event %d\n",ev->class,ev->event) ;
 		switch(class = ev->class) {
-		case EVENT_ECM :		/* Entity Corordination  Man. */
+		case EVENT_ECM :		/* Entity Coordination  Man. */
 			ecm(smc,(int)ev->event) ;
 			break ;
 		case EVENT_CFM :		/* Configuration Man. */
