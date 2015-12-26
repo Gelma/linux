@@ -3365,7 +3365,7 @@ typedef struct {
 #define RJT_UNSUP_CLASS    0x05	/* Class not supported */
 #define RJT_DELIM_ERR      0x06	/* Delimiter usage error */
 #define RJT_UNSUP_TYPE     0x07	/* Type not supported */
-#define RJT_BAD_CONTROL    0x08	/* Invalid link conrtol */
+#define RJT_BAD_CONTROL    0x08	/* Invalid link control */
 #define RJT_BAD_RCTL       0x09	/* R_CTL invalid */
 #define RJT_BAD_FCTL       0x0A	/* F_CTL invalid */
 #define RJT_BAD_OXID       0x0B	/* OX_ID invalid */
