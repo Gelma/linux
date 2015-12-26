@@ -6,7 +6,7 @@
  *      Copyright (C) 1998 Free Software Foundation, Inc.
  *
  * The Tiger algorithm was developed by Ross Anderson and Eli Biham.
- * It was optimized for 64-bit processors while still delievering
+ * It was optimized for 64-bit processors while still delivering
  * decent performance on 32 and 16-bit processors.
  *
  * This version is derived from the GnuPG implementation and the
