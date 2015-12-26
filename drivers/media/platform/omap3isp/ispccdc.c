@@ -2145,7 +2145,7 @@ static int ccdc_enum_mbus_code(struct v4l2_subdev *sd,
 			else
 				return -EINVAL;
 		} else {
-			/* In raw mode, no configurable format confversion is
+			/* In raw mode, no configurable format conversion is
 			 * available.
 			 */
 			if (code->index == 0)
