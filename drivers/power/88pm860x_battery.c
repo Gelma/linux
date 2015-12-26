@@ -83,7 +83,7 @@
 
 /*
  * Battery temperature based on NTC resistor, defined
- * corresponding resistor value  -- Ohm / C degeree.
+ * corresponding resistor value  -- Ohm / C degree.
  */
 #define TBAT_NEG_25D		127773	/* -25 */
 #define TBAT_NEG_10D		54564	/* -10 */
