@@ -317,7 +317,7 @@ static u8 bcma_find_pci_capability(struct bcma_drv_pci *pc, unsigned int dev,
 
 		*buflen = 0;
 
-		/* copy the cpability data excluding cap ID and next ptr */
+		/* copy the capability data excluding cap ID and next ptr */
 		cap_data = cap_ptr + 2;
 		if ((bufsize + cap_data)  > PCI_CONFIG_SPACE_SIZE)
 			bufsize = PCI_CONFIG_SPACE_SIZE - cap_data;
