@@ -1368,7 +1368,7 @@ static int hdmi_choose_cvt(struct hda_codec *codec,
 	return 0;
 }
 
-/* Assure the pin select the right convetor */
+/* Assure the pin select the right converter */
 static void intel_verify_pin_cvt_connect(struct hda_codec *codec,
 			struct hdmi_spec_per_pin *per_pin)
 {
