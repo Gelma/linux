@@ -645,7 +645,7 @@ xfs_set_inode64(struct xfs_mount *mp, xfs_agnumber_t agcount)
 	/* There is no need for lock protection on m_flags,
 	 * the rw_semaphore of the VFS superblock is locked
 	 * during mount/umount/remount operations, so this is
-	 * enough to avoid concurency on the m_flags field
+	 * enough to avoid concurrency on the m_flags field
 	 */
 	mp->m_flags &= ~(XFS_MOUNT_32BITINODES |
 			 XFS_MOUNT_SMALL_INUMS);
