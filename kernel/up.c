@@ -65,7 +65,7 @@ EXPORT_SYMBOL(on_each_cpu_mask);
 
 /*
  * Preemption is disabled here to make sure the cond_func is called under the
- * same condtions in UP and SMP.
+ * same conditions in UP and SMP.
  */
 void on_each_cpu_cond(bool (*cond_func)(int cpu, void *info),
 		      smp_call_func_t func, void *info, bool wait,
