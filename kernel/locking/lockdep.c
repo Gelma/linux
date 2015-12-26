@@ -2465,7 +2465,7 @@ mark_lock_irq(struct task_struct *curr, struct held_lock *this,
 	 * mark USED_IN has to look forwards -- to ensure no dependency
 	 * has ENABLED state, which would allow recursion deadlocks.
 	 *
-	 * mark ENABLED has to look backwards -- to ensure no dependee
+	 * mark ENABLED has to look backwards -- to ensure no dependency
 	 * has USED_IN state, which, again, would allow  recursion deadlocks.
 	 */
 	check_usage_f usage = dir ?
