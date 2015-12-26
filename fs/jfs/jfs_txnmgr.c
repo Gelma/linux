@@ -1677,7 +1677,7 @@ static void dtLog(struct jfs_log * log, struct tblock * tblk, struct lrd * lrd,
 	if (tlck->type & (tlckFREE | tlckRELOCATE)) {
 		/* log LOG_NOREDOPAGE of the deleted page for logredo()
 		 * to start NoRedoPage filter and to update bmap for free
-		 * of the deletd page
+		 * of the deleted page
 		 */
 		lrd->type = cpu_to_le16(LOG_NOREDOPAGE);
 		pxdlock = (struct pxd_lock *) & tlck->lock;
