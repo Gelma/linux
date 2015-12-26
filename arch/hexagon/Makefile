@@ -25,7 +25,7 @@ KBUILD_AFLAGS += $(aflags-y)
 #  no KBUILD_LDFLAGS?
 LDFLAGS += $(ldflags-y)
 
-# Thread-info register will be r19.  This value is not configureable;
+# Thread-info register will be r19.  This value is not configurable;
 # it is hard-coded in several files.
 TIR_NAME := r19
 KBUILD_CFLAGS += -ffixed-$(TIR_NAME) -DTHREADINFO_REG=$(TIR_NAME) -D__linux__
