@@ -244,7 +244,7 @@ static void _rtl8723be_translate_rx_signal_stuff(struct ieee80211_hw *hw,
 
 	/* YP: packet_beacon is not initialized,
 	 * this assignment is neccesary,
-	 * otherwise it counld be true in this case
+	 * otherwise it could not be true in this case
 	 * the situation is much worse in Kernel 3.10
 	 */
 	if (ieee80211_is_beacon(hdr->frame_control))
