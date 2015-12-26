@@ -42,7 +42,7 @@ union scc2698_channel {
  * union scc2698_block - Block access to scc2698 IO
  *
  * The scc2698 contain 4 block.
- * Each block containt two channel a and b.
+ * Each block contains two channel a and b.
  * dn value are only spacer.
  *
  */
