@@ -186,7 +186,7 @@ static int range_alloc(struct ashmem_area *asma,
 }
 
 /**
- * range_del() - Deletes and dealloctes an ashmem_range structure
+ * range_del() - Deletes and deallocates an ashmem_range structure
  * @range:	 The associated ashmem_range that has previously been allocated
  */
 static void range_del(struct ashmem_range *range)
