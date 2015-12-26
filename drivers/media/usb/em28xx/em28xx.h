@@ -614,7 +614,7 @@ struct em28xx {
 	enum em28xx_chip_id chip_id;
 
 	unsigned int is_em25xx:1;	/* em25xx/em276x/7x/8x family bridge */
-	unsigned char disconnected:1;	/* device has been diconnected */
+	unsigned char disconnected:1;	/* device has been disconnected */
 	unsigned int has_video:1;
 	unsigned int is_audio_only:1;
 	enum em28xx_int_audio_type int_audio_type;
