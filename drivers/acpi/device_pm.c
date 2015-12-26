@@ -740,7 +740,7 @@ EXPORT_SYMBOL(acpi_pm_device_run_wake);
 #ifdef CONFIG_PM_SLEEP
 /**
  * acpi_pm_device_sleep_wake - Enable or disable device to wake up the system.
- * @dev: Device to enable/desible to wake up the system from sleep states.
+ * @dev: Device to enable/disable to wake up the system from sleep states.
  * @enable: Whether to enable or disable @dev to wake up the system.
  */
 int acpi_pm_device_sleep_wake(struct device *dev, bool enable)
