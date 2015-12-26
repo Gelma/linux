@@ -3493,7 +3493,7 @@ int wilc_deinit_host_int(struct net_device *net)
 	}
 
 	if (s32Error)
-		PRINT_ER("Error while deintializing host interface\n");
+		PRINT_ER("Error while deinitializing host interface\n");
 
 	return s32Error;
 }
