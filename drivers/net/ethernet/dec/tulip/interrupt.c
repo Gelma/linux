@@ -279,7 +279,7 @@ int tulip_poll(struct napi_struct *napi, int budget)
 
           /* We use this simplistic scheme for IM. It's proven by
              real life installations. We can have IM enabled
-            continuesly but this would cause unnecessary latency.
+            continuously but this would cause unnecessary latency.
             Unfortunely we can't use all the NET_RX_* feedback here.
             This would turn on IM for devices that is not contributing
             to backlog congestion with unnecessary latency.
