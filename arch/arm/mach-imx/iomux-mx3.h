@@ -129,7 +129,7 @@ int mxc_iomux_setup_multiple_pins(const unsigned int *pin_list, unsigned count,
 void mxc_iomux_release_pin(unsigned int pin);
 /*
  * releases multiple pins
- * convenvient way to call the above function with tables
+ * convenient way to call the above function with tables
  */
 void mxc_iomux_release_multiple_pins(const unsigned int *pin_list, int count);
 
