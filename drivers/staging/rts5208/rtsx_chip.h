@@ -159,7 +159,7 @@
 #define HARDWARE_ERR            0x04    /* hardware error                   */
 #define ILGAL_REQ               0x05    /* CDB/parameter/identify msg error */
 #define UNIT_ATTENTION          0x06    /* unit attention condition occur   */
-#define DAT_PRTCT               0x07    /* read/write is desable            */
+#define DAT_PRTCT               0x07    /* read/write is disabled           */
 #define BLNC_CHK                0x08    /* find blank/DOF in read           */
 					/* write to unblank area            */
 #define CPY_ABRT                0x0a    /* Copy/Compare/Copy&Verify illgal  */
