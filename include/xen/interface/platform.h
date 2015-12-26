@@ -432,7 +432,7 @@ struct xenpf_pcpuinfo {
 	/* The maxium cpu_id that is present */
 	uint32_t max_present;
 #define XEN_PCPU_FLAGS_ONLINE   1
-	/* Correponding xen_cpuid is not present*/
+	/* Corresponding xen_cpuid is not present*/
 #define XEN_PCPU_FLAGS_INVALID  2
 	uint32_t flags;
 	uint32_t apic_id;
