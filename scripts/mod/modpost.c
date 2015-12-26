@@ -949,7 +949,7 @@ enum mismatch {
 };
 
 /**
- * Describe how to match sections on different criterias:
+ * Describe how to match sections on different criteria:
  *
  * @fromsec: Array of sections to be matched.
  *
