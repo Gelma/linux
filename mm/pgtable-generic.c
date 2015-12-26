@@ -92,7 +92,7 @@ pte_t ptep_clear_flush(struct vm_area_struct *vma, unsigned long address,
  * THP regime. stock flush_tlb_range() typically has optimization to nuke the
  * entire TLB TLB if flush span is greater than a threshhold, which will
  * likely be true for a single huge page. Thus a single thp flush will
- * invalidate the entire TLB which is not desitable.
+ * invalidate the entire TLB which is not desiderable.
  * e.g. see arch/arc: flush_pmd_tlb_range
  */
 #define flush_pmd_tlb_range(vma, addr, end)	flush_tlb_range(vma, addr, end)
