@@ -883,7 +883,7 @@ pm8001_chip_soft_rst(struct pm8001_hba_info *pm8001_ha)
 	host performs the soft reset */
 	pm8001_cw32(pm8001_ha, 0, MSGU_HOST_SCRATCH_PAD_0, signature);
 
-	/* read required registers for confirmming */
+	/* read required registers for confirming */
 	/* map 0x0700000 to BAR4(0x20), BAR2(win) */
 	if (-1 == pm8001_bar4_shift(pm8001_ha, GSM_ADDR_BASE)) {
 		spin_unlock_irqrestore(&pm8001_ha->lock, flags);
