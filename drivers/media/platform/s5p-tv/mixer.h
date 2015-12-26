@@ -323,7 +323,7 @@ void mxr_output_put(struct mxr_device *mdev);
 void mxr_streamer_get(struct mxr_device *mdev);
 /** removes new client for streaming */
 void mxr_streamer_put(struct mxr_device *mdev);
-/** returns format of data delivared to current output */
+/** returns format of data delivered to current output */
 void mxr_get_mbus_fmt(struct mxr_device *mdev,
 	struct v4l2_mbus_framefmt *mbus_fmt);
 
