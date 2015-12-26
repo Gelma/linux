@@ -281,7 +281,7 @@ extern struct cpu_tlb_fns cpu_tlb;
  *  - if we're going to need __cpu_tlb_flags, access it once and only once
  *
  * This allows us to build optimal assembly for the single-CPU type case,
- * and as close to optimal given the compiler constrants for multi-CPU
+ * and as close to optimal given the compiler constraints for multi-CPU
  * case.  We could do better for the multi-CPU case if the compiler
  * implemented the "%?" method, but this has been discontinued due to too
  * many people getting it wrong.
