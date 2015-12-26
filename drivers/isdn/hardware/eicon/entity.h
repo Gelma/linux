@@ -17,7 +17,7 @@ typedef struct _divas_um_idi_entity {
 	dword status;
 	void *os_context;
 	int rc_count;
-	diva_um_idi_data_queue_t  data; /* definad by user 1 ... MAX */
+	diva_um_idi_data_queue_t  data; /* defined by user 1 ... MAX */
 	diva_um_idi_data_queue_t  rc;   /* two entries */
 	BUFFERS                   XData;
 	BUFFERS                   RData;
