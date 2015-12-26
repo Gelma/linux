@@ -46,7 +46,7 @@ enum MFC_SHM_OFS {
 	P_B_FRAME_QP		= 0x70,	/* E */
 	SAMPLE_ASPECT_RATIO_IDC	= 0x74, /* E, H.264, depend on
 				ASPECT_RATIO_VUI_ENABLE in EXT_ENC_CONTROL */
-	EXTENDED_SAR		= 0x78, /* E, H.264, depned on
+	EXTENDED_SAR		= 0x78, /* E, H.264, depend on
 				ASPECT_RATIO_VUI_ENABLE in EXT_ENC_CONTROL */
 	DISP_PIC_PROFILE	= 0x7C, /* D */
 	FLUSH_CMD_TYPE		= 0x80, /* C */
