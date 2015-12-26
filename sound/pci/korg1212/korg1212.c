@@ -93,7 +93,7 @@ enum korg1212_dbcnst {
    K1212_DB_ConfigureMiscMemory   = 6,    // tells card where other buffers are.
    K1212_DB_TriggerFromAdat       = 7,    // tells card to trigger from Adat at a specific
                                           //    timecode value.
-   K1212_DB_DMAERROR              = 0x80, // DMA Error - the PCI bus is congestioned.
+   K1212_DB_DMAERROR              = 0x80, // DMA Error - the PCI bus is congested.
    K1212_DB_CARDSTOPPED           = 0x81, // Card has stopped by user request.
    K1212_DB_RebootCard            = 0xA0, // instructs the card to reboot.
    K1212_DB_BootFromDSPPage4      = 0xA4, // instructs the card to boot from the DSP microcode
