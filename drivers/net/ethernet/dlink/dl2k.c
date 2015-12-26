@@ -271,7 +271,7 @@ rio_probe1 (struct pci_dev *pdev, const struct pci_device_id *ent)
 	np->link_status = 0;
 	/* Set media and reset PHY */
 	if (np->phy_media) {
-		/* default Auto-Negotiation for fiber deivices */
+		/* default Auto-Negotiation for fiber devices */
 	 	if (np->an_enable == 2) {
 			np->an_enable = 1;
 		}
