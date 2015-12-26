@@ -21,7 +21,7 @@
  * Cursor size reguardless of the visible cursor size is 64 pixels
  * by 64 lines. The total memory required to define the cursor is
  * 16 bytes / line for 64 lines or 1024 bytes of data. The data
- * must be in a contigiuos format. The 2 bit cursor code values are
+ * must be in a contiguous format. The 2 bit cursor code values are
  * as follows:
  *
  *	00 - pixel colour = CURSOR_CLR_0
