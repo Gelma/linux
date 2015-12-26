@@ -4073,7 +4073,7 @@ core_scsi3_pri_read_full_status(struct se_cmd *cmd)
 		buf[off++] = ((desc_len >> 8) & 0xff);
 		buf[off++] = (desc_len & 0xff);
 		/*
-		 * Size of full desctipor header minus TransportID
+		 * Size of full descriptor header minus TransportID
 		 * containing $FABRIC_MOD specific) initiator device/port
 		 * WWN information.
 		 *
