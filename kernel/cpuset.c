@@ -857,7 +857,7 @@ static void update_tasks_cpumask(struct cpuset *cs)
  * @cs: the cpuset to consider
  * @new_cpus: temp variable for calculating new effective_cpus
  *
- * When congifured cpumask is changed, the effective cpumasks of this cpuset
+ * When configured cpumask is changed, the effective cpumasks of this cpuset
  * and all its descendants need to be updated.
  *
  * On legacy hierachy, effective_cpus will be the same with cpu_allowed.
