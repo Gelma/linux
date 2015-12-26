@@ -3875,7 +3875,7 @@ static int vxge_config_vpaths(struct vxge_hw_device_config *device_config,
 	return no_of_vpaths;
 }
 
-/* initialize device configuratrions */
+/* initialize device configurations */
 static void vxge_device_config_init(struct vxge_hw_device_config *device_config,
 				    int *intr_type)
 {
