@@ -44,7 +44,7 @@ struct hda_pcm_stream;
 /*
  * codec bus
  *
- * each controller needs to creata a hda_bus to assign the accessor.
+ * each controller needs to create a hda_bus to assign the accessor.
  * A hda_bus contains several codecs in the list codec_list.
  */
 struct hda_bus {
