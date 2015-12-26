@@ -113,7 +113,7 @@
 #define DMA_ERRATA_3_3			BIT(0x5)
 #define DMA_ROMCODE_BUG			BIT(0x6)
 
-/* Attributes for OMAP DMA Contrller */
+/* Attributes for OMAP DMA Controller */
 #define DMA_LINKED_LCH			BIT(0x0)
 #define GLOBAL_PRIORITY			BIT(0x1)
 #define RESERVE_CHANNEL			BIT(0x2)
