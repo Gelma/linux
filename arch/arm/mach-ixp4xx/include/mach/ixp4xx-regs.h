@@ -400,7 +400,7 @@
  * USB Device Controller
  *
  * These are used by the USB gadget driver, so they don't follow the
- * IXP4XX_ naming convetions.
+ * IXP4XX_ naming conventions.
  *
  */
 # define IXP4XX_USB_REG(x)       (*((volatile u32 *)(x)))
