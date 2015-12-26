@@ -609,7 +609,7 @@ static inline u32 iwl_mvm_get_scd_ssn(struct iwl_mvm_tx_resp *tx_resp)
  * @token:
  * @sta_id: station id
  * @tid:
- * @scd_queue: scheduler queue to confiug
+ * @scd_queue: scheduler queue to config
  * @enable: 1 queue enable, 0 queue disable
  * @aggregate: 1 aggregated queue, 0 otherwise
  * @tx_fifo: %enum iwl_mvm_tx_fifo
