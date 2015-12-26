@@ -717,7 +717,7 @@ struct dmae_cmd {
 #define DMAE_CMD_DST_VF_ID_SHIFT       8
 	__le32	comp_addr_lo /* PCIe completion address low or grc address */;
 	__le32	comp_addr_hi;
-	__le32	comp_val /* Value to write to copmletion address */;
+	__le32	comp_val /* Value to write to completion address */;
 	__le32	crc32 /* crc16 result */;
 	__le32	crc_32_c /* crc32_c result */;
 	__le16	crc16 /* crc16 result */;
