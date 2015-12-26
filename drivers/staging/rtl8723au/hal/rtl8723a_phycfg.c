@@ -397,7 +397,7 @@ PHY_SetRFReg(struct rtw_adapter *Adapter, enum RF_RADIO_PATH eRFPath,
 /*-----------------------------------------------------------------------------
  * Function:    PHY_MACConfig8723A
  *
- * Overview:	Condig MAC by header file or parameter file.
+ * Overview:	Config MAC by header file or parameter file.
  *
  * Input:       NONE
  *
