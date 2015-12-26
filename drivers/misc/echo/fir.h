@@ -49,7 +49,7 @@
    reduced. A drop in MIPs and memory approaching 50% should be
    possible.
 
-   The foreground and background filters currenlty use a total of
+   The foreground and background filters currently use a total of
    about 10 MIPs/ch as measured with speedtest.c on a 256 TAP echo
    can.
 */
