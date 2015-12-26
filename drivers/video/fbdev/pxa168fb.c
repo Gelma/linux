@@ -432,7 +432,7 @@ static int pxa168fb_set_par(struct fb_info *info)
 		fbi->reg_base + LCD_SPU_V_H_ACTIVE);
 
 	/*
-	 * convet var to video mode
+	 * convert var to video mode
 	 */
 	fb_var_to_videomode(&mode, &info->var);
 
