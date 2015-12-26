@@ -4,7 +4,7 @@
  *		This module is completely hardware-independent and provides
  *		access to the router using Linux /proc filesystem.
  *
- * Author:	Ben Greear, <greearb@candelatech.com> coppied from wanproc.c
+ * Author:	Ben Greear, <greearb@candelatech.com> copied from wanproc.c
  *               by: Gene Kozin	<genek@compuserve.com>
  *
  * Copyright:	(c) 1998 Ben Greear
