@@ -2025,7 +2025,7 @@ static int __bnx2fc_disable(struct fcoe_ctlr *ctlr)
 }
 
 /**
- * Deperecated: Use bnx2fc_enabled()
+ * Deprecated: Use bnx2fc_enabled()
  */
 static int bnx2fc_disable(struct net_device *netdev)
 {
