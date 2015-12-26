@@ -377,7 +377,7 @@ int qib_sdma_make_progress(struct qib_pportdata *ppd)
 				idx = 0;
 		}
 
-		/* increment dequed desc count */
+		/* increment dequeued desc count */
 		ppd->sdma_descq_removed++;
 
 		/* advance head, wrap if needed */
