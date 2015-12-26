@@ -59,7 +59,7 @@
 #include <linux/kernel.h>
 
 /*
- * SATA FIS Types These constants depict the various SATA FIS types devined in
+ * SATA FIS Types These constants depict the various SATA FIS types defined in
  * the serial ATA specification.
  * XXX: This needs to go into <scsi/sas.h>
  */
