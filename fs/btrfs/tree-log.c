@@ -1132,7 +1132,7 @@ next:
 	}
 	btrfs_release_path(path);
 
-	/* look for a conflicing name */
+	/* look for a conflicting name */
 	di = btrfs_lookup_dir_item(trans, root, path, btrfs_ino(dir),
 				   name, namelen, 0);
 	if (di && !IS_ERR(di)) {
