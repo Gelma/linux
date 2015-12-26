@@ -339,7 +339,7 @@ unsigned int speedstep_detect_processor(void)
 
 	case 0x08: /* Intel PIII [Coppermine] */
 
-		/* all mobile PIII Coppermines have FSB 100 MHz
+		/* all mobile PIII Coppermine have FSB 100 MHz
 		 * ==> sort out a few desktop PIIIs. */
 		rdmsr(MSR_IA32_EBL_CR_POWERON, msr_lo, msr_hi);
 		pr_debug("Coppermine: MSR_IA32_EBL_CR_POWERON is 0x%x, 0x%x\n",
