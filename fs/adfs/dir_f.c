@@ -120,7 +120,7 @@ adfs_dir_checkbyte(const struct adfs_dir *dir)
 
 	/*
 	 * The directory tail is in the final bh
-	 * Note that contary to the RISC OS PRMs,
+	 * Note that contrary to the RISC OS PRMs,
 	 * the first few bytes are NOT included
 	 * in the check.  All bytes are in the
 	 * same bh.
