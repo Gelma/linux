@@ -221,7 +221,7 @@ Sample scripts
 
 A collection of tutorial scripts and helpers for pktgen is in the
 samples/pktgen directory. The helper parameters.sh file support easy
-and consistant parameter parsing across the sample scripts.
+and consistent parameter parsing across the sample scripts.
 
 Usage example and help:
  ./pktgen_sample01_simple.sh -i eth4 -m 00:1B:21:3C:9D:F8 -d 192.168.8.2
