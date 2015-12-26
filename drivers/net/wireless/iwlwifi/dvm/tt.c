@@ -371,7 +371,7 @@ static void iwl_advance_tt_handler(struct iwl_priv *priv, s32 temp, bool force)
 	old_state = tt->state;
 	for (i = 0; i < IWL_TI_STATE_MAX - 1; i++) {
 		/* based on the current TT state,
-		 * find the curresponding transaction table
+		 * find the corresponding transaction table
 		 * each table has (IWL_TI_STATE_MAX - 1) entries
 		 * tt->transaction + ((old_state * (IWL_TI_STATE_MAX - 1))
 		 * will advance to the correct table.
