@@ -154,7 +154,7 @@ static void __init parse_dt_topology(void)
 }
 
 /*
- * Look for a customed capacity of a CPU in the cpu_capacity table during the
+ * Look for a custom capacity of a CPU in the cpu_capacity table during the
  * boot. The update of all CPUs is in O(n^2) for heteregeneous system but the
  * function returns directly for SMP system.
  */
