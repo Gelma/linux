@@ -98,7 +98,7 @@ flush_tx_buffers(struct net_local *nl)
 
 
 /*********************************************************************/
-/* close/decativate the device. The device is not removed, but only  */
+/* close/deactivate the device. The device is not removed, but only  */
 /* deactivated.                                                      */
 /*********************************************************************/
 static int
