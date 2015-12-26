@@ -1375,7 +1375,7 @@ static int super_1_load(struct md_rdev *rdev, struct md_rdev *refdev, int minor_
 	/*
 	 * Calculate the position of the superblock in 512byte sectors.
 	 * It is always aligned to a 4K boundary and
-	 * depeding on minor_version, it can be:
+	 * depending on minor_version, it can be:
 	 * 0: At least 8K, but less than 12K, from end of device
 	 * 1: At start of device
 	 * 2: 4K from start of device.
