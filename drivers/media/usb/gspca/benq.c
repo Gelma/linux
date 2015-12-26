@@ -205,7 +205,7 @@ static void sd_isoc_irq(struct urb *urb)
 		/*
 		 * The images are received in URBs of different endpoints
 		 * (0x83 and 0x82).
-		 * Image pieces in URBs of ep 0x83 are continuated in URBs of
+		 * Image pieces in URBs of ep 0x83 are continued in URBs of
 		 * ep 0x82 of the same index.
 		 * The packets in the URBs of endpoint 0x83 start with:
 		 *	- 80 ba/bb 00 00 = start of image followed by 'ff d8'
