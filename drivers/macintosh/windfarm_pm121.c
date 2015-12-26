@@ -626,7 +626,7 @@ static void pm121_sys_fans_tick(int loop_id)
 	new_setpoint = pm121_correct(new_setpoint,
 				     param->control_id,
 				     st->pid.param.min);
-	/* linked corretion */
+	/* linked correction */
 	new_setpoint = pm121_connect(param->control_id, new_setpoint);
 
 	if (new_setpoint == st->setpoint)
