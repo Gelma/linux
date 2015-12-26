@@ -364,7 +364,7 @@ struct compress_alg {
 #define cra_compress	cra_u.compress
 
 /**
- * struct crypto_alg - definition of a cryptograpic cipher algorithm
+ * struct crypto_alg - definition of a cryptographic cipher algorithm
  * @cra_flags: Flags describing this transformation. See include/linux/crypto.h
  *	       CRYPTO_ALG_* flags for the flags which go in here. Those are
  *	       used for fine-tuning the description of the transformation
