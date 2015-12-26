@@ -229,7 +229,7 @@ enum LCM_DEV_CTRL_DE_POL {
 /* Hardware cursor control Register */
 #define REG_LCM_HC_CTRL			(0x6C)
 
-/* Hardware cursot tip point potison on va picture */
+/* Hardware cursor tip point potison on va picture */
 #define REG_LCM_HC_POS			(0x70)
 
 /* Hardware Cursor Window Buffer Control Register */
