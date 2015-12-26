@@ -1075,7 +1075,7 @@ _scsih_scsi_lookup_get(struct MPT3SAS_ADAPTER *ioc, u16 smid)
  * @smid: system request message index
  *
  * Returns the smid stored scmd pointer.
- * Then will derefrence the stored scmd pointer.
+ * Then will dereference the stored scmd pointer.
  */
 static inline struct scsi_cmnd *
 _scsih_scsi_lookup_get_clear(struct MPT3SAS_ADAPTER *ioc, u16 smid)
