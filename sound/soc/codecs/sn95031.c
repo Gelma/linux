@@ -839,7 +839,7 @@ static int sn95031_codec_probe(struct snd_soc_codec *codec)
 	pr_debug("codec_probe called\n");
 
 	/* PCM interface config
-	 * This sets the pcm rx slot conguration to max 6 slots
+	 * This sets the pcm rx slot configuration to max 6 slots
 	 * for max 4 dais (2 stereo and 2 mono)
 	 */
 	snd_soc_write(codec, SN95031_PCM2RXSLOT01, 0x10);
