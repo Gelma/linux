@@ -216,7 +216,7 @@ ENTRY(_startup)
 	 *
 	 * The linker script used to build the Linux kernel image
 	 * creates a table located at __boot_reloc_table_start
-	 * that contans the information what data needs to be unpacked.
+	 * that contains the information what data needs to be unpacked.
 	 *
 	 * Uses a2-a7.
 	 */
