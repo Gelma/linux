@@ -2316,7 +2316,7 @@ static int sctp_setsockopt_autoclose(struct sock *sk, char __user *optval,
  *                     to be made immediately.
  *
  *                     SPP_HB_TIME_IS_ZERO - Specify's that the time for
- *                     heartbeat delayis to be set to the value of 0
+ *                     heartbeat delays to be set to the value of 0
  *                     milliseconds.
  *
  *                     SPP_PMTUD_ENABLE - This field will enable PMTU
