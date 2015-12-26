@@ -59,7 +59,7 @@ sn2_ptc_deadlock_recovery(short *, short, short, int,
 			  volatile unsigned long *, unsigned long);
 
 /*
- * Note: some is the following is captured here to make degugging easier
+ * Note: some is the following is captured here to make debugging easier
  * (the macros make more sense if you see the debug patch - not posted)
  */
 #define sn2_ptctest	0
