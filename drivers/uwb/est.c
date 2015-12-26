@@ -245,7 +245,7 @@ int uwb_est_grow(void)
  *           0x0000 for not allowing vendor specific matches, 0xffff
  *           for allowing.
  *
- * This arrangement just makes the tables sort differenty. Because the
+ * This arrangement just makes the tables sort different. Because the
  * table is sorted by growing type-event_high-vendor-product, a zero
  * vendor will match before than a 0x456a vendor, that will match
  * before a 0xfffff vendor.
