@@ -16,7 +16,7 @@
 #include "qed.h"
 #include "qed_dev_api.h"
 
-/* Forward decleration */
+/* Forward declaration */
 struct qed_ptt;
 
 enum reserved_ptts {
