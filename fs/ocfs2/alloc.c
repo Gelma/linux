@@ -1222,7 +1222,7 @@ static int ocfs2_add_branch(handle_t *handle,
 
 	/* Note: new_eb_bhs[new_blocks - 1] is the guy which will be
 	 * linked with the rest of the tree.
-	 * conversly, new_eb_bhs[0] is the new bottommost leaf.
+	 * Conversely, new_eb_bhs[0] is the new bottommost leaf.
 	 *
 	 * when we leave the loop, new_last_eb_blk will point to the
 	 * newest leaf, and next_blkno will point to the topmost extent
