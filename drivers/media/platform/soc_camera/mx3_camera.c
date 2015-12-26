@@ -66,7 +66,7 @@ struct mx3_camera_buffer {
 	struct vb2_v4l2_buffer vb;
 	struct list_head			queue;
 
-	/* One descriptot per scatterlist (per frame) */
+	/* One descriptor per scatterlist (per frame) */
 	struct dma_async_tx_descriptor		*txd;
 
 	/* We have to "build" a scatterlist ourselves - one element per frame */
