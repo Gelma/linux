@@ -628,7 +628,7 @@ static int arc_serial_probe(struct platform_device *pdev)
 	port->fifosize = ARC_UART_TX_FIFO_SIZE;
 
 	/*
-	 * uart_insert_char( ) uses it in decideding whether to ignore a
+	 * uart_insert_char( ) uses it in deciding whether to ignore a
 	 * char or not. Explicitly setting it here, removes the subtelty
 	 */
 	port->ignore_status_mask = 0;
