@@ -228,7 +228,7 @@ struct bd_resc_page {
 
 
 /**
- * struct io_bdt - I/O buffer destricptor table
+ * struct io_bdt - I/O buffer descriptor table
  *
  * @bd_tbl:             BD table's virtual address
  * @bd_tbl_dma:         BD table's dma address
