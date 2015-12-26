@@ -4637,7 +4637,7 @@ static long effective_load(struct task_group *tg, int cpu, long wl, long wg)
  * Detect M:N waker/wakee relationships via a switching-frequency heuristic.
  * A waker of many should wake a different task than the one last awakened
  * at a frequency roughly N times higher than one of its wakees.  In order
- * to determine whether we should let the load spread vs consolodating to
+ * to determine whether we should let the load spread vs consolidating to
  * shared cache, we look for a minimum 'flip' frequency of llc_size in one
  * partner, and a factor of lls_size higher frequency in the other.  With
  * both conditions met, we can be relatively sure that the relationship is
