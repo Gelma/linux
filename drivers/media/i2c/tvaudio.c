@@ -853,7 +853,7 @@ module_param(tda9874a_STD, int, 0444);
  * initialization table for tda9874 decoder:
  *  - carrier 1 freq. registers (3 bytes)
  *  - carrier 2 freq. registers (3 bytes)
- *  - demudulator config register
+ *  - demodulator config register
  *  - FM de-emphasis register (slow identification mode)
  * Note: frequency registers must be written in single i2c transfer.
  */
