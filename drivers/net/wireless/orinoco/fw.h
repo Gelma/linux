@@ -5,7 +5,7 @@
 #ifndef _ORINOCO_FW_H_
 #define _ORINOCO_FW_H_
 
-/* Forward declations */
+/* Forward declarations */
 struct orinoco_private;
 
 int orinoco_download(struct orinoco_private *priv);
