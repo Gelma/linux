@@ -1171,7 +1171,7 @@ static int s3c64xx_spi_probe(struct platform_device *pdev)
 	pm_runtime_enable(&pdev->dev);
 	pm_runtime_get_sync(&pdev->dev);
 
-	/* Setup Deufult Mode */
+	/* Setup Default Mode */
 	s3c64xx_spi_hwinit(sdd, sdd->port_id);
 
 	spin_lock_init(&sdd->lock);
