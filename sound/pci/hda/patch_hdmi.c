@@ -1386,7 +1386,7 @@ static void intel_verify_pin_cvt_connect(struct hda_codec *codec,
 
 /* Intel HDMI workaround to fix audio routing issue:
  * For some Intel display codecs, pins share the same connection list.
- * So a conveter can be selected by multiple pins and playback on any of these
+ * So a converter can be selected by multiple pins and playback on any of these
  * pins will generate sound on the external display, because audio flows from
  * the same converter to the display pipeline. Also muting one pin may make
  * other pins have no sound output.
@@ -1417,7 +1417,7 @@ static void intel_not_share_assigned_cvt(struct hda_codec *codec,
 		if (curr != mux_idx)
 			continue;
 
-		/* choose an unassigned converter. The conveters in the
+		/* choose an unassigned converter. The converters in the
 		 * connection list are in the same order as in the codec.
 		 */
 		for (cvt_idx = 0; cvt_idx < spec->num_cvts; cvt_idx++) {
