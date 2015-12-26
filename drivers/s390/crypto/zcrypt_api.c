@@ -785,7 +785,7 @@ static int zcrypt_count_type(int type)
 }
 
 /**
- * zcrypt_ica_status(): Old, depracted combi status call.
+ * zcrypt_ica_status(): Old, deprecated combi status call.
  *
  * Old, deprecated combi status call.
  */
