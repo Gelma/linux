@@ -74,7 +74,7 @@ static struct pnp_card_device_id sb_pnp_card_table[] = {
 	{.id = "CTL0054", .driver_data = 0, .devs = { {.id="CTL0031"}, } },
 	/* Sound Blaster AWE 32 */
 	{.id = "CTL009C", .driver_data = 0, .devs = { {.id="CTL0041"}, } },
-	/* Createive SB32 PnP */
+	/* Creative SB32 PnP */
 	{.id = "CTL009F", .driver_data = 0, .devs = { {.id="CTL0041"}, } },
 	/* Sound Blaster AWE 64 */
 	{.id = "CTL009D", .driver_data = 0, .devs = { {.id="CTL0042"}, } },
