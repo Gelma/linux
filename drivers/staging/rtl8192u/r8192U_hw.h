@@ -126,7 +126,7 @@ enum _RTL8192Usb_HW {
 #define TCR_LRL_OFFSET		0
 #define TCR_SRL_OFFSET		8
 #define TCR_MXDMA_OFFSET	21
-#define TCR_SAT			BIT(24)	// Enable Rate depedent ack timeout timer
+#define TCR_SAT			BIT(24)	// Enable Rate dependent ack timeout timer
 	RCR			= 0x044, // Receive Configuration Register
 #define MAC_FILTER_MASK (BIT(0) | BIT(1) | BIT(2) | BIT(3) | BIT(5) | \
 			 BIT(12) | BIT(18) | BIT(19) | BIT(20) | BIT(21) | \
