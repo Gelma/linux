@@ -161,7 +161,7 @@ static void intel_pre_enable_lvds(struct intel_encoder *encoder)
 		}
 	}
 
-	/* set the corresponsding LVDS_BORDER bit */
+	/* set the corresponding LVDS_BORDER bit */
 	temp &= ~LVDS_BORDER_ENABLE;
 	temp |= crtc->config->gmch_pfit.lvds_border_bits;
 	/* Set the B0-B3 data pairs corresponding to whether we're going to
