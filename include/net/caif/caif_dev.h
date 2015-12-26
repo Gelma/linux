@@ -88,7 +88,7 @@ int caif_disconnect_client(struct net *net, struct cflayer *client_layer);
  * These functions are called by the CAIF Stack for every upstream packet,
  * and must therefore be implemented efficiently.
  *
- * Client should call caif_free_client when reference count degrease to zero.
+ * Client should call caif_free_client when reference count decrease to zero.
  */
 
 void caif_client_register_refcnt(struct cflayer *adapt_layer,
