@@ -460,7 +460,7 @@ static int jz_nand_probe(struct platform_device *pdev)
 
 	/* We are going to autodetect NAND chips in the banks specified in the
 	 * platform data. Although nand_scan_ident() can detect multiple chips,
-	 * it requires those chips to be numbered consecuitively, which is not
+	 * it requires those chips to be numbered consecutively, which is not
 	 * always the case for external memory banks. And a fixed chip-to-bank
 	 * mapping is not practical either, since for example Dingoo units
 	 * produced at different times have NAND chips in different banks.
