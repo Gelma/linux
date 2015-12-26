@@ -287,7 +287,7 @@ enum {
 /* but wait - avoid UIO special case for cid 0 */
 #define UIO_DPM_CID0_OFFSET(bp)		((UIO_DPM * 2) * \
 					 (UIO_DPM_ALIGN(bp) == UIO_DPM))
-/* Properly DPM aligned CID dajusted to cid 0 secal case */
+/* Properly DPM aligned CID adjusted to cid 0 secal case */
 #define BNX2X_CNIC_START_ETH_CID(bp)	(UIO_DPM_ALIGN(bp) + \
 					 (UIO_DPM_CID0_OFFSET(bp)))
 /* how many cids were wasted  - need this value for cid allocation */
