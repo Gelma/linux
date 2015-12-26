@@ -618,7 +618,7 @@ xfs_file_compat_ioctl(
 		return error;
 	}
 #endif
-	/* long changes size, but xfs only copiese out 32 bits */
+	/* long changes size, but xfs only copies out 32 bits */
 	case XFS_IOC_GETXFLAGS_32:
 	case XFS_IOC_SETXFLAGS_32:
 	case XFS_IOC_GETVERSION_32:
