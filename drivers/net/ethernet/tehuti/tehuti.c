@@ -992,7 +992,7 @@ static inline void bdx_rxdb_free_elem(struct rxdb *db, int n)
  *
  * RxD fifo is smaller than RxF fifo by design. Upon high load, RxD will be
  * filled and packets will be dropped by nic without getting into host or
- * cousing interrupt. Anyway, in that condition, host has no chance to process
+ * causing interrupt. Anyway, in that condition, host has no chance to process
  * all packets, but dropping in nic is cheaper, since it takes 0 cpu cycles
  */
 
