@@ -931,7 +931,7 @@ static void _PHY_LCCalibrate(struct rtw_adapter *pAdapter, bool is2T)
 	msleep(100);
 
 	/* Restore original situation */
-	if ((tmpReg&0x70) != 0) {	/* Deal with contuous TX case  */
+	if ((tmpReg&0x70) != 0) {	/* Deal with continuous TX case  */
 		/* Path-A */
 		rtl8723au_write8(pAdapter, 0xd03, tmpReg);
 		PHY_SetRFReg(pAdapter, RF_PATH_A, RF_AC, bMask12Bits, RF_Amode);
