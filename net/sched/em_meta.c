@@ -17,7 +17,7 @@
  * 	to build them. Every object is of a certain type which must be
  * 	equal to the object it is being compared to.
  *
- * 	The definition of a objects conists of the type (meta type), a
+ * 	The definition of a objects consits of the type (meta type), a
  * 	identifier (meta id) and additional type specific information.
  * 	The meta id is either TCF_META_TYPE_VALUE for values provided by
  * 	userspace or a index to the meta operations table consisting of
