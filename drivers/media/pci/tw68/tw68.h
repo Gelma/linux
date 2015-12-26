@@ -115,7 +115,7 @@ struct tw68_format {
 
 #define	BUFFER_TIMEOUT	msecs_to_jiffies(500)	/* 0.5 seconds */
 
-struct tw68_dev;	/* forward delclaration */
+struct tw68_dev;	/* forward declaration */
 
 /* buffer for one video/vbi/ts frame */
 struct tw68_buf {
