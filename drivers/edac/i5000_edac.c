@@ -915,7 +915,7 @@ static void i5000_put_devices(struct mem_ctl_info *mci)
  *	determine_amb_resent
  *
  *		the information is contained in NUM_MTRS different registers
- *		determineing which of the NUM_MTRS requires knowing
+ *		determining which of the NUM_MTRS requires knowing
  *		which channel is in question
  *
  *	2 branches, each with 2 channels
