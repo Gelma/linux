@@ -716,7 +716,7 @@ int cpia2_reset_camera(struct camera_data *cam)
 	    cam->params.vp_params.video_mode);
 
 	/***
-	 * Set audio regulator off.  This and the code to set the compresison
+	 * Set audio regulator off.  This and the code to set the compression
 	 * state are too complex to form a CPIA2_CMD_, and seem to be somewhat
 	 * intertwined.  This stuff came straight from the windows driver.
 	 ***/
