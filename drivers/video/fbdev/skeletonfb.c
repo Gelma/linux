@@ -602,7 +602,7 @@ int xxxfb_cursor(struct fb_info *info, struct fb_cursor *cursor)
  *      NOTES ON ROPs (cursor->rop, Raster Operation)
  *
  *      ROP_XOR         - cursor->image.data XOR cursor->mask
- *      ROP_COPY        - curosr->image.data AND cursor->mask
+ *      ROP_COPY        - cursor->image.data AND cursor->mask
  *
  *      OTHER NOTES:
  *
