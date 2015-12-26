@@ -282,7 +282,7 @@ int mwifiex_11h_handle_radar_detected(struct mwifiex_private *priv,
 }
 
 /* This is work queue function for channel switch handling.
- * This function takes care of updating new channel definitin to
+ * This function takes care of updating new channel definition to
  * bss config structure, restart AP and indicate channel switch success
  * to cfg80211.
  */
