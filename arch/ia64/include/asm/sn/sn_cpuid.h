@@ -29,7 +29,7 @@
 
 /*
  *  Definitions of terms (these definitions are for IA64 ONLY. Other architectures
- *  use cpuid/cpunum quite defferently):
+ *  use cpuid/cpunum quite differently):
  *
  *	   CPUID - a number in range of 0..NR_CPUS-1 that uniquely identifies
  *		the cpu. The value cpuid has no significance on IA64 other than
