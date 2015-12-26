@@ -178,7 +178,7 @@ enum dove_mpp_grp_idx {
 /*
  * The MPP[52:57] functionality is encoded by 4 bits in different
  * registers. The _num field in this case encodes those bits in
- * correspodence with Table 135 of 88AP510 Functional specification
+ * correspondence with Table 135 of 88AP510 Functional specification
  */
 #define MPP_GRP_AU1_52_57_AU1		0x0
 #define MPP_GRP_AU1_52_57_AU1_GPIO57	0x2
