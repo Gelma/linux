@@ -478,7 +478,7 @@ struct htc_endpoint_stats {
 	/* count of credits received via another endpoint */
 	u32 cred_from_ep0;
 
-	/* count of consummed credits */
+	/* count of consumed credits */
 	u32 cred_cosumd;
 
 	/* count of credits returned */
