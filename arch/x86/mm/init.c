@@ -702,7 +702,7 @@ void __init free_initrd_mem(unsigned long start, unsigned long end)
 
 	/*
 	 * end could be not aligned, and We can not align that,
-	 * decompresser could be confused by aligned initrd_end
+	 * decompressor could be confused by aligned initrd_end
 	 * We already reserve the end partial page before in
 	 *   - i386_start_kernel()
 	 *   - x86_64_start_kernel()
