@@ -2543,7 +2543,7 @@ static sector_t sync_request(struct mddev *mddev, sector_t sector_nr, int *skipp
 
 	rcu_read_lock();
 	/*
-	 * If we get a correctably read error during resync or recovery,
+	 * If we get a correctable read error during resync or recovery,
 	 * we might want to read from a different device.  So we
 	 * flag all drives that could conceivably be read from for READ,
 	 * and any others (which will be non-In_sync devices) for WRITE.
