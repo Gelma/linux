@@ -317,7 +317,7 @@ static void update_ftrace_function(void)
 	/*
 	 * For static tracing, we need to be a bit more careful.
 	 * The function change takes affect immediately. Thus,
-	 * we need to coorditate the setting of the function_trace_ops
+	 * we need to coordinate the setting of the function_trace_ops
 	 * with the setting of the ftrace_trace_function.
 	 *
 	 * Set the function to the list ops, which will call the
