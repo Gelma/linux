@@ -302,7 +302,7 @@ enum csio_hw_ev {
 	CSIO_HWE_INIT,	         /* Config done, start Init      */
 	CSIO_HWE_INIT_DONE,      /* Init Mailboxes sent, HW ready */
 	CSIO_HWE_FATAL,		 /* Fatal error during initialization */
-	CSIO_HWE_PCIERR_DETECTED,/* PCI error recovery detetced */
+	CSIO_HWE_PCIERR_DETECTED,/* PCI error recovery detected */
 	CSIO_HWE_PCIERR_SLOT_RESET, /* Slot reset after PCI recoviery */
 	CSIO_HWE_PCIERR_RESUME,  /* Resume after PCI error recovery */
 	CSIO_HWE_QUIESCED,	 /* HBA quiesced */
