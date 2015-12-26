@@ -8,7 +8,7 @@ use to analyze system performance, to make behaviors visible and to count
 usages of each IP (DMC, CPU, RIGHTBUS, LEFTBUS, CAM interface, LCD, G3D, MFC).
 The Exynos PPMU driver uses the devfreq-event class to provide event data
 to various devfreq devices. The devfreq devices would use the event data when
-derterming the current state of each IP.
+determing the current state of each IP.
 
 Required properties:
 - compatible: Should be "samsung,exynos-ppmu" or "samsung,exynos-ppmu-v2.
