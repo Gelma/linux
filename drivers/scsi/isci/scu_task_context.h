@@ -755,7 +755,7 @@ struct scu_task_context {
 	u32 ssp_command_iu_length:8;
 
 	/**
-	 * This is the target TLR enable bit it must be set to 0 when creatning the
+	 * This is the target TLR enable bit it must be set to 0 when creating the
 	 * task context.
 	 */
 	u32 xfer_ready_tlr_enable:1;
