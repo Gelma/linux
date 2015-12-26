@@ -2536,7 +2536,7 @@ static const struct mmc_fixup blk_fixups[] =
 
 	/*
 	 *  On Some Kingston eMMCs, performing trim can result in
-	 *  unrecoverable data conrruption occasionally due to a firmware bug.
+	 *  unrecoverable data corruption occasionally due to a firmware bug.
 	 */
 	MMC_FIXUP("V10008", CID_MANFID_KINGSTON, CID_OEMID_ANY, add_quirk_mmc,
 		  MMC_QUIRK_TRIM_BROKEN),
