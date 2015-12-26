@@ -1236,7 +1236,7 @@ struct drx_version_list {
 /*========================================*/
 
 /**
-* \brief Parameters needed to confiugure a UIO.
+* \brief Parameters needed to configure a UIO.
 *
 * Used by DRX_CTRL_UIO_CFG.
 */
