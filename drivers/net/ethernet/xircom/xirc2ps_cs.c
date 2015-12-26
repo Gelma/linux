@@ -151,7 +151,7 @@ enum xirc_rsr {
 };
 #define XIRCREG0_PTR 13 /* packets transmitted register (rd) */
 #define XIRCREG0_RBC 14 /* receive byte count regsister (rd) */
-#define XIRCREG1_ECR 14 /* ethernet configurationn register */
+#define XIRCREG1_ECR 14 /* ethernet configuration register */
 enum xirc_ecr {
     FullDuplex = 0x04,	/* enable full duplex mode */
     LongTPMode = 0x08,	/* adjust for longer lengths of TP cable */
