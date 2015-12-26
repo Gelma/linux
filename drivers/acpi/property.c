@@ -333,7 +333,7 @@ void acpi_free_properties(struct acpi_device *adev)
 
 /**
  * acpi_data_get_property - return an ACPI property with given name
- * @data: ACPI device deta object to get the property from
+ * @data: ACPI device data object to get the property from
  * @name: Name of the property
  * @type: Expected property type
  * @obj: Location to store the property value (if not %NULL)
