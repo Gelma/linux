@@ -824,7 +824,7 @@ static void atmel_hlcdc_plane_init_properties(struct atmel_hlcdc_plane *plane,
 
 	if (desc->layout.csc) {
 		/*
-		 * TODO: decare a "yuv-to-rgb-conv-factors" property to let
+		 * TODO: declare a "yuv-to-rgb-conv-factors" property to let
 		 * userspace modify these factors (using a BLOB property ?).
 		 */
 		regmap_write(regmap,
