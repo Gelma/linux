@@ -494,7 +494,7 @@ void xxxfb_fillrect(struct fb_info *p, const struct fb_fillrect *region)
 {
 /*	Meaning of struct fb_fillrect
  *
- *	@dx: The x and y corrdinates of the upper left hand corner of the 
+ *	@dx: The x and y coordinates of the upper left hand corner of the
  *	@dy: area we want to draw to. 
  *	@width: How wide the rectangle is we want to draw.
  *	@height: How tall the rectangle is we want to draw.
