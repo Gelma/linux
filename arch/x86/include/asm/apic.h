@@ -573,7 +573,7 @@ flat_vector_allocation_domain(int cpu, struct cpumask *retmask,
 	 *
 	 * In particular there was a hyperthreading cpu observed to
 	 * deliver interrupts to the wrong hyperthread when only one
-	 * hyperthread was specified in the interrupt desitination.
+	 * hyperthread was specified in the interrupt destination.
 	 */
 	cpumask_clear(retmask);
 	cpumask_bits(retmask)[0] = APIC_ALL_CPUS;
