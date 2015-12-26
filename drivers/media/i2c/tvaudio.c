@@ -1141,7 +1141,7 @@ static int tda9874a_initialize(struct CHIPSTATE *chip)
 #define TDA9875_C2MSB       0x06  /* Carrier 2 (nicam) frequency register MSB */
 #define TDA9875_C2MIB       0x07  /* Carrier 2 (nicam) frequency register (16-8]b */
 #define TDA9875_C2LSB       0x08  /* Carrier 2 (nicam) frequency register LSB */
-#define TDA9875_DCR         0x09  /* Demodulateur configuration regirter*/
+#define TDA9875_DCR         0x09  /* Demodulator configuration regirter*/
 #define TDA9875_DEEM        0x0a  /* FM de-emphasis regirter*/
 #define TDA9875_FMAT        0x0b  /* FM Matrix regirter*/
 
