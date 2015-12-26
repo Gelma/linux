@@ -61,7 +61,7 @@ typedef uint64_t blkif_sector_t;
 /*
  * Recognised only if "feature-discard" is present in backend xenbus info.
  * The "feature-discard" node contains a boolean indicating whether trim
- * (ATA) or unmap (SCSI) - conviently called discard requests are likely
+ * (ATA) or unmap (SCSI) - conveniently called discard requests are likely
  * to succeed or fail. Either way, a discard request
  * may fail at any time with BLKIF_RSP_EOPNOTSUPP if it is unsupported by
  * the underlying block-device hardware. The boolean simply indicates whether
