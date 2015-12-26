@@ -2711,7 +2711,7 @@ static int power_up_device(struct drx_demod_instance *demod)
 * \fn int ctrl_set_cfg_mpeg_output()
 * \brief Set MPEG output configuration of the device.
 * \param devmod  Pointer to demodulator instance.
-* \param cfg_data Pointer to mpeg output configuaration.
+* \param cfg_data Pointer to mpeg output configuration.
 * \return int.
 *
 *  Configure MPEG output parameters.
