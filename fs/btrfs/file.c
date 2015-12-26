@@ -1608,7 +1608,7 @@ again:
 		}
 
 		/*
-		 * If we had a short copy we need to release the excess delaloc
+		 * If we had a short copy we need to release the excess delalloc
 		 * bytes we reserved.  We need to increment outstanding_extents
 		 * because btrfs_delalloc_release_space will decrement it, but
 		 * we still have an outstanding extent for the chunk we actually
