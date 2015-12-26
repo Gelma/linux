@@ -5033,7 +5033,7 @@ pfm_handle_work(void)
 
 	/*
 	 * restore interrupt mask to what it was on entry.
-	 * Could be enabled/diasbled.
+	 * Could be enabled/disabled.
 	 */
 	UNPROTECT_CTX(ctx, flags);
 
