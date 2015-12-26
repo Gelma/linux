@@ -267,7 +267,7 @@ struct octeon_oq_config {
 
 };
 
-/** This structure conatins the NIC link configuration attributes,
+/** This structure contains the NIC link configuration attributes,
  *  common for all the OCTEON Modles.
  */
 struct octeon_nic_if_config {
