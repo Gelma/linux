@@ -61,7 +61,7 @@ int post_read_mst_fixup(NTFS_RECORD *b, const u32 size)
 	 * u16 values before they are fixed up. Note no need to care for
 	 * endianness since we are comparing and moving data for on disk
 	 * structures which means the data is consistent. - If it is
-	 * consistenty the wrong endianness it doesn't make any difference.
+	 * consistency the wrong endianness it doesn't make any difference.
 	 */
 	usn = *usa_pos;
 	/*
