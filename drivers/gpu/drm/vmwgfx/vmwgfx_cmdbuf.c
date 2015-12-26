@@ -1193,7 +1193,7 @@ out_no_map:
  *
  * @dev_priv: Pointer to device private structure.
  *
- * Returns a pointer to a cummand buffer manager to success or error pointer
+ * Returns a pointer to a command buffer manager to success or error pointer
  * on failure. The command buffer manager will be enabled for submissions of
  * size VMW_CMDBUF_INLINE_SIZE only.
  */
