@@ -160,7 +160,7 @@ static struct v4l2_ctrl_config si476x_ctrls[] = {
 
 	/**
 	 * SI476X during its station seeking(or tuning) process uses several
-	 * parameters to detrmine if "the station" is valid:
+	 * parameters to determine if "the station" is valid:
 	 *
 	 *	- Signal's SNR(in dBuV) must be lower than
 	 *	#V4L2_CID_SI476X_SNR_THRESHOLD
