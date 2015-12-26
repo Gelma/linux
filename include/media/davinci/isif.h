@@ -206,7 +206,7 @@ struct isif_color_space_conv {
 	/* Enable color space conversion */
 	__u8 en;
 	/*
-	 * csc coefficent table. S8Q5, M00 at index 0, M01 at index 1, and
+	 * csc coefficient table. S8Q5, M00 at index 0, M01 at index 1, and
 	 * so forth
 	 */
 	struct isif_float_8 coeff[ISIF_CSC_NUM_COEFF];
