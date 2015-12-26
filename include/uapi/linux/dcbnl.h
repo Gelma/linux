@@ -727,7 +727,7 @@ enum dcbnl_app_attrs {
 };
 
 /**
- * enum dcbnl_featcfg_attrs - features conifiguration flags
+ * enum dcbnl_featcfg_attrs - features configuration flags
  *
  * @DCB_FEATCFG_ATTR_UNDEFINED: unspecified attribute to catch errors
  * @DCB_FEATCFG_ATTR_ALL: (NLA_FLAG) all features configuration attributes
