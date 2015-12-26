@@ -988,7 +988,7 @@ EXPORT_SYMBOL_GPL(devm_regmap_field_alloc);
  * devm_regmap_field_free(): Free register field allocated using
  * devm_regmap_field_alloc. Usally drivers need not call this function,
  * as the memory allocated via devm will be freed as per device-driver
- * life-cyle.
+ * life-cycle.
  *
  * @dev: Device that will be interacted with
  * @field: regmap field which should be freed.
