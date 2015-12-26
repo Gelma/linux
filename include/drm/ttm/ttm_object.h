@@ -143,7 +143,7 @@ struct ttm_base_object {
  * @size: Size of the dma_buf associated with this object
  * @real_type: Type of the underlying object. Needed since we're setting
  * the value of @base::object_type to ttm_prime_type
- * @dma_buf: Non ref-coutned pointer to a struct dma_buf created from this
+ * @dma_buf: Non ref-counted pointer to a struct dma_buf created from this
  * object.
  * @refcount_release: The underlying object's release method. Needed since
  * we set @base::refcount_release to our own release method.
