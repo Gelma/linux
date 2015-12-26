@@ -139,7 +139,7 @@
  * This bit is asserted when the receiver first locked onto the
  * preamble of the data stream after RX_EN is asserted. This bit is
  * deasserted when either,
- * (a) the end of a frame is reached after RX_EN is deeasserted, or
+ * (a) the end of a frame is reached after RX_EN is de-asserted, or
  * (b) the SPDIF data stream becomes inactive.
  */
 #define TEGRA20_SPDIF_STATUS_RX_BSY				(1 << 29)
