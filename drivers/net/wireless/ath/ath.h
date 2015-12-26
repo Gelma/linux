@@ -248,7 +248,7 @@ void ath_printk(const char *level, const struct ath_common *common,
  * @ATH_DBG_MCI: Message Coexistence Interface, a private protocol
  *	used exclusively for WLAN-BT coexistence starting from
  *	AR9462.
- * @ATH_DBG_DFS: radar datection
+ * @ATH_DBG_DFS: radar detection
  * @ATH_DBG_WOW: Wake on Wireless
  * @ATH_DBG_DYNACK: dynack handling
  * @ATH_DBG_SPECTRAL_SCAN: FFT spectral scan
