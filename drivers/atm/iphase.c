@@ -1259,7 +1259,7 @@ printk("Test logic RUN!!!!\n");
 
   if (status & RX_RAW_RCVD)  
   {  
-	/* need to handle the raw incoming cells. This deepnds on   
+	/* need to handle the raw incoming cells. This depends on
 	whether we have programmed to receive the raw cells or not.  
 	Else ignore. */  
 	IF_EVENT(printk("Rx intr status:  RX_RAW_RCVD %08x\n", status);)  
