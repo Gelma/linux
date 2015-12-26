@@ -22,7 +22,7 @@
  * locks on 2 nodes concurrently, and only change nodes in a top to bottom
  * fashion.
  *
- * Each node may have a left or right sibling.  When decending the spine,
+ * Each node may have a left or right sibling.  When descending the spine,
  * if a node contains only MIN_ENTRIES then we try and increase this to at
  * least MIN_ENTRIES + 1.  We do this in the following ways:
  *
