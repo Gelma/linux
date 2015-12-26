@@ -1219,7 +1219,7 @@ fsm_start:
 			 * transferred to the device.
 			 */
 			if (unlikely(status & (ATA_ERR | ATA_DF))) {
-				/* data might be corrputed */
+				/* data might be corrupted */
 				qc->err_mask |= AC_ERR_DEV;
 
 				if (!(qc->tf.flags & ATA_TFLAG_WRITE)) {
