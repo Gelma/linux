@@ -338,7 +338,7 @@ static inline int key_in_buffer(
 		return 0;
 	/*  if ( comp_keys(key, get_rkey(chk_path, sb)) != -1 ) */
 	if (comp_keys(get_rkey(chk_path, sb), key) != 1)
-		/* key must be less than right delimitiing key */
+		/* key must be less than right delimiting key */
 		return 0;
 	return 1;
 }
