@@ -248,7 +248,7 @@ static int speedstep_cpu_init(struct cpufreq_policy *policy)
 
 	result = speedstep_smi_get_freqs(low, high);
 	if (result) {
-		/* fall back to speedstep_lib.c dection mechanism:
+		/* fall back to speedstep_lib.c detection mechanism:
 		 * try both states out */
 		pr_debug("could not detect low and high frequencies "
 				"by SMI call.\n");
