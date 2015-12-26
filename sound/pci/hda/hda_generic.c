@@ -4034,7 +4034,7 @@ static void add_pin_power_ctls(struct hda_codec *codec, int num_pins,
 }
 
 /* enabled power callback to each available I/O pin with jack detections;
- * the digital I/O pins are excluded because of the unreliable detectsion
+ * the digital I/O pins are excluded because of the unreliable detection
  */
 static void add_all_pin_power_ctls(struct hda_codec *codec, bool on)
 {
