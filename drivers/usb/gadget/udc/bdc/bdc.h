@@ -416,7 +416,7 @@ struct bdc {
 	/* num of endpoints for a particular instantiation of IP */
 	unsigned int num_eps;
 	/*
-	 * Array of ep's, it uses the same index covention as bdc hw i.e.
+	 * Array of ep's, it uses the same index convention as bdc hw i.e.
 	 * 1 for ep0, 2 for 1out,3 for 1in ....
 	 */
 	struct bdc_ep		**bdc_ep_array;
