@@ -916,7 +916,7 @@ typedef void (*MPT3SAS_FLUSH_RUNNING_CMDS)(struct MPT3SAS_ADAPTER *ioc);
  * @rdpq_array_enable_assigned: this ensures that rdpq_array_enable flag
  *				is assigned only ones
  * @reply_queue_count: number of reply queue's
- * @reply_queue_list: link list contaning the reply queue info
+ * @reply_queue_list: link list containing the reply queue info
  * @msix96_vector: 96 MSI-X vector support
  * @replyPostRegisterIndex: index of next position in Reply Desc Post Queue
  * @delayed_tr_list: target reset link list
