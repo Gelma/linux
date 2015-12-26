@@ -52,7 +52,7 @@ static const char * const conn_speed_str[] =  {
 	"Super Speed",
 };
 
-/* EP0 initial descripror */
+/* EP0 initial descriptor */
 static struct usb_endpoint_descriptor bdc_gadget_ep0_desc = {
 	.bLength = USB_DT_ENDPOINT_SIZE,
 	.bDescriptorType = USB_DT_ENDPOINT,
