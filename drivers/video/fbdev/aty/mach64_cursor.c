@@ -53,7 +53,7 @@
  *
  * if Y becomes negative, CUR_VERT_OFFSET must be adjusted to a larger number,
  * CUR_OFFSET must be adjusted to a point to the appropriate line in the cursor
- * definitation and CUR_VERT_POSN must be saturated to zero.
+ * definition and CUR_VERT_POSN must be saturated to zero.
  */
 
     /*
