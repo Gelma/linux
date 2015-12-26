@@ -40,7 +40,7 @@
 #include <arch/sim.h>
 
 /*
- * This file containes the routines to search for PCI buses,
+ * This file contains the routines to search for PCI buses,
  * enumerate the buses, and configure any attached devices.
  */
 
