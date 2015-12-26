@@ -135,7 +135,7 @@ union ieee754sp ieee754sp_msubf(union ieee754sp z, union ieee754sp x,
 			return z;
 		else if (zc == IEEE754_CLASS_INF)
 			return ieee754sp_inf(zs);
-		/* fall through to real compuation */
+		/* fall through to real computation */
 	}
 
 	/* Finally get to do some computation */
