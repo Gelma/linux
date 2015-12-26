@@ -35,7 +35,7 @@
  *
  * Fences are used to detile GTT memory mappings. They're also connected to the
  * hardware frontbuffer render tracking and hence interract with frontbuffer
- * conmpression. Furthermore on older platforms fences are required for tiled
+ * compression. Furthermore on older platforms fences are required for tiled
  * objects used by the display engine. They can also be used by the render
  * engine - they're required for blitter commands and are optional for render
  * commands. But on gen4+ both display (with the exception of fbc) and rendering
