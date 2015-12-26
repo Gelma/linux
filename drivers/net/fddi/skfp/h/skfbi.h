@@ -560,7 +560,7 @@
 
 /*	B0_IMSK		32 bit Interrupt mask register */
 /*
- * The Bit definnition of this register are the same as of the interrupt
+ * The Bit definition of this register are the same as of the interrupt
  * source register. These definition are directly derived from the Hardware
  * spec.
  */
