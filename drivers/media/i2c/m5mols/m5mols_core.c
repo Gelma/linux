@@ -846,7 +846,7 @@ static int m5mols_auto_focus_stop(struct m5mols_info *info)
  *
  * To prevent breaking the lens when the sensor is powered off the Soft-Landing
  * algorithm is called where available. The Soft-Landing algorithm availability
- * dependends on the firmware provider.
+ * depends on the firmware provider.
  */
 static int m5mols_s_power(struct v4l2_subdev *sd, int on)
 {
