@@ -161,7 +161,7 @@ struct battery_property {
  *	pmic_scu_ipc_battery_cc_read	-	read battery cc
  *	@value: battery coulomb counter read
  *
- *	Reads the battery couloumb counter value, returns 0 on success, or
+ *	Reads the battery coulomb counter value, returns 0 on success, or
  *	an error code
  *
  *	This function may sleep. Locking for SCU accesses is handled for
