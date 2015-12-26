@@ -217,7 +217,7 @@ static void s3c24xx_ts_conversion(struct s3c_adc_client *client,
  * @client: The client that was registered with the ADC core.
  * @select: The reason for select.
  *
- * Called when the ADC core selects (or deslects) us as a client.
+ * Called when the ADC core selects (or deselects) us as a client.
  */
 static void s3c24xx_ts_select(struct s3c_adc_client *client, unsigned select)
 {
