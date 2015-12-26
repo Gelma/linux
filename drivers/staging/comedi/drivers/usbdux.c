@@ -885,7 +885,7 @@ static int usbdux_ao_cmdtest(struct comedi_device *dev,
 	err |= comedi_check_trigger_src(&cmd->start_src, TRIG_NOW | TRIG_INT);
 
 	if (0) {		/* (devpriv->high_speed) */
-		/* the sampling rate is set by the coversion rate */
+		/* the sampling rate is set by the conversion rate */
 		flags = TRIG_FOLLOW;
 	} else {
 		/* start a new scan (output at once) with a timer */
