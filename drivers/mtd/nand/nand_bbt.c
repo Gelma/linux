@@ -163,7 +163,7 @@ static u32 add_marker_len(struct nand_bbt_descr *td)
  * @buf: temporary buffer
  * @page: the starting page
  * @num: the number of bbt descriptors to read
- * @td: the bbt describtion table
+ * @td: the bbt description table
  * @offs: block number offset in the table
  *
  * Read the bad block table starting from page.
