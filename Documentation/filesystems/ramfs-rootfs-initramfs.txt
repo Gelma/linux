@@ -221,7 +221,7 @@ archive into rootfs before trying to run /init.
 
 This has the memory efficiency advantages of initramfs (no ramdisk block
 device) but the separate packaging of initrd (which is nice if you have
-non-GPL code you'd like to run from initramfs, without conflating it with
+non-GPL code you'd like to run from initramfs, without conflicting it with
 the GPL licensed Linux kernel binary).
 
 It can also be used to supplement the kernel's built-in initramfs image.  The
