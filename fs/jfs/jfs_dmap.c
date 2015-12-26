@@ -1706,7 +1706,7 @@ s64 dbDiscardAG(struct inode *ip, int agno, s64 minlen)
  *
  *		if sufficient contiguous free blocks are found, this routine
  *		returns the starting block number within a dmap page that
- *		contains or starts a range of contiqious free blocks that
+ *		contains or starts a range of contiguous free blocks that
  *		is sufficient in size.
  *
  * PARAMETERS:
