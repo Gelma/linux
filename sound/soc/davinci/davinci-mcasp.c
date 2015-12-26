@@ -100,7 +100,7 @@ struct davinci_mcasp {
 
 	bool	dat_port;
 
-	/* Used for comstraint setting on the second stream */
+	/* Used for constraint setting on the second stream */
 	u32	channels;
 
 #ifdef CONFIG_PM_SLEEP
