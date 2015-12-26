@@ -267,7 +267,7 @@ static int ohci_omap_reset(struct usb_hcd *hcd)
 
 			rh &= ~RH_A_NOCP;
 
-			/* gpio9 for overcurrent detction */
+			/* gpio9 for overcurrent detection */
 			omap_cfg_reg(W8_1610_GPIO9);
 			gpio_request(9, "OHCI overcurrent");
 			gpio_direction_input(9);
