@@ -392,7 +392,7 @@ static int jffs2_do_reserve_space(struct jffs2_sb_info *c, uint32_t minsize,
 
 			if (jffs2_sum_is_disabled(c->summary)) {
 				/* jffs2_write_sumnode() couldn't write out the summary information
-				   diabling summary for this jeb and free the collected information
+				   disabling summary for this jeb and free the collected information
 				 */
 				sumsize = JFFS2_SUMMARY_NOSUM_SIZE;
 				goto restart;
