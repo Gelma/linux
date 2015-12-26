@@ -148,7 +148,7 @@ extern const char *const qib_qsfp_devtech[16];
 
 /*
  * Hold the parts of the onboard EEPROM that we care about, so we aren't
- * coonstantly bit-boffing
+ * costantly bit-boffing
  */
 struct qib_qsfp_cache {
 	u8 id;	/* must be 0x0C or 0x0D; 0 indicates invalid EEPROM read */
