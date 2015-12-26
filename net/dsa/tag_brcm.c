@@ -19,7 +19,7 @@
  */
 #define BRCM_TAG_LEN	4
 
-/* Tag is constructed and desconstructed using byte by byte access
+/* Tag is constructed and deconstructed using byte by byte access
  * because the tag is placed after the MAC Source Address, which does
  * not make it 4-bytes aligned, so this might cause unaligned accesses
  * on most systems where this is used.
