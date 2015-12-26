@@ -4566,7 +4566,7 @@ __megaraid_shutdown(adapter_t *adapter)
 		dev_warn(&adapter->dev->dev, "pending commands!!\n");
 
 	/*
-	 * Have a delibrate delay to make sure all the caches are
+	 * Have a deliberate delay to make sure all the caches are
 	 * actually flushed.
 	 */
 	for (i = 0; i <= 10; i++)
