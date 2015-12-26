@@ -1665,7 +1665,7 @@ static int twl4030_startup(struct snd_pcm_substream *substream,
 			TWL4030_OPTION_1)) {
 			/* In option2 4 channel is not supported, set the
 			 * constraint for the first stream for channels, the
-			 * second stream will 'inherit' this cosntraint */
+			 * second stream will 'inherit' this constraint */
 			snd_pcm_hw_constraint_single(substream->runtime,
 						     SNDRV_PCM_HW_PARAM_CHANNELS,
 						     2);
