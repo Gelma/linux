@@ -23196,7 +23196,7 @@ m_sign:
 #
 #  1. Branch on the sign of the adjusted exponent.
 #  2p.(positive exp)
-#   2. Check M16 and the digits in lwords 2 and 3 in decending order.
+#   2. Check M16 and the digits in lwords 2 and 3 in descending order.
 #   3. Add one for each zero encountered until a non-zero digit.
 #   4. Subtract the count from the exp.
 #   5. Check if the exp has crossed zero in #3 above; make the exp abs
