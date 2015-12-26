@@ -13,7 +13,7 @@
  * This module does:
  *		Real-time tone generation
  *		DTMF detection
- *		Real-time cross-connection and conferrence
+ *		Real-time cross-connection and conference
  *		Compensate jitter due to system load and hardware fault.
  *		All features are done in kernel space and will be realized
  *		using hardware, if available and supported by chip set.
