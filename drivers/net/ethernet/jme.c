@@ -666,7 +666,7 @@ jme_enable_tx_engine(struct jme_adapter *jme)
 	jwrite32(jme, JME_TXNDA, (__u64)jme->txring[0].dma & 0xFFFFFFFFUL);
 
 	/*
-	 * Setup TX Descptor Count
+	 * Setup TX Descriptor Count
 	 */
 	jwrite32(jme, JME_TXQDC, jme->tx_ring_size);
 
