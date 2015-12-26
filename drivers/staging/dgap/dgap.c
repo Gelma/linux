@@ -933,7 +933,7 @@ static int dgap_parsefile(char **in)
 			conc_type = dgap_gettok(in);
 			if (conc_type == 0 ||
 			    (conc_type != CX && conc_type != EPC)) {
-				pr_err("failed to set a type of concentratros");
+				pr_err("failed to set a type of concentrators");
 				return -1;
 			}
 
