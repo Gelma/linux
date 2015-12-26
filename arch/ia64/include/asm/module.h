@@ -10,7 +10,7 @@
  *	David Mosberger-Tang <davidm@hpl.hp.com>
  */
 
-struct elf64_shdr;			/* forward declration */
+struct elf64_shdr;			/* forward declaration */
 
 struct mod_arch_specific {
 	struct elf64_shdr *core_plt;	/* core PLT section */
