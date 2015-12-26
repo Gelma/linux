@@ -83,7 +83,7 @@
 
 /* ---------------------- THE IMPLEMENTATION ---------------------- */
 /*
- * Some of the choice I've made are pretty controversials. Defining an
+ * Some of the choice I've made are pretty controversial. Defining an
  * API is very much weighting compromises. This goes into some of the
  * details and the thinking behind the implementation.
  *
