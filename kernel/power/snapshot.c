@@ -226,7 +226,7 @@ static void *chain_alloc(struct chain_allocator *ca, unsigned int size)
  *
  *	Memory bitmap is a structure consisting of many linked lists of
  *	objects.  The main list's elements are of type struct zone_bitmap
- *	and each of them corresonds to one zone.  For each zone bitmap
+ *	and each of them corresponds to one zone.  For each zone bitmap
  *	object there is a list of objects of type struct bm_block that
  *	represent each blocks of bitmap in which information is stored.
  *
