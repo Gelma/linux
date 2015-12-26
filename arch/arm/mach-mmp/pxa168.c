@@ -132,7 +132,7 @@ struct platform_device pxa168_device_gpio = {
 };
 
 struct resource pxa168_usb_host_resources[] = {
-	/* USB Host conroller register base */
+	/* USB Host controller register base */
 	[0] = {
 		.start	= PXA168_U2H_REGBASE + U2x_CAPREGS_OFFSET,
 		.end	= PXA168_U2H_REGBASE + USB_REG_RANGE,
