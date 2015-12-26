@@ -46,7 +46,7 @@
 
 /**
 * enum brcmf_btcoex_state - BT coex DHCP state machine states
-* @BRCMF_BT_DHCP_IDLE: DCHP is idle
+* @BRCMF_BT_DHCP_IDLE: DHCP is idle
 * @BRCMF_BT_DHCP_START: DHCP started, wait before
 *	boosting wifi priority
 * @BRCMF_BT_DHCP_OPPR_WIN: graceful DHCP opportunity ended,
