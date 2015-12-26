@@ -101,7 +101,7 @@ enum mipi_dsim_pixel_format {
  *	transmission is allowed after Stable VFP period.
  * @e_interface: specifies interface to be used.(CPU or RGB interface)
  * @e_virtual_ch: specifies virtual channel number that main or
- *	sub diaplsy uses.
+ *	sub display uses.
  * @e_pixel_format: specifies pixel stream format for main or sub display.
  * @e_burst_mode: selects Burst mode in Video mode.
  *	in Non-burst mode, RGB data area is filled with RGB data and NULL
