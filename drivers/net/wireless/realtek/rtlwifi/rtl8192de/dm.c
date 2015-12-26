@@ -832,7 +832,7 @@ static void rtl92d_dm_txpower_tracking_callback_thermalmeter(
 		{0, 2, 3, 6, 8, 9,	11, 13, 14, 16, 17, 18, 18},
 		/* 5G, path B/MAC 1, increase power */
 		{0, 2, 4, 5, 7, 10,	13, 16, 16, 18, 18, 18, 18},
-		/* 2.4G, for decreas power */
+		/* 2.4G, for decrease power */
 		{0, 1, 2, 3, 4, 5,	6, 7, 7, 8, 9, 10, 10},
 	};
 	u8 index_mapping_internal_pa[8][INDEX_MAPPING_NUM] = {
