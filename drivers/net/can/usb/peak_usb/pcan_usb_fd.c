@@ -43,7 +43,7 @@ MODULE_SUPPORTED_DEVICE("PEAK-System PCAN-USB Pro FD adapter");
 #define PCAN_UFD_RX_BUFFER_SIZE		2048
 #define PCAN_UFD_TX_BUFFER_SIZE		512
 
-/* read some versions info from the hw devcie */
+/* read some versions info from the hw device */
 struct __packed pcan_ufd_fw_info {
 	__le16	size_of;	/* sizeof this */
 	__le16	type;		/* type of this structure */
