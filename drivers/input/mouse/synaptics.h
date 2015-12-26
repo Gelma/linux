@@ -92,7 +92,7 @@
 #define SYN_CAP_IMAGE_SENSOR(ex0c)	((ex0c) & 0x000800)
 
 /*
- * The following descibes response for the 0x10 query.
+ * The following describes response for the 0x10 query.
  *
  * byte	mask	name			meaning
  * ----	----	-------			------------
