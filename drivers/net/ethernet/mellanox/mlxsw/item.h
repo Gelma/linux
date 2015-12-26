@@ -243,7 +243,7 @@ static inline void __mlxsw_item_bit_array_set(char *buf, struct mlxsw_item *item
 	mlxsw_##_type##_##_cname##_##_iname##_item
 
 /* _type: cmd_mbox, reg, etc.
- * _cname: containter name (e.g. command name, register name)
+ * _cname: container name (e.g. command name, register name)
  * _iname: item name within the container
  */
 
