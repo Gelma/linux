@@ -224,7 +224,7 @@ typedef struct rx_packet {
 #define METH_TX_ST_TOOLONG   BIT(24) /* TX abort due to excessive length */
 #define METH_TX_ST_UNDERRUN  BIT(25) /* TX abort due to underrun (?) */
 #define METH_TX_ST_EXCCOLL   BIT(26) /* TX abort due to excess collisions */
-#define METH_TX_ST_DEFER     BIT(27) /* TX abort due to excess deferals */
+#define METH_TX_ST_DEFER     BIT(27) /* TX abort due to excess deferrals */
 #define METH_TX_ST_LATECOLL  BIT(28) /* TX abort due to late collision */
 
 
