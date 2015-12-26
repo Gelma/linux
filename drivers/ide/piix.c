@@ -218,7 +218,7 @@ static int init_chipset_ich(struct pci_dev *dev)
  *	ich_clear_irq	-	clear BMDMA status
  *	@drive: IDE drive
  *
- *	ICHx contollers set DMA INTR no matter DMA or PIO.
+ *	ICHx controllers set DMA INTR no matter DMA or PIO.
  *	BMDMA status might need to be cleared even for
  *	PIO interrupts to prevent spurious/lost IRQ.
  */
