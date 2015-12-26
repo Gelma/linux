@@ -205,7 +205,7 @@
    - Integrated with configuration scripts.
    - Cleaned up and beautified the code.
    v0.9.9 (BETA)
-   - Thanks to Piercarlo Grandi: corrected the conditonal compilation code.
+   - Thanks to Piercarlo Grandi: corrected the conditional compilation code.
      Now only the code configured is compiled in, with some memory saving.
    v0.9.10
    - Integration into the sound/lowlevel/ section of the sound driver.
