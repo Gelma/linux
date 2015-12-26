@@ -39,7 +39,7 @@
  *                     Added a sixth key value for the WriteSequence register
  *                     and changed the flush value to 0x0.
  *                     Added message function codes for Diagnostic Buffer Post
- *                     and Diagnsotic Release.
+ *                     and Diagnostic Release.
  *                     New IOCStatus define: MPI2_IOCSTATUS_DIAGNOSTIC_RELEASED
  *                     Moved MPI2_VERSION_UNION from mpi2_ioc.h.
  * 02-29-08  02.00.06  Bumped MPI2_HEADER_VERSION_UNIT.
