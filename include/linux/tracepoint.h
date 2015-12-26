@@ -414,7 +414,7 @@ extern void syscall_unregfunc(void);
  *	*
  *	* The declared 'local variable' is called '__entry'
  *	*
- *	* __field(pid_t, prev_prid) is equivalent to a standard declariton:
+ *	* __field(pid_t, prev_prid) is equivalent to a standard declaration:
  *	*
  *	*	pid_t	prev_pid;
  *	*
