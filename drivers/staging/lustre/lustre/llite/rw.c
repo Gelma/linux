@@ -1019,7 +1019,7 @@ void ras_update(struct ll_sb_info *sbi, struct inode *inode,
 		if (ra_miss) {
 			if (index_in_stride_window(ras, index) &&
 			    stride_io_mode(ras)) {
-				/*If stride-RA hit cache miss, the stride dector
+				/*If stride-RA hit cache miss, the stride detector
 				 *will not be reset to avoid the overhead of
 				 *redetecting read-ahead mode */
 				if (index != ras->ras_last_readpage + 1)
