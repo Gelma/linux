@@ -4614,7 +4614,7 @@ interface and may change in the future.</para>
 	    sample rate in each spatial dimension. See <xref linkend="itu-t81"/>,
 	    clause A.1.1. for more details. The <constant>
 	    V4L2_CID_JPEG_CHROMA_SUBSAMPLING</constant> control determines how
-	    Cb and Cr components are downsampled after coverting an input image
+	    Cb and Cr components are downsampled after converting an input image
 	    from RGB to Y'CbCr color space.
 	    </entry>
 	  </row>
