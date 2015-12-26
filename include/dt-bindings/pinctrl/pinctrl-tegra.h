@@ -19,7 +19,7 @@
 #define _DT_BINDINGS_PINCTRL_TEGRA_H
 
 /*
- * Enable/disable for diffeent dt properties. This is applicable for
+ * Enable/disable for different dt properties. This is applicable for
  * properties nvidia,enable-input, nvidia,tristate, nvidia,open-drain,
  * nvidia,lock, nvidia,rcv-sel, nvidia,high-speed-mode, nvidia,schmitt.
  */
