@@ -900,7 +900,7 @@ static int omapfb_setup_mem(struct fb_info *fbi, struct omapfb_mem_info *mi)
 			} else {
 				/*
 				 * Set these explicitly to indicate that the
-				 * plane memory is dealloce'd, the other
+				 * plane memory is deallocated, the other
 				 * screen parameters in var / fix are invalid.
 				 */
 				mutex_lock(&fbi->mm_lock);
