@@ -91,7 +91,7 @@ int os_timer_set_interval(void* timer, void* i)
 /**
  * os_timer_remain() - returns the remaining nano seconds of the given interval
  *                     timer
- * Because this is the remaining time of an interval timer, which correspondends
+ * Because this is the remaining time of an interval timer, which correspondences
  * to HZ, this value can never be bigger than one second. Just
  * the nanosecond part of the timer is returned.
  * The returned time is relative to the start time of the interval timer.
