@@ -669,7 +669,7 @@ void pgtable_trans_huge_deposit(struct mm_struct *mm, pmd_t *pmdp,
 	/*
 	 * expose the deposited pgtable to other cpus.
 	 * before we set the hugepage PTE at pmd level
-	 * hash fault code looks at the deposted pgtable
+	 * hash fault code looks at the deposed pgtable
 	 * to store hash index values.
 	 */
 	smp_wmb();
