@@ -30,7 +30,7 @@
 #define MCI_CLK_BYPASS		(1 << 10)
 #define MCI_4BIT_BUS		(1 << 11)
 /*
- * 8bit wide buses, hardware flow contronl, negative edges and clock inversion
+ * 8bit wide buses, hardware flow control, negative edges and clock inversion
  * supported in ST Micro U300 and Ux500 versions
  */
 #define MCI_ST_8BIT_BUS		(1 << 12)
