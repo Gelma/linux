@@ -63,7 +63,7 @@
 #define EMULATION_VERSION 4
 
 /*
- * The only was to differeniate between TIMEX and ROLEX (or PCX-S and PCX-T)
+ * The only was to differentiate between TIMEX and ROLEX (or PCX-S and PCX-T)
  * is thorough the potential type field from the PDC_MODEL call.  The 
  * following flags are used at assist this differeniation.
  */
