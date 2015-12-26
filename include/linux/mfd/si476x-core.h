@@ -112,7 +112,7 @@ enum si476x_power_state {
  * @state: Current power state of the device.
  * @supplues: Structure containing handles to all power supplies used
  * by the device (NULL ones are ignored).
- * @gpio_reset: GPIO pin connectet to the RSTB pin of the chip.
+ * @gpio_reset: GPIO pin connected to the RSTB pin of the chip.
  * @pinmux: Chip's configurable pins configuration.
  * @diversity_mode: Chips role when functioning in diversity mode.
  * @status_monitor: Polling worker used in polling use case scenarion
