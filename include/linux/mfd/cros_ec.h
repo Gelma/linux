@@ -142,7 +142,7 @@ struct cros_ec_device {
  * @ec_name: name of EC device (e.g. 'cros-ec', 'cros-pd', ...)
  * used in /dev/ and sysfs.
  * @cmd_offset: offset to apply for each command. Set when
- * registering a devicde behind another one.
+ * registering a device behind another one.
  */
 struct cros_ec_platform {
 	const char *ec_name;
