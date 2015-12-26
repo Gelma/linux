@@ -399,7 +399,7 @@ static int st21nfca_hci_i2c_read(struct st21nfca_i2c_phy *phy,
 
 		/*
 		 * The first read sequence does not start with SOF.
-		 * Data is corrupeted so we drop it.
+		 * Data is corrupted so we drop it.
 		 */
 		if (!phy->current_read_len && !IS_START_OF_FRAME(buf)) {
 			skb_trim(skb, 0);
