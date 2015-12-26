@@ -1039,7 +1039,7 @@ static enum event_type __read_token(char **tok)
 
 		/*
 		 * For strings (double quotes) check the next token.
-		 * If it is another string, concatinate the two.
+		 * If it is another string, concatenate the two.
 		 */
 		if (type == EVENT_DQUOTE) {
 			unsigned long long save_input_buf_ptr = input_buf_ptr;
