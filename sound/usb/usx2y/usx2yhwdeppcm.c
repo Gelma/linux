@@ -29,7 +29,7 @@
          float/int conversation.
          Compared to mainline alsa/jack we leave out power of 2 period shaping inside
          snd-usb-usx2y which needs memcpy() and additional buffers.
-         As a side effect possible unwanted pcm-data coruption resulting of
+         As a side effect possible unwanted pcm-data corruption resulting of
          standard alsa's snd-usb-usx2y period shaping scheme falls away.
          Result is sane jack operation at buffering schemes down to 128frames,
          2 periods.
