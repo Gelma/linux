@@ -211,7 +211,7 @@ restart:
 		 * If not already working on one, grab the next message.
 		 *
 		 * c_xmit_rm holds a ref while we're sending this message down
-		 * the connction.  We can use this ref while holding the
+		 * the connection.  We can use this ref while holding the
 		 * send_sem.. rds_send_reset() is serialized with it.
 		 */
 		if (!rm) {
