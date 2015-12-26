@@ -73,7 +73,7 @@
  *
  *	5.	Get the physical address corresponding to the virtual address
  *		of the next instruction bundle and put it in iip.
- *		(Using magic numbers 24 and 40 in the deposint instruction since
+ *		(Using magic numbers 24 and 40 in the deposing instruction since
  *		 the IA64_SDK code directly maps to lower 24bits as physical address
  *		 from a virtual address).
  *
