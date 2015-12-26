@@ -11,7 +11,7 @@
  * or more tranport classes for performing transport specific
  * services.  Transport specific services are things that the generic
  * command layer doesn't want to know about (speed settings, line
- * condidtioning, etc), but which the user might be interested in.
+ * conditioning, etc), but which the user might be interested in.
  * Thus, the HBA's use the routines exported by the transport classes
  * to perform these functions.  The transport classes export certain
  * values to the user via sysfs using attribute containers.
