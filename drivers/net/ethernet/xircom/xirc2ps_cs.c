@@ -104,7 +104,7 @@
  * Some constants used to access the hardware
  */
 
-/* Register offsets and value constans */
+/* Register offsets and value constants */
 #define XIRCREG_CR  0	/* Command register (wr) */
 enum xirc_cr {
     TransmitPacket = 0x01,
