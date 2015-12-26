@@ -1899,7 +1899,7 @@ static int davinci_emac_try_get_mac(struct platform_device *pdev,
  * davinci_emac_probe - EMAC device probe
  * @pdev: The DaVinci EMAC device that we are removing
  *
- * Called when probing for emac devicesr. We get details of instances and
+ * Called when probing for emac devices. We get details of instances and
  * resource information from platform init and register a network device
  * and allocate resources necessary for driver to perform
  */
