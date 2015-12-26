@@ -55,7 +55,7 @@ struct devtable {
 
 /* we need some special handling for this host tool running eventually on
  * Darwin. The Mach-O section handling is a bit different than ELF section
- * handling. The differnces in detail are:
+ * handling. The differences in detail are:
  *  a) we have segments which have sections
  *  b) we need a API call to get the respective section symbols */
 #if defined(__MACH__)
