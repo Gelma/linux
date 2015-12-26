@@ -2849,7 +2849,7 @@ static void ipw_fw_dma_dump_command_block(struct ipw_priv *priv)
 	address = ipw_read_reg32(priv, IPW_DMA_I_CURRENT_CB);
 	IPW_DEBUG_FW_INFO("Current CB is 0x%x\n", address);
 
-	/* Read the DMA Controlor register */
+	/* Read the DMA Control register */
 	register_value = ipw_read_reg32(priv, IPW_DMA_I_DMA_CONTROL);
 	IPW_DEBUG_FW_INFO("IPW_DMA_I_DMA_CONTROL is 0x%x\n", register_value);
 
