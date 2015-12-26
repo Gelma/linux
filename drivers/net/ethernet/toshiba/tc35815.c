@@ -1415,7 +1415,7 @@ static int tc35815_do_interrupt(struct net_device *dev, u32 status, int limit)
 	if (status & Int_IntExBD) {
 		if (netif_msg_rx_err(lp))
 			dev_warn(&dev->dev,
-				 "Excessive Buffer Descriptiors (%#x).\n",
+				 "Excessive Buffer Descriptors (%#x).\n",
 				 status);
 		dev->stats.rx_length_errors++;
 		ret = 0;
