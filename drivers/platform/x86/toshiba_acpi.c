@@ -19,7 +19,7 @@
  *  The full GNU General Public License is included in this distribution in
  *  the file called "COPYING".
  *
- *  The devolpment page for this driver is located at
+ *  The development page for this driver is located at
  *  http://memebeam.org/toys/ToshibaAcpiDriver.
  *
  *  Credits:
