@@ -1003,7 +1003,7 @@ u64 genwqe_read_vreg(struct genwqe_dev *cd, u32 reg, int func)
 }
 
 /**
- * genwqe_base_clock_frequency() - Deteremine base clock frequency of the card
+ * genwqe_base_clock_frequency() - Determine base clock frequency of the card
  *
  * Note: From a design perspective it turned out to be a bad idea to
  * use codes here to specifiy the frequency/speed values. An old
