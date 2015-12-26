@@ -275,7 +275,7 @@ static void jffs2_calc_trigger_levels(struct jffs2_sb_info *c)
 	c->resv_blocks_deletion = 2;
 
 	/* Be conservative about how much space we need before we allow writes.
-	   On top of that which is required for deletia, require an extra 2%
+	   On top of that which is required for deletion, require an extra 2%
 	   of the medium to be available, for overhead caused by nodes being
 	   split across blocks, etc. */
 
