@@ -27,7 +27,7 @@
 #include <linux/interrupt.h>
 #include <linux/genhd.h>
 
-/* Offset of Subsystem Device ID in pci confoguration space */
+/* Offset of Subsystem Device ID in pci configuration space */
 #define PCI_SUBSYSTEM_DEVICEID	0x2E
 
 /* offset of Device Control register in PCIe extended capabilites space */
