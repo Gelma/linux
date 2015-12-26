@@ -103,7 +103,7 @@ static int ntfs_file_open(struct inode *vi, struct file *filp)
  * this is the case, the necessary zeroing will also have happened and that all
  * metadata is self-consistent.
  *
- * Locking: i_mutex on the vfs inode corrseponsind to the ntfs inode @ni must be
+ * Locking: i_mutex on the vfs inode corresponds with the ntfs inode @ni must be
  *	    held by the caller.
  */
 static int ntfs_attr_extend_initialized(ntfs_inode *ni, const s64 new_init_size)
