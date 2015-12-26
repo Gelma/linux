@@ -1328,7 +1328,7 @@ struct be_cmd_get_all_if_id_req {
 						 * with data PDU index.
 						 */
 #define CMD_INVALIDATED_NOTIFY		27	/* Command invalidation
-						 * completion notifify.
+						 * completion notify.
 						 */
 #define UNSOL_HDR_NOTIFY		28	/* Unsolicited header notify.*/
 #define UNSOL_DATA_NOTIFY		29	/* Unsolicited data notify.*/
