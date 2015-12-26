@@ -1257,7 +1257,7 @@ static int rmi_input_mapping(struct hid_device *hdev,
 
 	/*
 	 * we want to make HID ignore the advertised HID collection
-	 * for RMI deivces
+	 * for RMI devices
 	 */
 	if (data->device_flags & RMI_DEVICE) {
 		if ((data->device_flags & RMI_DEVICE_HAS_PHYS_BUTTONS) &&
