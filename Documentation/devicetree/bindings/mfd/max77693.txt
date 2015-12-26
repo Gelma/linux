@@ -22,7 +22,7 @@ Optional properties:
 
 	regulators {
 		regualtor-compatible = ESAFEOUT1/ESAFEOUT2/CHARGER
-		standard regulator constratints[*].
+		standard regulator constraints[*].
 	};
 
 	[*] refer Documentation/devicetree/bindings/regulator/regulator.txt
