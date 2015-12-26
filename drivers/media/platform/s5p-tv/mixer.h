@@ -257,7 +257,7 @@ struct mxr_device {
 
 	/** mutex for protection of fields below */
 	struct mutex mutex;
-	/** number of entities depndant on output configuration */
+	/** number of entities dependant on output configuration */
 	int n_output;
 	/** number of users that do streaming */
 	int n_streamer;
