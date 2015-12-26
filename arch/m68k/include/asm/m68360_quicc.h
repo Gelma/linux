@@ -150,7 +150,7 @@ typedef struct quicc {
     volatile unsigned short     test_tstsc;     /* shift count              */
     volatile unsigned short     test_tstrc;     /* repetition counter       */
     volatile unsigned short     test_creg;      /* control                  */
-    volatile unsigned short     test_dreg;      /* destributed register     */
+    volatile unsigned short     test_dreg;      /* distributed register     */
     volatile unsigned char      RESERVED58[0x404];      /* Reserved area    */
     /* IDMA1 */
     volatile unsigned short     idma_iccr;      /* channel configuration reg*/
