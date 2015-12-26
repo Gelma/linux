@@ -579,7 +579,7 @@ void rtl8723a_set_FwJoinBssReport_cmd(struct rtw_adapter *padapter, u8 mstatus)
 				  0xC000|pmlmeinfo->aid);
 		/*  Do not set TSF again here or vWiFi beacon DMA INT will not work. */
 		/* correct_TSF23a(padapter, pmlmeext); */
-		/*  Hw sequende enable by dedault. 2010.06.23. by tynli. */
+		/*  Hw sequende enable by default. 2010.06.23. by tynli. */
 		/* rtl8723au_write16(padapter, REG_NQOS_SEQ, ((pmlmeext->mgnt_seq+100)&0xFFF)); */
 		/* rtl8723au_write8(padapter, REG_HWSEQ_CTRL, 0xFF); */
 
