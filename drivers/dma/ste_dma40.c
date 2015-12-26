@@ -435,7 +435,7 @@ struct d40_base;
  * @chan: DMA engine handle.
  * @tasklet: Tasklet that gets scheduled from interrupt context to complete a
  * transfer and call client callback.
- * @client: Cliente owned descriptor list.
+ * @client: Client owned descriptor list.
  * @pending_queue: Submitted jobs, to be issued by issue_pending()
  * @active: Active descriptor.
  * @done: Completed jobs
