@@ -63,7 +63,7 @@
 #define LSTIO_BATCH_STOP	0xC22	/* stop batch */
 #define LSTIO_BATCH_DEL		0xC23	/* delete batch */
 #define LSTIO_BATCH_LIST	0xC24	/* show all batches in the session */
-#define LSTIO_BATCH_INFO	0xC25	/* show defail of specified batch */
+#define LSTIO_BATCH_INFO	0xC25	/* show detail of specified batch */
 #define LSTIO_TEST_ADD		0xC26	/* add test (to batch) */
 #define LSTIO_BATCH_QUERY	0xC27	/* query batch status */
 #define LSTIO_STAT_QUERY	0xC30	/* get stats */
