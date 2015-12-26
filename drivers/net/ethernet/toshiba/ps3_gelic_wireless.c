@@ -2401,7 +2401,7 @@ static int gelic_wl_try_associate(struct net_device *netdev)
 
 	pr_debug("%s: <-\n", __func__);
 
-	/* check constraits for start association */
+	/* check constraints for start association */
 	/* for no access restriction AP */
 	if (wl->group_cipher_method == GELIC_WL_CIPHER_NONE) {
 		if (test_bit(GELIC_WL_STAT_CONFIGURED,
