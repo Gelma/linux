@@ -167,7 +167,7 @@ static inline bool kvm_s2pmd_readonly(pmd_t *pmd)
  * than or equal to 16 pointers in the fake PGD, because that's what the
  * architecture allows.  In this case, (4 - CONFIG_PGTABLE_LEVELS)
  * represents the first level for the host, and we add 1 to go to the next
- * level (which uses contatenation) for the stage-2 tables.
+ * level (which uses concatenation) for the stage-2 tables.
  */
 #if PTRS_PER_S2_PGD <= 16
 #define KVM_PREALLOC_LEVEL	(4 - CONFIG_PGTABLE_LEVELS + 1)
