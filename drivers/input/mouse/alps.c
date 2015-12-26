@@ -2561,7 +2561,7 @@ static int alps_hw_init_ss4_v2(struct psmouse *psmouse)
 		goto error;
 	}
 
-	/* T.B.D. Decread noise packet number, delete in the future */
+	/* T.B.D. Decreased noise packet number, delete in the future */
 	if (alps_exit_command_mode(psmouse) ||
 	    alps_enter_command_mode(psmouse) ||
 	    alps_command_mode_write_reg(psmouse, 0x001D, 0x20)) {
