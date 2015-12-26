@@ -116,7 +116,7 @@ static inline void lrw_round(struct sinfo *s, void *dst, const void *src)
 	be128_xor(dst, dst, &s->t);		/* C <- T xor CC */
 }
 
-/* this returns the number of consequative 1 bits starting
+/* this returns the number of consecutive 1 bits starting
  * from the right, get_index128(00 00 00 00 00 00 ... 00 00 10 FB) = 2 */
 static inline int get_index128(be128 *block)
 {
