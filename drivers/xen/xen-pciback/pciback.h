@@ -142,7 +142,7 @@ xen_pcibk_get_pci_dev(struct xen_pcibk_device *pdev, unsigned int domain,
 /**
 * Add for domain0 PCIE-AER handling. Get guest domain/bus/devfn in xen_pcibk
 * before sending aer request to pcifront, so that guest could identify
-* device, coopearte with xen_pcibk to finish aer recovery job if device driver
+* device, cooperate with xen_pcibk to finish aer recovery job if device driver
 * has the capability
 */
 static inline int xen_pcibk_get_pcifront_dev(struct pci_dev *pcidev,
