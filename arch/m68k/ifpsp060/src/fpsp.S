@@ -23203,7 +23203,7 @@ m_sign:
 #	   and set SE.
 #	6. Multiply the mantissa by 10**count.
 #  2n.(negative exp)
-#   2. Check the digits in lwords 3 and 2 in decending order.
+#   2. Check the digits in lwords 3 and 2 in descending order.
 #   3. Add one for each zero encountered until a non-zero digit.
 #   4. Add the count to the exp.
 #   5. Check if the exp has crossed zero in #3 above; clear SE.
