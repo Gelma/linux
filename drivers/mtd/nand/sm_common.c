@@ -23,7 +23,7 @@ static struct nand_ecclayout nand_oob_sm = {
 };
 
 /* NOTE: This layout is is not compatible with SmartMedia, */
-/* because the 256 byte devices have page depenent oob layout */
+/* because the 256 byte devices have page dependent oob layout */
 /* However it does preserve the bad block markers */
 /* If you use smftl, it will bypass this and work correctly */
 /* If you not, then you break SmartMedia compliance anyway */
