@@ -334,7 +334,7 @@ struct nci_core_init_rsp_1 {
 	__le32	nfcc_features;
 	__u8	num_supported_rf_interfaces;
 	__u8	supported_rf_interfaces[0];	/* variable size array */
-	/* continuted in nci_core_init_rsp_2 */
+	/* contained in nci_core_init_rsp_2 */
 } __packed;
 
 struct nci_core_init_rsp_2 {
