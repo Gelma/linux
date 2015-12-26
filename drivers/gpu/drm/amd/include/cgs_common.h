@@ -411,7 +411,7 @@ typedef int (*cgs_create_pm_request_t)(void *cgs_device, cgs_handle_t *request);
 typedef int (*cgs_destroy_pm_request_t)(void *cgs_device, cgs_handle_t request);
 
 /**
- * cgs_set_pm_request() - Activate or deactiveate a PM request
+ * cgs_set_pm_request() - Activate or deactivate a PM request
  * @cgs_device:	opaque device handle
  * @request:	PM request handle
  * @active:	0 = deactivate, non-0 = activate
