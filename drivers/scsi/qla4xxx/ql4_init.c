@@ -1176,7 +1176,7 @@ int qla4xxx_process_ddb_changed(struct scsi_qla_host *ha,
 	if (fw_ddb_index >= MAX_DDB_ENTRIES)
 		goto exit_ddb_event;
 
-	/* Get the corresponging ddb entry */
+	/* Get the corresponding ddb entry */
 	ddb_entry = qla4xxx_lookup_ddb_by_fw_index(ha, fw_ddb_index);
 	/* Device does not currently exist in our database. */
 	if (ddb_entry == NULL) {
