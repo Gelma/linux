@@ -1295,7 +1295,7 @@ static void wilc_wlan_handle_isr_ext(struct wilc *wilc, u32 int_status)
 	while (!size && retries < 10) {
 		u32 time = 0;
 		/*looping more secure*/
-		/*zero size make a crashe because the dma will not happen and that will block the firmware*/
+		/*zero size make a crash because the dma will not happen and that will block the firmware*/
 		wilc_debug(N_ERR, "RX Size equal zero ... Trying to read it again for %d time\n", time++);
 		p->hif_func.hif_read_size(&size);
 		size = ((size & 0x7fff) << 2);
