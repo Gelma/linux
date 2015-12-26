@@ -1,4 +1,4 @@
-/*
+
  * dvb_frontend.h
  *
  * Copyright (C) 2001 convergence integrated media GmbH
@@ -367,7 +367,7 @@ struct dtv_frontend_properties;
  *			@dvb_frontend.dtv_property_cache; and update
  *			statistics. Please notice that it should not return
  *			an error code if the statistics are not available
- *			because the demog is not locked.
+ *			because the demo is not locked.
  * @read_status:	returns the locking status of the frontend.
  * @read_ber:		legacy callback function to return the bit error rate.
  *			Newer drivers should provide such info via DVBv5 API,
