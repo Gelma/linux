@@ -191,7 +191,7 @@ class DeviceNode:
 # Class: Data
 # Description:
 #	 The primary container for suspend/resume test data. There is one for
-#	 each test run. The data is organized into a cronological hierarchy:
+#	 each test run. The data is organized into a chronological hierarchy:
 #	 Data.dmesg {
 #		root structure, started as dmesg & ftrace, but now only ftrace
 #		contents: times for suspend start/end, resume start/end, fwdata
@@ -1935,7 +1935,7 @@ def parseKernelLog(data):
 #	 number of rows possible, with no entry overlapping
 # Arguments:
 #	 list: the list of devices/actions for a single phase
-#	 sortedkeys: cronologically sorted key list to use
+#	 sortedkeys: chronologically sorted key list to use
 # Output:
 #	 The total number of rows needed to display this phase of the timeline
 def setTimelineRows(list, sortedkeys):
