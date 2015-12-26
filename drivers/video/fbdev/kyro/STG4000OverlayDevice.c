@@ -423,7 +423,7 @@ int SetOverlayViewPort(volatile STG4000REG __iomem *pSTGReg,
 	 * factors.  as we always have to have a buffer which is aligned to a
 	 * whole number of 128 bit words, we must align the left side to the
 	 * lowest to the next lowest 128 bit boundary, and the right hand edge
-	 * to the next largets boundary, (in a similar way to how we didi it in
+	 * to the next largets boundary, (in a similar way to how we did it in
 	 * PMX1) as the left and right hand edges are aligned to these
 	 * boundaries normally this only becomes an issue when we are chopping
 	 * of one of the sides We shall work out vertical stuff first
