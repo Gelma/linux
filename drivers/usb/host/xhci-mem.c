@@ -1148,7 +1148,7 @@ int xhci_setup_addressable_virt_dev(struct xhci_hcd *xhci, struct usb_device *ud
 
 	/* Find the right bandwidth table that this device will be a part of.
 	 * If this is a full speed device attached directly to a root port (or a
-	 * decendent of one), it counts as a primary bandwidth domain, not a
+	 * descendent of one), it counts as a primary bandwidth domain, not a
 	 * secondary bandwidth domain under a TT.  An xhci_tt_info structure
 	 * will never be created for the HS root hub.
 	 */
