@@ -270,7 +270,7 @@ static int deinstantiate_rng(struct device *ctrldev, int state_handle_mask)
 		 */
 		if ((1 << sh_idx) & state_handle_mask) {
 			/*
-			 * Create the descriptor for deinstantating this state
+			 * Create the descriptor for deinstantiating this state
 			 * handle
 			 */
 			build_deinstantiation_desc(desc, sh_idx);
