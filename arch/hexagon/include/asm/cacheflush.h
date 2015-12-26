@@ -76,7 +76,7 @@ extern void flush_cache_all_hexagon(void);
 
 /*
  * This may or may not ever have to be non-null, depending on the
- * virtual machine MMU.  For a native kernel, it's definitiely  a no-op
+ * virtual machine MMU.  For a native kernel, it's definitely a no-op
  *
  * This is also the place where deferred cache coherency stuff seems
  * to happen, classically...  but instead we do it like ia64 and
