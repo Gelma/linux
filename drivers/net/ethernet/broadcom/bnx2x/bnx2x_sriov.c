@@ -2501,7 +2501,7 @@ int bnx2x_enable_sriov(struct bnx2x *bp)
 	}
 	bnx2x_pretend_func(bp, BP_ABS_FUNC(bp));
 
-	/* enable sriov. This will probe all the VFs, and consequentially cause
+	/* enable sriov. This will probe all the VFs, and consequently cause
 	 * the "acquire" messages to appear on the VF PF channel.
 	 */
 	DP(BNX2X_MSG_IOV, "about to call enable sriov\n");
