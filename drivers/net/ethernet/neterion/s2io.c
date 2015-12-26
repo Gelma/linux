@@ -4701,7 +4701,7 @@ reset:
  *  @dev_id: a void pointer to the dev structure of the NIC.
  *  Description:  This function is the ISR handler of the device. It
  *  identifies the reason for the interrupt and calls the relevant
- *  service routines. As a contongency measure, this ISR allocates the
+ *  service routines. As a contingency measure, this ISR allocates the
  *  recv buffers, if their numbers are below the panic value which is
  *  presently set to 25% of the original number of rcv buffers allocated.
  *  Return value:
