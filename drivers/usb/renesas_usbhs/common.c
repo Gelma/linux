@@ -625,7 +625,7 @@ static int usbhs_probe(struct platform_device *pdev)
 	platform_set_drvdata(pdev, priv);
 
 	/*
-	 * deviece reset here because
+	 * device reset here because
 	 * USB device might be used in boot loader.
 	 */
 	usbhs_sys_clock_ctrl(priv, 0);
