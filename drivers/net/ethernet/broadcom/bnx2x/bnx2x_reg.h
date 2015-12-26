@@ -2827,7 +2827,7 @@
 #define PBF_REG_HDRS_AFTER_BASIC				 0x15c0a8
 /* [RW 6] Bit-map indicating which L2 hdrs may appear after L2 tag 0 */
 #define PBF_REG_HDRS_AFTER_TAG_0				 0x15c0b8
-/* [R 1] Removed for E3 B0 - Indicates which COS is conncted to the highest
+/* [R 1] Removed for E3 B0 - Indicates which COS is connected to the highest
  * priority in the command arbiter. */
 #define PBF_REG_HIGH_PRIORITY_COS_NUM				 0x15c04c
 #define PBF_REG_IF_ENABLE_REG					 0x140044
