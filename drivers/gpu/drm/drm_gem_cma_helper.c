@@ -338,7 +338,7 @@ static int drm_gem_cma_mmap_obj(struct drm_gem_cma_object *cma_obj,
  *
  * This function implements an augmented version of the GEM DRM file mmap
  * operation for CMA objects: In addition to the usual GEM VMA setup it
- * immediately faults in the entire object instead of using on-demaind
+ * immediately faults in the entire object instead of using on-demand
  * faulting. Drivers which employ the CMA helpers should use this function
  * as their ->mmap() handler in the DRM device file's file_operations
  * structure.
