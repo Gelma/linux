@@ -394,7 +394,7 @@ static int create_device_attrs(struct platform_device *pdev)
 		/*
 		 * If we can not parse the node name, it means we are
 		 * running on a newer device tree. We can just forget
-		 * about the OPAL index and use a defaut value for the
+		 * about the OPAL index and use a default value for the
 		 * hwmon attribute name
 		 */
 		attr_name = parse_opal_node_name(np->name, type, &opal_index);
