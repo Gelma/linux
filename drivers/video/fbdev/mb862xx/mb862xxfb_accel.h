@@ -44,7 +44,7 @@
 #define GDC_REG_TEX_BORDER_COLOR    0x00000494L
 #define GDC_REG_LINE_PATTERN_OFFSET 0x000003E0L
 
-/* Coomand Code */
+/* Command Code */
 #define GDC_CMD_PIXEL                   0x00000000L
 #define GDC_CMD_PIXEL_Z                 0x00000001L
 
