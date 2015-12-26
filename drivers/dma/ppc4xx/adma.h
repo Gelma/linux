@@ -164,7 +164,7 @@ struct ppc440spe_adma_desc_slot {
 	unsigned long reverse_flags[8];
 
 #define PPC440SPE_DESC_INT	0	/* generate interrupt on complete */
-#define PPC440SPE_ZERO_P	1	/* clear P destionaion */
+#define PPC440SPE_ZERO_P	1	/* clear P destination */
 #define PPC440SPE_ZERO_Q	2	/* clear Q destination */
 #define PPC440SPE_COHERENT	3	/* src/dst are coherent */
 
