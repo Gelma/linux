@@ -358,7 +358,7 @@ static void read_eeprom(struct orc_host * host)
  *
  *	Load the firmware from the EEPROM into controller SRAM. This
  *	is basically a 4K block copy and then a 4K block read to check
- *	correctness. The rest is convulted by the indirect interfaces
+ *	correctness. The rest is convoluted by the indirect interfaces
  *	in the hardware
  */
 
