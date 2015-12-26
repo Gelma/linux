@@ -1104,7 +1104,7 @@ void cw1200_rx_cb(struct cw1200_common *priv,
 		hdr->flag |= RX_FLAG_DECRYPTED | RX_FLAG_IV_STRIPPED;
 
 		/* Oops... There is no fast way to ask mac80211 about
-		 * IV/ICV lengths. Even defineas are not exposed.
+		 * IV/ICV lengths. Even defines are not exposed.
 		 */
 		switch (WSM_RX_STATUS_ENCRYPTION(arg->flags)) {
 		case WSM_RX_STATUS_WEP:
