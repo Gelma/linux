@@ -428,7 +428,7 @@ static struct platform_device docg3 = {
  *   - disables interrupts
  *   - initialize SDRAM (self refresh RAM into active RAM)
  *   - initialize GPIOs (depends on value at 0xa020b020)
- *   - initialize coprossessors
+ *   - initialize coprocessors
  *   - if edge detect on PWR_SCL(GPIO3), then proceed to cold start
  *   - or if value at 0xa020b000 not equal to 0x0f0f0f0f, proceed to cold start
  *   - else do a resume, ie. jump to addr 0xa0100000
