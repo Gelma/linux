@@ -2009,7 +2009,7 @@ static int gelic_wl_associate_bss(struct gelic_wl_info *wl,
 	rc = wait_for_completion_timeout(&wl->assoc_done, HZ * 4);/*FIXME*/
 
 	if (!rc) {
-		/* timeouted.  Maybe key or cyrpt mode is wrong */
+		/* timeouted.  Maybe key or crypt mode is wrong */
 		pr_info("%s: connect timeout\n", __func__);
 		cmd = gelic_eurus_sync_cmd(wl, GELIC_EURUS_CMD_DISASSOC,
 					   NULL, 0);
