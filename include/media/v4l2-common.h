@@ -28,7 +28,7 @@
 
 #include <media/v4l2-dev.h>
 
-/* Common printk constucts for v4l-i2c drivers. These macros create a unique
+/* Common printk constructs for v4l-i2c drivers. These macros create a unique
    prefix consisting of the driver name, the adapter number and the i2c
    address. */
 #define v4l_printk(level, name, adapter, addr, fmt, arg...) \
