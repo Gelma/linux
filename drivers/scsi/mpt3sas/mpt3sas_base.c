@@ -4583,7 +4583,7 @@ mpt3sas_port_enable(struct MPT3SAS_ADAPTER *ioc)
 }
 
 /**
- * _base_determine_wait_on_discovery - desposition
+ * _base_determine_wait_on_discovery - disposition
  * @ioc: per adapter object
  *
  * Decide whether to wait on discovery to complete. Used to either
