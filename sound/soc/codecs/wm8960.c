@@ -587,7 +587,7 @@ static const int sysclk_divs[] = { 1, -1, 2, -1 };
 /* Multiply 256 for internal 256 div */
 static const int dac_divs[] = { 256, 384, 512, 768, 1024, 1408, 1536 };
 
-/* Multiply 10 to eliminate decimials */
+/* Multiply 10 to eliminate decimals */
 static const int bclk_divs[] = {
 	10, 15, 20, 30, 40, 55, 60, 80, 110,
 	120, 160, 220, 240, 320, 320, 320
