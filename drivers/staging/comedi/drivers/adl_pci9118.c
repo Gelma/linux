@@ -31,7 +31,7 @@
  * ranges).
  *
  * There are some hardware limitations:
- * a) You cann't use mixture of unipolar/bipolar ranges or differencial/single
+ * a) You cann't use mixture of unipolar/bipolar ranges or differential/single
  *  ended inputs.
  * b) DMA transfers must have the length aligned to two samples (32 bit),
  *  so there is some problems if cmd->chanlist_len is odd. This driver tries
