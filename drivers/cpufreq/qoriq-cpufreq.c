@@ -162,7 +162,7 @@ static void freq_table_redup(struct cpufreq_frequency_table *freq_table,
 	}
 }
 
-/* sort the frequencies in frequency table in descenting order */
+/* sort the frequencies in frequency table in descending order */
 static void freq_table_sort(struct cpufreq_frequency_table *freq_table,
 		int count)
 {
