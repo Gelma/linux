@@ -248,7 +248,7 @@ struct smb_version_operations {
 	/* connect to a server share */
 	int (*tree_connect)(const unsigned int, struct cifs_ses *, const char *,
 			    struct cifs_tcon *, const struct nls_table *);
-	/* close tree connecion */
+	/* close tree connection */
 	int (*tree_disconnect)(const unsigned int, struct cifs_tcon *);
 	/* get DFS referrals */
 	int (*get_dfs_refer)(const unsigned int, struct cifs_ses *,
