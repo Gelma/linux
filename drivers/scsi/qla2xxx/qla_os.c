@@ -1636,7 +1636,7 @@ qla83xx_iospace_config(struct qla_hw_data *ha)
 		goto iospace_error_exit;
 	}
 
-	/* 64bit PCI BAR - BAR2 will correspoond to region 4 */
+	/* 64bit PCI BAR - BAR2 will correspond to region 4 */
 	/* 83XX 26XX always use MQ type access for queues
 	 * - mbar 2, a.k.a region 4 */
 	ha->max_req_queues = ha->max_rsp_queues = 1;
