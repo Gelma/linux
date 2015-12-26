@@ -2116,7 +2116,7 @@ static int fsl_proc_read(struct seq_file *m, void *v)
 		(tmp_reg & PORTSCX_PORT_RESET) ? "In Reset" :
 		"Not in Reset",
 		(tmp_reg & PORTSCX_PORT_SUSPEND) ? "In " : "Not in",
-		(tmp_reg & PORTSCX_OVER_CURRENT_CHG) ? "Dected" :
+		(tmp_reg & PORTSCX_OVER_CURRENT_CHG) ? "Detected" :
 		"No",
 		(tmp_reg & PORTSCX_PORT_EN_DIS_CHANGE) ? "Disable" :
 		"Not change",
