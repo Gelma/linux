@@ -485,7 +485,7 @@ static inline void ixgbevf_rx_hash(struct ixgbevf_ring *ring,
 
 /**
  * ixgbevf_rx_checksum - indicate in skb if hw indicated a good cksum
- * @ring: structure containig ring specific data
+ * @ring: structure containing ring specific data
  * @rx_desc: current Rx descriptor being processed
  * @skb: skb currently being received and modified
  **/
