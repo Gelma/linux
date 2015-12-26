@@ -510,7 +510,7 @@ static void ieee80211_query_protectionmode(struct ieee80211_device *ieee,
 			if(tcb_desc->bAMPDUEnable)
 			{
 				tcb_desc->rts_rate = MGN_24M; // Rate is 24Mbps.
-				// According to 8190 design, firmware sends CF-End only if RTS/CTS is enabled. However, it degrads
+				// According to 8190 design, firmware sends CF-End only if RTS/CTS is enabled. However, it degrades
 				// throughput around 10M, so we disable of this mechanism. 2007.08.03 by Emily
 				tcb_desc->bRTSEnable = false;
 				break;
