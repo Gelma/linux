@@ -252,7 +252,7 @@ static s32 sita_free(struct tcm *tcm, struct tcm_area *area)
 }
 
 /**
- * Note: In general the cordinates in the scan field area relevant to the can
+ * Note: In general the coordinates in the scan field area relevant to the can
  * sweep directions. The scan origin (e.g. top-left corner) will always be
  * the p0 member of the field.  Therfore, for a scan from top-left p0.x <= p1.x
  * and p0.y <= p1.y; whereas, for a scan from bottom-right p1.x <= p0.x and p1.y
