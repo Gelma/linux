@@ -1442,9 +1442,9 @@ static int cdrom_select_disc(struct cdrom_device_info *cdi, int slot)
 		}
 	}
 
-	/* Specifying CDSL_CURRENT will attempt to load the currnet slot,
+	/* Specifying CDSL_CURRENT will attempt to load the current slot,
 	which is useful if it had been previously unloaded.
-	Whether it can or not, it returns the current slot. 
+	Whether it can or not, it returns the current slot.
 	Similarly,  if slot happens to be the current one, we still
 	try and load it. */
 	if (slot == CDSL_CURRENT)
