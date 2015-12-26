@@ -124,7 +124,7 @@ MODULE_PARM_DESC(doc_config_location, "Physical memory address at which to probe
 #define NB_DATA (((SECTOR_SIZE + 1) * 8 + 6) / 10)
 /* Number of roots */
 #define NROOTS 4
-/* First consective root */
+/* First consecutive root */
 #define FCR 510
 /* Number of symbols */
 #define NN 1023
