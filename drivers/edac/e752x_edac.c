@@ -1001,7 +1001,7 @@ static int set_sdram_scrub_rate(struct mem_ctl_info *mci, u32 new_bw)
 
 	/* Translate the desired scrub rate to a e752x/3100 register value.
 	 * Search for the bandwidth that is equal or greater than the
-	 * desired rate and program the cooresponding register value.
+	 * desired rate and program the corresponding register value.
 	 */
 	for (i = 0; scrubrates[i].bandwidth != SDRATE_EOT; i++)
 		if (scrubrates[i].bandwidth >= new_bw)
