@@ -281,7 +281,7 @@ struct uwb_beca_e *__uwb_beca_add(struct uwb_rc *rc,
 /*
  * Wipe out beacon entries that became stale
  *
- * Remove associated devicest too.
+ * Remove associated devices too.
  */
 void uwb_beca_purge(struct uwb_rc *rc)
 {
