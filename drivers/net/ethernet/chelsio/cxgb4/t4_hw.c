@@ -3401,7 +3401,7 @@ int t4_load_phy_fw(struct adapter *adap,
 	}
 
 	/* Ask the firmware where it wants us to copy the PHY firmware image.
-	 * The size of the file requires a special version of the READ coommand
+	 * The size of the file requires a special version of the READ command
 	 * which will pass the file size via the values field in PARAMS_CMD and
 	 * retrieve the return value from firmware and place it in the same
 	 * buffer values
