@@ -481,7 +481,7 @@ static void ath10k_htc_setup_target_buffer_assignments(struct ath10k_htc *htc)
 	entry = &htc->service_tx_alloc[0];
 
 	/*
-	 * for PCIE allocate all credists/HTC buffers to WMI.
+	 * for PCIE allocate all credits/HTC buffers to WMI.
 	 * no buffers are used/required for data. data always
 	 * remains on host.
 	 */
