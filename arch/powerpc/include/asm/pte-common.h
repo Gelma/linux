@@ -81,7 +81,7 @@ extern unsigned long bad_call_to_PMD_PAGE_SIZE(void);
 #define PTE_RPN_SHIFT	(PAGE_SHIFT)
 #endif
 
-/* The mask convered by the RPN must be a ULL on 32-bit platforms with
+/* The mask covered by the RPN must be a ULL on 32-bit platforms with
  * 64-bit PTEs
  */
 #if defined(CONFIG_PPC32) && defined(CONFIG_PTE_64BIT)
