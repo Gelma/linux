@@ -668,7 +668,7 @@ struct btrfs_trans_handle *btrfs_attach_transaction(struct btrfs_root *root)
 /*
  * btrfs_attach_transaction_barrier() - catch the running transaction
  *
- * It is similar to the above function, the differentia is this one
+ * It is similar to the above function, the difference is this one
  * will wait for all the inactive transactions until they fully
  * complete.
  */
