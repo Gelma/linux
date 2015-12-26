@@ -263,7 +263,7 @@ void pamu_free_subwins(int liodn)
 }
 
 /*
- * Function used for updating stash destination for the coressponding
+ * Function used for updating stash destination for the corresponding
  * LIODN.
  */
 int  pamu_update_paace_stash(int liodn, u32 subwin, u32 value)
