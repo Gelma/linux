@@ -498,7 +498,7 @@ static int drm_dp_i2c_msg_duration(const struct drm_dp_aux_msg *msg,
 }
 
 /*
- * Deterine how many retries should be attempted to successfully transfer
+ * Determine how many retries should be attempted to successfully transfer
  * the specified message, based on the estimated durations of the
  * i2c and AUX transfers.
  */
