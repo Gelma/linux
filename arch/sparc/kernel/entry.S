@@ -1104,7 +1104,7 @@ fpsave_magic:
 	retl
 	 std	%f30, [%o0 + 0x78]
 
-	/* Thanks for Theo Deraadt and the authors of the Sprite/netbsd/openbsd
+	/* Thanks for Theo Theo de Raadt and the authors of the Sprite/netbsd/openbsd
 	 * code for pointing out this possible deadlock, while we save state
 	 * above we could trap on the fsr store so our low level fpu trap
 	 * code has to know how to deal with this.
