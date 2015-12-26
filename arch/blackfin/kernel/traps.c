@@ -85,7 +85,7 @@ asmlinkage notrace void trap_c(struct pt_regs *fp)
 	last_seqstat = (u32)fp->seqstat;
 #endif
 
-	/* Important - be very careful dereferncing pointers - will lead to
+	/* Important - be very careful dereferencing pointers - will lead to
 	 * double faults if the stack has become corrupt
 	 */
 
