@@ -1739,7 +1739,7 @@ static void ahci_handle_port_interrupt(struct ata_port *ap,
 		 * emulate it by snooping SDB FIS RX area.
 		 *
 		 * Snooping FIS RX area is probably cheaper than
-		 * poking SNotification but some constrollers which
+		 * poking SNotification but some controllers which
 		 * implement SNotification, ICH9 for example, don't
 		 * store AN SDB FIS into receive area.
 		 */
