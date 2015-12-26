@@ -395,7 +395,7 @@ enum iocfc_event {
 };
 
 /*
- * ASIC block configurtion related
+ * ASIC block configuration related
  */
 
 typedef void (*bfa_ablk_cbfn_t)(void *, enum bfa_status);
