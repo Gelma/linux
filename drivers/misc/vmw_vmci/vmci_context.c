@@ -1190,7 +1190,7 @@ u32 vmci_context_get_priv_flags(u32 context_id)
 EXPORT_SYMBOL_GPL(vmci_context_get_priv_flags);
 
 /*
- * vmci_is_context_owner() - Determimnes if user is the context owner
+ * vmci_is_context_owner() - Determines if user is the context owner
  * @context_id: The context ID of the VMCI context.
  * @uid:        The host user id (real kernel value).
  *
