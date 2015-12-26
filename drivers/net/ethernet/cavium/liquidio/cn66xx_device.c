@@ -161,7 +161,7 @@ u32 lio_cn6xxx_get_oq_ticks(struct octeon_device *oct,
 	oqticks_per_us /= 1024;
 
 	/* time_intr is in microseconds. The next 2 steps gives the oq ticks
-	 * corressponding to time_intr.
+	 * corresponding to time_intr.
 	 */
 	oqticks_per_us *= time_intr_in_us;
 	oqticks_per_us /= 1000;
