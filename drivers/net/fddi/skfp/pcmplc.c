@@ -1849,7 +1849,7 @@ void plc_irq(struct s_smc *smc, int np, unsigned int cmd)
 		plc->np_err++ ;
 	}
 	/* pin inactiv (GND) */
-	if (cmd & PL_PARITY_ERR) {	/* p. error dedected on TX9-0 inp */
+	if (cmd & PL_PARITY_ERR) {	/* p. error detected on TX9-0 inp */
 		plc->parity_err++ ;
 	}
 	if (cmd & PL_LSDO) {		/* carrier detected */
