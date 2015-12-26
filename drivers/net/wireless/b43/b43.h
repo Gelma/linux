@@ -696,7 +696,7 @@ struct b43_stats {
 
 struct b43_key {
 	/* If keyconf is NULL, this key is disabled.
-	 * keyconf is a cookie. Don't derefenrence it outside of the set_key
+	 * keyconf is a cookie. Don't dereference it outside of the set_key
 	 * path, because b43 doesn't own it. */
 	struct ieee80211_key_conf *keyconf;
 	u8 algorithm;
