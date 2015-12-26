@@ -27,7 +27,7 @@
  * change dynamically (while the driver is running) some parameters.
  *
  * The ioctl mechanimsm are copied from standard devices ioctl.
- * We have the list of command plus a structure descibing the
+ * We have the list of command plus a structure describing the
  * data exchanged...
  * Note that to add these ioctl, I was obliged to modify :
  *	# net/core/dev.c (two place + add include)
