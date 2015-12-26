@@ -91,7 +91,7 @@ struct nfc_ops {
 #define NFC_ATR_REQ_GT_OFFSET 14
 
 /**
- * struct nfc_target - NFC target descriptiom
+ * struct nfc_target - NFC target description
  *
  * @sens_res: 2 bytes describing the target SENS_RES response, if the target
  *	is a type A one. The %sens_res most significant byte must be byte 2
