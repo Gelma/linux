@@ -1,7 +1,7 @@
 /*
  * Based on arm clockevents implementation and old bfin time tick.
  *
- * Copyright 2008-2009 Analog Devics Inc.
+ * Copyright 2008-2009 Analog Devices Inc.
  *                2008 GeoTechnologies
  *                     Vitja Makarov
  *
