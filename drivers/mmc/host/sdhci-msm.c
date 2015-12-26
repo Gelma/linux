@@ -145,7 +145,7 @@ out:
 }
 
 /*
- * Find out the greatest range of consecuitive selected
+ * Find out the greatest range of consecutively selected
  * DLL clock output phases that can be used as sampling
  * setting for SD3.0 UHS-I card read operation (in SDR104
  * timing mode) or for eMMC4.5 card read operation (in HS200
