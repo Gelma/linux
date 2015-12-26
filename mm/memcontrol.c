@@ -1470,7 +1470,7 @@ int mem_cgroup_select_victim_node(struct mem_cgroup *memcg)
 	 * We call this when we hit limit, not when pages are added to LRU.
 	 * No LRU may hold pages because all pages are UNEVICTABLE or
 	 * memcg is too small and all pages are not on LRU. In that case,
-	 * we use curret node.
+	 * we use current node.
 	 */
 	if (unlikely(node == MAX_NUMNODES))
 		node = numa_node_id();
