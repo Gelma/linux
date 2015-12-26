@@ -1008,7 +1008,7 @@ static void sci_remote_device_initial_state_enter(struct sci_base_state_machine 
  * successfully destructed or if some failure occurred. enum sci_status This value
  * is returned if the device is successfully destructed.
  * SCI_FAILURE_INVALID_REMOTE_DEVICE This value is returned if the supplied
- * device isn't valid (e.g. it's already been destoryed, the handle isn't
+ * device isn't valid (e.g. it's already been destroyed, the handle isn't
  * valid, etc.).
  */
 static enum sci_status sci_remote_device_destruct(struct isci_remote_device *idev)
