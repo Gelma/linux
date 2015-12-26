@@ -528,7 +528,7 @@ static int fnic_queuecommand_lck(struct scsi_cmnd *sc, void (*done)(struct scsi_
 	}
 
 	/*
-	* Will acquire lock defore setting to IO initialized.
+	* Will acquire lock before setting to IO initialized.
 	*/
 
 	io_lock = fnic_io_lock_hash(fnic, sc);
