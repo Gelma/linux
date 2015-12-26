@@ -453,7 +453,7 @@ void rfkill_remove_epo_lock(void)
 /**
  * rfkill_is_epo_lock_active - returns true EPO is active
  *
- * Returns 0 (false) if there is NOT an active EPO contidion,
+ * Returns 0 (false) if there is NOT an active EPO condition,
  * and 1 (true) if there is an active EPO contition, which
  * locks all radios in one of the BLOCKED states.
  *
