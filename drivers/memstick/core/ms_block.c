@@ -1679,7 +1679,7 @@ static int msb_cache_read(struct msb_data *msb, int lba,
  * 64 MB entry is what windows reports for my 64M memstick */
 
 static const struct chs_entry chs_table[] = {
-/*        size sectors cylynders  heads */
+/*        size sectors cylinders  heads */
 	{ 4,    16,    247,       2  },
 	{ 8,    16,    495,       2  },
 	{ 16,   16,    495,       4  },
