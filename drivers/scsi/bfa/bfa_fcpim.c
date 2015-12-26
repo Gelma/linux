@@ -3151,7 +3151,7 @@ bfa_tskim_sm_iocleanup(struct bfa_tskim_s *tskim, enum bfa_tskim_event event)
 	case BFA_TSKIM_SM_CLEANUP:
 		/*
 		 * Ignore, TM command completed on wire.
-		 * Notify TM conmpletion on IO cleanup completion.
+		 * Notify TM completion on IO cleanup completion.
 		 */
 		break;
 
