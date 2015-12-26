@@ -3269,7 +3269,7 @@ struct __reiserfs_blocknr_hint {
 	struct in_core_key key;
 
 	/*
-	 * search path, used by allocator to deternine search_start by
+	 * search path, used by allocator to determine search_start by
 	 * various ways
 	 */
 	struct treepath *path;
