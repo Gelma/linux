@@ -1414,7 +1414,7 @@ struct hv_trap_trace_entry {
  *	cpuid		Unique opaque value which represents a target cpu.
  *
  *	devhandle	Device handle.  It uniquely identifies a device, and
- *			consistes of the lower 28-bits of the hi-cell of the
+ *			consists of the lower 28-bits of the hi-cell of the
  *			first entry of the device's "reg" property in the
  *			OBP device tree.
  *
