@@ -1789,7 +1789,7 @@ unsigned long sun4v_vintr_set_target(unsigned long dev_handle,
  *
  * Returns the actual number of mappings creates, which may be less than
  * or equal to the argument #ttes.  If the function returns a value which
- * is less than the #ttes, the caller may continus to call the function with
+ * is less than the #ttes, the caller may continuous to call the function with
  * an updated tsbid, #ttes, io_page_list_p arguments until all pages are
  * mapped.
  *
