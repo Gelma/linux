@@ -4,7 +4,7 @@
 #define __DIVA_USER_MODE_XDI_H__
 
 /*
-  Contains declaratiom of structures shared between application
+  Contains declaration of structures shared between application
   and user mode idi driver
 */
 
