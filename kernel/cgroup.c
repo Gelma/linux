@@ -245,7 +245,7 @@ static bool cgroup_ssid_enabled(int ssid)
  *
  * The default hierarchy is the v2 interface of cgroup and this function
  * can be used to test whether a cgroup is on the default hierarchy for
- * cases where a subsystem should behave differnetly depending on the
+ * cases where a subsystem should behave differently depending on the
  * interface version.
  *
  * The set of behaviors which change on the default hierarchy are still
