@@ -1466,7 +1466,7 @@ u32	rtw_aes_decrypt(struct adapter *padapter, u8 *precvframe)
 			RT_TRACE(_module_rtl871x_security_c_, _drv_err_, ("rtw_aes_decrypt: stainfo!= NULL!!!\n"));
 
 			if (IS_MCAST(prxattrib->ra)) {
-				/* in concurrent we should use sw descrypt in group key, so we remove this message */
+				/* in concurrent we should use sw descriptor in group key, so we remove this message */
 				if (!psecuritypriv->binstallGrpkey) {
 					res = _FAIL;
 					DBG_88E("%s:rx bc/mc packets, but didn't install group key!!!!!!!!!!\n", __func__);
