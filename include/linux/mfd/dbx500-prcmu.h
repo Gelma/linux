@@ -100,7 +100,7 @@ enum prcmu_wakeup_index {
  * enum prcmu_wdog_id - PRCMU watchdog IDs
  * @PRCMU_WDOG_ALL: use all timers
  * @PRCMU_WDOG_CPU1: use first CPU timer only
- * @PRCMU_WDOG_CPU2: use second CPU timer conly
+ * @PRCMU_WDOG_CPU2: use second CPU timer only
  */
 enum prcmu_wdog_id {
 	PRCMU_WDOG_ALL = 0x00,
