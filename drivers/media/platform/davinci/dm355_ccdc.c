@@ -668,7 +668,7 @@ static int ccdc_config_raw(void)
 	/* Configure the Median Filter threshold */
 	regw((config_params->med_filt_thres) & CCDC_MED_FILT_THRESH, MEDFILT);
 
-	/* Configure GAMMAWD register. defaur 11-2, and Mosaic cfa pattern */
+	/* Configure GAMMAWD register. default 11-2, and Mosaic cfa pattern */
 	val = CCDC_GAMMA_BITS_11_2 << CCDC_GAMMAWD_INPUT_SHIFT |
 		CCDC_CFA_MOSAIC;
 
