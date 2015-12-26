@@ -752,7 +752,7 @@ static void *asd_find_ll_by_id(void * const start, const u8 id0, const u8 id1)
  * @asd_ha: pointer to the host adapter structure
  * @manuf_sec: pointer to the manufacturing sector
  *
- * The manufacturing sector contans also the linked list of sub-segments,
+ * The manufacturing sector contains also the linked list of sub-segments,
  * since when it was read, its size was taken from the flash directory,
  * not from the structure size.
  *
