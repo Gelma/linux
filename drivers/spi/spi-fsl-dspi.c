@@ -532,7 +532,7 @@ static irqreturn_t dspi_interrupt(int irq, void *dev_id)
 		spi_tcnt = SPI_TCR_GET_TCNT(spi_tcr);
 		/*
 		 * The width of SPI Transfer Counter in SPI_TCR is 16bits,
-		 * so the max couner is 65535. When the counter reach 65535,
+		 * so the max counter is 65535. When the counter reach 65535,
 		 * it will wrap around, counter reset to zero.
 		 * spi_tcnt my be less than dspi->spi_tcnt, it means the
 		 * counter already wrapped around.
