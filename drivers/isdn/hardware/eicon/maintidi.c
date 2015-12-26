@@ -1196,7 +1196,7 @@ static int diva_line_info(diva_strace_context_t *pLib,
 	  internal variables of application
 
 	  Exception is is if the line is "online". In this case we have to notify
-	  user about this confition.
+	  user about this confliction.
 	*/
 	if (pLib->line_init_event & (1L << nr)) {
 		diva_trace_notify_user(pLib, nr, DIVA_SUPER_TRACE_NOTIFY_LINE_CHANGE);
