@@ -3147,7 +3147,7 @@ static int ext4_ext_zeroout(struct inode *inode, struct ext4_extent *ex)
  *
  *
  * Splits extent [a, b] into two extents [a, @split) and [@split, b], states
- * of which are deterimined by split_flag.
+ * of which are determined by split_flag.
  *
  * There are two cases:
  *  a> the extent are splitted into two extent.
