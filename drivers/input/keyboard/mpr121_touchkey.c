@@ -1,5 +1,5 @@
 /*
- * Touchkey driver for Freescale MPR121 Controllor
+ * Touchkey driver for Freescale MPR121 Controller
  *
  * Copyright (C) 2011 Freescale Semiconductor, Inc.
  * Author: Zhang Jiejing <jiejing.zhang@freescale.com>
