@@ -36,7 +36,7 @@ static u8 root_hub_des[] = {
 	0x00, /* per-port power, no overcurrent */
 	0x01, /* bPwrOn2pwrGood;2ms */
 	0x00, /* bHubContrCurrent;0mA */
-	0x00, /* DeviceRemoveable */
+	0x00, /* DeviceRemovable */
 	0xff, /* PortPwrCtrlMask */
 };
 
