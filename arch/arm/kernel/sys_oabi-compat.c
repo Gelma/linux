@@ -58,7 +58,7 @@
  * sys_semtimedop:
  *
  *   struct sembuf loses its padding with EABI.  Since arrays of them are
- *   used they have to be copyed to remove the padding. Compatibility wrappers
+ *   used they have to be copied to remove the padding. Compatibility wrappers
  *   provided below.
  *
  * sys_bind:
