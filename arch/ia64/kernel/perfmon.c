@@ -1723,7 +1723,7 @@ pfm_fasync(int fd, struct file *filp, int on)
 	 * we cannot mask interrupts during this call because this may
 	 * may go to sleep if memory is not readily available.
 	 *
-	 * We are protected from the conetxt disappearing by the get_fd()/put_fd()
+	 * We are protected from the context disappearing by the get_fd()/put_fd()
 	 * done in caller. Serialization of this function is ensured by caller.
 	 */
 	ret = pfm_do_fasync(fd, filp, ctx, on);
