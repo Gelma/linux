@@ -459,7 +459,7 @@ static enum intel_pch intel_virt_detect_pch(struct drm_device *dev)
 		DRM_DEBUG_KMS("Assuming Ibex Peak PCH\n");
 	} else if (IS_GEN6(dev) || IS_IVYBRIDGE(dev)) {
 		ret = PCH_CPT;
-		DRM_DEBUG_KMS("Assuming CouarPoint PCH\n");
+		DRM_DEBUG_KMS("Assuming CougarPoint PCH\n");
 	} else if (IS_HASWELL(dev) || IS_BROADWELL(dev)) {
 		ret = PCH_LPT;
 		DRM_DEBUG_KMS("Assuming LynxPoint PCH\n");
