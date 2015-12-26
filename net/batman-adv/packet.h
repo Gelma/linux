@@ -416,7 +416,7 @@ struct batadv_bcast_packet {
  * @ttl: time to live for this packet, part of the genereal header
  * @reserved: Align following fields to 2-byte boundaries
  * @first_source: original source of first included packet
- * @first_orig_dest: original destinal of first included packet
+ * @first_orig_dest: original destination of first included packet
  * @first_crc: checksum of first included packet
  * @first_ttvn: tt-version number of first included packet
  * @second_ttl: ttl of second packet
