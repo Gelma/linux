@@ -2968,7 +2968,7 @@ static void request_module_async(struct work_struct *work)
 	 */
 
 	/*
-	 * Devicdes with an audio-only interface also have a V4L/DVB/RC
+	 * Devices with an audio-only interface also have a V4L/DVB/RC
 	 * interface. Don't register extensions twice on those devices.
 	 */
 	if (dev->is_audio_only) {
