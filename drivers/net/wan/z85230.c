@@ -1633,7 +1633,7 @@ static void z8530_rx_done(struct z8530_channel *c)
 		 *	directly into one on a PC - it might be above the 16Mb
 		 *	boundary. Optimisation - we could check to see if we
 		 *	can avoid the copy. Optimisation 2 - make the memcpy
-		 *	a copychecksum.
+		 *	a copy checksum.
 		 */
 
 		skb = dev_alloc_skb(ct);
