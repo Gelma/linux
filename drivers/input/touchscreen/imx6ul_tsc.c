@@ -167,7 +167,7 @@ static void imx6ul_tsc_channel_config(struct imx6ul_tsc *tsc)
 }
 
 /*
- * TSC setting, confige the pre-charge time and measure delay time.
+ * TSC setting, configure the pre-charge time and measure delay time.
  * different touch screen may need different pre-charge time and
  * measure delay time.
  */
