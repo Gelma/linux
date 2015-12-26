@@ -48,7 +48,7 @@ struct sctp_hmac {
 	__u16 hmac_len;		/* length of the signature */
 };
 
-/* This is generic structure that containst authentication bytes used
+/* This is generic structure that contains authentication bytes used
  * as keying material.  It's a what is referred to as byte-vector all
  * over SCTP-AUTH
  */
