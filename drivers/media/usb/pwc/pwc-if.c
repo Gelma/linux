@@ -192,7 +192,7 @@ static void pwc_frame_complete(struct pwc_device *pdev)
 	struct pwc_frame_buf *fbuf = pdev->fill_buf;
 
 	/* The ToUCam Fun CMOS sensor causes the firmware to send 2 or 3 bogus
-	   frames on the USB wire after an exposure change. This conditition is
+	   frames on the USB wire after an exposure change. This condition is
 	   however detected  in the cam and a bit is set in the header.
 	   */
 	if (pdev->type == 730) {
