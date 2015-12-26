@@ -843,7 +843,7 @@ static int qla4xxx_delete_chap(struct Scsi_Host *shost, uint16_t chap_tbl_idx)
 	}
 
 	/* Check if chap index is in use.
-	 * If chap is in use don't delet chap entry */
+	 * If chap is in use don't delete chap entry */
 	ret = qla4xxx_is_chap_active(shost, chap_tbl_idx);
 	if (ret) {
 		ql4_printk(KERN_INFO, ha, "CHAP entry %d is in use, cannot "
