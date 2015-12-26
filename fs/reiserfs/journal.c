@@ -3412,7 +3412,7 @@ int journal_end(struct reiserfs_transaction_handle *th)
 }
 
 /*
- * removes from the current transaction, relsing and descrementing any counters.
+ * removes from the current transaction, relsing and decrementing any counters.
  * also files the removed buffer directly onto the clean list
  *
  * called by journal_mark_freed when a block has been deleted
