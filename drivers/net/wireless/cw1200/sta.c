@@ -172,7 +172,7 @@ void __cw1200_cqm_bssloss_sm(struct cw1200_common *priv,
 				   HZ);
 		priv->bss_loss_state = 0;
 
-		/* Skip the confimration procedure in P2P case */
+		/* Skip the confirmation procedure in P2P case */
 		if (!priv->vif->p2p && !atomic_read(&priv->tx_lock))
 			tx = 1;
 	} else if (good) {
