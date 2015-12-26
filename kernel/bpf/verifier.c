@@ -1888,7 +1888,7 @@ static int do_check(struct verifier_env *env)
 					return -EINVAL;
 				}
 
-				/* eBPF calling convetion is such that R0 is used
+				/* eBPF calling convention is such that R0 is used
 				 * to return the value from eBPF program.
 				 * Make sure that it's readable at this time
 				 * of bpf_exit, which means that program wrote
