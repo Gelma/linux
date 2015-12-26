@@ -2053,7 +2053,7 @@ enum {
 	XM_TX_CNT_EV	= 0x0208, /* 32 bit r/o	Tx Counter Event Register */
 	XM_RX_EV_MSK	= 0x020c, /* 32 bit r/w	Rx Counter Event Mask */
 	XM_TX_EV_MSK	= 0x0210, /* 32 bit r/w	Tx Counter Event Mask */
-	XM_TXF_OK	= 0x0280, /* 32 bit r/o	Frames Transmitted OK Conuter */
+	XM_TXF_OK	= 0x0280, /* 32 bit r/o	Frames Transmitted OK Counter */
 	XM_TXO_OK_HI	= 0x0284, /* 32 bit r/o	Octets Transmitted OK High Cnt*/
 	XM_TXO_OK_LO	= 0x0288, /* 32 bit r/o	Octets Transmitted OK Low Cnt */
 	XM_TXF_BC_OK	= 0x028c, /* 32 bit r/o	Broadcast Frames Xmitted OK */
