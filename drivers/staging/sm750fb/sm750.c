@@ -562,7 +562,7 @@ static int lynxfb_ops_check_var(struct fb_var_screeninfo *var,
 
 	/* check if current fb's video memory big enought to hold the onscreen*/
 	request = var->xres_virtual * (var->bits_per_pixel >> 3);
-	/* defaulty crtc->channel go with par->index */
+	/* by default crtc->channel go with par->index */
 
 	request = ALIGN(request, crtc->line_pad);
 	request = request * var->yres_virtual;
